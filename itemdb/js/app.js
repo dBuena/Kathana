@@ -113,13 +113,13 @@ function renderTable() {
 
     row.innerHTML = `
       <td>${item.ID}</td>
-      <td>
-        <img src="${getIconUrl(item.ID) || 'icon/placeholder.bmp'}"
-             alt="" style="width:32px;height:32px;vertical-align:middle;margin-right:6px;">
-        <span data-bs-toggle="tooltip" data-bs-html="true" title="${tooltipContent}">
-          ${item.ItemName}
-        </span>
-      </td>
+<td>
+  <span data-bs-toggle="tooltip" data-bs-html="true" title="${tooltipContent}">
+    <img src="${getIconUrl(item.ID) || 'icon/placeholder.bmp'}"
+         alt="" style="width:32px;height:32px;vertical-align:middle;margin-right:6px;">
+    ${item.ItemName}
+  </span>
+</td>
       <td>${item.Description}</td>
       <td>${item.LimitRequirement}</td>
       <td>${item.ShopPrice}</td>
