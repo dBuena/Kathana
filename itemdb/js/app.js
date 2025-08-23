@@ -1,100 +1,122 @@
+// ------------------------------------------------------------------
+// 1) Core state
+// ------------------------------------------------------------------
 let items = [];
 let filteredItems = [];
 let currentPage = 1;
-let itemsPerPage = 10; // default is 10
+let itemsPerPage = 10;          // default
 const maxItemsPerPage = 100;
 
-// Map ClassLimit values to class names
+// ------------------------------------------------------------------
+// 2) NEW: icon lookup tables (populated in fetchItems)
+// ------------------------------------------------------------------
+let iconMap   = {};   // ItemID   -> Tex_ID
+let iconFiles = {};   // Tex_ID   -> FILENAME
+
+// ------------------------------------------------------------------
+// 3) Class mapping (unchanged)
+// ------------------------------------------------------------------
 const classMap = {
   3: "Naga, Kimnara",
   12: "Asura, Rakshasa",
   15: "Naga, Kimnara, Asura, Rakshasa",
   48: "Yaksa, Gandharva",
   192: "Deva, Garuda"
-  // 0: '' (don't display)
 };
 
-// Reverse map: class name → list of ClassLimit values
 const classFilterMap = {
   "Naga": [3, 15],
   "Kimnara": [3, 15],
   "Asura": [12, 15],
-  "Rakshasa": [12, 15],  // Note: typo fix — you had "Raksasha"
+  "Rakshasa": [12, 15],
   "Yaksa": [48],
   "Gandharva": [48],
   "Deva": [192],
   "Garuda": [192]
 };
 
+// ------------------------------------------------------------------
+// 4) Helper – get icon URL for an ItemID
+// ------------------------------------------------------------------
+function getIconUrl(itemId) {
+  const texId = iconMap[itemId];
+  if (!texId) return null;
+  return `\icon\${iconFiles[texId]}`;
+}
+
+// ------------------------------------------------------------------
+// 5) Class display / filtering helpers (unchanged)
+// ------------------------------------------------------------------
+function getClassDisplay(classLimit) {
+  return classMap[classLimit] || "";
+}
+
 function filterBy(className) {
-  // Convert to Title Case to match keys
   const normalizedClass = className.charAt(0).toUpperCase() + className.slice(1).toLowerCase();
-
-  // Get allowed ClassLimit values for this class
   const validClassLimits = classFilterMap[normalizedClass] || [];
-
-  if (validClassLimits.length === 0) {
-    // If no class match, show all
-    filteredItems = items;
-  } else {
-    // Filter items where ClassLimit matches any of the required values
-    filteredItems = items.filter(item => validClassLimits.includes(item.ClassLimit));
-  }
-
-  // Reset to first page after filter
+  filteredItems = validClassLimits.length
+    ? items.filter(item => validClassLimits.includes(item.ClassLimit))
+    : items;
   currentPage = 1;
-
-  // Re-render table and pagination
   renderTable();
   renderPagination();
 }
 
-// Helper function to get class name from ClassLimit
-function getClassDisplay(classLimit) {
-  return classMap[classLimit] || ""; // Return mapped string or empty if not found
-}
-
+// ------------------------------------------------------------------
+// 6) Fetch all JSON files and build lookup tables
+// ------------------------------------------------------------------
 async function fetchItems() {
-  const response = await fetch('items.json');
-  items = await response.json();
-  filteredItems = items; // ✅ assign here so it's not empty
+  const [itemsResp, mapResp, idResp] = await Promise.all([
+    fetch('items.json'),
+    fetch('IconMap.json'),
+    fetch('IconID.json')
+  ]);
+
+  const rawItems   = await itemsResp.json();
+  const rawIconMap = await mapResp.json();
+  const rawIconId  = await idResp.json();
+
+  // Build quick maps
+  rawIconMap.forEach(m => iconMap[m.ID] = m.Tex_ID);
+  rawIconId.forEach(i => iconFiles[i.TEX_ID] = i.FILENAME);
+
+  items = rawItems;
+  filteredItems = items;
   renderTable();
   renderPagination();
   renderItemsPerPageDropdown();
 }
 
+// ------------------------------------------------------------------
+// 7) Render table with icons
+// ------------------------------------------------------------------
 function renderTable() {
   const tableBody = document.getElementById("itemTable");
   tableBody.innerHTML = "";
 
-  let startIndex = (currentPage - 1) * itemsPerPage;
-  let endIndex = startIndex + itemsPerPage;
-  let paginatedItems = filteredItems.slice(startIndex, endIndex);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex   = startIndex + itemsPerPage;
+  const paginated  = filteredItems.slice(startIndex, endIndex);
 
-  paginatedItems.forEach(item => {
+  paginated.forEach(item => {
     const row = document.createElement("tr");
 
-    // Get class display text
     const classDisplay = getClassDisplay(item.ClassLimit);
+    const classTooltip = classDisplay ? `Class: ${classDisplay}` : "";
 
-    // For tooltip: only show "Class: xxx" if classDisplay exists
-    const classTooltip = classDisplay ? `Class: ${classDisplay}` : '';
-
-    // Build tooltip content
     const tooltipContent = `
       <h5>${item.ItemName}</h5>
       <p>${item.Description}</p>
-      ${item.iEffect1Param1 !== undefined ? `${item.iEffect1Param1}-${item.iEffect1Param2}<br>` : ''}
+      ${item.iEffect1Param1 !== undefined ? `${item.iEffect1Param1}-${item.iEffect1Param2}<br>` : ""}
       ${classTooltip}
     `.trim();
 
     row.innerHTML = `
       <td>${item.ID}</td>
       <td>
-        <span 
-          data-bs-toggle="tooltip" 
-          data-bs-html="true" 
-          title="${tooltipContent}">
+        <img src="${getIconUrl(item.ID) || '/root/icon/placeholder.bmp'}"
+             alt="" style="width:32px;height:32px;vertical-align:middle;margin-right:6px;">
+        <span data-bs-toggle="tooltip" data-bs-html="true" title="${tooltipContent}">
           ${item.ItemName}
         </span>
       </td>
@@ -109,13 +131,14 @@ function renderTable() {
     tableBody.appendChild(row);
   });
 
-  // Re-initialize Bootstrap tooltips
-  const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-  tooltipTriggerList.map(function (tooltipTriggerEl) {
-    return new bootstrap.Tooltip(tooltipTriggerEl);
-  });
+  // Re-init tooltips
+  [...document.querySelectorAll('[data-bs-toggle="tooltip"]')]
+    .forEach(el => new bootstrap.Tooltip(el));
 }
 
+// ------------------------------------------------------------------
+// 8) Pagination (unchanged)
+// ------------------------------------------------------------------
 function renderPagination() {
   const pagination = document.getElementById("pagination");
   pagination.innerHTML = "";
@@ -123,100 +146,53 @@ function renderPagination() {
   const pageCount = Math.ceil(filteredItems.length / itemsPerPage);
   if (pageCount <= 1) return;
 
-  function createPageItem(label, disabled, onClick, isActive = false) {
+  function createPageItem(label, disabled, onClick, active = false) {
     const li = document.createElement("li");
-    li.classList.add("page-item");
-    if (disabled) li.classList.add("disabled");
-    if (isActive) li.classList.add("active");
-
+    li.className = "page-item" + (disabled ? " disabled" : "") + (active ? " active" : "");
     const btn = document.createElement("button");
-    btn.classList.add("page-link");
+    btn.className = "page-link";
     btn.textContent = label;
     btn.addEventListener("click", onClick);
-
     li.appendChild(btn);
     return li;
   }
 
-  // First + Previous
-  pagination.appendChild(
-    createPageItem("First", currentPage === 1, () => {
-      currentPage = 1;
-      renderTable();
-      renderPagination();
-    })
-  );
-  pagination.appendChild(
-    createPageItem("Previous", currentPage === 1, () => {
-      currentPage--;
-      renderTable();
-      renderPagination();
-    })
-  );
+  pagination.appendChild(createPageItem("First", currentPage === 1, () => { currentPage = 1; renderTable(); renderPagination(); }));
+  pagination.appendChild(createPageItem("Previous", currentPage === 1, () => { currentPage--; renderTable(); renderPagination(); }));
 
-  // Page numbers with window
   const maxVisible = 5;
-  let startPage = Math.max(1, currentPage - Math.floor(maxVisible / 2));
-  let endPage = Math.min(pageCount, startPage + maxVisible - 1);
+  let start = Math.max(1, currentPage - Math.floor(maxVisible / 2));
+  let end   = Math.min(pageCount, start + maxVisible - 1);
+  if (end - start < maxVisible - 1) start = Math.max(1, end - maxVisible + 1);
 
-  if (endPage - startPage < maxVisible - 1) {
-    startPage = Math.max(1, endPage - maxVisible + 1);
+  if (start > 1) pagination.appendChild(createPageItem("...", true, () => {}));
+  for (let i = start; i <= end; i++) {
+    pagination.appendChild(createPageItem(i, false, () => { currentPage = i; renderTable(); renderPagination(); }, i === currentPage));
   }
+  if (end < pageCount) pagination.appendChild(createPageItem("...", true, () => {}));
 
-  if (startPage > 1) {
-    pagination.appendChild(
-      createPageItem("...", true, () => {})
-    );
-  }
-
-  for (let i = startPage; i <= endPage; i++) {
-    pagination.appendChild(
-      createPageItem(i, false, () => {
-        currentPage = i;
-        renderTable();
-        renderPagination();
-      }, i === currentPage)
-    );
-  }
-
-  if (endPage < pageCount) {
-    pagination.appendChild(
-      createPageItem("...", true, () => {})
-    );
-  }
-
-  // Next + Last
-  pagination.appendChild(
-    createPageItem("Next", currentPage === pageCount, () => {
-      currentPage++;
-      renderTable();
-      renderPagination();
-    })
-  );
-  pagination.appendChild(
-    createPageItem("Last", currentPage === pageCount, () => {
-      currentPage = pageCount;
-      renderTable();
-      renderPagination();
-    })
-  );
+  pagination.appendChild(createPageItem("Next", currentPage === pageCount, () => { currentPage++; renderTable(); renderPagination(); }));
+  pagination.appendChild(createPageItem("Last", currentPage === pageCount, () => { currentPage = pageCount; renderTable(); renderPagination(); }));
 }
 
+// ------------------------------------------------------------------
+// 9) Items-per-page dropdown (unchanged)
+// ------------------------------------------------------------------
 function renderItemsPerPageDropdown() {
   const container = document.getElementById("itemsPerPageContainer");
   if (!container) return;
 
   container.innerHTML = `
     <label for="itemsPerPageSelect" class="form-label me-2">Items per page:</label>
-    <select id="itemsPerPageSelect" class="form-select form-select-sm" style="width:auto; display:inline-block;">
-      <option value="10" ${itemsPerPage === 10 ? "selected" : ""}>10</option>
-      <option value="25" ${itemsPerPage === 25 ? "selected" : ""}>25</option>
-      <option value="50" ${itemsPerPage === 50 ? "selected" : ""}>50</option>
+    <select id="itemsPerPageSelect" class="form-select form-select-sm" style="width:auto;display:inline-block;">
+      <option value="10"  ${itemsPerPage === 10  ? "selected" : ""}>10</option>
+      <option value="25"  ${itemsPerPage === 25  ? "selected" : ""}>25</option>
+      <option value="50"  ${itemsPerPage === 50  ? "selected" : ""}>50</option>
       <option value="100" ${itemsPerPage === 100 ? "selected" : ""}>100</option>
     </select>
   `;
 
-  document.getElementById("itemsPerPageSelect").addEventListener("change", (e) => {
+  document.getElementById("itemsPerPageSelect").addEventListener("change", e => {
     itemsPerPage = Math.min(parseInt(e.target.value, 10), maxItemsPerPage);
     currentPage = 1;
     renderTable();
@@ -224,41 +200,30 @@ function renderItemsPerPageDropdown() {
   });
 }
 
+// ------------------------------------------------------------------
+// 10) Search & suggestion dropdown (unchanged)
+// ------------------------------------------------------------------
 function searchSuggestions() {
   const input = document.getElementById("searchBox");
   const query = input.value.trim().toLowerCase();
   const suggestions = document.getElementById("suggestions");
   suggestions.innerHTML = "";
+  if (!query) { suggestions.style.display = "none"; return; }
 
-  // Hide suggestions if query is empty
-  if (!query) {
-    suggestions.style.display = "none";
-    return;
-  }
-
-  // Filter items by ID or ItemName
   const matches = items.filter(item =>
     item.ID.toString().includes(query) ||
     item.ItemName.toLowerCase().includes(query)
-  ).slice(0, 10); // Limit to 10 suggestions
+  ).slice(0, 10);
 
-  // Show or hide suggestions
-  if (matches.length === 0) {
-    suggestions.style.display = "none";
-    return;
-  }
+  if (matches.length === 0) { suggestions.style.display = "none"; return; }
 
-  // Populate suggestions
   matches.forEach(item => {
     const li = document.createElement("li");
     li.className = "list-group-item list-group-item-action";
     li.textContent = `${item.ID} - ${item.ItemName}`;
     li.onclick = () => {
       input.value = `${item.ID} - ${item.ItemName}`;
-      suggestions.innerHTML = "";
       suggestions.style.display = "none";
-
-      // Optional: Filter table to show only this item
       filteredItems = [item];
       currentPage = 1;
       renderTable();
@@ -266,17 +231,16 @@ function searchSuggestions() {
     };
     suggestions.appendChild(li);
   });
-
-  // Show the dropdown
   suggestions.style.display = "block";
 }
 
-// Initialize
+// ------------------------------------------------------------------
+// 11) Init
+// ------------------------------------------------------------------
 fetchItems();
-renderItemsPerPageDropdown(); // <-- add this line
+renderItemsPerPageDropdown();
 
-// Hide suggestions when clicking outside
-document.addEventListener("click", function (e) {
+document.addEventListener("click", e => {
   const suggestions = document.getElementById("suggestions");
   const input = document.getElementById("searchBox");
   if (e.target !== input && !suggestions.contains(e.target)) {
