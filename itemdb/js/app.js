@@ -41,7 +41,7 @@ const classFilterMap = {
 function getIconUrl(itemId) {
   const texId = iconMap[itemId];
   if (!texId) return null;
-  return `\icon\${iconFiles[texId]}`;
+  return `/icon/${iconFiles[texId]}`;
 }
 
 // ------------------------------------------------------------------
