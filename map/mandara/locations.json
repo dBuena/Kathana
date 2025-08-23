@@ -1,0 +1,55 @@
+{
+  "monsters": {
+    "vasabhum": {
+      "label": "Vasabhum",
+      "locations": [
+        { "x": 250, "y": 200 },
+        { "x": 300, "y": 180 },
+        { "x": 270, "y": 230 }
+      ]
+    },
+    "vasabhum_caura": {
+      "label": "Vasabhum Caura",
+      "locations": [
+        { "x": 260, "y": 210 },
+        { "x": 290, "y": 240 }
+      ]
+    },
+    "mlecchas": {
+      "label": "Mlecchas the Corruptor",
+      "locations": [
+        { "x": 100, "y": 120 },
+        { "x": 150, "y": 140 },
+        { "x": 130, "y": 100 }
+      ]
+    }
+  },
+  "npcs": {
+    "vartan": {
+      "label": "Vartan the Guide",
+      "locations": [
+        { "x": 300, "y": 180 }
+      ]
+    },
+    "vananta": {
+      "label": "Vananta the Merchant",
+      "locations": [
+        { "x": 320, "y": 190 }
+      ]
+    }
+  },
+  "portals": {
+    "colosseum": {
+      "label": "Way to Colosseum",
+      "locations": [
+        { "x": 350, "y": 150 }
+      ]
+    },
+    "mara_land": {
+      "label": "Way to Mara Land",
+      "locations": [
+        { "x": 400, "y": 250 }
+      ]
+    }
+  }
+}
