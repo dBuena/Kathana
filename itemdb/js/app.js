@@ -41,7 +41,7 @@ const classFilterMap = {
 function getIconUrl(itemId) {
   const texId = iconMap[itemId];
   if (!texId) return null;
-  return `/icon/${iconFiles[texId]}`;
+  return `icon/${iconFiles[texId]}`;
 }
 
 // ------------------------------------------------------------------
@@ -114,7 +114,7 @@ function renderTable() {
     row.innerHTML = `
       <td>${item.ID}</td>
       <td>
-        <img src="${getIconUrl(item.ID) || '/root/icon/placeholder.bmp'}"
+        <img src="${getIconUrl(item.ID) || 'icon/placeholder.bmp'}"
              alt="" style="width:32px;height:32px;vertical-align:middle;margin-right:6px;">
         <span data-bs-toggle="tooltip" data-bs-html="true" title="${tooltipContent}">
           ${item.ItemName}
