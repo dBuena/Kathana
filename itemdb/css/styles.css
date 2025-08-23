@@ -1,0 +1,8 @@
+.item-name {
+  cursor: pointer;      /* prevents text caret */
+  user-select: none;    /* prevents text highlighting */
+}
+
+[data-bs-toggle="tooltip"] {
+  cursor: pointer; /* prevents text caret on hover */
+}

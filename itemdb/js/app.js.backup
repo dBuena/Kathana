@@ -1,0 +1,167 @@
+let items = [];
+let filteredItems = [];
+let currentPage = 1;
+let itemsPerPage = 10; // default is 10
+const maxItemsPerPage = 100;
+
+async function fetchItems() {
+  const response = await fetch('items.json');
+  items = await response.json();
+  filteredItems = items; // ✅ assign here so it's not empty
+  renderTable();
+  renderPagination();
+  renderItemsPerPageDropdown();
+}
+
+function renderTable() {
+  const tableBody = document.getElementById("itemTable");
+  tableBody.innerHTML = "";
+
+  let startIndex = (currentPage - 1) * itemsPerPage;
+  let endIndex = startIndex + itemsPerPage;
+  let paginatedItems = filteredItems.slice(startIndex, endIndex);
+
+  paginatedItems.forEach(item => {
+    const row = document.createElement("tr");
+    row.innerHTML = `
+      <td>${item.ID}</td>
+      <td>
+        <span 
+          data-bs-toggle="tooltip" 
+          data-bs-html="true" 
+          title="<h5>${item.ItemName}</h5>
+                 <p>${item.Description}</p>
+                 ${item.iEffect1Param1}-${item.iEffect1Param2}<br>
+                 Class: ${item.ClassLimit}">
+          ${item.ItemName}
+        </span>
+      </td>
+      <td>${item.Description}</td>
+      <td>${item.LimitRequirement}</td>
+      <td>${item.ShopPrice}</td>
+      <td>${item.SellPrice}</td>
+      <td>${item.TaneyPrice}</td>
+      <td>${item.MaxDurability}</td>
+      <td>${item.ClassLimit}</td>
+    `;
+    tableBody.appendChild(row);
+  });
+
+  // Re-initialize Bootstrap tooltips
+  const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+  tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+  });
+}
+
+function renderPagination() {
+  const pagination = document.getElementById("pagination");
+  pagination.innerHTML = "";
+
+  const pageCount = Math.ceil(filteredItems.length / itemsPerPage);
+  if (pageCount <= 1) return;
+
+  function createPageItem(label, disabled, onClick, isActive = false) {
+    const li = document.createElement("li");
+    li.classList.add("page-item");
+    if (disabled) li.classList.add("disabled");
+    if (isActive) li.classList.add("active");
+
+    const btn = document.createElement("button");
+    btn.classList.add("page-link");
+    btn.textContent = label;
+    btn.addEventListener("click", onClick);
+
+    li.appendChild(btn);
+    return li;
+  }
+
+  // First + Previous
+  pagination.appendChild(
+    createPageItem("First", currentPage === 1, () => {
+      currentPage = 1;
+      renderTable();
+      renderPagination();
+    })
+  );
+  pagination.appendChild(
+    createPageItem("Previous", currentPage === 1, () => {
+      currentPage--;
+      renderTable();
+      renderPagination();
+    })
+  );
+
+  // Page numbers with window
+  const maxVisible = 5; // ✅ show 5 pages at a time
+  let startPage = Math.max(1, currentPage - Math.floor(maxVisible / 2));
+  let endPage = Math.min(pageCount, startPage + maxVisible - 1);
+
+  // Adjust if near the end
+  if (endPage - startPage < maxVisible - 1) {
+    startPage = Math.max(1, endPage - maxVisible + 1);
+  }
+
+  if (startPage > 1) {
+    pagination.appendChild(
+      createPageItem("...", true, () => {})
+    );
+  }
+
+  for (let i = startPage; i <= endPage; i++) {
+    pagination.appendChild(
+      createPageItem(i, false, () => {
+        currentPage = i;
+        renderTable();
+        renderPagination();
+      }, i === currentPage)
+    );
+  }
+
+  if (endPage < pageCount) {
+    pagination.appendChild(
+      createPageItem("...", true, () => {})
+    );
+  }
+
+  // Next + Last
+  pagination.appendChild(
+    createPageItem("Next", currentPage === pageCount, () => {
+      currentPage++;
+      renderTable();
+      renderPagination();
+    })
+  );
+  pagination.appendChild(
+    createPageItem("Last", currentPage === pageCount, () => {
+      currentPage = pageCount;
+      renderTable();
+      renderPagination();
+    })
+  );
+}
+
+function renderItemsPerPageDropdown() {
+  const container = document.getElementById("itemsPerPageContainer");
+  if (!container) return;
+
+  container.innerHTML = `
+    <label for="itemsPerPageSelect" class="form-label me-2">Items per page:</label>
+    <select id="itemsPerPageSelect" class="form-select form-select-sm" style="width:auto; display:inline-block;">
+      <option value="10" ${itemsPerPage === 10 ? "selected" : ""}>10</option>
+      <option value="25" ${itemsPerPage === 25 ? "selected" : ""}>25</option>
+      <option value="50" ${itemsPerPage === 50 ? "selected" : ""}>50</option>
+      <option value="100" ${itemsPerPage === 100 ? "selected" : ""}>100</option>
+    </select>
+  `;
+
+  document.getElementById("itemsPerPageSelect").addEventListener("change", (e) => {
+    itemsPerPage = Math.min(parseInt(e.target.value, 10), maxItemsPerPage);
+    currentPage = 1;
+    renderTable();
+    renderPagination();
+  });
+}
+
+fetchItems();
+renderItemsPerPageDropdown(); // <-- add this line
