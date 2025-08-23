@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Item API</title>
+  <script>
+    async function runAPI() {
+      const params = new URLSearchParams(window.location.search);
+      const query = params.get("item");
+
+      let output;
+
+      if (!query) {
+        output = { error: "No item parameter given" };
+        showJSON(output);
+        return;
+      }
+
+      try {
+        const response = await fetch("items.json");
+        const items = await response.json();
+
+        // Try to find by ID or ItemName
+        let result = items.find(it =>
+          String(it.ID) === query ||
+          it.ItemName.toLowerCase() === query.toLowerCase()
+        );
+
+        if (result) {
+          output = result;
+        } else {
+          output = { error: `Item '${query}' not found` };
+        }
+      } catch (err) {
+        output = { error: err.message };
+      }
+
+      showJSON(output);
+    }
+
+    function showJSON(obj) {
+      const json = JSON.stringify(obj, null, 2);
+
+      // Clear page and replace with raw JSON
+      document.body.innerHTML = "";
+      const pre = document.createElement("pre");
+      pre.textContent = json;
+      document.body.appendChild(pre);
+
+      // Try to tell browser it's JSON (works if served properly)
+      const blob = new Blob([json], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      window.history.replaceState(null, "", window.location.href);
+    }
+
+    window.onload = runAPI;
+  </script>
+</head>
+<body>
+<pre>Loading...</pre>
+</body>
+</html>
