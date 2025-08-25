@@ -2,312 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Kathana Interactive Map</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-
-    h1 {
-      text-align: center;
-      color: #a52a2a;
-    }
-
-    .container {
-      display: flex;
-      gap: 20px;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .sidebar {
-      width: 250px;
-      background: #fff;
-      padding: 15px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-
-    .accordion-button {
-      background: #f0f0f0;
-      border: none;
-      padding: 10px;
-      width: 100%;
-      text-align: left;
-      cursor: pointer;
-      font-size: 16px;
-      border-bottom: 1px solid #ddd;
-      transition: background 0.3s;
-    }
-
-    .accordion-button:hover {
-      background: #e0e0e0;
-    }
-
-    .accordion-content {
-      display: none;
-      padding: 10px 0;
-    }
-
-    .accordion-content.active {
-      display: block;
-    }
-
-    .list-item {
-      padding: 8px 0;
-      cursor: pointer;
-      border-bottom: 1px solid #eee;
-      transition: background 0.2s;
-    }
-
-    .list-item:hover {
-      background: #f9f9f9;
-    }
-
-    .map-container {
-      flex: 1;
-      position: relative;
-      overflow: hidden;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      display: flex;
-      align-items: flex-start;
-      justify-content: flex-start;
-    }
-
-    .map-image {
-      width: 100%;
-      height: auto;
-      max-width: 516px;
-      max-height: 516px;
-      display: block;
-      margin: 0;
-    }
-
-    .pin {
-      position: absolute;
-      width: 16px;
-      height: 16px;
-      border-radius: 50%;
-      transform: translate(-50%, -50%);
-      z-index: 10;
-      cursor: pointer;
-    }
-
-    .pin::after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 8px;
-      height: 8px;
-      background-color: white;
-      border-radius: 50%;
-      transform: translate(-50%, -50%);
-    }
-
-    .pin.monster { background-color: #ff5555; }
-    .pin.npc     { background-color: #55aaff; }
-    .pin.portal  { background-color: #ffcc00; }
-
-    .clear-btn {
-      margin-top: 15px;
-      width: 100%;
-      padding: 10px;
-      background-color: #a52a2a;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 16px;
-    }
-
-    .clear-btn:hover {
-      background-color: #8b2020;
-    }
-
-    @media (max-width: 768px) {
-      .container {
-        flex-direction: column;
-      }
-      .sidebar {
-        width: 100%;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-
   <h1>Kathana Interactive Map</h1>
 
   <div class="container">
-    <!-- Sidebar with Accordion -->
-    <div class="sidebar" id="sidebar">
-      <button class="accordion-button" onclick="toggleAccordion('monsters')">Monster</button>
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <button class="accordion-button" onclick="toggleAccordion('monsters')">Monsters</button>
       <div id="monsters" class="accordion-content"></div>
 
-      <button class="accordion-button" onclick="toggleAccordion('npcs')">NPC</button>
+      <button class="accordion-button" onclick="toggleAccordion('npcs')">NPCs</button>
       <div id="npcs" class="accordion-content"></div>
 
       <button class="accordion-button" onclick="toggleAccordion('portals')">Portals</button>
       <div id="portals" class="accordion-content"></div>
+    </aside>
 
-      <button class="clear-btn" onclick="clearAllPins()">Clear All Pins</button>
-    </div>
+    <!-- Map -->
+    <main class="map-wrapper">
+      <!-- Fixed 516x516 coordinate system; background is the map image -->
+      <div id="mapCanvas" class="map-canvas" aria-label="Map"></div>
 
-    <!-- Map Container -->
-    <div class="map-container">
-      <img src="./maps/Mandara.png" alt="Mandara Map" class="map-image" id="mapImage" />
-    </div>
+      <div class="map-controls">
+        <button class="clear-btn" onclick="clearAllPins()">Clear All Pins</button>
+      </div>
+    </main>
   </div>
 
-  <script>
-    let locationsData = {};
-    let activeTooltip = null; // Track the current tooltip
-
-    // Toggle accordion
-    function toggleAccordion(id) {
-      document.querySelectorAll('.accordion-content').forEach(el => {
-        el.classList.remove('active');
-      });
-      document.getElementById(id).classList.add('active');
-    }
-
-    // Load locations.json
-    async function loadLocations() {
-      try {
-        const response = await fetch('locations.json');
-        if (!response.ok) throw new Error('Failed to load locations.json');
-        locationsData = await response.json();
-
-        // Generate one button per entry
-        for (const [category, items] of Object.entries(locationsData)) {
-          const container = document.getElementById(category);
-          for (const key in items) {
-            const entry = items[key];
-            const button = document.createElement('div');
-            button.className = 'list-item';
-            button.textContent = entry.label;
-            button.onclick = () => placeAllPins(key, category);
-            container.appendChild(button);
-          }
-        }
-      } catch (error) {
-        console.error("Error:", error);
-        alert("Failed to load map data.");
-      }
-    }
-
-    // Place ALL pins for a given key and category
-    function placeAllPins(key, category) {
-      const mapImage = document.getElementById('mapImage');
-      const imgWidth = mapImage.naturalWidth || 516;
-      const imgHeight = mapImage.naturalHeight || 516;
-
-      const scaleX = mapImage.clientWidth / imgWidth;
-      const scaleY = mapImage.clientHeight / imgHeight;
-
-      const categoryData = locationsData[category];
-      const entry = categoryData[key];
-      if (!entry) return;
-
-      const { label, locations } = entry;
-
-      // Remove all existing pins (and their tooltips)
-      document.querySelectorAll(`.pin[data-name="${key}"]`).forEach(pin => {
-        if (pin.tooltip && document.body.contains(pin.tooltip)) {
-          document.body.removeChild(pin.tooltip);
-        }
-        pin.remove();
-      });
-
-      // Create a pin for each location
-      locations.forEach(coord => {
-        const px = coord.x * scaleX;
-        const py = coord.y * scaleY;
-
-        const pin = document.createElement('div');
-        pin.className = `pin ${category === 'monsters' ? 'monster' : category === 'npcs' ? 'npc' : 'portal'}`;
-        pin.dataset.name = key;
-        pin.dataset.x = coord.x;
-        pin.dataset.y = coord.y;
-        pin.style.left = `${px}px`;
-        pin.style.top = `${py}px`;
-
-        // Click to remove pin and tooltip
-        pin.onclick = (e) => {
-          e.stopPropagation();
-
-          // Remove tooltip if still visible
-          if (pin.tooltip && document.body.contains(pin.tooltip)) {
-            document.body.removeChild(pin.tooltip);
-            if (activeTooltip === pin.tooltip) {
-              activeTooltip = null;
-            }
-          }
-
-          // Remove pin
-          pin.remove();
-        };
-
-        // Show tooltip
-        pin.onmouseover = () => {
-          if (activeTooltip) return; // Prevent duplicate tooltips
-
-          const tooltip = document.createElement('div');
-          tooltip.textContent = label;
-          tooltip.style.position = 'absolute';
-          tooltip.style.backgroundColor = 'black';
-          tooltip.style.color = 'white';
-          tooltip.style.padding = '5px 8px';
-          tooltip.style.borderRadius = '4px';
-          tooltip.style.fontSize = '12px';
-          tooltip.style.zIndex = '100';
-          tooltip.style.pointerEvents = 'none';
-          tooltip.style.boxShadow = '0 1px 3px rgba(0,0,0,0.2)';
-
-          const rect = pin.getBoundingClientRect();
-          tooltip.style.left = `${rect.left + window.scrollX}px`;
-          tooltip.style.top = `${rect.top - 25 + window.scrollY}px`;
-
-          document.body.appendChild(tooltip);
-          pin.tooltip = tooltip;
-          activeTooltip = tooltip;
-        };
-
-        // Hide tooltip
-        pin.onmouseout = () => {
-          if (pin.tooltip && document.body.contains(pin.tooltip)) {
-            document.body.removeChild(pin.tooltip);
-          }
-          if (activeTooltip === pin.tooltip) {
-            activeTooltip = null;
-          }
-          pin.tooltip = null;
-        };
-
-        document.querySelector('.map-container').appendChild(pin);
-      });
-    }
-
-    // Clear all pins and tooltips
-    function clearAllPins() {
-      document.querySelectorAll('.pin').forEach(pin => {
-        if (pin.tooltip && document.body.contains(pin.tooltip)) {
-          document.body.removeChild(pin.tooltip);
-        }
-      });
-      activeTooltip = null;
-      document.querySelectorAll('.pin').forEach(pin => pin.remove());
-    }
-
-    // Load on page start
-    window.onload = loadLocations;
-  </script>
-
+  <script src="app.js"></script>
 </body>
 </html>

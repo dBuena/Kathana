@@ -1,0 +1,8 @@
+{
+  "portals": [
+    { "id": 9001, "label": "Portal to Mandara", "x": 120, "y": 220 },
+    { "id": 9002, "label": "Portal to Vahram", "x": 780, "y": 640 },
+    { "id": 9003, "label": "Portal to Sumeru", "x": 400, "y": 512 },
+    { "id": 9004, "label": "Portal to Kinnara", "x": 950, "y": 300 }
+  ]
+}
