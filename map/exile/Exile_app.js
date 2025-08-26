@@ -15,7 +15,7 @@ const CONFIG = {
     width: 488,
     height: 488, //516x516
     offsetX: -5,
-    offsetY: 0
+    offsetY: -5
   }
 };
 
