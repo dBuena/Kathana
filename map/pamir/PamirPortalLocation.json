@@ -2,6 +2,6 @@
   "portals": [
     { "id": 9001, "label": "Portal to Jina", "x": 898, "y": 150 },
     { "id": 9002, "label": "Indra Temple", "x": 190, "y": 516 },
-    { "id": 9003, "label": "Mantra Temple", "x": 576, "y": 884 }
+    { "id": 9003, "label": "Portal to Exile", "x": 576, "y": 884 }
   ]
 }
