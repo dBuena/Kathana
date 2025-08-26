@@ -1,6 +1,23 @@
 [
-  { "id": 2011, "label": "Vasabhum1" },
-  { "id": 2012, "label": "Vasabhum Caura1" },
-  { "id": 2013, "label": "Bhujang1" },
-  { "id": 2014, "label": "Rakshasa1" }
+  { "id": 2011, "label": "Ulkamukha" },
+  { "id": 2012, "label": "Ulkamukha Caura" },
+  { "id": 2013, "label": "Ulkamukha Satvan" },
+  { "id": 2014, "label": "Heruka" },
+  { "id": 2015, "label": "Azna Heruka" },
+  { "id": 2016, "label": "Ananga" },
+  { "id": 2017, "label": "Ananga Dvanta" },
+  { "id": 2018, "label": "Pizac Aggana" },
+  { "id": 2019, "label": "Kaulitara" },
+  { "id": 2024, "label": "Tarantula" },
+  { "id": 2052, "label": "Crama" },
+  { "id": 2053, "label": "Digamvara" },
+  { "id": 2054, "label": "Sari" },
+  { "id": 2055, "label": "Dweza" },
+  { "id": 2135, "label": "Ugra Ulkamukha" },
+  { "id": 2136, "label": "Ugra Ulkamukha Caura" },
+  { "id": 2137, "label": "Ugra Ulkamukha Satvan" },
+  { "id": 2140, "label": "Visa Curmi" },
+  { "id": 2141, "label": "Tarantula Zuzu" },
+  { "id": 2146, "label": "Aggana Tara" },
+  { "id": 2930, "label": "Avara Kara" }
 ]
