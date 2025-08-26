@@ -1,6 +1,24 @@
 [
   { "id": 2001, "label": "Vasabhum" },
   { "id": 2002, "label": "Vasabhum Caura" },
-  { "id": 2003, "label": "Bhujang" },
-  { "id": 2004, "label": "Rakshasa" }
+  { "id": 2003, "label": "Vasabhum Kulapra" },
+  { "id": 2004, "label": "Mlecchas" },
+  { "id": 2005, "label": "Mlecchas Caura" },
+  { "id": 2006, "label": "Varaha" },
+  { "id": 2007, "label": "Varaha Raja" },
+  { "id": 2008, "label": "Aprah Varaha Raja" },
+  { "id": 2009, "label": "Srbinda" },
+  { "id": 2010, "label": "Srbinda Satvan" },
+  { "id": 2036, "label": "Asidra" },
+  { "id": 2037, "label": "Naroma" },
+  { "id": 2038, "label": "Mawei" },
+  { "id": 2059, "label": "Bindu" },
+  { "id": 2060, "label": "Yena" },
+  { "id": 2132, "label": "Vrca" },
+  { "id": 2133, "label": "Vrca Dara" },
+  { "id": 2134, "label": "Saraa Vrca" },
+  { "id": 2138, "label": "Mlecchas Karmana" },
+  { "id": 2139, "label": "Boa" },
+  { "id": 2930, "label": "Avara Kara" },
+  { "id": 2957, "label": "Libertine" }
 ]
