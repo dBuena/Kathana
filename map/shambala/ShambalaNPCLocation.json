@@ -1,0 +1,65 @@
+{
+  "npcs": [
+    {
+      "id": 4,
+      "label": "Alhi",
+      "x": 155,
+      "y": 518
+    },
+    {
+      "id": 5,
+      "label": "Anjali",
+      "x": 502,
+      "y": 180
+    },
+    {
+      "id": 6,
+      "label": "Moriya",
+      "x": 114,
+      "y": 503
+    },
+    {
+      "id": 16,
+      "label": "Sacrificial Priest Saranu",
+      "x": 164,
+      "y": 540
+    },
+    {
+      "id": 17,
+      "label": "Jeweler Nara",
+      "x": 127,
+      "y": 552
+    },
+    {
+      "id": 18,
+      "label": "Chiefguard Amar",
+      "x": 377,
+      "y": 176
+    },
+    {
+      "id": 19,
+      "label": "Mahomet",
+      "x": 380,
+      "y": 231
+    },
+    {
+      "id": 20,
+      "label": "Bava",
+      "x": 403,
+      "y": 163
+    },
+    {
+      "id": 24,
+      "label": "Discipling Monk",
+      "x": 133,
+      "y": 462
+    },
+    {
+      "id": 26,
+      "label": "Memory Maiden",
+      "x": 491,
+      "y": 176
+    }
+  ],
+  "portals": []
+}

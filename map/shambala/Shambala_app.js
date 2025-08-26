@@ -41,7 +41,7 @@ function toggleAccordion(id) {
 async function loadLocations() {
   try {
     // Monster names
-    const nameRes = await fetch('monsternames.json');
+    const nameRes = await fetch('Shambalamonsternames.json');
     if (nameRes.ok) {
       const names = await nameRes.json();
       names.forEach(entry => {
@@ -50,20 +50,20 @@ async function loadLocations() {
     }
 
     // Monsters from NPCGener.txt
-    const genRes = await fetch('NPCGener.txt');
+    const genRes = await fetch('ShambalaNPCGener.txt');
     if (!genRes.ok) throw new Error('Failed to load NPCGener.txt');
     const genText = await genRes.text();
     parseNPCGener(genText);
 
     // NPCs from NPCLocation.json (world grid coords)
-    const npcRes = await fetch('NPCLocation.json');
+    const npcRes = await fetch('ShambalaNPCLocation.json');
     if (npcRes.ok) {
       const npcData = await npcRes.json();
       parseNPCLocation(npcData);
     }
 
     // Portals from PortalLocation.json (world grid coords)
-    const portalRes = await fetch('PortalLocation.json');
+    const portalRes = await fetch('ShambalaPortalLocation.json');
     if (portalRes.ok) {
       const portalData = await portalRes.json();
       parsePortalLocation(portalData);

@@ -4,6 +4,6 @@
     { "id": 9002, "label": "Way to Coliseum", "x": 842, "y": 506 },
     { "id": 9003, "label": "Entrance to Mara Land", "x": 328, "y": 550 },
     { "id": 9004, "label": "Entrance to Shambala", "x": 100, "y": 80 },
-	  { "id": 9005, "label": "Horseman Town Well", "x": 228, "y": 820 }
+	 { "id": 9005, "label": "Horseman Town Well", "x": 228, "y": 820 }
   ]
 }
