@@ -1,4 +1,17 @@
 [
-  { "id": 2100, "label": "Choniokusin" },
-  { "id": 2000, "label": "Ban" }
+  { "id": 2030, "label": "Balastha Drbhika" },
+  { "id": 2031, "label": "Balastha Tundela" },
+  { "id": 2080, "label": "Kubasang" },
+  { "id": 2082, "label": "Sobariung" },
+  { "id": 2083, "label": "Sobariung Gosu" },
+  { "id": 2084, "label": "Ban" },
+  { "id": 2085, "label": "Ban Gosu" },
+  { "id": 2088, "label": "Kyukrung" },
+  { "id": 2089, "label": "Kyukrung Gosu" },
+  { "id": 2119, "label": "Taiputa" },
+  { "id": 2120, "label": "Purtika" },
+  { "id": 2121, "label": "Puriyo" },
+  { "id": 2122, "label": "Nuzagama" },
+  { "id": 2123, "label": "Shumitrama" },
+  { "id": 2167, "label": "Choniokusin" }
 ]
