@@ -2,46 +2,52 @@
   "npcs": [
     {
       "id": 4,
-      "label": "Armor Salesman Wangddaopo",
-      "x": 408,
-      "y": 853
+      "label": "Storehouse Keeper Borer",
+      "x": 500,
+      "y": 862
     },
     {
       "id": 6,
-      "label": "Fighting Monk Iddungddashu",
-      "x": 474,
-      "y": 812
+      "label": "Elder Haiddungddashu",
+      "x": 539,
+      "y": 661
     },
     {
       "id": 16,
-      "label": "Elder Zangzu",
-      "x": 336,
-      "y": 654
+      "label": "Discipling Monk Ryuzshun",
+      "x": 676,
+      "y": 798
     },
     {
       "id": 17,
-      "label": "Storehouse Keeper Zongkui",
-      "x": 276,
-      "y": 695
+      "label": "Discipling Monk Usong",
+      "x": 410,
+      "y": 816
     },
     {
       "id": 18,
-      "label": "Weapon Salesman Ouyez",
-      "x": 412,
-      "y": 783
+      "label": "Goods Salesman Ryupuwei",
+      "x": 614,
+      "y": 874
     },
     {
       "id": 19,
-      "label": "Goods Salesman Rui Shan",
-      "x": 338,
-      "y": 866
+      "label": "Farmer Shunongs",
+      "x": 450,
+      "y": 814
     },
     {
       "id": 26,
+      "label": "Maid Ssunalang",
+      "x": 622,
+      "y": 818
+    },
+	{
+      "id": 26,
       "label": "Memory Maiden",
-      "x": 338,
-      "y": 800
-    }
+      "x": 288,
+      "y": 916
+    },
   ],
   "portals": []
 }
