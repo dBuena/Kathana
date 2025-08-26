@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kathana Interactive Map</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <h1>Kathana Interactive Map</h1>
+
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <button class="accordion-button" onclick="toggleAccordion('monsters')">Monsters</button>
+      <div id="monsters" class="accordion-content"></div>
+
+      <button class="accordion-button" onclick="toggleAccordion('npcs')">NPCs</button>
+      <div id="npcs" class="accordion-content"></div>
+
+      <button class="accordion-button" onclick="toggleAccordion('portals')">Portals</button>
+      <div id="portals" class="accordion-content"></div>
+    </aside>
+
+    <!-- Map -->
+    <main class="map-wrapper">
+      <!-- Fixed 516x516 coordinate system; background is the map image -->
+      <div id="mapCanvas" class="map-canvas" aria-label="Map"></div>
+
+      <div class="map-controls">
+        <button class="clear-btn" onclick="clearAllPins()">Clear All Pins</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="Exile_app.js"></script>
+</body>
+</html>

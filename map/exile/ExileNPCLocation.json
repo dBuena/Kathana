@@ -1,0 +1,47 @@
+{
+  "npcs": [
+    {
+      "id": 4,
+      "label": "Armor Salesman Wangddaopo",
+      "x": 408,
+      "y": 853
+    },
+    {
+      "id": 6,
+      "label": "Fighting Monk Iddungddashu",
+      "x": 474,
+      "y": 812
+    },
+    {
+      "id": 16,
+      "label": "Elder Zangzu",
+      "x": 336,
+      "y": 654
+    },
+    {
+      "id": 17,
+      "label": "Storehouse Keeper Zongkui",
+      "x": 276,
+      "y": 695
+    },
+    {
+      "id": 18,
+      "label": "Weapon Salesman Ouyez",
+      "x": 412,
+      "y": 783
+    },
+    {
+      "id": 19,
+      "label": "Goods Salesman Rui Shan",
+      "x": 338,
+      "y": 866
+    },
+    {
+      "id": 26,
+      "label": "Memory Maiden",
+      "x": 338,
+      "y": 800
+    }
+  ],
+  "portals": []
+}
