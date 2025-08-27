@@ -1,9 +1,7 @@
 {
   "portals": [
-    { "id": 9001, "label": "Jina Fortress", "x": 438, "y": 672 },
-    { "id": 9002, "label": "Rest Place", "x": 734, "y": 596 },
-    { "id": 9003, "label": "Country Borderline", "x": 166, "y": 156 },
-    { "id": 9004, "label": "Small Sea Port", "x": 458, "y": 180 },
-	{ "id": 9005, "label": "Portal to Pamir Plains", "x": 898, "y": 150 }
+    { "id": 9001, "label": "Portal to Mantra", "x": 548, "y": 950 },
+    { "id": 9002, "label": "Flowerfield", "x": 828, "y": 208 },
+    { "id": 9003, "label": "Temple of Fire", "x": 198, "y": 422 }
   ]
 }
