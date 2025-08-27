@@ -1,0 +1,128 @@
+/* Base */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: #1f2937;
+  background: #f7f7fb;
+}
+h1 {
+  margin: 16px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  gap: 16px;
+  padding: 0 16px 16px;
+}
+
+.sidebar {
+  width: 280px;
+  min-width: 240px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  height: fit-content;
+}
+
+.map-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  position: sticky;   /* 👈 stick in place */
+  top: 10px;          /* 👈 distance from top of viewport */
+  height: fit-content;
+}
+
+/* Accordion */
+.accordion-button {
+  width: 100%;
+  text-align: left;
+  padding: 10px 12px;
+  margin: 6px 0;
+  border: 1px solid #e5e7eb;
+  background: #f3f4f6;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.accordion-button:hover { background: #e9ecef; }
+.accordion-content {
+  display: none;
+  padding: 6px 4px 10px;
+}
+.accordion-content.active { display: block; }
+
+.list-item {
+  padding: 8px 10px;
+  margin: 6px 0;
+  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid #eef0f3;
+  cursor: pointer;
+  font-size: 14px;
+}
+.list-item:hover { background: #f7fafc; }
+
+/* Map Canvas (fixed coordinate system) */
+.map-canvas {
+  position: relative;
+  width: 516px;
+  height: 516px;
+  border-radius: 8px;
+  background-image: url("./maps/EmperorsTomb.png"); /* change path per map */
+  background-size: cover;    /* fills 516x516 exactly */
+  background-position: top left;
+  background-repeat: no-repeat;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+/* Pins */
+.pin {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%); /* center on coordinate */
+  z-index: 10;
+  cursor: pointer;
+  border: 2px solid rgba(255,255,255,0.9);
+}
+
+/* Category colors */
+.pin.monster { background: #ef4444; } /* red */
+.pin.npc     { background: #3b82f6; } /* blue */
+.pin.portal  { background: #10b981; } /* green */
+
+/* Tooltip (body-level) */
+.tooltip {
+  position: absolute;
+  background: #111827;
+  color: #fff;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+/* Controls */
+.map-controls { width: 516px; display: flex; justify-content: center; }
+.clear-btn {
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.clear-btn:hover { background: #f3f4f6; }
