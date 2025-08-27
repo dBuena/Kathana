@@ -2,45 +2,51 @@
   "npcs": [
     {
       "id": 4,
-      "label": "Armor Salesman Wangddaopo",
-      "x": 408,
-      "y": 853
+      "label": "Biryu Administrator Yasita",
+      "x": 359,
+      "y": 686
     },
     {
       "id": 6,
-      "label": "Fighting Monk Iddungddashu",
-      "x": 474,
-      "y": 812
+      "label": "Miner Yume",
+      "x": 482,
+      "y": 361
     },
     {
       "id": 16,
-      "label": "Elder Zangzu",
-      "x": 336,
-      "y": 654
+      "label": "Yut Nori Administrator Sato",
+      "x": 661,
+      "y": 397
     },
     {
       "id": 17,
-      "label": "Storehouse Keeper Zongkui",
-      "x": 276,
-      "y": 695
+      "label": "Goods Salesman Mamoru",
+      "x": 453,
+      "y": 473
     },
     {
       "id": 18,
-      "label": "Weapon Salesman Ouyez",
-      "x": 412,
-      "y": 783
+      "label": "Storehouse Keeper Gubo",
+      "x": 515,
+      "y": 480
     },
     {
       "id": 19,
-      "label": "Goods Salesman Rui Shan",
-      "x": 338,
-      "y": 866
+      "label": "Merchant Oda",
+      "x": 351,
+      "y": 579
     },
     {
       "id": 26,
-      "label": "Memory Maiden",
-      "x": 338,
-      "y": 800
+      "label": "Merchant yuri",
+      "x": 633,
+      "y": 400
+    },
+    {
+      "id": 26,
+      "label": "Shop Administrator",
+      "x": 673,
+      "y": 619
     }
   ],
   "portals": []
