@@ -1,3 +1,13 @@
 [
-  { "id": 2074, "label": "Zaku" }
+  { "id": 2090, "label": "Ban Zangkun (70)" },
+  { "id": 2091, "label": "Ban Dopang (75)" },
+  { "id": 2092, "label": "Zonbu (72)" },
+  { "id": 2093, "label": "Baoku (74)" },
+  { "id": 2094, "label": "Bongbo (76)" },
+  { "id": 2095, "label": "Yakku (78)" },
+  { "id": 2096, "label": "Yomrabyang (80)" },
+  { "id": 2124, "label": "Samuyata (75)" },
+  { "id": 2125, "label": "Nayavasan (72)" },
+  { "id": 2126, "label": "Sukam (76)" },
+  { "id": 2127, "label": "Gatva (78)" }
 ]
