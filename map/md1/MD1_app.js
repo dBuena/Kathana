@@ -14,8 +14,8 @@ const CONFIG = {
   canvas: {
     width: 488,
     height: 488, //516x516
-    offsetX: 15,
-    offsetY: -7
+    offsetX: -5,
+    offsetY: -5
   }
 };
 
