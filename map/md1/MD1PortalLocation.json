@@ -1,0 +1,6 @@
+{
+  "portals": [
+    { "id": 9001, "label": "Portal to Mara Land", "x": 446, "y": 70 },
+    { "id": 9002, "label": "Mandara Dungeon End Point", "x": 472, "y": 444 }
+  ]
+}
