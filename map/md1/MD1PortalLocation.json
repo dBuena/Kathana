@@ -1,6 +1,6 @@
 {
   "portals": [
-    { "id": 9001, "label": "Portal to Mara Land", "x": 251, "y": 34 },
-    { "id": 9002, "label": "Mandara Dungeon End Point", "x": 265, "y": 250 }
+    { "id": 9001, "label": "Portal to Mara Land", "x": 446, "y": 70 },
+    { "id": 9002, "label": "Mandara Dungeon End Point", "x": 472, "y": 444 }
   ]
 }
