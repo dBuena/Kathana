@@ -5,10 +5,13 @@ document.addEventListener("DOMContentLoaded", () => {
       let waited = 0;
       const maxWait = 5000; // 5 seconds fallback
       const checkSkillDataRaw = () => {
+        console.log('[DEBUG] Waiting for skillDataRaw:', waited);
         if (window.skillDataRaw && window.skillDataRaw.length > 0) {
-          initializeGod();
+          console.log('[DEBUG] skillDataRaw loaded, initializing archery');
+          initializearchery();
         } else if (waited >= maxWait) {
-          initializeGod();
+          console.warn('[DEBUG] skillDataRaw not loaded after timeout, initializing archery anyway');
+          initializearchery();
         } else {
           waited += 50;
           setTimeout(checkSkillDataRaw, 50);
@@ -17,23 +20,20 @@ document.addEventListener("DOMContentLoaded", () => {
       checkSkillDataRaw();
     });
   } else {
-    initializeGod();
+    initializearchery();
   }
 });
-
-function initializeGod() {
+function initializearchery() {
   const levelSelect = document.getElementById("charLevel-global");
   const pointsEl = document.getElementById("points-global");
   const resetBtn = document.getElementById("reset-global");
-  const tree = document.getElementById("tree-god");
+  const tree = document.getElementById("tree-archery");
 
   if (!levelSelect || !pointsEl || !tree) return;
 
-  const state = character.masteries.god;
+  const state = character.masteries.archery;
 
   // Populate level dropdown only once
-  // Load build from URL if present
-  loadBuildFromURL(character);
   if (levelSelect.options.length === 0) {
     for (let lvl = 45; lvl <= 110; lvl++) {
       const opt = document.createElement("option");
@@ -109,8 +109,8 @@ function initializeGod() {
       });
     });
 
-    // Calculate available god points (god-specific, not shared with other masteries)
-    const availablePoints = character.getAvailableGodPoints();
+    // Calculate global available points once before the loop
+    const availablePoints = character.getAvailableSkillPoints();
 
     state.skills.forEach(skill => {
       // Apply max level from skill data if skill has a skillDataId
@@ -150,7 +150,7 @@ function initializeGod() {
       // Determine if + button should be enabled based on level requirement
       let canAdd = true;
       if (skill.skillDataId && skill.val < skill.max) {
-        canAdd = character.canAddSkillPoint('god', skill.id, skill.val, character.level);
+        canAdd = character.canAddSkillPoint('archery', skill.id, skill.val, character.level);
       }
 
       plus.disabled = availablePoints <= 0 || skill.val >= skill.max || skill.max === 0 || !unlocked(skill) || !canAdd;
@@ -182,17 +182,17 @@ function initializeGod() {
       tree.appendChild(div);
     });
 
-    // Update both display elements: skill points and god points separately
-    const godPointsEl = document.getElementById("god-points-global");
-    const skillPointsAvailable = character.getAvailableSkillPoints();
-    pointsEl.textContent = skillPointsAvailable;
-    if (godPointsEl) {
-      godPointsEl.textContent = availablePoints;
+    pointsEl.textContent = availablePoints;
+
+    // Update share link with current build
+    if (typeof generateShareLink === "function" && typeof updateShareLinkDisplay === "function") {
+      const shareLink = generateShareLink(character, "Samabat");
+      updateShareLinkDisplay(shareLink);
     }
   }
 
   function addPoint(id) {
-    const availablePoints = character.getAvailableGodPoints();
+    const availablePoints = character.getAvailableSkillPoints();
     const s = state.skills.find(x => x.id === id);
     if (availablePoints <= 0 || s.val >= s.max) return;
     s.val++;
@@ -226,3 +226,4 @@ function initializeGod() {
     });
   }
 }
+

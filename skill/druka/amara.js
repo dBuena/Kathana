@@ -32,6 +32,8 @@ function initializeAmara() {
   const state = character.masteries.amara;
 
   // Populate level dropdown only once
+  // Load build from URL if present
+  loadBuildFromURL(character);
   if (levelSelect.options.length === 0) {
     for (let lvl = 45; lvl <= 110; lvl++) {
       const opt = document.createElement("option");
@@ -107,10 +109,8 @@ function initializeAmara() {
       });
     });
 
-    // Calculate global available points once before the loop
-    const masteryNames = Object.keys(character.masteries);
-    const totalSpent = masteryNames.reduce((sum, mastery) => sum + character.getSpentPoints(mastery), 0);
-    const availablePoints = character.level - totalSpent;
+    // Calculate available skill points (non-god masteries only)
+    const availablePoints = character.getAvailableSkillPoints();
 
     state.skills.forEach(skill => {
       // Apply max level from skill data if skill has a skillDataId
@@ -138,61 +138,11 @@ function initializeAmara() {
           </div>
         </div>
         <div class="level">${skill.val} / ${skill.max}</div>
+
       `;
 
-      // Add tooltip if skillDataId exists
-      if (skill.skillDataId) {
-        let skillLevel = skill.val > 0 ? skill.val : 1;
-        let skillName = skill.id;
-        let skillDesc = "";
-        let effect1 = "N/A";
-        let effect2 = "N/A";
-        // Use skillData.js functions for info
-        const skillInfo = typeof getSkillInfo === 'function' ? getSkillInfo(skill.skillDataId) : null;
-        if (skillInfo) {
-          skillName = skillInfo.name || skillName;
-          skillDesc = skillInfo.description || "";
-        }
-        // Get effect params using skillData.js
-        if (typeof getSkillEffectParams === 'function' && window.skillDataRaw) {
-          const effectParams = getSkillEffectParams(skill.skillDataId, skillLevel);
-          effect1 = effectParams.iEffect1Param1 !== null ? effectParams.iEffect1Param1 : "N/A";
-          effect2 = effectParams.iEffect1Param2 !== null ? effectParams.iEffect1Param2 : "N/A";
-        }
-        div.addEventListener('mouseenter', (e) => {
-          // Remove existing tooltip if present
-          const existing = document.querySelector('.custom-tooltip');
-          if (existing) existing.remove();
-          const tooltip = document.createElement('div');
-          tooltip.className = 'custom-tooltip';
-          tooltip.innerHTML = `<strong>${skillName} - Level ${skillLevel}</strong><br>${skillDesc ? `<br>${skillDesc}` : ''}<br><br>${effect1} - ${effect2}`;
-          tooltip.style.cssText = `
-            position: fixed;
-            background: #1a1a1a;
-            color: #fff;
-            padding: 8px 12px;
-            border: 1px solid #666;
-            border-radius: 4px;
-            font-size: 12px;
-            z-index: 10000;
-            pointer-events: none;
-            max-width: 200px;
-            white-space: normal;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.5);
-          `;
-          document.body.appendChild(tooltip);
-          // Position tooltip on mouse move (right side of cursor)
-          const moveHandler = (event) => {
-            tooltip.style.left = (event.clientX + 16) + 'px'; // 16px right of cursor
-            tooltip.style.top = (event.clientY - tooltip.offsetHeight / 2) + 'px';
-          };
-          div.addEventListener('mousemove', moveHandler);
-          div.addEventListener('mouseleave', () => {
-            div.removeEventListener('mousemove', moveHandler);
-            tooltip.remove();
-          }, { once: true });
-        });
-      }
+      // Initialize tooltip for this skill
+      initializeSkillTooltip(div, skill);
 
       const plus = div.querySelector(".plus");
       const minus = div.querySelector(".minus");
@@ -236,9 +186,7 @@ function initializeAmara() {
   }
 
   function addPoint(id) {
-    const masteryNames = Object.keys(character.masteries);
-    const totalSpent = masteryNames.reduce((sum, mastery) => sum + character.getSpentPoints(mastery), 0);
-    const availablePoints = character.level - totalSpent;
+    const availablePoints = character.getAvailableSkillPoints();
     const s = state.skills.find(x => x.id === id);
     if (availablePoints <= 0 || s.val >= s.max) return;
     s.val++;

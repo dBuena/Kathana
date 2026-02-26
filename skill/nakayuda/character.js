@@ -1,6 +1,6 @@
 // Druka Character Object
 const character = {
-  name: "Druka",
+  name: "Nakayuda",
   level: 45,
   godPoints: 30,
   masteries: {
@@ -105,27 +105,6 @@ const character = {
     return this.masteries[mastery].skills.reduce((sum, skill) => sum + skill.val, 0);
   },
 
-  // Get spent god points
-  getSpentGodPoints() {
-    if (!this.masteries.god || !this.masteries.god.skills) return 0;
-    return this.masteries.god.skills.reduce((sum, skill) => sum + skill.val, 0);
-  },
-
-  // Get available god points
-  getAvailableGodPoints() {
-    return this.godPoints - this.getSpentGodPoints();
-  },
-
-  // Get total spent points on non-god masteries
-  getSpentNonGodPoints() {
-    return ['blade', 'archery', 'support', 'amara'].reduce((sum, mastery) => sum + this.getSpentPoints(mastery), 0);
-  },
-
-  // Get available skill points (for non-god masteries)
-  getAvailableSkillPoints() {
-    return this.level - this.getSpentNonGodPoints();
-  },
-
   // Set character level
   setLevel(newLevel) {
     this.level = newLevel;
@@ -206,7 +185,28 @@ const character = {
   // Reset skill points for a mastery
   resetSkillPoints(mastery) {
     this.resetMastery(mastery);
-  }
+  },
+
+  // Get spent god points
+  getSpentGodPoints() {
+    if (!this.masteries.god || !this.masteries.god.skills) return 0;
+    return this.masteries.god.skills.reduce((sum, skill) => sum + skill.val, 0);
+  },
+
+  // Get available god points
+  getAvailableGodPoints() {
+    return this.godPoints - this.getSpentGodPoints();
+  },
+
+  // Get total spent points on non-god masteries
+  getSpentNonGodPoints() {
+    return ['blade', 'archery', 'support', 'amara'].reduce((sum, mastery) => sum + this.getSpentPoints(mastery), 0);
+  },
+
+  // Get available skill points (for non-god masteries)
+  getAvailableSkillPoints() {
+    return this.level - this.getSpentNonGodPoints();
+  },
 };
 
 // Make character globally accessible to this page

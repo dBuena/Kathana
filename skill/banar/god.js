@@ -32,8 +32,6 @@ function initializeGod() {
   const state = character.masteries.god;
 
   // Populate level dropdown only once
-  // Load build from URL if present
-  loadBuildFromURL(character);
   if (levelSelect.options.length === 0) {
     for (let lvl = 45; lvl <= 110; lvl++) {
       const opt = document.createElement("option");
@@ -109,7 +107,7 @@ function initializeGod() {
       });
     });
 
-    // Calculate available god points (god-specific, not shared with other masteries)
+    // Calculate global available points once before the loop
     const availablePoints = character.getAvailableGodPoints();
 
     state.skills.forEach(skill => {
@@ -182,12 +180,17 @@ function initializeGod() {
       tree.appendChild(div);
     });
 
-    // Update both display elements: skill points and god points separately
     const godPointsEl = document.getElementById("god-points-global");
     const skillPointsAvailable = character.getAvailableSkillPoints();
     pointsEl.textContent = skillPointsAvailable;
     if (godPointsEl) {
       godPointsEl.textContent = availablePoints;
+    }
+
+    // Update share link with current build
+    if (typeof generateShareLink === "function" && typeof updateShareLinkDisplay === "function") {
+      const shareLink = generateShareLink(character, "Banar");
+      updateShareLinkDisplay(shareLink);
     }
   }
 
