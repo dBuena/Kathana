@@ -35,7 +35,7 @@ function initializearchery() {
 
   // Populate level dropdown only once
   if (levelSelect.options.length === 0) {
-    for (let lvl = 45; lvl <= 99; lvl++) {
+    for (let lvl = 45; lvl <= 110; lvl++) {
       const opt = document.createElement("option");
       opt.value = lvl;
       opt.textContent = lvl;

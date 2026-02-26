@@ -43,49 +43,28 @@ const character = {
     support: {
       skills: [
         // Main branch (column 1)
-        { id: "root", col: 1, row: 1, max: 0, val: 0, req: [], icon: "ICON_SKILL_AO_BEGA.bmp", skillDataId: 3124 },
-        { id: "b1_2", col: 1, row: 2, max: 0, val: 0, req: ["root"], icon: "ICON_SKILL_AV_VIRABA.bmp", skillDataId: 3142 },
-        { id: "b1_3", col: 1, row: 3, max: 0, val: 0, req: ["b1_2"], icon: "ICON_SKILL_AO_GAIL.bmp", skillDataId: 3141 },
-        { id: "b1_4", col: 1, row: 4, max: 0, val: 0, req: ["b1_3"], icon: "ICON_SKILL_AO_CACOLAGROUND.bmp", skillDataId: 3126 },
-        { id: "b1_5", col: 1, row: 5, max: 0, val: 0, req: ["b1_4"], icon: "ICON_SKILL_AO_ANTAKARA.bmp", skillDataId: 3161 },
-        
+        { id: "root", col: 1, row: 1, max: 0, val: 0, req: [], icon: "ICON_SKILL_P_BARUNAFORCE01.bmp", skillDataId: 3101 },
+        { id: "b1_2", col: 1, row: 2, max: 0, val: 0, req: ["root"], icon: "Icon_skill_av_orashield01.bmp", skillDataId: 3102 },
+        { id: "b1_3", col: 1, row: 3, max: 0, val: 0, req: ["b1_2"], icon: "Icon_skill_ao_mantraskin01.bmp", skillDataId: 3110 },
+        { id: "b1_4", col: 1, row: 4, max: 0, val: 0, req: ["b1_3"], icon: "ICON_SKILL_AV_SANUTAR.bmp", skillDataId: 3159 },
+
         // Column 2 branches
-        { id: "b2_2", col: 2, row: 2, max: 0, val: 0, req: ["b1_2"], icon: "ICON_SKILL_AO_DIBANDA.bmp", skillDataId: 3107 },
-        { id: "b2_4", col: 2, row: 4, max: 0, val: 0, req: ["b1_4"], icon: "ICON_SKILL_AO_HOLDPOISON.bmp", skillDataId: 3127 },
-        { id: "b2_5", col: 2, row: 5, max: 0, val: 0, req: ["b1_5", "b2_4"], icon: "ICON_SKILL_AO_GATHANA.bmp", skillDataId: 3113 },
-        { id: "b2_6", col: 2, row: 6, max: 0, val: 0, req: ["b2_5"], icon: "ICON_SKILL_AV_AKHILA.bmp", skillDataId: 3160 },
+        { id: "b2_1", col: 2, row: 1, max: 0, val: 0, req: [], icon: "ICON_SKILL_AV_INCRESESPEED.bmp", skillDataId: 3121 },
+        { id: "b2_2", col: 2, row: 2, max: 0, val: 0, req: ["b2_1"], icon: "ICON_SKILL_AV_SURYAFORCE.bmp", skillDataId: 3103 },
+        { id: "b2_3", col: 2, row: 3, max: 0, val: 0, req: ["b2_2", "b2_4"], icon: "ICON_SKILL_AO_AMBAKABIZATI.bmp", skillDataId: 3144 },
         
         // Column 3 branch
-        { id: "b3_5", col: 3, row: 5, max: 0, val: 0, req: ["b2_5"], icon: "ICON_SKILL_AO_AGUPTA.bmp", skillDataId: 3104 },
+        { id: "b3_2", col: 3, row: 2, max: 0, val: 0, req: ["b2_1"], icon: "ICON_SKILL_AV_JUVAS.bmp", skillDataId: 3114 },
         
         // Column 4 - Independent main branch (no sub branches, no connectors)
-        { id: "b4_1", col: 4, row: 1, max: 0, val: 0, req: [], icon: "ICON_SKILL_P_SWORDMASTER.bmp", skillDataId: 3105 },
-        { id: "b4_2", col: 4, row: 2, max: 0, val: 0, req: [], icon: "ICON_SKILL_P_NAKARAROKA.bmp", skillDataId: 3106 },
-        { id: "b4_3", col: 4, row: 3, max: 0, val: 0, req: [], icon: "ICON_SKILL_P_DVAIRADAROKA.bmp", skillDataId: 3199 }
+        { id: "b4_1", col: 4, row: 1, max: 0, val: 0, req: [], icon: "ICON_SKILL_AO_CHAYA02.bmp", skillDataId: 3122 }
       ]
     },
     amara: {
       skills: [
         // Main branch (column 1)
-        { id: "root", col: 1, row: 1, max: 0, val: 0, req: [], icon: "ICON_SKILL_AO_BEGA.bmp", skillDataId: 3124 },
-        { id: "b1_2", col: 1, row: 2, max: 0, val: 0, req: ["root"], icon: "ICON_SKILL_AV_VIRABA.bmp", skillDataId: 3142 },
-        { id: "b1_3", col: 1, row: 3, max: 0, val: 0, req: ["b1_2"], icon: "ICON_SKILL_AO_GAIL.bmp", skillDataId: 3141 },
-        { id: "b1_4", col: 1, row: 4, max: 0, val: 0, req: ["b1_3"], icon: "ICON_SKILL_AO_CACOLAGROUND.bmp", skillDataId: 3126 },
-        { id: "b1_5", col: 1, row: 5, max: 0, val: 0, req: ["b1_4"], icon: "ICON_SKILL_AO_ANTAKARA.bmp", skillDataId: 3161 },
+        { id: "root", col: 1, row: 1, max: 0, val: 0, req: [], icon: "ICON_SKILL_100lv_07.bmp", skillDataId: 3145 }
         
-        // Column 2 branches
-        { id: "b2_2", col: 2, row: 2, max: 0, val: 0, req: ["b1_2"], icon: "ICON_SKILL_AO_DIBANDA.bmp", skillDataId: 3107 },
-        { id: "b2_4", col: 2, row: 4, max: 0, val: 0, req: ["b1_4"], icon: "ICON_SKILL_AO_HOLDPOISON.bmp", skillDataId: 3127 },
-        { id: "b2_5", col: 2, row: 5, max: 0, val: 0, req: ["b1_5", "b2_4"], icon: "ICON_SKILL_AO_GATHANA.bmp", skillDataId: 3113 },
-        { id: "b2_6", col: 2, row: 6, max: 0, val: 0, req: ["b2_5"], icon: "ICON_SKILL_AV_AKHILA.bmp", skillDataId: 3160 },
-        
-        // Column 3 branch
-        { id: "b3_5", col: 3, row: 5, max: 0, val: 0, req: ["b2_5"], icon: "ICON_SKILL_AO_AGUPTA.bmp", skillDataId: 3104 },
-        
-        // Column 4 - Independent main branch (no sub branches, no connectors)
-        { id: "b4_1", col: 4, row: 1, max: 0, val: 0, req: [], icon: "ICON_SKILL_P_SWORDMASTER.bmp", skillDataId: 3105 },
-        { id: "b4_2", col: 4, row: 2, max: 0, val: 0, req: [], icon: "ICON_SKILL_P_NAKARAROKA.bmp", skillDataId: 3106 },
-        { id: "b4_3", col: 4, row: 3, max: 0, val: 0, req: [], icon: "ICON_SKILL_P_DVAIRADAROKA.bmp", skillDataId: 3199 }
       ]
     },
     god: {
