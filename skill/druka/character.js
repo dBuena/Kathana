@@ -52,7 +52,7 @@ const character = {
         // Column 2 branches
         { id: "b2_1", col: 2, row: 1, max: 0, val: 0, req: [], icon: "ICON_SKILL_AV_INCRESESPEED.bmp", skillDataId: 3121 },
         { id: "b2_2", col: 2, row: 2, max: 0, val: 0, req: ["b2_1"], icon: "ICON_SKILL_AV_SURYAFORCE.bmp", skillDataId: 3103 },
-        { id: "b2_3", col: 2, row: 3, max: 0, val: 0, req: ["b2_2", "b2_4"], icon: "ICON_SKILL_AO_AMBAKABIZATI.bmp", skillDataId: 3144 },
+        { id: "b2_3", col: 2, row: 3, max: 0, val: 0, req: ["b2_2"], icon: "ICON_SKILL_AO_AMBAKABIZATI.bmp", skillDataId: 3144 },
         
         // Column 3 branch
         { id: "b3_2", col: 3, row: 2, max: 0, val: 0, req: ["b2_1"], icon: "ICON_SKILL_AV_JUVAS.bmp", skillDataId: 3114 },

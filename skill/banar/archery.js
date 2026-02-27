@@ -34,6 +34,8 @@ function initializearchery() {
   const state = character.masteries.archery;
 
   // Populate level dropdown only once
+  // Load build from URL if present
+  loadBuildFromURL(character);
   if (levelSelect.options.length === 0) {
     for (let lvl = 45; lvl <= 110; lvl++) {
       const opt = document.createElement("option");

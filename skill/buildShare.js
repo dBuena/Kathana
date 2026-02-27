@@ -2,7 +2,8 @@
 
 /**
  * Serialize the current build into a compact string format
- * Format: "mastery1:skill1_level,skill2_level,skill3_level|mastery2:skill1_level,skill2_level|..."
+ * Format: "mastery1:skillId1:level,skillId2:level|mastery2:skillId1:level,skillId2:level|..."
+ * Uses skill IDs with colon separator to support skill IDs containing underscores
  */
 function serializeBuild(character) {
   if (!character || !character.masteries) return '';
@@ -13,7 +14,11 @@ function serializeBuild(character) {
   masteryNames.forEach(masteryName => {
     const mastery = character.masteries[masteryName];
     if (mastery && mastery.skills) {
-      const levels = mastery.skills.map(skill => skill.val || 0).join(',');
+      // Serialize as skillId:level pairs (colon separated to avoid conflicts with underscores in skill IDs)
+      const levels = mastery.skills
+        .filter(skill => skill.val > 0) // Only include non-zero values to reduce size
+        .map(skill => `${skill.id}:${skill.val}`)
+        .join(',');
       parts.push(`${masteryName}:${levels}`);
     }
   });
@@ -49,7 +54,8 @@ function decodeBuild(encoded) {
 
 /**
  * Parse decoded build string and apply to character
- * Format: "mastery1:skill1_level,skill2_level,skill3_level|mastery2:..."
+ * Format: "mastery1:skillId1:level,skillId2:level|mastery2:..."
+ * Uses skill IDs with colon separator to support skill IDs containing underscores
  */
 function restoreBuild(character, decoded) {
   if (!decoded || !character || !character.masteries) return false;
@@ -59,16 +65,29 @@ function restoreBuild(character, decoded) {
     let restored = false;
 
     masteryParts.forEach(part => {
-      const [masteryName, levelsStr] = part.split(':');
+      const colonIndex = part.indexOf(':');
+      if (colonIndex === -1) return;
+
+      const masteryName = part.substring(0, colonIndex);
+      const skillsStr = part.substring(colonIndex + 1);
       const mastery = character.masteries[masteryName];
 
-      if (mastery && mastery.skills && levelsStr) {
-        const levels = levelsStr.split(',').map(l => parseInt(l) || 0);
+      if (mastery && mastery.skills && skillsStr) {
+        // Parse skillId:level pairs (colon separated)
+        const skillPairs = skillsStr.split(',');
 
-        // Apply levels to skills
-        levels.forEach((level, index) => {
-          if (mastery.skills[index]) {
-            mastery.skills[index].val = Math.min(level, mastery.skills[index].max || 999);
+        skillPairs.forEach(pair => {
+          const lastColonIndex = pair.lastIndexOf(':');
+          if (lastColonIndex === -1) return;
+
+          const skillId = pair.substring(0, lastColonIndex);
+          const levelStr = pair.substring(lastColonIndex + 1);
+          const level = parseInt(levelStr) || 0;
+
+          // Find the skill by ID and set its level
+          const skill = mastery.skills.find(s => s.id === skillId);
+          if (skill) {
+            skill.val = Math.min(level, skill.max || 999);
             restored = true;
           }
         });
