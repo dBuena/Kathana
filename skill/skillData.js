@@ -1,8 +1,13 @@
-// Skill Data Manager - Loads and caches skill information from pcskill.json
+// Skill Data Manager - Loads and caches skill information from pcskill.json and skilldesc.json
 let skillDataCache = {};
 let skillMaxLevelCache = {};
 let skillDataLoaded = false;
 let skillDataPromise = null;
+
+// Skill Description Cache - Loads from skilldesc.json
+let skillDescCache = {};
+let skillDescLoaded = false;
+let skillDescPromise = null;
 
 // Load skill data from pcskill.json
 function loadSkillData() {
@@ -55,6 +60,9 @@ function getSkillInfo(skillId) {
     // Find all ranks for this skillId
     let effect1 = null;
     let effect11 = null;
+    let byteReqLevel = 0;
+    let idReqSkill1 = 0;
+    let iCoolDownTime = 0;
     if (typeof window.skillDataRaw !== 'undefined') {
       const skillRanks = window.skillDataRaw.filter(s => s.ID === skillId);
       // Use current rank or first rank
@@ -62,12 +70,18 @@ function getSkillInfo(skillId) {
       if (rank) {
         effect1 = rank.iEffect1Param1;
         effect11 = rank.iEffect11Param2;
+        byteReqLevel = rank.byteReqLevel || 0;
+        idReqSkill1 = rank.idReqSkill1 || 0;
+        iCoolDownTime = rank.iCoolDownTime || 0;
       }
     }
     return {
       ...skill,
       iEffect1Param1: effect1,
-      iEffect11Param2: effect11
+      iEffect11Param2: effect11,
+      byteReqLevel: byteReqLevel,
+      idReqSkill1: idReqSkill1,
+      iCoolDownTime: iCoolDownTime
     };
   }
   return {
@@ -77,8 +91,20 @@ function getSkillInfo(skillId) {
     level: 0,
     reqLevel: 0,
     iEffect1Param1: null,
-    iEffect11Param2: null
+    iEffect11Param2: null,
+    byteReqLevel: 0,
+    idReqSkill1: 0,
+    iCoolDownTime: 0
   };
+}
+
+// Get skill name by ID
+function getSkillNameById(skillId) {
+  const skill = skillDataCache[skillId];
+  if (skill) {
+    return skill.name;
+  }
+  return null;
 }
 
 // Get max level for a skill by ID (based on occurrences in pcskill.json)
@@ -123,5 +149,57 @@ function getSkillRequirements(skillDataId) {
   return reqs;
 }
 
+// Load skill descriptions from skilldesc.json
+function loadSkillDesc() {
+  if (skillDescPromise) return skillDescPromise;
+
+  skillDescPromise = fetch('skilldesc.json')
+    .then(response => response.json())
+    .then(data => {
+      // Build lookup map by ID
+      if (data.skills && Array.isArray(data.skills)) {
+        data.skills.forEach(skill => {
+          skillDescCache[skill.id] = {
+            id: skill.id,
+            name: skill.name,
+            philippine_desc: skill.philippine_desc || '',
+            chi_desc: skill.chi_desc || '',
+            jp_desc: skill.jp_desc || '',
+            indonesia_desc: skill.indonesia_desc || '',
+            taiwan_desc: skill.taiwan_desc || '',
+            mexico_desc: skill.mexico_desc || '',
+            desc: skill.desc || ''
+          };
+        });
+      }
+      skillDescLoaded = true;
+      console.log(`Skill descriptions loaded: ${Object.keys(skillDescCache).length} skills cached`);
+      return skillDescCache;
+    })
+    .catch(error => {
+      console.error('Error loading skill descriptions:', error);
+      return {};
+    });
+
+  return skillDescPromise;
+}
+
+// Get skill description by ID (from skilldesc.json)
+function getSkillDesc(skillId) {
+  const skill = skillDescCache[skillId];
+  if (skill) {
+    return skill;
+  }
+  return {
+    id: skillId,
+    name: 'Unknown Skill',
+    philippine_desc: 'No description available',
+    desc: 'No description available'
+  };
+}
+
 // Load data on page load
-document.addEventListener('DOMContentLoaded', loadSkillData);
+document.addEventListener('DOMContentLoaded', () => {
+  loadSkillData();
+  loadSkillDesc();
+});

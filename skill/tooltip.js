@@ -11,12 +11,28 @@ function initializeSkillTooltip(skillElement, skill) {
   let skillDesc = "";
   let effect1 = "N/A";
   let effect2 = "N/A";
+  let byteReqLevel = 0;
+  let idReqSkill1 = 0;
+  let iCoolDownTime = 0;
+  let prereqSkillName = "";
 
-  // Use skillData.js functions for info
+  // Get skill description from skilldesc.json
+  const skillDescInfo = typeof getSkillDesc === 'function' ? getSkillDesc(skill.skillDataId) : null;
+  if (skillDescInfo) {
+    skillName = skillDescInfo.name || skillName;
+    skillDesc = skillDescInfo.philippine_desc || "";
+  }
+
+  // Get skill info (includes byteReqLevel, idReqSkill1, and iCoolDownTime)
   const skillInfo = typeof getSkillInfo === 'function' ? getSkillInfo(skill.skillDataId) : null;
   if (skillInfo) {
-    skillName = skillInfo.name || skillName;
-    skillDesc = skillInfo.description || "";
+    byteReqLevel = skillInfo.byteReqLevel || 0;
+    idReqSkill1 = skillInfo.idReqSkill1 || 0;
+    iCoolDownTime = skillInfo.iCoolDownTime || 0;
+    // Get prerequisite skill name
+    if (idReqSkill1 > 0 && typeof getSkillNameById === 'function') {
+      prereqSkillName = getSkillNameById(idReqSkill1);
+    }
   }
 
   // Get effect params using skillData.js
@@ -33,7 +49,26 @@ function initializeSkillTooltip(skillElement, skill) {
 
     const tooltip = document.createElement('div');
     tooltip.className = 'custom-tooltip';
-    tooltip.innerHTML = `<strong>${skillName} - Level ${skillLevel}</strong><br>${skillDesc ? `<br>${skillDesc}` : ''}<br><br>${effect1} - ${effect2}`;
+
+    // Build tooltip HTML with dynamic prerequisite skill display
+    let tooltipHTML = `<strong><span style="color: #6bff7f;">${skillName}</span> - Level ${skillLevel}</strong>`;
+    if (skillDesc) {
+      tooltipHTML += `<br>${skillDesc}`;
+    }
+    tooltipHTML += `<br><span style="color: #ff6b6b;">Required Level ${byteReqLevel}</span>`;
+    if (idReqSkill1 > 0 && prereqSkillName) {
+      tooltipHTML += `<br>Need to learn ${prereqSkillName}`;
+    }
+    // Display cooldown or passive skill
+    if (iCoolDownTime === 0) {
+      tooltipHTML += `<br>Passive Skill`;
+    } else {
+      const cooldownSeconds = (iCoolDownTime / 1000).toFixed(1);
+      tooltipHTML += `<br>Cooldown ${cooldownSeconds}s`;
+    }
+    tooltipHTML += `<br>${effect1} - ${effect2}`;
+
+    tooltip.innerHTML = tooltipHTML;
     tooltip.style.cssText = `
       position: fixed;
       background: rgba(26, 26, 26, 0.8);
