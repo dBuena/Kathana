@@ -1,0 +1,6622 @@
+[
+    {
+        "TEX_ID": 22101,
+        "FILENAME": "ui_weapon-sword01.bmp"
+    },
+    {
+        "TEX_ID": 22102,
+        "FILENAME": "ui_weapon-sword02.bmp"
+    },
+    {
+        "TEX_ID": 22103,
+        "FILENAME": "ui_weapon-sword03.bmp"
+    },
+    {
+        "TEX_ID": 22104,
+        "FILENAME": "ui_weapon-sword04.bmp"
+    },
+    {
+        "TEX_ID": 22105,
+        "FILENAME": "ui_weapon-sword05.bmp"
+    },
+    {
+        "TEX_ID": 22106,
+        "FILENAME": "ui_weapon-sword06.bmp"
+    },
+    {
+        "TEX_ID": 22107,
+        "FILENAME": "ui_weapon-sword07.bmp"
+    },
+    {
+        "TEX_ID": 22108,
+        "FILENAME": "ui_weapon-sword08.bmp"
+    },
+    {
+        "TEX_ID": 22109,
+        "FILENAME": "ui_weapon-sword09.bmp"
+    },
+    {
+        "TEX_ID": 22110,
+        "FILENAME": "ui_weapon-sword10.bmp"
+    },
+    {
+        "TEX_ID": 22111,
+        "FILENAME": "ui_weapon-sword11.bmp"
+    },
+    {
+        "TEX_ID": 22112,
+        "FILENAME": "ui_weapon-sword12.bmp"
+    },
+    {
+        "TEX_ID": 22113,
+        "FILENAME": "ui_weapon-sword13.bmp"
+    },
+    {
+        "TEX_ID": 22114,
+        "FILENAME": "ui_weapon-sword14.bmp"
+    },
+    {
+        "TEX_ID": 22115,
+        "FILENAME": "ui_weapon-sword15.bmp"
+    },
+    {
+        "TEX_ID": 22116,
+        "FILENAME": "ui_weapon-sword16.bmp"
+    },
+    {
+        "TEX_ID": 22117,
+        "FILENAME": "ui_weapon-sword17.bmp"
+    },
+    {
+        "TEX_ID": 22118,
+        "FILENAME": "ui_weapon-sword18.bmp"
+    },
+    {
+        "TEX_ID": 22119,
+        "FILENAME": "ui_button23_n_25x24.bmp"
+    },
+    {
+        "TEX_ID": 22120,
+        "FILENAME": "ui_button23_o_25x24.bmp"
+    },
+    {
+        "TEX_ID": 22121,
+        "FILENAME": "ui_button23_d_25x24.bmp"
+    },
+    {
+        "TEX_ID": 22122,
+        "FILENAME": "ui_button24_n_14x14.bmp"
+    },
+    {
+        "TEX_ID": 22123,
+        "FILENAME": "ui_weapon-fight01.bmp"
+    },
+    {
+        "TEX_ID": 22124,
+        "FILENAME": "ui_weapon-fight02.bmp"
+    },
+    {
+        "TEX_ID": 22125,
+        "FILENAME": "ui_weapon-fight03.bmp"
+    },
+    {
+        "TEX_ID": 22126,
+        "FILENAME": "ui_weapon-fight04.bmp"
+    },
+    {
+        "TEX_ID": 22127,
+        "FILENAME": "ui_weapon-fight05.bmp"
+    },
+    {
+        "TEX_ID": 22128,
+        "FILENAME": "ui_weapon-fight06.bmp"
+    },
+    {
+        "TEX_ID": 22129,
+        "FILENAME": "ui_weapon-fight07.bmp"
+    },
+    {
+        "TEX_ID": 22130,
+        "FILENAME": "ui_weapon-fight08.bmp"
+    },
+    {
+        "TEX_ID": 22131,
+        "FILENAME": "ui_weapon-fight09.bmp"
+    },
+    {
+        "TEX_ID": 22132,
+        "FILENAME": "ui_weapon-fight10.bmp"
+    },
+    {
+        "TEX_ID": 22133,
+        "FILENAME": "ui_weapon-fight11.bmp"
+    },
+    {
+        "TEX_ID": 22134,
+        "FILENAME": "ui_button24_o_14x14.bmp"
+    },
+    {
+        "TEX_ID": 22135,
+        "FILENAME": "ui_button24_d_14x14.bmp"
+    },
+    {
+        "TEX_ID": 22136,
+        "FILENAME": "ui_button25_n_14x14.bmp"
+    },
+    {
+        "TEX_ID": 22137,
+        "FILENAME": "ui_button25_o_14x14.bmp"
+    },
+    {
+        "TEX_ID": 22138,
+        "FILENAME": "ui_weapon-shortsword01.bmp"
+    },
+    {
+        "TEX_ID": 22139,
+        "FILENAME": "ui_weapon-shortsword02.bmp"
+    },
+    {
+        "TEX_ID": 22140,
+        "FILENAME": "ui_weapon-shortsword03.bmp"
+    },
+    {
+        "TEX_ID": 22141,
+        "FILENAME": "ui_weapon-shortsword04.bmp"
+    },
+    {
+        "TEX_ID": 22142,
+        "FILENAME": "ui_weapon-shortsword05.bmp"
+    },
+    {
+        "TEX_ID": 22143,
+        "FILENAME": "ui_weapon-shortsword06.bmp"
+    },
+    {
+        "TEX_ID": 22144,
+        "FILENAME": "ui_weapon-shortsword07.bmp"
+    },
+    {
+        "TEX_ID": 22145,
+        "FILENAME": "ui_weapon-shortsword08.bmp"
+    },
+    {
+        "TEX_ID": 22146,
+        "FILENAME": "ui_weapon-shortsword09.bmp"
+    },
+    {
+        "TEX_ID": 22147,
+        "FILENAME": "ui_weapon-shortsword10.bmp"
+    },
+    {
+        "TEX_ID": 22148,
+        "FILENAME": "ui_weapon-shortsword11.bmp"
+    },
+    {
+        "TEX_ID": 22149,
+        "FILENAME": "ui_button25_d_14x14.bmp"
+    },
+    {
+        "TEX_ID": 22150,
+        "FILENAME": "ui_button26_n_24x37.bmp"
+    },
+    {
+        "TEX_ID": 22151,
+        "FILENAME": "ui_button26_o_24x37.bmp"
+    },
+    {
+        "TEX_ID": 22152,
+        "FILENAME": "ui_assistmat-upgradejewel03.bmp"
+    },
+    {
+        "TEX_ID": 22153,
+        "FILENAME": "ui_weapon-axe01.bmp"
+    },
+    {
+        "TEX_ID": 22154,
+        "FILENAME": "ui_weapon-axe02.bmp"
+    },
+    {
+        "TEX_ID": 22155,
+        "FILENAME": "ui_weapon-axe03.bmp"
+    },
+    {
+        "TEX_ID": 22156,
+        "FILENAME": "ui_weapon-axe04.bmp"
+    },
+    {
+        "TEX_ID": 22157,
+        "FILENAME": "ui_weapon-axe05.bmp"
+    },
+    {
+        "TEX_ID": 22158,
+        "FILENAME": "ui_weapon-axe06.bmp"
+    },
+    {
+        "TEX_ID": 22159,
+        "FILENAME": "ui_weapon-axe07.bmp"
+    },
+    {
+        "TEX_ID": 22160,
+        "FILENAME": "ui_weapon-axe08.bmp"
+    },
+    {
+        "TEX_ID": 22161,
+        "FILENAME": "ui_weapon-axe09.bmp"
+    },
+    {
+        "TEX_ID": 22162,
+        "FILENAME": "ui_weapon-axe10.bmp"
+    },
+    {
+        "TEX_ID": 22163,
+        "FILENAME": "ui_weapon-axe11.bmp"
+    },
+    {
+        "TEX_ID": 22164,
+        "FILENAME": "ui_weapon-axe12.bmp"
+    },
+    {
+        "TEX_ID": 22165,
+        "FILENAME": "ui_weapon-axe13.bmp"
+    },
+    {
+        "TEX_ID": 22166,
+        "FILENAME": "ui_weapon-axe14.bmp"
+    },
+    {
+        "TEX_ID": 22167,
+        "FILENAME": "ui_weapon-axe15.bmp"
+    },
+    {
+        "TEX_ID": 22168,
+        "FILENAME": "ui_weapon-axe16.bmp"
+    },
+    {
+        "TEX_ID": 22169,
+        "FILENAME": "ui_weapon-axe17.bmp"
+    },
+    {
+        "TEX_ID": 22170,
+        "FILENAME": "ui_weapon-axe18.bmp"
+    },
+    {
+        "TEX_ID": 22171,
+        "FILENAME": "ui_weapon-axe19.bmp"
+    },
+    {
+        "TEX_ID": 22172,
+        "FILENAME": "ui_button26_d_24x37.bmp"
+    },
+    {
+        "TEX_ID": 22173,
+        "FILENAME": "ui_button27_n_38x23.bmp"
+    },
+    {
+        "TEX_ID": 22174,
+        "FILENAME": "ui_button27_o_38x23.bmp"
+    },
+    {
+        "TEX_ID": 22175,
+        "FILENAME": "ui_button27_d_38x23.bmp"
+    },
+    {
+        "TEX_ID": 22176,
+        "FILENAME": "ui_weapon-blunt01.bmp"
+    },
+    {
+        "TEX_ID": 22177,
+        "FILENAME": "ui_weapon-blunt02.bmp"
+    },
+    {
+        "TEX_ID": 22178,
+        "FILENAME": "ui_weapon-blunt03.bmp"
+    },
+    {
+        "TEX_ID": 22179,
+        "FILENAME": "ui_weapon-blunt04.bmp"
+    },
+    {
+        "TEX_ID": 22180,
+        "FILENAME": "ui_weapon-blunt05.bmp"
+    },
+    {
+        "TEX_ID": 22181,
+        "FILENAME": "ui_weapon-blunt06.bmp"
+    },
+    {
+        "TEX_ID": 22182,
+        "FILENAME": "ui_weapon-blunt07.bmp"
+    },
+    {
+        "TEX_ID": 22183,
+        "FILENAME": "ui_weapon-blunt08.bmp"
+    },
+    {
+        "TEX_ID": 22184,
+        "FILENAME": "ui_weapon-blunt09.bmp"
+    },
+    {
+        "TEX_ID": 22185,
+        "FILENAME": "ui_weapon-magic01.bmp"
+    },
+    {
+        "TEX_ID": 22186,
+        "FILENAME": "ui_weapon-magic02.bmp"
+    },
+    {
+        "TEX_ID": 22187,
+        "FILENAME": "ui_weapon-magic03.bmp"
+    },
+    {
+        "TEX_ID": 22188,
+        "FILENAME": "ui_weapon-magic04.bmp"
+    },
+    {
+        "TEX_ID": 22189,
+        "FILENAME": "ui_weapon-magic05.bmp"
+    },
+    {
+        "TEX_ID": 22190,
+        "FILENAME": "ui_weapon-magic06.bmp"
+    },
+    {
+        "TEX_ID": 22191,
+        "FILENAME": "ui_weapon-magic07.bmp"
+    },
+    {
+        "TEX_ID": 22192,
+        "FILENAME": "ui_weapon-magic08.bmp"
+    },
+    {
+        "TEX_ID": 22193,
+        "FILENAME": "ui_weapon-magic09.bmp"
+    },
+    {
+        "TEX_ID": 22194,
+        "FILENAME": "ui_weapon-magic10.bmp"
+    },
+    {
+        "TEX_ID": 22195,
+        "FILENAME": "ui_weapon-magic11.bmp"
+    },
+    {
+        "TEX_ID": 22196,
+        "FILENAME": "ui_weapon-magic12.bmp"
+    },
+    {
+        "TEX_ID": 22197,
+        "FILENAME": "ui_weapon-magic13.bmp"
+    },
+    {
+        "TEX_ID": 22198,
+        "FILENAME": "ui_weapon-magic14.bmp"
+    },
+    {
+        "TEX_ID": 22199,
+        "FILENAME": "ui_weapon-magic15.bmp"
+    },
+    {
+        "TEX_ID": 22200,
+        "FILENAME": "ui_weapon-magic16.bmp"
+    },
+    {
+        "TEX_ID": 22201,
+        "FILENAME": "ui_weapon-magic17.bmp"
+    },
+    {
+        "TEX_ID": 22202,
+        "FILENAME": "ui_weapon-magic18.bmp"
+    },
+    {
+        "TEX_ID": 22203,
+        "FILENAME": "ui_button28_n_32x29.bmp"
+    },
+    {
+        "TEX_ID": 22204,
+        "FILENAME": "ui_button28_o_32x29.bmp"
+    },
+    {
+        "TEX_ID": 22205,
+        "FILENAME": "ui_button28_d_32x29.bmp"
+    },
+    {
+        "TEX_ID": 22206,
+        "FILENAME": "ui_button39_n_64x19.bmp"
+    },
+    {
+        "TEX_ID": 22207,
+        "FILENAME": "ui_weapon-spear01.bmp"
+    },
+    {
+        "TEX_ID": 22208,
+        "FILENAME": "ui_weapon-spear02.bmp"
+    },
+    {
+        "TEX_ID": 22209,
+        "FILENAME": "ui_weapon-spear03.bmp"
+    },
+    {
+        "TEX_ID": 22210,
+        "FILENAME": "ui_weapon-spear04.bmp"
+    },
+    {
+        "TEX_ID": 22211,
+        "FILENAME": "ui_weapon-spear05.bmp"
+    },
+    {
+        "TEX_ID": 22212,
+        "FILENAME": "ui_weapon-spear06.bmp"
+    },
+    {
+        "TEX_ID": 22213,
+        "FILENAME": "ui_weapon-spear07.bmp"
+    },
+    {
+        "TEX_ID": 22214,
+        "FILENAME": "ui_weapon-spear08.bmp"
+    },
+    {
+        "TEX_ID": 22215,
+        "FILENAME": "ui_weapon-spear09.bmp"
+    },
+    {
+        "TEX_ID": 22216,
+        "FILENAME": "ui_weapon-spear10.bmp"
+    },
+    {
+        "TEX_ID": 22217,
+        "FILENAME": "ui_button39_o_64x19.bmp"
+    },
+    {
+        "TEX_ID": 22218,
+        "FILENAME": "ui_button39_d_64x19.bmp"
+    },
+    {
+        "TEX_ID": 22219,
+        "FILENAME": "ui_progressbar08_162x9.bmp"
+    },
+    {
+        "TEX_ID": 22220,
+        "FILENAME": "ui_target01_25x18.bmp"
+    },
+    {
+        "TEX_ID": 22221,
+        "FILENAME": "ui_weapon-throw01.bmp"
+    },
+    {
+        "TEX_ID": 22222,
+        "FILENAME": "ui_weapon-throw02.bmp"
+    },
+    {
+        "TEX_ID": 22223,
+        "FILENAME": "command_monster_defense.bmp"
+    },
+    {
+        "TEX_ID": 22224,
+        "FILENAME": "ui_weapon-bow_danba.bmp"
+    },
+    {
+        "TEX_ID": 22225,
+        "FILENAME": "ui_weapon-bow_kapa.bmp"
+    },
+    {
+        "TEX_ID": 22226,
+        "FILENAME": "ui_weapon-bow_pakala.bmp"
+    },
+    {
+        "TEX_ID": 22227,
+        "FILENAME": "ui_defence-hat01.bmp"
+    },
+    {
+        "TEX_ID": 22228,
+        "FILENAME": "ui_defence-hat02.bmp"
+    },
+    {
+        "TEX_ID": 22229,
+        "FILENAME": "ui_defence-hat03.bmp"
+    },
+    {
+        "TEX_ID": 22230,
+        "FILENAME": "ui_defence-hat04.bmp"
+    },
+    {
+        "TEX_ID": 22231,
+        "FILENAME": "ui_defence-hat05.bmp"
+    },
+    {
+        "TEX_ID": 22232,
+        "FILENAME": "ui_defence-hat06.bmp"
+    },
+    {
+        "TEX_ID": 22233,
+        "FILENAME": "ui_defence-hat07.bmp"
+    },
+    {
+        "TEX_ID": 22234,
+        "FILENAME": "ui_defence-hat08.bmp"
+    },
+    {
+        "TEX_ID": 22235,
+        "FILENAME": "ui_defence-hat09.bmp"
+    },
+    {
+        "TEX_ID": 22236,
+        "FILENAME": "ui_defence-hat10.bmp"
+    },
+    {
+        "TEX_ID": 22237,
+        "FILENAME": "ui_defence-hat11.bmp"
+    },
+    {
+        "TEX_ID": 22238,
+        "FILENAME": "ui_defence-hat12.bmp"
+    },
+    {
+        "TEX_ID": 22239,
+        "FILENAME": "ui_defence-hat13.bmp"
+    },
+    {
+        "TEX_ID": 22240,
+        "FILENAME": "ui_defence-hat14.bmp"
+    },
+    {
+        "TEX_ID": 22241,
+        "FILENAME": "ui_defence-hat15.bmp"
+    },
+    {
+        "TEX_ID": 22242,
+        "FILENAME": "ui_defence-hat16.bmp"
+    },
+    {
+        "TEX_ID": 22243,
+        "FILENAME": "ui_defence-hat17.bmp"
+    },
+    {
+        "TEX_ID": 22244,
+        "FILENAME": "ui_defence-hat18.bmp"
+    },
+    {
+        "TEX_ID": 22245,
+        "FILENAME": "ui_defence-hat19.bmp"
+    },
+    {
+        "TEX_ID": 22246,
+        "FILENAME": "ui_defence-hat20.bmp"
+    },
+    {
+        "TEX_ID": 22247,
+        "FILENAME": "ui_target02_18x25.bmp"
+    },
+    {
+        "TEX_ID": 22248,
+        "FILENAME": "ui_target03_18x25.bmp"
+    },
+    {
+        "TEX_ID": 22249,
+        "FILENAME": "ui_target04_25x18.bmp"
+    },
+    {
+        "TEX_ID": 22250,
+        "FILENAME": "ui_widthline02_32x6.bmp"
+    },
+    {
+        "TEX_ID": 22251,
+        "FILENAME": "ui_defence-shoe01.bmp"
+    },
+    {
+        "TEX_ID": 22252,
+        "FILENAME": "ui_defence-shoe02.bmp"
+    },
+    {
+        "TEX_ID": 22253,
+        "FILENAME": "ui_defence-shoe03.bmp"
+    },
+    {
+        "TEX_ID": 22254,
+        "FILENAME": "ui_defence-shoe04.bmp"
+    },
+    {
+        "TEX_ID": 22255,
+        "FILENAME": "ui_defence-shoe05.bmp"
+    },
+    {
+        "TEX_ID": 22256,
+        "FILENAME": "ui_defence-shoe06.bmp"
+    },
+    {
+        "TEX_ID": 22257,
+        "FILENAME": "ui_defence-shoe07.bmp"
+    },
+    {
+        "TEX_ID": 22258,
+        "FILENAME": "banutiza_shoe.bmp"
+    },
+    {
+        "TEX_ID": 22259,
+        "FILENAME": "barahaja_shoe.bmp"
+    },
+    {
+        "TEX_ID": 22260,
+        "FILENAME": "ui_button40_n_60x62.bmp"
+    },
+    {
+        "TEX_ID": 22261,
+        "FILENAME": "ui_box05_25x19.bmp"
+    },
+    {
+        "TEX_ID": 22262,
+        "FILENAME": "ui_defence-cloth01.bmp"
+    },
+    {
+        "TEX_ID": 22263,
+        "FILENAME": "ui_defence-cloth02.bmp"
+    },
+    {
+        "TEX_ID": 22264,
+        "FILENAME": "ui_defence-cloth03.bmp"
+    },
+    {
+        "TEX_ID": 22265,
+        "FILENAME": "ui_defence-cloth04.bmp"
+    },
+    {
+        "TEX_ID": 22266,
+        "FILENAME": "ui_defence-cloth05.bmp"
+    },
+    {
+        "TEX_ID": 22267,
+        "FILENAME": "ui_defence-cloth06.bmp"
+    },
+    {
+        "TEX_ID": 22268,
+        "FILENAME": "ui_defence-cloth07.bmp"
+    },
+    {
+        "TEX_ID": 22269,
+        "FILENAME": "ui_defence-cloth08.bmp"
+    },
+    {
+        "TEX_ID": 22270,
+        "FILENAME": "ui_defence-cloth09.bmp"
+    },
+    {
+        "TEX_ID": 22271,
+        "FILENAME": "ui_defence-cloth10.bmp"
+    },
+    {
+        "TEX_ID": 22272,
+        "FILENAME": "ui_defence-cloth11.bmp"
+    },
+    {
+        "TEX_ID": 22273,
+        "FILENAME": "ui_defence-cloth12.bmp"
+    },
+    {
+        "TEX_ID": 22274,
+        "FILENAME": "ui_defence-cloth13.bmp"
+    },
+    {
+        "TEX_ID": 22275,
+        "FILENAME": "ui_defence-cloth14.bmp"
+    },
+    {
+        "TEX_ID": 22276,
+        "FILENAME": "ui_defence-cloth15.bmp"
+    },
+    {
+        "TEX_ID": 22277,
+        "FILENAME": "ui_defence-cloth16.bmp"
+    },
+    {
+        "TEX_ID": 22278,
+        "FILENAME": "ui_defence-cloth17.bmp"
+    },
+    {
+        "TEX_ID": 22279,
+        "FILENAME": "ui_defence-cloth18.bmp"
+    },
+    {
+        "TEX_ID": 22280,
+        "FILENAME": "ui_defence-cloth19.bmp"
+    },
+    {
+        "TEX_ID": 22281,
+        "FILENAME": "ui_defence-cloth20.bmp"
+    },
+    {
+        "TEX_ID": 22282,
+        "FILENAME": "ui_defence-cloth21.bmp"
+    },
+    {
+        "TEX_ID": 22283,
+        "FILENAME": "ui_defence-cloth22.bmp"
+    },
+    {
+        "TEX_ID": 22284,
+        "FILENAME": "banutiza_up.bmp"
+    },
+    {
+        "TEX_ID": 22285,
+        "FILENAME": "barahaja_up.bmp"
+    },
+    {
+        "TEX_ID": 22286,
+        "FILENAME": "ui_defence_shield01.bmp"
+    },
+    {
+        "TEX_ID": 22287,
+        "FILENAME": "ui_defence_shield02.bmp"
+    },
+    {
+        "TEX_ID": 22288,
+        "FILENAME": "ui_defence_shield03.bmp"
+    },
+    {
+        "TEX_ID": 22289,
+        "FILENAME": "ui_defence_shield04.bmp"
+    },
+    {
+        "TEX_ID": 22290,
+        "FILENAME": "ui_defence_shield05.bmp"
+    },
+    {
+        "TEX_ID": 22291,
+        "FILENAME": "ui_defence_shield06.bmp"
+    },
+    {
+        "TEX_ID": 22292,
+        "FILENAME": "ui_defence_shield07.bmp"
+    },
+    {
+        "TEX_ID": 22293,
+        "FILENAME": "ui_defence_shield08.bmp"
+    },
+    {
+        "TEX_ID": 22294,
+        "FILENAME": "ui_box30_38x11.bmp"
+    },
+    {
+        "TEX_ID": 22295,
+        "FILENAME": "ui_box74_38x40.bmp"
+    },
+    {
+        "TEX_ID": 22296,
+        "FILENAME": "ui_box59_39x39.bmp"
+    },
+    {
+        "TEX_ID": 22297,
+        "FILENAME": "ui_acc-earing01.bmp"
+    },
+    {
+        "TEX_ID": 22298,
+        "FILENAME": "ui_acc-earing02.bmp"
+    },
+    {
+        "TEX_ID": 22299,
+        "FILENAME": "ui_acc-earing03.bmp"
+    },
+    {
+        "TEX_ID": 22300,
+        "FILENAME": "ui_acc-earing04.bmp"
+    },
+    {
+        "TEX_ID": 22301,
+        "FILENAME": "ui_acc-earing05.bmp"
+    },
+    {
+        "TEX_ID": 22302,
+        "FILENAME": "ui_box51_11x38.bmp"
+    },
+    {
+        "TEX_ID": 22303,
+        "FILENAME": "ui_box52_40x36.bmp"
+    },
+    {
+        "TEX_ID": 22304,
+        "FILENAME": "ui_box20_7x9.bmp"
+    },
+    {
+        "TEX_ID": 22305,
+        "FILENAME": "ui_button40_o_60x62.bmp"
+    },
+    {
+        "TEX_ID": 22306,
+        "FILENAME": "ui_acc-necklace01.bmp"
+    },
+    {
+        "TEX_ID": 22307,
+        "FILENAME": "ui_acc-necklace02.bmp"
+    },
+    {
+        "TEX_ID": 22308,
+        "FILENAME": "ui_acc-necklace03.bmp"
+    },
+    {
+        "TEX_ID": 22309,
+        "FILENAME": "ui_acc-necklace04.bmp"
+    },
+    {
+        "TEX_ID": 22310,
+        "FILENAME": "ui_acc-necklace05.bmp"
+    },
+    {
+        "TEX_ID": 22311,
+        "FILENAME": "ui_button40_d_60x62.bmp"
+    },
+    {
+        "TEX_ID": 22312,
+        "FILENAME": "ui_widthline03_5x27.bmp"
+    },
+    {
+        "TEX_ID": 22313,
+        "FILENAME": "ui_widthline03_79x16.bmp"
+    },
+    {
+        "TEX_ID": 22314,
+        "FILENAME": "ui_siegemark01.bmp"
+    },
+    {
+        "TEX_ID": 22315,
+        "FILENAME": "ui_acc-belt01.bmp"
+    },
+    {
+        "TEX_ID": 22316,
+        "FILENAME": "ui_acc-belt02.bmp"
+    },
+    {
+        "TEX_ID": 22317,
+        "FILENAME": "ui_acc-belt03.bmp"
+    },
+    {
+        "TEX_ID": 22318,
+        "FILENAME": "ui_acc-belt04.bmp"
+    },
+    {
+        "TEX_ID": 22319,
+        "FILENAME": "ui_acc-belt05.bmp"
+    },
+    {
+        "TEX_ID": 22320,
+        "FILENAME": "ui_acc-belt06.bmp"
+    },
+    {
+        "TEX_ID": 22321,
+        "FILENAME": "ui_siegemark02.bmp"
+    },
+    {
+        "TEX_ID": 22322,
+        "FILENAME": "ui_siegemark03.bmp"
+    },
+    {
+        "TEX_ID": 22323,
+        "FILENAME": "ui_acc-bracelet01.bmp"
+    },
+    {
+        "TEX_ID": 22324,
+        "FILENAME": "ui_acc-bracelet02.bmp"
+    },
+    {
+        "TEX_ID": 22325,
+        "FILENAME": "ui_acc-bracelet03.bmp"
+    },
+    {
+        "TEX_ID": 22326,
+        "FILENAME": "ui_acc-bracelet04.bmp"
+    },
+    {
+        "TEX_ID": 22327,
+        "FILENAME": "ui_acc-bracelet05.bmp"
+    },
+    {
+        "TEX_ID": 22328,
+        "FILENAME": "ui_siegemark04.bmp"
+    },
+    {
+        "TEX_ID": 22329,
+        "FILENAME": "ui_siegemark05.bmp"
+    },
+    {
+        "TEX_ID": 22330,
+        "FILENAME": "ui_item_medaloftheking.bmp"
+    },
+    {
+        "TEX_ID": 22331,
+        "FILENAME": "ui_assistmat-lowstrengthrefine01.bmp"
+    },
+    {
+        "TEX_ID": 22332,
+        "FILENAME": "ui_assistmat-totaldamage.bmp"
+    },
+    {
+        "TEX_ID": 22333,
+        "FILENAME": "ui_assistmat-accurate.bmp"
+    },
+    {
+        "TEX_ID": 22334,
+        "FILENAME": "ui_assistmat-cold.bmp"
+    },
+    {
+        "TEX_ID": 22335,
+        "FILENAME": "ui_assistmat-poison.bmp"
+    },
+    {
+        "TEX_ID": 22336,
+        "FILENAME": "ui_assistmat-fire.bmp"
+    },
+    {
+        "TEX_ID": 22337,
+        "FILENAME": "ui_assistmat-musclechakra.bmp"
+    },
+    {
+        "TEX_ID": 22338,
+        "FILENAME": "ui_assistmat-nervechakra.bmp"
+    },
+    {
+        "TEX_ID": 22339,
+        "FILENAME": "ui_assistmat-heartchakra.bmp"
+    },
+    {
+        "TEX_ID": 22340,
+        "FILENAME": "ui_assistmat-spiritchakra.bmp"
+    },
+    {
+        "TEX_ID": 22341,
+        "FILENAME": "ui_assistmat-upgradejewel01.bmp"
+    },
+    {
+        "TEX_ID": 22342,
+        "FILENAME": "ui_assistmat-upgradejewel02.bmp"
+    },
+    {
+        "TEX_ID": 22343,
+        "FILENAME": "ui_assistmat-thunder.bmp"
+    },
+    {
+        "TEX_ID": 22344,
+        "FILENAME": "ui_assistmat-highmagicrefine01.bmp"
+    },
+    {
+        "TEX_ID": 22345,
+        "FILENAME": "ui_assistmat-highmagicrefine02.bmp"
+    },
+    {
+        "TEX_ID": 22346,
+        "FILENAME": "ui_assistmat-highmagicrefine03.bmp"
+    },
+    {
+        "TEX_ID": 22347,
+        "FILENAME": "ui_assistmat-highmagicrefine04.bmp"
+    },
+    {
+        "TEX_ID": 22348,
+        "FILENAME": "ui_consume-hpup01.bmp"
+    },
+    {
+        "TEX_ID": 22349,
+        "FILENAME": "ui_consume-hpup02.bmp"
+    },
+    {
+        "TEX_ID": 22350,
+        "FILENAME": "ui_consume-hpup03.bmp"
+    },
+    {
+        "TEX_ID": 22351,
+        "FILENAME": "ui_consume-hpup04.bmp"
+    },
+    {
+        "TEX_ID": 22352,
+        "FILENAME": "ui_consume-hpup05.bmp"
+    },
+    {
+        "TEX_ID": 22353,
+        "FILENAME": "ui_consume-tpup01.bmp"
+    },
+    {
+        "TEX_ID": 22354,
+        "FILENAME": "ui_consume-tpup02.bmp"
+    },
+    {
+        "TEX_ID": 22355,
+        "FILENAME": "ui_consume-tpup03.bmp"
+    },
+    {
+        "TEX_ID": 22356,
+        "FILENAME": "ui_consume-tpup04.bmp"
+    },
+    {
+        "TEX_ID": 22357,
+        "FILENAME": "ui_consume-tpup05.bmp"
+    },
+    {
+        "TEX_ID": 22358,
+        "FILENAME": "ui_consume-moveorder.bmp"
+    },
+    {
+        "TEX_ID": 22359,
+        "FILENAME": "ui_consume-arrow.bmp"
+    },
+    {
+        "TEX_ID": 22360,
+        "FILENAME": "ui_consume-lifejewel.bmp"
+    },
+    {
+        "TEX_ID": 22361,
+        "FILENAME": "ui_consume-jibapustica.bmp"
+    },
+    {
+        "TEX_ID": 22362,
+        "FILENAME": "ui_gatherweapon-sword01.bmp"
+    },
+    {
+        "TEX_ID": 22363,
+        "FILENAME": "ui_gatherweapon-sword02.bmp"
+    },
+    {
+        "TEX_ID": 22364,
+        "FILENAME": "ui_gatherweapon-sword03.bmp"
+    },
+    {
+        "TEX_ID": 22365,
+        "FILENAME": "ui_gatherweapon-axe01.bmp"
+    },
+    {
+        "TEX_ID": 22366,
+        "FILENAME": "ui_gatherweapon-blunt01.bmp"
+    },
+    {
+        "TEX_ID": 22367,
+        "FILENAME": "ui_gatherweapon-magic01.bmp"
+    },
+    {
+        "TEX_ID": 22368,
+        "FILENAME": "ui_gatherweapon-spear01.bmp"
+    },
+    {
+        "TEX_ID": 22369,
+        "FILENAME": "ui_gatherweapon-spear02.bmp"
+    },
+    {
+        "TEX_ID": 22370,
+        "FILENAME": "ui_gatherweapon-magic01.bmp"
+    },
+    {
+        "TEX_ID": 22371,
+        "FILENAME": "ui_safari_ticket.bmp"
+    },
+    {
+        "TEX_ID": 22372,
+        "FILENAME": "ui_box75_39x39.bmp"
+    },
+    {
+        "TEX_ID": 22373,
+        "FILENAME": "ui_box76_39x39.bmp"
+    },
+    {
+        "TEX_ID": 22374,
+        "FILENAME": "ui_box77_39x39.bmp"
+    },
+    {
+        "TEX_ID": 22375,
+        "FILENAME": "ui_gatheritem-dragonskin.bmp"
+    },
+    {
+        "TEX_ID": 22376,
+        "FILENAME": "ui_gatheritem-magicbook01.bmp"
+    },
+    {
+        "TEX_ID": 22377,
+        "FILENAME": "ui_gatheritem-magicbook02.bmp"
+    },
+    {
+        "TEX_ID": 22378,
+        "FILENAME": "ui_gatheritem-magicbook01.bmp"
+    },
+    {
+        "TEX_ID": 22379,
+        "FILENAME": "ui_gatheritem-magicbook02.bmp"
+    },
+    {
+        "TEX_ID": 22380,
+        "FILENAME": "ui_box78_39x39.bmp"
+    },
+    {
+        "TEX_ID": 22381,
+        "FILENAME": "ui_box79_39x39.bmp"
+    },
+    {
+        "TEX_ID": 22382,
+        "FILENAME": "ui_event_cehck01.bmp"
+    },
+    {
+        "TEX_ID": 22383,
+        "FILENAME": "ui_event_cehck02.bmp"
+    },
+    {
+        "TEX_ID": 22384,
+        "FILENAME": "ui_gatheracc-necklace01.bmp"
+    },
+    {
+        "TEX_ID": 22385,
+        "FILENAME": "ui_gatheracc-necklace02.bmp"
+    },
+    {
+        "TEX_ID": 22386,
+        "FILENAME": "ui_gatheracc-necklace03.bmp"
+    },
+    {
+        "TEX_ID": 22387,
+        "FILENAME": "ui_gatheracc-necklace04.bmp"
+    },
+    {
+        "TEX_ID": 22388,
+        "FILENAME": "ui_gatheracc-necklace05.bmp"
+    },
+    {
+        "TEX_ID": 22389,
+        "FILENAME": "ui_gatheracc-armlet01.bmp"
+    },
+    {
+        "TEX_ID": 22390,
+        "FILENAME": "ui_gatheracc-armlet02.bmp"
+    },
+    {
+        "TEX_ID": 22391,
+        "FILENAME": "ui_gatheracc-armlet03.bmp"
+    },
+    {
+        "TEX_ID": 22392,
+        "FILENAME": "ui_gatheracc-armlet04.bmp"
+    },
+    {
+        "TEX_ID": 22393,
+        "FILENAME": "ui_gatheracc-armlet05.bmp"
+    },
+    {
+        "TEX_ID": 22394,
+        "FILENAME": "ui_gatheracc-belt01.bmp"
+    },
+    {
+        "TEX_ID": 22395,
+        "FILENAME": "ui_gatheracc-belt02.bmp"
+    },
+    {
+        "TEX_ID": 22396,
+        "FILENAME": "ui_gatheracc-belt03.bmp"
+    },
+    {
+        "TEX_ID": 22397,
+        "FILENAME": "ui_widthline_ex_12_1x11.bmp"
+    },
+    {
+        "TEX_ID": 22398,
+        "FILENAME": "ui_box01.bmp"
+    },
+    {
+        "TEX_ID": 22399,
+        "FILENAME": "ui_box02.bmp"
+    },
+    {
+        "TEX_ID": 22400,
+        "FILENAME": "ui_widthline03_1x3.bmp"
+    },
+    {
+        "TEX_ID": 22401,
+        "FILENAME": "ui_gathermat-skin01.bmp"
+    },
+    {
+        "TEX_ID": 22402,
+        "FILENAME": "ui_gathermat-stornheart01.bmp"
+    },
+    {
+        "TEX_ID": 22403,
+        "FILENAME": "ui_gathermat-stornheart02.bmp"
+    },
+    {
+        "TEX_ID": 22404,
+        "FILENAME": "ui_gathermat-marablood.bmp"
+    },
+    {
+        "TEX_ID": 22405,
+        "FILENAME": "ui_gathermat-headband01.bmp"
+    },
+    {
+        "TEX_ID": 22406,
+        "FILENAME": "ui_gathermat-headband02.bmp"
+    },
+    {
+        "TEX_ID": 22407,
+        "FILENAME": "ui_gathermat-headband03.bmp"
+    },
+    {
+        "TEX_ID": 22408,
+        "FILENAME": "ui_gathermat-charm01.bmp"
+    },
+    {
+        "TEX_ID": 22409,
+        "FILENAME": "ui_gathermat-charm02.bmp"
+    },
+    {
+        "TEX_ID": 22410,
+        "FILENAME": "ui_gathermat-horn01.bmp"
+    },
+    {
+        "TEX_ID": 22411,
+        "FILENAME": "ui_gathermat-horn02.bmp"
+    },
+    {
+        "TEX_ID": 22412,
+        "FILENAME": "ui_gathermat-horn03.bmp"
+    },
+    {
+        "TEX_ID": 22413,
+        "FILENAME": "ui_gathermat-horn04.bmp"
+    },
+    {
+        "TEX_ID": 22414,
+        "FILENAME": "ui_gathermat-horn05.bmp"
+    },
+    {
+        "TEX_ID": 22415,
+        "FILENAME": "ui_gathermat-coal01.bmp"
+    },
+    {
+        "TEX_ID": 22416,
+        "FILENAME": "ui_gathermat-coal02.bmp"
+    },
+    {
+        "TEX_ID": 22417,
+        "FILENAME": "ui_gathermat-coal03.bmp"
+    },
+    {
+        "TEX_ID": 22418,
+        "FILENAME": "ui_gathermat-drilltooth01.bmp"
+    },
+    {
+        "TEX_ID": 22419,
+        "FILENAME": "ui_gathermat-drilltooth02.bmp"
+    },
+    {
+        "TEX_ID": 22420,
+        "FILENAME": "ui_gathermat-drilltooth03.bmp"
+    },
+    {
+        "TEX_ID": 22421,
+        "FILENAME": "ui_gathermat-soulbead.bmp"
+    },
+    {
+        "TEX_ID": 22422,
+        "FILENAME": "ui_gathermat-backskin01.bmp"
+    },
+    {
+        "TEX_ID": 22423,
+        "FILENAME": "ui_gathermat-backskin02.bmp"
+    },
+    {
+        "TEX_ID": 22424,
+        "FILENAME": "ui_gathermat-marablackblood.bmp"
+    },
+    {
+        "TEX_ID": 22425,
+        "FILENAME": "ui_gathermat-jatuwing.bmp"
+    },
+    {
+        "TEX_ID": 22426,
+        "FILENAME": "ui_gathermat-textilepiece01.bmp"
+    },
+    {
+        "TEX_ID": 22427,
+        "FILENAME": "ui_gathermat-textilepiece02.bmp"
+    },
+    {
+        "TEX_ID": 22428,
+        "FILENAME": "ui_gathermat-textilepiece03.bmp"
+    },
+    {
+        "TEX_ID": 22429,
+        "FILENAME": "banutiza_down.bmp"
+    },
+    {
+        "TEX_ID": 22430,
+        "FILENAME": "barahaja_down.bmp"
+    },
+    {
+        "TEX_ID": 22431,
+        "FILENAME": "ui_event_shinwha.bmp"
+    },
+    {
+        "TEX_ID": 22432,
+        "FILENAME": "ui_quest-skinbag01.bmp"
+    },
+    {
+        "TEX_ID": 22433,
+        "FILENAME": "ui_quest-skinbag02.bmp"
+    },
+    {
+        "TEX_ID": 22434,
+        "FILENAME": "ui_quest-scripture01.bmp"
+    },
+    {
+        "TEX_ID": 22435,
+        "FILENAME": "ui_quest-guildcertificate01.bmp"
+    },
+    {
+        "TEX_ID": 22436,
+        "FILENAME": "ui_quest-rapbox01.bmp"
+    },
+    {
+        "TEX_ID": 22437,
+        "FILENAME": "ui_quest-rapbox02.bmp"
+    },
+    {
+        "TEX_ID": 22438,
+        "FILENAME": "ui_quest-charm01.bmp"
+    },
+    {
+        "TEX_ID": 22439,
+        "FILENAME": "ui_quest-letter01.bmp"
+    },
+    {
+        "TEX_ID": 22440,
+        "FILENAME": "ui_quest-letter02.bmp"
+    },
+    {
+        "TEX_ID": 22441,
+        "FILENAME": "ui_quest-certificatemat01.bmp"
+    },
+    {
+        "TEX_ID": 22442,
+        "FILENAME": "ui_quest-certificatemat02.bmp"
+    },
+    {
+        "TEX_ID": 22443,
+        "FILENAME": "ui_quest-certificatemat03.bmp"
+    },
+    {
+        "TEX_ID": 22444,
+        "FILENAME": "ui_quest-egg01.bmp"
+    },
+    {
+        "TEX_ID": 22445,
+        "FILENAME": "ui_quest-cloth01.bmp"
+    },
+    {
+        "TEX_ID": 22446,
+        "FILENAME": "ui_quest-cloth02.bmp"
+    },
+    {
+        "TEX_ID": 22447,
+        "FILENAME": "ui_quest-toughthread-01.bmp"
+    },
+    {
+        "TEX_ID": 22448,
+        "FILENAME": "ui_quest-friendnamecloth-01.bmp"
+    },
+    {
+        "TEX_ID": 22449,
+        "FILENAME": "ui_quest-drukaproof-01.bmp"
+    },
+    {
+        "TEX_ID": 22450,
+        "FILENAME": "ui_quest-banarproof-01.bmp"
+    },
+    {
+        "TEX_ID": 22451,
+        "FILENAME": "item_invenbag_2x4.bmp"
+    },
+    {
+        "TEX_ID": 22452,
+        "FILENAME": "item_invenbag_4x4.bmp"
+    },
+    {
+        "TEX_ID": 22453,
+        "FILENAME": "item_invenbag_10x4.bmp"
+    },
+    {
+        "TEX_ID": 22454,
+        "FILENAME": "item_invenbag_12x4.bmp"
+    },
+    {
+        "TEX_ID": 22455,
+        "FILENAME": "ui_gathermat-crystal01.bmp"
+    },
+    {
+        "TEX_ID": 22456,
+        "FILENAME": "ui_charged_vikaari.bmp"
+    },
+    {
+        "TEX_ID": 22457,
+        "FILENAME": "ui_acc-ring01.bmp"
+    },
+    {
+        "TEX_ID": 22458,
+        "FILENAME": "ui_acc-ring02.bmp"
+    },
+    {
+        "TEX_ID": 22459,
+        "FILENAME": "ui_acc-ring03.bmp"
+    },
+    {
+        "TEX_ID": 22460,
+        "FILENAME": "ui_acc-ring04.bmp"
+    },
+    {
+        "TEX_ID": 22461,
+        "FILENAME": "ui_acc-ring05.bmp"
+    },
+    {
+        "TEX_ID": 22462,
+        "FILENAME": "ui_event_curry_32.bmp"
+    },
+    {
+        "TEX_ID": 22463,
+        "FILENAME": "ui_button44_n_64x21.bmp"
+    },
+    {
+        "TEX_ID": 22464,
+        "FILENAME": "ui_button44_o_64x21.bmp"
+    },
+    {
+        "TEX_ID": 22465,
+        "FILENAME": "ui_defence_trousers01.bmp"
+    },
+    {
+        "TEX_ID": 22466,
+        "FILENAME": "ui_defence_trousers02.bmp"
+    },
+    {
+        "TEX_ID": 22467,
+        "FILENAME": "ui_defence_trousers03.bmp"
+    },
+    {
+        "TEX_ID": 22468,
+        "FILENAME": "ui_defence_trousers04.bmp"
+    },
+    {
+        "TEX_ID": 22469,
+        "FILENAME": "ui_defence_trousers05.bmp"
+    },
+    {
+        "TEX_ID": 22470,
+        "FILENAME": "ui_defence_trousers06.bmp"
+    },
+    {
+        "TEX_ID": 22471,
+        "FILENAME": "ui_defence_trousers07.bmp"
+    },
+    {
+        "TEX_ID": 22472,
+        "FILENAME": "ui_defence_trousers08.bmp"
+    },
+    {
+        "TEX_ID": 22473,
+        "FILENAME": "ui_defence_trousers09.bmp"
+    },
+    {
+        "TEX_ID": 22474,
+        "FILENAME": "ui_defence_trousers10.bmp"
+    },
+    {
+        "TEX_ID": 22475,
+        "FILENAME": "ui_defence_trousers11.bmp"
+    },
+    {
+        "TEX_ID": 22476,
+        "FILENAME": "ui_defence_trousers12.bmp"
+    },
+    {
+        "TEX_ID": 22477,
+        "FILENAME": "ui_defence_trousers13.bmp"
+    },
+    {
+        "TEX_ID": 22478,
+        "FILENAME": "ui_defence_trousers14.bmp"
+    },
+    {
+        "TEX_ID": 22479,
+        "FILENAME": "ui_defence_trousers15.bmp"
+    },
+    {
+        "TEX_ID": 22480,
+        "FILENAME": "ui_defence_trousers16.bmp"
+    },
+    {
+        "TEX_ID": 22481,
+        "FILENAME": "ui_defence_trousers17.bmp"
+    },
+    {
+        "TEX_ID": 22482,
+        "FILENAME": "ui_defence_trousers18.bmp"
+    },
+    {
+        "TEX_ID": 22483,
+        "FILENAME": "ui_defence_trousers19.bmp"
+    },
+    {
+        "TEX_ID": 22484,
+        "FILENAME": "ui_defence_trousers20.bmp"
+    },
+    {
+        "TEX_ID": 22485,
+        "FILENAME": "ui_button44_d_64x21.bmp"
+    },
+    {
+        "TEX_ID": 22486,
+        "FILENAME": "ui_button43_n_31x21.bmp"
+    },
+    {
+        "TEX_ID": 22487,
+        "FILENAME": "ui_consume-attackspeedup01.bmp"
+    },
+    {
+        "TEX_ID": 22488,
+        "FILENAME": "ui_consume-abilityup01.bmp"
+    },
+    {
+        "TEX_ID": 22489,
+        "FILENAME": "ui_consume-abilityup02.bmp"
+    },
+    {
+        "TEX_ID": 22490,
+        "FILENAME": "ui_consume-poisonreturn01.bmp"
+    },
+    {
+        "TEX_ID": 22491,
+        "FILENAME": "ui_consume-defenceup01.bmp"
+    },
+    {
+        "TEX_ID": 22492,
+        "FILENAME": "ui_consume-defenceup02.bmp"
+    },
+    {
+        "TEX_ID": 22493,
+        "FILENAME": "ui_consume-defenceup03.bmp"
+    },
+    {
+        "TEX_ID": 22494,
+        "FILENAME": "ui_consume-movespeedup01.bmp"
+    },
+    {
+        "TEX_ID": 22495,
+        "FILENAME": "ui_consume-statusreturn01.bmp"
+    },
+    {
+        "TEX_ID": 22496,
+        "FILENAME": "ui_consume-resistup01.bmp"
+    },
+    {
+        "TEX_ID": 22497,
+        "FILENAME": "ui_consume-resistup02.bmp"
+    },
+    {
+        "TEX_ID": 22498,
+        "FILENAME": "ui_consume-resistup03.bmp"
+    },
+    {
+        "TEX_ID": 22499,
+        "FILENAME": "ui_consume-castingspeedup01.bmp"
+    },
+    {
+        "TEX_ID": 22500,
+        "FILENAME": "ui_consume-castingfaildown01.bmp"
+    },
+    {
+        "TEX_ID": 22501,
+        "FILENAME": "ui_button43_o_31x21.bmp"
+    },
+    {
+        "TEX_ID": 22502,
+        "FILENAME": "ui_gathermat-rake 01.bmp"
+    },
+    {
+        "TEX_ID": 22503,
+        "FILENAME": "ui_gathermat-troopsnumber 01.bmp"
+    },
+    {
+        "TEX_ID": 22504,
+        "FILENAME": "ui_gathermat-branch 01.bmp"
+    },
+    {
+        "TEX_ID": 22505,
+        "FILENAME": "ui_gathermat-branch 02.bmp"
+    },
+    {
+        "TEX_ID": 22506,
+        "FILENAME": "ui_gathermat-axehandle 01.bmp"
+    },
+    {
+        "TEX_ID": 22507,
+        "FILENAME": "ui_gathermat-poisonsting 01.bmp"
+    },
+    {
+        "TEX_ID": 22508,
+        "FILENAME": "ui_gathermat-skul 01.bmp"
+    },
+    {
+        "TEX_ID": 22509,
+        "FILENAME": "ui_gathermat-skul 02.bmp"
+    },
+    {
+        "TEX_ID": 22510,
+        "FILENAME": "ui_gathermat-horsehoop 01.bmp"
+    },
+    {
+        "TEX_ID": 22511,
+        "FILENAME": "ui_gathermat-headdeco 01.bmp"
+    },
+    {
+        "TEX_ID": 22512,
+        "FILENAME": "ui_gathermat-batwing 01.bmp"
+    },
+    {
+        "TEX_ID": 22513,
+        "FILENAME": "ui_gathermat-batwing 02.bmp"
+    },
+    {
+        "TEX_ID": 22514,
+        "FILENAME": "ui_gathermat-toenail 01.bmp"
+    },
+    {
+        "TEX_ID": 22515,
+        "FILENAME": "ui_gathermat-toenail 02.bmp"
+    },
+    {
+        "TEX_ID": 22516,
+        "FILENAME": "ui_gathermat-whitetigerskin 01.bmp"
+    },
+    {
+        "TEX_ID": 22517,
+        "FILENAME": "ui_gathermat-snaketail 01.bmp"
+    },
+    {
+        "TEX_ID": 22518,
+        "FILENAME": "ui_gathermat-snaketail 02.bmp"
+    },
+    {
+        "TEX_ID": 22519,
+        "FILENAME": "ui_gathermat-northsoldierhat 01.bmp"
+    },
+    {
+        "TEX_ID": 22520,
+        "FILENAME": "ui_gathermat-drumstick 01.bmp"
+    },
+    {
+        "TEX_ID": 22521,
+        "FILENAME": "ui_gathermat-redrose 01.bmp"
+    },
+    {
+        "TEX_ID": 22522,
+        "FILENAME": "ui_gathermat-ivory 01.bmp"
+    },
+    {
+        "TEX_ID": 22523,
+        "FILENAME": "ui_gathermat-monkeyheadband 01.bmp"
+    },
+    {
+        "TEX_ID": 22524,
+        "FILENAME": "ui_gathermat-metalchain 01.bmp"
+    },
+    {
+        "TEX_ID": 22525,
+        "FILENAME": "ui_gathermat-foxtail 01.bmp"
+    },
+    {
+        "TEX_ID": 22526,
+        "FILENAME": "ui_gathermat-plagueghostarm 01.bmp"
+    },
+    {
+        "TEX_ID": 22527,
+        "FILENAME": "ui_gathermat-hellhead 01.bmp"
+    },
+    {
+        "TEX_ID": 22528,
+        "FILENAME": "ui_gathermat-kingkey 01.bmp"
+    },
+    {
+        "TEX_ID": 22529,
+        "FILENAME": "ui_gathermat-cowskel 01.bmp"
+    },
+    {
+        "TEX_ID": 22530,
+        "FILENAME": "ui_gathermat-cowskel 02.bmp"
+    },
+    {
+        "TEX_ID": 22531,
+        "FILENAME": "ui_gathermat-silvermask 01.bmp"
+    },
+    {
+        "TEX_ID": 22532,
+        "FILENAME": "ui_gathermat-decocowskel 01.bmp"
+    },
+    {
+        "TEX_ID": 22533,
+        "FILENAME": "ui_gathermat-decocowskel 02.bmp"
+    },
+    {
+        "TEX_ID": 22534,
+        "FILENAME": "ui_gathermat-fin 01.bmp"
+    },
+    {
+        "TEX_ID": 22535,
+        "FILENAME": "ui_gathermat-bronzepiece 01.bmp"
+    },
+    {
+        "TEX_ID": 22536,
+        "FILENAME": "ui_gathermat-throwspearbox 01.bmp"
+    },
+    {
+        "TEX_ID": 22537,
+        "FILENAME": "ui_gathermat-artifacialtooth 01.bmp"
+    },
+    {
+        "TEX_ID": 22538,
+        "FILENAME": "ui_gathermat-bloodhand 01.bmp"
+    },
+    {
+        "TEX_ID": 22539,
+        "FILENAME": "ui_gathermat-skulnecklace 01.bmp"
+    },
+    {
+        "TEX_ID": 22540,
+        "FILENAME": "ui_gathermat-tutlebackskin 01.bmp"
+    },
+    {
+        "TEX_ID": 22541,
+        "FILENAME": "ui_gathermat-tigerskin 01.bmp"
+    },
+    {
+        "TEX_ID": 22542,
+        "FILENAME": "ui_quest-skillinit 01.bmp"
+    },
+    {
+        "TEX_ID": 22543,
+        "FILENAME": "ui_quest-chakrainit 01.bmp"
+    },
+    {
+        "TEX_ID": 22544,
+        "FILENAME": "ui_gathermat-stornheart03.bmp"
+    },
+    {
+        "TEX_ID": 22545,
+        "FILENAME": "ui_quest-colar01.bmp"
+    },
+    {
+        "TEX_ID": 22546,
+        "FILENAME": "ui_quest-colar02.bmp"
+    },
+    {
+        "TEX_ID": 22547,
+        "FILENAME": "ui_quest-colar03.bmp"
+    },
+    {
+        "TEX_ID": 22548,
+        "FILENAME": "ui_quest-colar04.bmp"
+    },
+    {
+        "TEX_ID": 22549,
+        "FILENAME": "ui_gathermat-maraoriginalsum 01.bmp"
+    },
+    {
+        "TEX_ID": 22550,
+        "FILENAME": "ui_quest-vidyaproof-01.bmp"
+    },
+    {
+        "TEX_ID": 22551,
+        "FILENAME": "ui_quest-brokensword-01.bmp"
+    },
+    {
+        "TEX_ID": 22552,
+        "FILENAME": "ui_quest-brahmaserial-01.bmp"
+    },
+    {
+        "TEX_ID": 22553,
+        "FILENAME": "ui_quest-vishunuserial-01.bmp"
+    },
+    {
+        "TEX_ID": 22554,
+        "FILENAME": "ui_quest-samabatproof-01.bmp"
+    },
+    {
+        "TEX_ID": 22555,
+        "FILENAME": "ui_quest-satyaproof-01.bmp"
+    },
+    {
+        "TEX_ID": 22556,
+        "FILENAME": "ui_quest-strapleather-01.bmp"
+    },
+    {
+        "TEX_ID": 22557,
+        "FILENAME": "ui_quest-sibaserial-01.bmp"
+    },
+    {
+        "TEX_ID": 22558,
+        "FILENAME": "ui_quest-testproof-01.bmp"
+    },
+    {
+        "TEX_ID": 22559,
+        "FILENAME": "ui_quest-bowofgod-01.bmp"
+    },
+    {
+        "TEX_ID": 22560,
+        "FILENAME": "ui_quest-gluecell-01.bmp"
+    },
+    {
+        "TEX_ID": 22561,
+        "FILENAME": "ui_quest-abikaraproof-01.bmp"
+    },
+    {
+        "TEX_ID": 22562,
+        "FILENAME": "ui_quest-nakayudaproof-01.bmp"
+    },
+    {
+        "TEX_ID": 22563,
+        "FILENAME": "ui_quest-paperpiece-01.bmp"
+    },
+    {
+        "TEX_ID": 22564,
+        "FILENAME": "ui_quest-metalpiece-01.bmp"
+    },
+    {
+        "TEX_ID": 22565,
+        "FILENAME": "ui_quest-mooncowshorns-01.bmp"
+    },
+    {
+        "TEX_ID": 22566,
+        "FILENAME": "ui_quest-karyaproof-01.bmp"
+    },
+    {
+        "TEX_ID": 22567,
+        "FILENAME": "ui_quest-bloodcloth-01.bmp"
+    },
+    {
+        "TEX_ID": 22568,
+        "FILENAME": "ui_quest-successpaper-01.bmp"
+    },
+    {
+        "TEX_ID": 22569,
+        "FILENAME": "ui_quest-bowstringtendon-01.bmp"
+    },
+    {
+        "TEX_ID": 22570,
+        "FILENAME": "ui_chatu-asuba.bmp"
+    },
+    {
+        "TEX_ID": 22571,
+        "FILENAME": "ui_chatu-board.bmp"
+    },
+    {
+        "TEX_ID": 22572,
+        "FILENAME": "ui_chatu-gaja.bmp"
+    },
+    {
+        "TEX_ID": 22573,
+        "FILENAME": "ui_chatu-mantri.bmp"
+    },
+    {
+        "TEX_ID": 22574,
+        "FILENAME": "ui_chatu-pedati.bmp"
+    },
+    {
+        "TEX_ID": 22575,
+        "FILENAME": "ui_chatu-rada.bmp"
+    },
+    {
+        "TEX_ID": 22576,
+        "FILENAME": "ui_chatu-raja pratima.bmp"
+    },
+    {
+        "TEX_ID": 22577,
+        "FILENAME": "ui_weapon-sword01_rare.bmp"
+    },
+    {
+        "TEX_ID": 22578,
+        "FILENAME": "ui_chatu-asuba_caya-01.bmp"
+    },
+    {
+        "TEX_ID": 22579,
+        "FILENAME": "ui_chatu-board_caya-01.bmp"
+    },
+    {
+        "TEX_ID": 22580,
+        "FILENAME": "ui_chatu-gaja_caya-01.bmp"
+    },
+    {
+        "TEX_ID": 22581,
+        "FILENAME": "ui_chatu-mantri_caya-01.bmp"
+    },
+    {
+        "TEX_ID": 22582,
+        "FILENAME": "ui_chatu-pedati_caya-01.bmp"
+    },
+    {
+        "TEX_ID": 22583,
+        "FILENAME": "ui_chatu-rada_caya-01.bmp"
+    },
+    {
+        "TEX_ID": 22584,
+        "FILENAME": "ui_chatu-raja_pratima_caya-01.bmp"
+    },
+    {
+        "TEX_ID": 22585,
+        "FILENAME": "ui_defence_glove27.bmp"
+    },
+    {
+        "TEX_ID": 22586,
+        "FILENAME": "ui_defence_trousers27.bmp"
+    },
+    {
+        "TEX_ID": 22587,
+        "FILENAME": "ui_defence-cloth29.bmp"
+    },
+    {
+        "TEX_ID": 22588,
+        "FILENAME": "ui_defence-shoe14.bmp"
+    },
+    {
+        "TEX_ID": 22589,
+        "FILENAME": "ui_defence_glove25.bmp"
+    },
+    {
+        "TEX_ID": 22590,
+        "FILENAME": "ui_defence_trousers25.bmp"
+    },
+    {
+        "TEX_ID": 22591,
+        "FILENAME": "ui_defence-cloth27.bmp"
+    },
+    {
+        "TEX_ID": 22592,
+        "FILENAME": "ui_defence-shoe12.bmp"
+    },
+    {
+        "TEX_ID": 22593,
+        "FILENAME": "ui_defence_glove26.bmp"
+    },
+    {
+        "TEX_ID": 22594,
+        "FILENAME": "ui_defence_trousers26.bmp"
+    },
+    {
+        "TEX_ID": 22595,
+        "FILENAME": "ui_defence-cloth28.bmp"
+    },
+    {
+        "TEX_ID": 22596,
+        "FILENAME": "ui_defence-shoe13.bmp"
+    },
+    {
+        "TEX_ID": 22597,
+        "FILENAME": "ui_defence-hat21.bmp"
+    },
+    {
+        "TEX_ID": 22598,
+        "FILENAME": "ui_defence-hat22.bmp"
+    },
+    {
+        "TEX_ID": 22599,
+        "FILENAME": "ui_defence-hat23.bmp"
+    },
+    {
+        "TEX_ID": 22600,
+        "FILENAME": "ui_defence-hat24.bmp"
+    },
+    {
+        "TEX_ID": 22601,
+        "FILENAME": "icon_skill_ao_cud.bmp"
+    },
+    {
+        "TEX_ID": 22602,
+        "FILENAME": "icon_skill_ao_dvaiguna.bmp"
+    },
+    {
+        "TEX_ID": 22603,
+        "FILENAME": "icon_skill_ao_mantraykamsya.bmp"
+    },
+    {
+        "TEX_ID": 22604,
+        "FILENAME": "icon_skill_ao_mantraypattra.bmp"
+    },
+    {
+        "TEX_ID": 22605,
+        "FILENAME": "icon_skill_p_dvaiguna.bmp"
+    },
+    {
+        "TEX_ID": 22606,
+        "FILENAME": "icon_skill_p_samate.bmp"
+    },
+    {
+        "TEX_ID": 22607,
+        "FILENAME": "icon_skill_p_savitriforce01.bmp"
+    },
+    {
+        "TEX_ID": 22608,
+        "FILENAME": "ui_consume-fivearrow01.bmp"
+    },
+    {
+        "TEX_ID": 22609,
+        "FILENAME": "ui_consume-threearrow01.bmp"
+    },
+    {
+        "TEX_ID": 22610,
+        "FILENAME": "ui_charged_anahata.bmp"
+    },
+    {
+        "TEX_ID": 22611,
+        "FILENAME": "ui_charged_azna.bmp"
+    },
+    {
+        "TEX_ID": 22612,
+        "FILENAME": "ui_charged_magicalchange.bmp"
+    },
+    {
+        "TEX_ID": 22613,
+        "FILENAME": "ui_charged_manipura.bmp"
+    },
+    {
+        "TEX_ID": 22614,
+        "FILENAME": "ui_charged_nilamani.bmp"
+    },
+    {
+        "TEX_ID": 22615,
+        "FILENAME": "ui_charged_omyantra.bmp"
+    },
+    {
+        "TEX_ID": 22616,
+        "FILENAME": "ui_charged_partysummon.bmp"
+    },
+    {
+        "TEX_ID": 22617,
+        "FILENAME": "ui_charged_questreset.bmp"
+    },
+    {
+        "TEX_ID": 22618,
+        "FILENAME": "ui_charged_ragamani.bmp"
+    },
+    {
+        "TEX_ID": 22619,
+        "FILENAME": "ui_charged_rubati.bmp"
+    },
+    {
+        "TEX_ID": 22620,
+        "FILENAME": "ui_charged_visajan.bmp"
+    },
+    {
+        "TEX_ID": 22621,
+        "FILENAME": "ui_charged_vishuda.bmp"
+    },
+    {
+        "TEX_ID": 22622,
+        "FILENAME": "ui_event_6600vgacard.bmp"
+    },
+    {
+        "TEX_ID": 22623,
+        "FILENAME": "icon_skill_trimu_p_ksha3-1_mujcati.bmp"
+    },
+    {
+        "TEX_ID": 22624,
+        "FILENAME": "ui_charged_harati.bmp"
+    },
+    {
+        "TEX_ID": 22625,
+        "FILENAME": "ui-foreign-request_avati.bmp"
+    },
+    {
+        "TEX_ID": 22626,
+        "FILENAME": "ui-foreign-request_nayati.bmp"
+    },
+    {
+        "TEX_ID": 22627,
+        "FILENAME": "ui-foreign-request_ramate.bmp"
+    },
+    {
+        "TEX_ID": 22628,
+        "FILENAME": "ui-bhudharani.bmp"
+    },
+    {
+        "TEX_ID": 22629,
+        "FILENAME": "ui-cajcudharani.bmp"
+    },
+    {
+        "TEX_ID": 22630,
+        "FILENAME": "ui-dharanighut.bmp"
+    },
+    {
+        "TEX_ID": 22631,
+        "FILENAME": "ui-japan_fluteofmerchant.bmp"
+    },
+    {
+        "TEX_ID": 22632,
+        "FILENAME": "ui-mrgendradharani.bmp"
+    },
+    {
+        "TEX_ID": 22633,
+        "FILENAME": "ui-zakunadharani.bmp"
+    },
+    {
+        "TEX_ID": 22634,
+        "FILENAME": "ui-totem_appointmentofgreatbear.bmp"
+    },
+    {
+        "TEX_ID": 22635,
+        "FILENAME": "ui-totem_stampofgreatbear.bmp"
+    },
+    {
+        "TEX_ID": 22636,
+        "FILENAME": "ui-totem_talismanofgodarmy.bmp"
+    },
+    {
+        "TEX_ID": 22637,
+        "FILENAME": "ui-totem_wooddoll.bmp"
+    },
+    {
+        "TEX_ID": 22638,
+        "FILENAME": "icon_skill_p_pratyaya.bmp"
+    },
+    {
+        "TEX_ID": 22639,
+        "FILENAME": "icon_skill_ao_dadati.bmp"
+    },
+    {
+        "TEX_ID": 22640,
+        "FILENAME": "icon_skill_ao_grabh.bmp"
+    },
+    {
+        "TEX_ID": 22641,
+        "FILENAME": "icon_skill_ao_jahati.bmp"
+    },
+    {
+        "TEX_ID": 22642,
+        "FILENAME": "icon_skill_ao_nikrti.bmp"
+    },
+    {
+        "TEX_ID": 22643,
+        "FILENAME": "icon_skill_ao_samayoga.bmp"
+    },
+    {
+        "TEX_ID": 22644,
+        "FILENAME": "icon_skill_ao_senya.bmp"
+    },
+    {
+        "TEX_ID": 22645,
+        "FILENAME": "icon_skill_ao_sugama.bmp"
+    },
+    {
+        "TEX_ID": 22646,
+        "FILENAME": "icon_skill_ao_varga.bmp"
+    },
+    {
+        "TEX_ID": 22647,
+        "FILENAME": "icon_skill_ao_vartate.bmp"
+    },
+    {
+        "TEX_ID": 22648,
+        "FILENAME": "icon_skill_ao_vinaya.bmp"
+    },
+    {
+        "TEX_ID": 22649,
+        "FILENAME": "icon_skill_ao_zams.bmp"
+    },
+    {
+        "TEX_ID": 22650,
+        "FILENAME": "icon_skill_ao_znath.bmp"
+    },
+    {
+        "TEX_ID": 22651,
+        "FILENAME": "icon_skill_av_akhila.bmp"
+    },
+    {
+        "TEX_ID": 22652,
+        "FILENAME": "icon_skill_av_atmarati.bmp"
+    },
+    {
+        "TEX_ID": 22653,
+        "FILENAME": "icon_skill_av_catin.bmp"
+    },
+    {
+        "TEX_ID": 22654,
+        "FILENAME": "icon_skill_av_sanutar.bmp"
+    },
+    {
+        "TEX_ID": 22655,
+        "FILENAME": "icon_skill_av_uttha.bmp"
+    },
+    {
+        "TEX_ID": 22656,
+        "FILENAME": "icon_skill_p_abhidha.bmp"
+    },
+    {
+        "TEX_ID": 22657,
+        "FILENAME": "ui_event_kaliyamon_g.bmp"
+    },
+    {
+        "TEX_ID": 22658,
+        "FILENAME": "ui_event_opencargo_g.bmp"
+    },
+    {
+        "TEX_ID": 22659,
+        "FILENAME": "ui_defense_shield_kheta.bmp"
+    },
+    {
+        "TEX_ID": 22660,
+        "FILENAME": "ui_weapon_blunt_kapota.bmp"
+    },
+    {
+        "TEX_ID": 22661,
+        "FILENAME": "ui_weapon_bow_bahu.bmp"
+    },
+    {
+        "TEX_ID": 22662,
+        "FILENAME": "ui_weapon_dagger_krti.bmp"
+    },
+    {
+        "TEX_ID": 22663,
+        "FILENAME": "ui_weapon_fightglove_ratni.bmp"
+    },
+    {
+        "TEX_ID": 22664,
+        "FILENAME": "ui_weapon_onehandaxe_tagka.bmp"
+    },
+    {
+        "TEX_ID": 22665,
+        "FILENAME": "ui_weapon_onehandmagic_casa.bmp"
+    },
+    {
+        "TEX_ID": 22666,
+        "FILENAME": "ui_weapon_spear_athari.bmp"
+    },
+    {
+        "TEX_ID": 22667,
+        "FILENAME": "ui_weapon_sword_azri.bmp"
+    },
+    {
+        "TEX_ID": 22668,
+        "FILENAME": "ui_weapon_twohandaxe_tagkavat.bmp"
+    },
+    {
+        "TEX_ID": 22669,
+        "FILENAME": "ui_weapon_twohandmagic_sunetra.bmp"
+    },
+    {
+        "TEX_ID": 22670,
+        "FILENAME": "ui_weapon_twohandsword_aksara.bmp"
+    },
+    {
+        "TEX_ID": 22671,
+        "FILENAME": "ui_defence_cloth_adhl.bmp"
+    },
+    {
+        "TEX_ID": 22672,
+        "FILENAME": "ui_defence_glove_adhl.bmp"
+    },
+    {
+        "TEX_ID": 22673,
+        "FILENAME": "ui_defence_hat_adhl.bmp"
+    },
+    {
+        "TEX_ID": 22674,
+        "FILENAME": "ui_defence_pants_adhl.bmp"
+    },
+    {
+        "TEX_ID": 22675,
+        "FILENAME": "ui_defence_shoes_adhl.bmp"
+    },
+    {
+        "TEX_ID": 22676,
+        "FILENAME": "ui_defence_cloth_pezl.bmp"
+    },
+    {
+        "TEX_ID": 22677,
+        "FILENAME": "ui_defence_glove_pezl.bmp"
+    },
+    {
+        "TEX_ID": 22678,
+        "FILENAME": "ui_defence_hat_pezl.bmp"
+    },
+    {
+        "TEX_ID": 22679,
+        "FILENAME": "ui_defence_pants_pezl.bmp"
+    },
+    {
+        "TEX_ID": 22680,
+        "FILENAME": "ui_defence_shoes_pezl.bmp"
+    },
+    {
+        "TEX_ID": 22681,
+        "FILENAME": "ui_defence_cloth_citta.bmp"
+    },
+    {
+        "TEX_ID": 22682,
+        "FILENAME": "ui_defence_glove_citta.bmp"
+    },
+    {
+        "TEX_ID": 22683,
+        "FILENAME": "ui_defence_hat_citta.bmp"
+    },
+    {
+        "TEX_ID": 22684,
+        "FILENAME": "ui_defence_pants_citta.bmp"
+    },
+    {
+        "TEX_ID": 22685,
+        "FILENAME": "ui_defence_shoes_citta.bmp"
+    },
+    {
+        "TEX_ID": 22686,
+        "FILENAME": "ui_defence_cloth_sphur.bmp"
+    },
+    {
+        "TEX_ID": 22687,
+        "FILENAME": "ui_defence_glove_sphur.bmp"
+    },
+    {
+        "TEX_ID": 22688,
+        "FILENAME": "ui_defence_hat_sphur.bmp"
+    },
+    {
+        "TEX_ID": 22689,
+        "FILENAME": "ui_defence_pants_sphur.bmp"
+    },
+    {
+        "TEX_ID": 22690,
+        "FILENAME": "ui_defence_shoes_sphur.bmp"
+    },
+    {
+        "TEX_ID": 22691,
+        "FILENAME": "ui_katana3_gb_goldbar.bmp"
+    },
+    {
+        "TEX_ID": 22692,
+        "FILENAME": "ui_katana3_gb_goldbuddha.bmp"
+    },
+    {
+        "TEX_ID": 22693,
+        "FILENAME": "ui_katana3_gb_goldcalf.bmp"
+    },
+    {
+        "TEX_ID": 22694,
+        "FILENAME": "ui_katana3_gb_goldtoad.bmp"
+    },
+    {
+        "TEX_ID": 22695,
+        "FILENAME": "ui_katana3_gb_gumption.bmp"
+    },
+    {
+        "TEX_ID": 22696,
+        "FILENAME": "ui_event_anandi_g.bmp"
+    },
+    {
+        "TEX_ID": 22697,
+        "FILENAME": "command_monster_attack.bmp"
+    },
+    {
+        "TEX_ID": 22698,
+        "FILENAME": "ui_button31_d_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22699,
+        "FILENAME": "ui_button31_n_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22700,
+        "FILENAME": "ui_button31_o_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22701,
+        "FILENAME": "ui_button32_d_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22702,
+        "FILENAME": "ui_button32_n_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22703,
+        "FILENAME": "ui_button32_o_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22704,
+        "FILENAME": "ui_button33_d_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22705,
+        "FILENAME": "ui_button33_n_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22706,
+        "FILENAME": "ui_button33_o_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22707,
+        "FILENAME": "ui_button34_d_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22708,
+        "FILENAME": "ui_button34_n_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22709,
+        "FILENAME": "ui_button34_o_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22710,
+        "FILENAME": "ui_button35_d_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22711,
+        "FILENAME": "ui_button35_n_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22712,
+        "FILENAME": "ui_button35_o_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22713,
+        "FILENAME": "ui_button36_d_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22714,
+        "FILENAME": "ui_button36_n_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22715,
+        "FILENAME": "ui_button36_o_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22716,
+        "FILENAME": "ui_button37_d_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22717,
+        "FILENAME": "ui_button37_n_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22718,
+        "FILENAME": "ui_button37_o_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22719,
+        "FILENAME": "ui_button38_d_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22720,
+        "FILENAME": "ui_button38_n_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22721,
+        "FILENAME": "ui_button38_o_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22722,
+        "FILENAME": "ui_button43_d_31x21.bmp"
+    },
+    {
+        "TEX_ID": 22723,
+        "FILENAME": "ui_gathermat-crystal02.bmp"
+    },
+    {
+        "TEX_ID": 22724,
+        "FILENAME": "ui_button45_n_47x47.bmp"
+    },
+    {
+        "TEX_ID": 22725,
+        "FILENAME": "ui_button45_o_47x47.bmp"
+    },
+    {
+        "TEX_ID": 22726,
+        "FILENAME": "ui_button45_d_47x47.bmp"
+    },
+    {
+        "TEX_ID": 22727,
+        "FILENAME": "ui_weapon-sword07_rare.bmp"
+    },
+    {
+        "TEX_ID": 22728,
+        "FILENAME": "castle_adiz.bmp"
+    },
+    {
+        "TEX_ID": 22729,
+        "FILENAME": "castle_castlepustika.bmp"
+    },
+    {
+        "TEX_ID": 22730,
+        "FILENAME": "ui_katana3_mon_backtooth.bmp"
+    },
+    {
+        "TEX_ID": 22731,
+        "FILENAME": "ui_katana3_mon_breaknail.bmp"
+    },
+    {
+        "TEX_ID": 22732,
+        "FILENAME": "ui_katana3_mon_charm.bmp"
+    },
+    {
+        "TEX_ID": 22733,
+        "FILENAME": "ui_katana3_mon_fan.bmp"
+    },
+    {
+        "TEX_ID": 22734,
+        "FILENAME": "ui_katana3_mon_farmercon.bmp"
+    },
+    {
+        "TEX_ID": 22735,
+        "FILENAME": "ui_katana3_mon_gappahat.bmp"
+    },
+    {
+        "TEX_ID": 22736,
+        "FILENAME": "ui_katana3_mon_gappashell.bmp"
+    },
+    {
+        "TEX_ID": 22737,
+        "FILENAME": "ui_katana3_mon_lamphandle.bmp"
+    },
+    {
+        "TEX_ID": 22738,
+        "FILENAME": "ui_katana3_mon_minercon.bmp"
+    },
+    {
+        "TEX_ID": 22739,
+        "FILENAME": "ui_katana3_mon_tearleather.bmp"
+    },
+    {
+        "TEX_ID": 22740,
+        "FILENAME": "ui_katana3_mon_warhat.bmp"
+    },
+    {
+        "TEX_ID": 22741,
+        "FILENAME": "ui_quest_calabash.bmp"
+    },
+    {
+        "TEX_ID": 22742,
+        "FILENAME": "ui_quest_chronicles.bmp"
+    },
+    {
+        "TEX_ID": 22743,
+        "FILENAME": "ui_quest_emperorsword.bmp"
+    },
+    {
+        "TEX_ID": 22744,
+        "FILENAME": "ui_quest_restofcorpse.bmp"
+    },
+    {
+        "TEX_ID": 22745,
+        "FILENAME": "ui_quest_restoredrug.bmp"
+    },
+    {
+        "TEX_ID": 22746,
+        "FILENAME": "ui_item_medaloftheking.bmp"
+    },
+    {
+        "TEX_ID": 22747,
+        "FILENAME": "ui_item_summonfigure.bmp"
+    },
+    {
+        "TEX_ID": 22748,
+        "FILENAME": "ui_quest_oldmap.bmp"
+    },
+    {
+        "TEX_ID": 22749,
+        "FILENAME": "ui_assistmat-cold2.bmp"
+    },
+    {
+        "TEX_ID": 22750,
+        "FILENAME": "ui_assistmat-fire2.bmp"
+    },
+    {
+        "TEX_ID": 22751,
+        "FILENAME": "ui_assistmat-poison2.bmp"
+    },
+    {
+        "TEX_ID": 22752,
+        "FILENAME": "ui_assistmat-thunder2.bmp"
+    },
+    {
+        "TEX_ID": 22753,
+        "FILENAME": "ui_event_mozzi.bmp"
+    },
+    {
+        "TEX_ID": 22754,
+        "FILENAME": "ui_weapon-sword02_rare.bmp"
+    },
+    {
+        "TEX_ID": 22755,
+        "FILENAME": "ui_weapon-sword03_rare.bmp"
+    },
+    {
+        "TEX_ID": 22756,
+        "FILENAME": "ui_weapon-sword04_rare.bmp"
+    },
+    {
+        "TEX_ID": 22757,
+        "FILENAME": "ui_weapon-sword05_rare.bmp"
+    },
+    {
+        "TEX_ID": 22758,
+        "FILENAME": "ui_weapon-sword06_rare.bmp"
+    },
+    {
+        "TEX_ID": 22759,
+        "FILENAME": "ui_button01_n_28x25.bmp"
+    },
+    {
+        "TEX_ID": 22760,
+        "FILENAME": "ui_button01_o_28x25.bmp"
+    },
+    {
+        "TEX_ID": 22761,
+        "FILENAME": "ui_button01_d_28x25.bmp"
+    },
+    {
+        "TEX_ID": 22762,
+        "FILENAME": "ui_heightline01_3x32.bmp"
+    },
+    {
+        "TEX_ID": 22763,
+        "FILENAME": "ui_widthline01_96x3.bmp"
+    },
+    {
+        "TEX_ID": 22764,
+        "FILENAME": "ui_titlebar01_128x32.bmp"
+    },
+    {
+        "TEX_ID": 22765,
+        "FILENAME": "ui_scale01_19x18.bmp"
+    },
+    {
+        "TEX_ID": 22766,
+        "FILENAME": "ui_widthline02_64x6.bmp"
+    },
+    {
+        "TEX_ID": 22767,
+        "FILENAME": "ui_box01_152x19.bmp"
+    },
+    {
+        "TEX_ID": 22768,
+        "FILENAME": "ui_box02_79x19.bmp"
+    },
+    {
+        "TEX_ID": 22769,
+        "FILENAME": "ui_box03_79x19.bmp"
+    },
+    {
+        "TEX_ID": 22770,
+        "FILENAME": "ui_scale02_19x18.bmp"
+    },
+    {
+        "TEX_ID": 22771,
+        "FILENAME": "ui_button04_n_13x13.bmp"
+    },
+    {
+        "TEX_ID": 22772,
+        "FILENAME": "ui_button04_o_13x13.bmp"
+    },
+    {
+        "TEX_ID": 22773,
+        "FILENAME": "ui_button04_d_13x13.bmp"
+    },
+    {
+        "TEX_ID": 22774,
+        "FILENAME": "ui_picture01_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22775,
+        "FILENAME": "ui_picture02_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22776,
+        "FILENAME": "ui_picture03_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22777,
+        "FILENAME": "ui_picture04_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22778,
+        "FILENAME": "ui_picture05_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22779,
+        "FILENAME": "ui_picture06_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22780,
+        "FILENAME": "ui_box09_23x23.bmp"
+    },
+    {
+        "TEX_ID": 22781,
+        "FILENAME": "ui_box10_23x23.bmp"
+    },
+    {
+        "TEX_ID": 22782,
+        "FILENAME": "ui_box11_23x23.bmp"
+    },
+    {
+        "TEX_ID": 22783,
+        "FILENAME": "ui_box12_23x23.bmp"
+    },
+    {
+        "TEX_ID": 22784,
+        "FILENAME": "ui_box13_23x23.bmp"
+    },
+    {
+        "TEX_ID": 22785,
+        "FILENAME": "ui_box14_23x23.bmp"
+    },
+    {
+        "TEX_ID": 22786,
+        "FILENAME": "ui_box15_23x23.bmp"
+    },
+    {
+        "TEX_ID": 22787,
+        "FILENAME": "ui_box16_23x23.bmp"
+    },
+    {
+        "TEX_ID": 22788,
+        "FILENAME": "ui_box17_23x23.bmp"
+    },
+    {
+        "TEX_ID": 22789,
+        "FILENAME": "ui_box18_39x39.bmp"
+    },
+    {
+        "TEX_ID": 22790,
+        "FILENAME": "ui_box19_28x60.bmp"
+    },
+    {
+        "TEX_ID": 22791,
+        "FILENAME": "ui_button03_n_64x19.bmp"
+    },
+    {
+        "TEX_ID": 22792,
+        "FILENAME": "ui_button03_d_64x19.bmp"
+    },
+    {
+        "TEX_ID": 22793,
+        "FILENAME": "ui_button03_o_64x19.bmp"
+    },
+    {
+        "TEX_ID": 22794,
+        "FILENAME": "ui_box06_35x35.bmp"
+    },
+    {
+        "TEX_ID": 22795,
+        "FILENAME": "ui_box19_231x203.bmp"
+    },
+    {
+        "TEX_ID": 22796,
+        "FILENAME": "ui_box22_25x25.bmp"
+    },
+    {
+        "TEX_ID": 22797,
+        "FILENAME": "ui_box23_25x25.bmp"
+    },
+    {
+        "TEX_ID": 22798,
+        "FILENAME": "ui_box24_25x25.bmp"
+    },
+    {
+        "TEX_ID": 22799,
+        "FILENAME": "ui_box25_25x25.bmp"
+    },
+    {
+        "TEX_ID": 22800,
+        "FILENAME": "ui_box40_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22801,
+        "FILENAME": "ui_box47_96x96.bmp"
+    },
+    {
+        "TEX_ID": 22802,
+        "FILENAME": "ui_box41_96x96.bmp"
+    },
+    {
+        "TEX_ID": 22803,
+        "FILENAME": "ui_box42_96x96.bmp"
+    },
+    {
+        "TEX_ID": 22804,
+        "FILENAME": "ui_box43_96x96.bmp"
+    },
+    {
+        "TEX_ID": 22805,
+        "FILENAME": "ui_box44_96x96.bmp"
+    },
+    {
+        "TEX_ID": 22806,
+        "FILENAME": "ui_box45_96x96.bmp"
+    },
+    {
+        "TEX_ID": 22807,
+        "FILENAME": "ui_box46_96x96.bmp"
+    },
+    {
+        "TEX_ID": 22808,
+        "FILENAME": "ui_box50_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22809,
+        "FILENAME": "ui_box64_256x256.bmp"
+    },
+    {
+        "TEX_ID": 22810,
+        "FILENAME": "ui_box66_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22811,
+        "FILENAME": "ui_box67_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22812,
+        "FILENAME": "ui_box68_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22813,
+        "FILENAME": "ui_box69_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22814,
+        "FILENAME": "ui_box65_32x32.bmp"
+    },
+    {
+        "TEX_ID": 22815,
+        "FILENAME": "ui_button16_d_32x19.bmp"
+    },
+    {
+        "TEX_ID": 22816,
+        "FILENAME": "ui_button16_n_32x19.bmp"
+    },
+    {
+        "TEX_ID": 22817,
+        "FILENAME": "ui_button16_o_32x19.bmp"
+    },
+    {
+        "TEX_ID": 22818,
+        "FILENAME": "ui_button18_d_24x19.bmp"
+    },
+    {
+        "TEX_ID": 22819,
+        "FILENAME": "ui_button18_n_24x19.bmp"
+    },
+    {
+        "TEX_ID": 22820,
+        "FILENAME": "ui_button18_o_24x19.bmp"
+    },
+    {
+        "TEX_ID": 22821,
+        "FILENAME": "ui_button17_d_24x19.bmp"
+    },
+    {
+        "TEX_ID": 22822,
+        "FILENAME": "ui_button17_n_24x19.bmp"
+    },
+    {
+        "TEX_ID": 22823,
+        "FILENAME": "ui_button17_o_24x19.bmp"
+    },
+    {
+        "TEX_ID": 22824,
+        "FILENAME": "ui_button28_d_32x29.bmp"
+    },
+    {
+        "TEX_ID": 22825,
+        "FILENAME": "ui_button28_n_32x29.bmp"
+    },
+    {
+        "TEX_ID": 22826,
+        "FILENAME": "ui_button28_o_32x29.bmp"
+    },
+    {
+        "TEX_ID": 22827,
+        "FILENAME": "ui_box57_13x62.bmp"
+    },
+    {
+        "TEX_ID": 22828,
+        "FILENAME": "ui_button14_o_72x19.bmp"
+    },
+    {
+        "TEX_ID": 22829,
+        "FILENAME": "ui_button14_d_72x19.bmp"
+    },
+    {
+        "TEX_ID": 22830,
+        "FILENAME": "ui_button14_n_72x19.bmp"
+    },
+    {
+        "TEX_ID": 22831,
+        "FILENAME": "ui_progressbar07_16x59.bmp"
+    },
+    {
+        "TEX_ID": 22832,
+        "FILENAME": "ui_progressbar01_150x5.bmp"
+    },
+    {
+        "TEX_ID": 22833,
+        "FILENAME": "ui_progressbar02_150x5.bmp"
+    },
+    {
+        "TEX_ID": 22834,
+        "FILENAME": "ui_progressbar03_144x4.bmp"
+    },
+    {
+        "TEX_ID": 22835,
+        "FILENAME": "ui_progressbar04_164x15.bmp"
+    },
+    {
+        "TEX_ID": 22836,
+        "FILENAME": "ui_progressbar05_164x15.bmp"
+    },
+    {
+        "TEX_ID": 22837,
+        "FILENAME": "ui_progressbar06_16x59.bmp"
+    },
+    {
+        "TEX_ID": 22838,
+        "FILENAME": "ui_scrollbar_button01_d_d14x16.bmp"
+    },
+    {
+        "TEX_ID": 22839,
+        "FILENAME": "ui_scrollbar_button01_d_u14x16.bmp"
+    },
+    {
+        "TEX_ID": 22840,
+        "FILENAME": "ui_scrollbar_button01_d_wb14x14.bmp"
+    },
+    {
+        "TEX_ID": 22841,
+        "FILENAME": "ui_scrollbar_button01_n_d14x16.bmp"
+    },
+    {
+        "TEX_ID": 22842,
+        "FILENAME": "ui_scrollbar_button01_n_u14x16.bmp"
+    },
+    {
+        "TEX_ID": 22843,
+        "FILENAME": "ui_scrollbar_button01_n_wb14x14.bmp"
+    },
+    {
+        "TEX_ID": 22844,
+        "FILENAME": "ui_scrollbar_button01_o_d14x16.bmp"
+    },
+    {
+        "TEX_ID": 22845,
+        "FILENAME": "ui_scrollbar_button01_o_u14x16.bmp"
+    },
+    {
+        "TEX_ID": 22846,
+        "FILENAME": "ui_scrollbar_button01_o_wb14x14.bmp"
+    },
+    {
+        "TEX_ID": 22847,
+        "FILENAME": "ui_scrollbar_button02_d_wb14x14.bmp"
+    },
+    {
+        "TEX_ID": 22848,
+        "FILENAME": "ui_scrollbar_button02_n_wb14x14.bmp"
+    },
+    {
+        "TEX_ID": 22849,
+        "FILENAME": "ui_scrollbar_button02_o_wb14x14.bmp"
+    },
+    {
+        "TEX_ID": 22850,
+        "FILENAME": "ui_scrollbar_button01_n_r16x14.bmp"
+    },
+    {
+        "TEX_ID": 22851,
+        "FILENAME": "ui_scrollbar_button01_o_r16x14.bmp"
+    },
+    {
+        "TEX_ID": 22852,
+        "FILENAME": "ui_scrollbar_button01_d_r16x14.bmp"
+    },
+    {
+        "TEX_ID": 22853,
+        "FILENAME": "ui_scrollbar_button01_n_l16x14.bmp"
+    },
+    {
+        "TEX_ID": 22854,
+        "FILENAME": "ui_scrollbar_button01_d_l16x14.bmp"
+    },
+    {
+        "TEX_ID": 22855,
+        "FILENAME": "ui_scrollbar_button01_o_l16x14.bmp"
+    },
+    {
+        "TEX_ID": 22856,
+        "FILENAME": "ui_ex01_400x16.bmp"
+    },
+    {
+        "TEX_ID": 22857,
+        "FILENAME": "ui_ex02_400x16.bmp"
+    },
+    {
+        "TEX_ID": 22858,
+        "FILENAME": "ui_event_dhevvuka_g.bmp"
+    },
+    {
+        "TEX_ID": 22859,
+        "FILENAME": "ui_event_uparuh_g.bmp"
+    },
+    {
+        "TEX_ID": 22861,
+        "FILENAME": "ui_defence_glove01.bmp"
+    },
+    {
+        "TEX_ID": 22862,
+        "FILENAME": "ui_defence_glove02.bmp"
+    },
+    {
+        "TEX_ID": 22863,
+        "FILENAME": "ui_defence_glove03.bmp"
+    },
+    {
+        "TEX_ID": 22864,
+        "FILENAME": "ui_defence_glove04.bmp"
+    },
+    {
+        "TEX_ID": 22865,
+        "FILENAME": "ui_defence_glove05.bmp"
+    },
+    {
+        "TEX_ID": 22866,
+        "FILENAME": "ui_defence_glove06.bmp"
+    },
+    {
+        "TEX_ID": 22867,
+        "FILENAME": "ui_defence_glove07.bmp"
+    },
+    {
+        "TEX_ID": 22868,
+        "FILENAME": "ui_defence_glove08.bmp"
+    },
+    {
+        "TEX_ID": 22869,
+        "FILENAME": "ui_defence_glove09.bmp"
+    },
+    {
+        "TEX_ID": 22870,
+        "FILENAME": "ui_defence_glove10.bmp"
+    },
+    {
+        "TEX_ID": 22871,
+        "FILENAME": "ui_defence_glove11.bmp"
+    },
+    {
+        "TEX_ID": 22872,
+        "FILENAME": "ui_defence_glove12.bmp"
+    },
+    {
+        "TEX_ID": 22873,
+        "FILENAME": "ui_defence_glove13.bmp"
+    },
+    {
+        "TEX_ID": 22874,
+        "FILENAME": "ui_defence_glove14.bmp"
+    },
+    {
+        "TEX_ID": 22875,
+        "FILENAME": "ui_defence_glove15.bmp"
+    },
+    {
+        "TEX_ID": 22876,
+        "FILENAME": "ui_defence_glove16.bmp"
+    },
+    {
+        "TEX_ID": 22877,
+        "FILENAME": "ui_defence_glove17.bmp"
+    },
+    {
+        "TEX_ID": 22878,
+        "FILENAME": "ui_defence_glove18.bmp"
+    },
+    {
+        "TEX_ID": 22879,
+        "FILENAME": "ui_defence_glove19.bmp"
+    },
+    {
+        "TEX_ID": 22880,
+        "FILENAME": "ui_defence_glove20.bmp"
+    },
+    {
+        "TEX_ID": 22881,
+        "FILENAME": "banutiza_glove.bmp"
+    },
+    {
+        "TEX_ID": 22882,
+        "FILENAME": "barahaja_glove.bmp"
+    },
+    {
+        "TEX_ID": 22883,
+        "FILENAME": "ui_charged_allchakraup_1h.bmp"
+    },
+    {
+        "TEX_ID": 22884,
+        "FILENAME": "ui_charged_allchakraup_4h.bmp"
+    },
+    {
+        "TEX_ID": 22885,
+        "FILENAME": "ui_charged_atmancharm_1h.bmp"
+    },
+    {
+        "TEX_ID": 22886,
+        "FILENAME": "ui_charged_atmancharm_4h.bmp"
+    },
+    {
+        "TEX_ID": 22887,
+        "FILENAME": "ui_charged_automatic_ruphia_pick01.bmp"
+    },
+    {
+        "TEX_ID": 22888,
+        "FILENAME": "ui_charged_endurance_repair01.bmp"
+    },
+    {
+        "TEX_ID": 22889,
+        "FILENAME": "ui_charged_heartup_1h.bmp"
+    },
+    {
+        "TEX_ID": 22890,
+        "FILENAME": "ui_charged_heartup_4h.bmp"
+    },
+    {
+        "TEX_ID": 22891,
+        "FILENAME": "ui_charged_high_agnisa_1h.bmp"
+    },
+    {
+        "TEX_ID": 22892,
+        "FILENAME": "ui_charged_high_agnisa_4h.bmp"
+    },
+    {
+        "TEX_ID": 22893,
+        "FILENAME": "ui_charged_high_anubabacharm_1h.bmp"
+    },
+    {
+        "TEX_ID": 22894,
+        "FILENAME": "ui_charged_high_anubabacharm_4h.bmp"
+    },
+    {
+        "TEX_ID": 22895,
+        "FILENAME": "ui_charged_high_himasa_1h.bmp"
+    },
+    {
+        "TEX_ID": 22896,
+        "FILENAME": "ui_charged_high_himasa_4h.bmp"
+    },
+    {
+        "TEX_ID": 22897,
+        "FILENAME": "ui_charged_high_jilakaman_b_1h.bmp"
+    },
+    {
+        "TEX_ID": 22898,
+        "FILENAME": "ui_charged_high_jilakaman_b_4h.bmp"
+    },
+    {
+        "TEX_ID": 22899,
+        "FILENAME": "ui_charged_high_jilakaman_m_1h.bmp"
+    },
+    {
+        "TEX_ID": 22900,
+        "FILENAME": "ui_charged_high_jilakaman_m_4h.bmp"
+    },
+    {
+        "TEX_ID": 22901,
+        "FILENAME": "ui_charged_high_jilakaman_s_1h.bmp"
+    },
+    {
+        "TEX_ID": 22902,
+        "FILENAME": "ui_charged_high_jilakaman_s_4h.bmp"
+    },
+    {
+        "TEX_ID": 22903,
+        "FILENAME": "ui_charged_high_movespeedup_1h.bmp"
+    },
+    {
+        "TEX_ID": 22904,
+        "FILENAME": "ui_charged_high_movespeedup_4h.bmp"
+    },
+    {
+        "TEX_ID": 22905,
+        "FILENAME": "ui_charged_high_rusa_1h.bmp"
+    },
+    {
+        "TEX_ID": 22906,
+        "FILENAME": "ui_charged_high_rusa_4h.bmp"
+    },
+    {
+        "TEX_ID": 22907,
+        "FILENAME": "ui_charged_incipient_sec.bmp"
+    },
+    {
+        "TEX_ID": 22908,
+        "FILENAME": "ui_charged_mindup_1h.bmp"
+    },
+    {
+        "TEX_ID": 22909,
+        "FILENAME": "ui_charged_mindup_4h.bmp"
+    },
+    {
+        "TEX_ID": 22910,
+        "FILENAME": "ui_charged_muscleup_1h.bmp"
+    },
+    {
+        "TEX_ID": 22911,
+        "FILENAME": "ui_charged_muscleup_4h.bmp"
+    },
+    {
+        "TEX_ID": 22912,
+        "FILENAME": "ui_charged_nervesup_1h.bmp"
+    },
+    {
+        "TEX_ID": 22913,
+        "FILENAME": "ui_charged_nervesup_4h.bmp"
+    },
+    {
+        "TEX_ID": 22914,
+        "FILENAME": "ui_charged_party_penally_cancel01.bmp"
+    },
+    {
+        "TEX_ID": 22915,
+        "FILENAME": "ui_charged_picket01.bmp"
+    },
+    {
+        "TEX_ID": 22916,
+        "FILENAME": "ui_charged_sex_exchange01.bmp"
+    },
+    {
+        "TEX_ID": 22917,
+        "FILENAME": "ui_charged_specialarea_entrance01.bmp"
+    },
+    {
+        "TEX_ID": 22918,
+        "FILENAME": "ui_charged_aeriallybomb_b02.bmp"
+    },
+    {
+        "TEX_ID": 22919,
+        "FILENAME": "ui_charged_aeriallybomb_m02.bmp"
+    },
+    {
+        "TEX_ID": 22920,
+        "FILENAME": "ui_charged_aeriallybomb_s02.bmp"
+    },
+    {
+        "TEX_ID": 22921,
+        "FILENAME": "ui_charged_command01.bmp"
+    },
+    {
+        "TEX_ID": 22922,
+        "FILENAME": "ui_charged_element_degrade02.bmp"
+    },
+    {
+        "TEX_ID": 22923,
+        "FILENAME": "ui_charged_high_jibapustika02.bmp"
+    },
+    {
+        "TEX_ID": 22924,
+        "FILENAME": "ui_charged_highlifebook02.bmp"
+    },
+    {
+        "TEX_ID": 22925,
+        "FILENAME": "ui_charged_indication02.bmp"
+    },
+    {
+        "TEX_ID": 22926,
+        "FILENAME": "ui_charged_letter02.bmp"
+    },
+    {
+        "TEX_ID": 22927,
+        "FILENAME": "ui_charged_lifebook02.bmp"
+    },
+    {
+        "TEX_ID": 22928,
+        "FILENAME": "command_activeassist.bmp"
+    },
+    {
+        "TEX_ID": 22929,
+        "FILENAME": "command_blog.bmp"
+    },
+    {
+        "TEX_ID": 22930,
+        "FILENAME": "command_unactiveassist.bmp"
+    },
+    {
+        "TEX_ID": 22931,
+        "FILENAME": "ui_gathermat-brassmedal01.bmp"
+    },
+    {
+        "TEX_ID": 22932,
+        "FILENAME": "ui_gathermat-goldmedal01.bmp"
+    },
+    {
+        "TEX_ID": 22933,
+        "FILENAME": "ui_gathermat-silvermedal01.bmp"
+    },
+    {
+        "TEX_ID": 22934,
+        "FILENAME": "ui_event_weddingring01.bmp"
+    },
+    {
+        "TEX_ID": 22935,
+        "FILENAME": "ui_event_pepero01.bmp"
+    },
+    {
+        "TEX_ID": 22936,
+        "FILENAME": "ui_quest-otherworldreturn01.bmp"
+    },
+    {
+        "TEX_ID": 22937,
+        "FILENAME": "ui_charged_atmancharm_month01.bmp"
+    },
+    {
+        "TEX_ID": 22938,
+        "FILENAME": "ui_charged_high_anubaba_month01.bmp"
+    },
+    {
+        "TEX_ID": 22939,
+        "FILENAME": "ui_charged_premiumpackage01.bmp"
+    },
+    {
+        "TEX_ID": 22940,
+        "FILENAME": "ui_charged_premiumpackage02.bmp"
+    },
+    {
+        "TEX_ID": 22941,
+        "FILENAME": "ui_charged_premiumpackage03.bmp"
+    },
+    {
+        "TEX_ID": 22942,
+        "FILENAME": "ui_charged_premiumpackage04.bmp"
+    },
+    {
+        "TEX_ID": 22943,
+        "FILENAME": "ui_charged_premiumpackage04_bonus.bmp"
+    },
+    {
+        "TEX_ID": 22944,
+        "FILENAME": "ui_charged_tenarrow01.bmp"
+    },
+    {
+        "TEX_ID": 22945,
+        "FILENAME": "ui_defence-trimuriti_brahma_hat01.bmp"
+    },
+    {
+        "TEX_ID": 22946,
+        "FILENAME": "ui_defence-trimuriti_siva_hat01.bmp"
+    },
+    {
+        "TEX_ID": 22947,
+        "FILENAME": "ui_defence-trimuriti_visnu_hat01.bmp"
+    },
+    {
+        "TEX_ID": 22948,
+        "FILENAME": "ui_charged_allchakraup_month01.bmp"
+    },
+    {
+        "TEX_ID": 22949,
+        "FILENAME": "ui_charged_chakraedit01.bmp"
+    },
+    {
+        "TEX_ID": 22950,
+        "FILENAME": "ui_charged_gem_sampad01.bmp"
+    },
+    {
+        "TEX_ID": 22951,
+        "FILENAME": "ui_charged_inventory_extention02.bmp"
+    },
+    {
+        "TEX_ID": 22952,
+        "FILENAME": "ui_charged_premiumpackage01_01.bmp"
+    },
+    {
+        "TEX_ID": 22953,
+        "FILENAME": "ui_charged_premiumpackage02_01.bmp"
+    },
+    {
+        "TEX_ID": 22954,
+        "FILENAME": "ui_charged_premiumpackage03_01.bmp"
+    },
+    {
+        "TEX_ID": 22955,
+        "FILENAME": "ui_charged_premiumpackage04_01.bmp"
+    },
+    {
+        "TEX_ID": 22956,
+        "FILENAME": "ui_charged_premiumpackage04_b01.bmp"
+    },
+    {
+        "TEX_ID": 22957,
+        "FILENAME": "ui_charged_shop_extention01.bmp"
+    },
+    {
+        "TEX_ID": 22958,
+        "FILENAME": "ui_charged_skillchakra_edit01.bmp"
+    },
+    {
+        "TEX_ID": 22959,
+        "FILENAME": "ui_charged_skilledit01.bmp"
+    },
+    {
+        "TEX_ID": 22960,
+        "FILENAME": "ui_charged_utara_amrita250_01.bmp"
+    },
+    {
+        "TEX_ID": 22962,
+        "FILENAME": "ui_defence-hat_artha.bmp"
+    },
+    {
+        "TEX_ID": 22963,
+        "FILENAME": "ui_defence-hat_zukravasas.bmp"
+    },
+    {
+        "TEX_ID": 22964,
+        "FILENAME": "ui_defence-hat_karyarthin.bmp"
+    },
+    {
+        "TEX_ID": 22965,
+        "FILENAME": "ui_defence-hat_varmika.bmp"
+    },
+    {
+        "TEX_ID": 22966,
+        "FILENAME": "ui_gathermat-rightroyalseal.bmp"
+    },
+    {
+        "TEX_ID": 22967,
+        "FILENAME": "ui_gathermat-leftroyalseal.bmp"
+    },
+    {
+        "TEX_ID": 22968,
+        "FILENAME": "ui_gathermat-muskpouch.bmp"
+    },
+    {
+        "TEX_ID": 22969,
+        "FILENAME": "ui_defence-shoe_karyarthin.bmp"
+    },
+    {
+        "TEX_ID": 22970,
+        "FILENAME": "ui_defence_glove_karyarthin.bmp"
+    },
+    {
+        "TEX_ID": 22971,
+        "FILENAME": "ui_defence_trousers_karyarthin.bmp"
+    },
+    {
+        "TEX_ID": 22972,
+        "FILENAME": "ui_defence-cloth_karyarthin.bmp"
+    },
+    {
+        "TEX_ID": 22973,
+        "FILENAME": "ui_gathermat-jadetrinket.bmp"
+    },
+    {
+        "TEX_ID": 22974,
+        "FILENAME": "ui_defence-shoe_varmika.bmp"
+    },
+    {
+        "TEX_ID": 22975,
+        "FILENAME": "ui_defence-shoe_artha.bmp"
+    },
+    {
+        "TEX_ID": 22976,
+        "FILENAME": "ui_defence_glove_artha.bmp"
+    },
+    {
+        "TEX_ID": 22977,
+        "FILENAME": "ui_defence_trousers_artha.bmp"
+    },
+    {
+        "TEX_ID": 22978,
+        "FILENAME": "ui_defence-cloth_artha.bmp"
+    },
+    {
+        "TEX_ID": 22979,
+        "FILENAME": "ui_gathermat-jadehairpin.bmp"
+    },
+    {
+        "TEX_ID": 22980,
+        "FILENAME": "ui_gathermat-silvermirror.bmp"
+    },
+    {
+        "TEX_ID": 22981,
+        "FILENAME": "ui_defence_glove_varmika.bmp"
+    },
+    {
+        "TEX_ID": 22982,
+        "FILENAME": "ui_gathermat-generalnameplate.bmp"
+    },
+    {
+        "TEX_ID": 22983,
+        "FILENAME": "ui_gathermat-bronzehelmet.bmp"
+    },
+    {
+        "TEX_ID": 22984,
+        "FILENAME": "ui_gathermat-bronzearmor.bmp"
+    },
+    {
+        "TEX_ID": 22985,
+        "FILENAME": "ui_gathermat-bamboopole.bmp"
+    },
+    {
+        "TEX_ID": 22986,
+        "FILENAME": "ui_gathermat-koreanpaper.bmp"
+    },
+    {
+        "TEX_ID": 22987,
+        "FILENAME": "ui_gathermat-shagbrush.bmp"
+    },
+    {
+        "TEX_ID": 22988,
+        "FILENAME": "ui_defence_trousers_varmika.bmp"
+    },
+    {
+        "TEX_ID": 22989,
+        "FILENAME": "ui_defence-cloth_varmika.bmp"
+    },
+    {
+        "TEX_ID": 22990,
+        "FILENAME": "ui_defence-shoe_zukravasas.bmp"
+    },
+    {
+        "TEX_ID": 22991,
+        "FILENAME": "ui_defence_glove_zukravasas.bmp"
+    },
+    {
+        "TEX_ID": 22992,
+        "FILENAME": "ui_defence_trousers_zukravasas.bmp"
+    },
+    {
+        "TEX_ID": 22993,
+        "FILENAME": "ui_gathermat-pineinkstick.bmp"
+    },
+    {
+        "TEX_ID": 22994,
+        "FILENAME": "ui_defence-cloth_zukravasas.bmp"
+    },
+    {
+        "TEX_ID": 22995,
+        "FILENAME": "ui_gathermat-clayinkstone.bmp"
+    },
+    {
+        "TEX_ID": 22996,
+        "FILENAME": "ui_gathermat-furbrush.bmp"
+    },
+    {
+        "TEX_ID": 22997,
+        "FILENAME": "ui_gathermat-flagofhokutoseikun.bmp"
+    },
+    {
+        "TEX_ID": 22998,
+        "FILENAME": "ui_gathermat-helmetofswordman.bmp"
+    },
+    {
+        "TEX_ID": 22999,
+        "FILENAME": "ui_gathermat-trousersofswordman.bmp"
+    },
+    {
+        "TEX_ID": 23000,
+        "FILENAME": "ui_gathermat-legofswordman.bmp"
+    },
+    {
+        "TEX_ID": 23001,
+        "FILENAME": "ui_gathermat-hornbow.bmp"
+    },
+    {
+        "TEX_ID": 23002,
+        "FILENAME": "ui_gathermat-breastplateofswordman.bmp"
+    },
+    {
+        "TEX_ID": 23003,
+        "FILENAME": "ui_gathermat-generalsword.bmp"
+    },
+    {
+        "TEX_ID": 23004,
+        "FILENAME": "ui_gathermat-eyeballofswordman.bmp"
+    },
+    {
+        "TEX_ID": 23005,
+        "FILENAME": "ui_gathermat-blackgunpowder.bmp"
+    },
+    {
+        "TEX_ID": 23006,
+        "FILENAME": "ui_gathermat-headofswordman.bmp"
+    },
+    {
+        "TEX_ID": 23007,
+        "FILENAME": "ui_gathermat-oldmappiece.bmp"
+    },
+    {
+        "TEX_ID": 23008,
+        "FILENAME": "ui_gathermat-cottonmeasuringtape.bmp"
+    },
+    {
+        "TEX_ID": 23009,
+        "FILENAME": "ui_consume-event_bell01.bmp"
+    },
+    {
+        "TEX_ID": 23010,
+        "FILENAME": "ui_consume-event_biggiftbox01.bmp"
+    },
+    {
+        "TEX_ID": 23011,
+        "FILENAME": "ui_consume-event_xmastreebig01.bmp"
+    },
+    {
+        "TEX_ID": 23012,
+        "FILENAME": "ui_consume-event_xmastreesmall01.bmp"
+    },
+    {
+        "TEX_ID": 23013,
+        "FILENAME": "ui_consume-event_lightgiftbox01.bmp"
+    },
+    {
+        "TEX_ID": 23014,
+        "FILENAME": "ui_consume-event_ribon01.bmp"
+    },
+    {
+        "TEX_ID": 23015,
+        "FILENAME": "ui_consume-event_santacard01.bmp"
+    },
+    {
+        "TEX_ID": 23016,
+        "FILENAME": "ui_consume-event_smallgiftbox01.bmp"
+    },
+    {
+        "TEX_ID": 23017,
+        "FILENAME": "ui_consume-event_star01.bmp"
+    },
+    {
+        "TEX_ID": 23018,
+        "FILENAME": "ui_consume-event_stick01.bmp"
+    },
+    {
+        "TEX_ID": 23019,
+        "FILENAME": "ui_consume-event_tree01.bmp"
+    },
+    {
+        "TEX_ID": 23020,
+        "FILENAME": "command_ashirambattle.bmp"
+    },
+    {
+        "TEX_ID": 23021,
+        "FILENAME": "command_pvpduel.bmp"
+    },
+    {
+        "TEX_ID": 23022,
+        "FILENAME": "ui_weapon-rank11_blunt-01.bmp"
+    },
+    {
+        "TEX_ID": 23023,
+        "FILENAME": "ui_weapon-rank11_bow-01.bmp"
+    },
+    {
+        "TEX_ID": 23024,
+        "FILENAME": "ui_weapon-rank11_dagger-01.bmp"
+    },
+    {
+        "TEX_ID": 23025,
+        "FILENAME": "ui_weapon-rank11_fightglove-01.bmp"
+    },
+    {
+        "TEX_ID": 23026,
+        "FILENAME": "ui_weapon-rank11_onehandaxe-01.bmp"
+    },
+    {
+        "TEX_ID": 23027,
+        "FILENAME": "ui_weapon-rank11_onehandmagic-01.bmp"
+    },
+    {
+        "TEX_ID": 23028,
+        "FILENAME": "ui_weapon-rank11_onehandsword-01.bmp"
+    },
+    {
+        "TEX_ID": 23029,
+        "FILENAME": "ui_weapon-rank11_shield-01.bmp"
+    },
+    {
+        "TEX_ID": 23030,
+        "FILENAME": "ui_weapon-rank11_spear-01.bmp"
+    },
+    {
+        "TEX_ID": 23031,
+        "FILENAME": "ui_weapon-rank11_twohandaxe-01.bmp"
+    },
+    {
+        "TEX_ID": 23032,
+        "FILENAME": "ui_weapon-rank11_twohandmagic-01.bmp"
+    },
+    {
+        "TEX_ID": 23033,
+        "FILENAME": "ui_weapon-rank11_twohandsword-01.bmp"
+    },
+    {
+        "TEX_ID": 23034,
+        "FILENAME": "ui_gathermat-cobweb01.bmp"
+    },
+    {
+        "TEX_ID": 23035,
+        "FILENAME": "ui_gathermat-lightshell01.bmp"
+    },
+    {
+        "TEX_ID": 23036,
+        "FILENAME": "command_emptyplace.bmp"
+    },
+    {
+        "TEX_ID": 23037,
+        "FILENAME": "ui_charged_gem_zad01.bmp"
+    },
+    {
+        "TEX_ID": 23038,
+        "FILENAME": "ui_event_dduckguk_01.bmp"
+    },
+    {
+        "TEX_ID": 23039,
+        "FILENAME": "ui_event_yutnori_do01.bmp"
+    },
+    {
+        "TEX_ID": 23040,
+        "FILENAME": "ui_event_yutnori_gae01.bmp"
+    },
+    {
+        "TEX_ID": 23041,
+        "FILENAME": "ui_event_yutnori_gul01.bmp"
+    },
+    {
+        "TEX_ID": 23042,
+        "FILENAME": "ui_event_yutnori_mo01.bmp"
+    },
+    {
+        "TEX_ID": 23043,
+        "FILENAME": "ui_event_yutnori_yut01.bmp"
+    },
+    {
+        "TEX_ID": 23044,
+        "FILENAME": "ui_event_yutnori_yutgarak01.bmp"
+    },
+    {
+        "TEX_ID": 23045,
+        "FILENAME": "ui_event_chocolate01.bmp"
+    },
+    {
+        "TEX_ID": 23046,
+        "FILENAME": "ui_event_redrose01.bmp"
+    },
+    {
+        "TEX_ID": 23047,
+        "FILENAME": "ui_event_treasurebox01.bmp"
+    },
+    {
+        "TEX_ID": 23048,
+        "FILENAME": "ui_event_treasurebox02.bmp"
+    },
+    {
+        "TEX_ID": 23049,
+        "FILENAME": "ui_event_treasurebox03.bmp"
+    },
+    {
+        "TEX_ID": 23050,
+        "FILENAME": "ui_event_whiterose01.bmp"
+    },
+    {
+        "TEX_ID": 23051,
+        "FILENAME": "ui_1stanniversary_chatupass01.bmp"
+    },
+    {
+        "TEX_ID": 23052,
+        "FILENAME": "ui_1stanniversary_magicbox01.bmp"
+    },
+    {
+        "TEX_ID": 23053,
+        "FILENAME": "ui_1stanniversary_magichammer01.bmp"
+    },
+    {
+        "TEX_ID": 23054,
+        "FILENAME": "ui_1stanniversary_magiclamp01.bmp"
+    },
+    {
+        "TEX_ID": 23055,
+        "FILENAME": "ui_1stanniversary_magicpocket01.bmp"
+    },
+    {
+        "TEX_ID": 23056,
+        "FILENAME": "command_findfriend.bmp"
+    },
+    {
+        "TEX_ID": 23057,
+        "FILENAME": "ui_charged_beautyshop01.bmp"
+    },
+    {
+        "TEX_ID": 23058,
+        "FILENAME": "ui_charged_utara_panaka250_01.bmp"
+    },
+    {
+        "TEX_ID": 23059,
+        "FILENAME": "ui_quest-aflowerbasket.bmp"
+    },
+    {
+        "TEX_ID": 23060,
+        "FILENAME": "ui_quest-bouquet.bmp"
+    },
+    {
+        "TEX_ID": 23061,
+        "FILENAME": "ui_quest-breakbouquet.bmp"
+    },
+    {
+        "TEX_ID": 23062,
+        "FILENAME": "ui_quest-letter03.bmp"
+    },
+    {
+        "TEX_ID": 23063,
+        "FILENAME": "ui_quest-pilgrimagevoucher.bmp"
+    },
+    {
+        "TEX_ID": 23064,
+        "FILENAME": "ui_quest-stamavas.bmp"
+    },
+    {
+        "TEX_ID": 23065,
+        "FILENAME": "icon_skill_trimu_p_ava1_zayaste.bmp"
+    },
+    {
+        "TEX_ID": 23066,
+        "FILENAME": "icon_skill_trimu_p_ava2_tapashrasa.bmp"
+    },
+    {
+        "TEX_ID": 23067,
+        "FILENAME": "icon_skill_trimu_p_ava3_jayinlat.bmp"
+    },
+    {
+        "TEX_ID": 23068,
+        "FILENAME": "icon_skill_trimu_p_bra1_cintana.bmp"
+    },
+    {
+        "TEX_ID": 23069,
+        "FILENAME": "icon_skill_trimu_p_bra2_upasarga.bmp"
+    },
+    {
+        "TEX_ID": 23070,
+        "FILENAME": "icon_skill_trimu_p_bra3_khila.bmp"
+    },
+    {
+        "TEX_ID": 23071,
+        "FILENAME": "icon_skill_trimu_p_ksha1_vistambha.bmp"
+    },
+    {
+        "TEX_ID": 23072,
+        "FILENAME": "icon_skill_trimu_p_ksha2_cheka.bmp"
+    },
+    {
+        "TEX_ID": 23073,
+        "FILENAME": "icon_skill_trimu_p_ksha3_para.bmp"
+    },
+    {
+        "TEX_ID": 23074,
+        "FILENAME": "icon_skill_trimu_p_maha1_parihara.bmp"
+    },
+    {
+        "TEX_ID": 23075,
+        "FILENAME": "icon_skill_trimu_p_maha2_ragghas.bmp"
+    },
+    {
+        "TEX_ID": 23076,
+        "FILENAME": "icon_skill_trimu_p_maha3_paz.bmp"
+    },
+    {
+        "TEX_ID": 23077,
+        "FILENAME": "ui_event_iwantit01.bmp"
+    },
+    {
+        "TEX_ID": 23078,
+        "FILENAME": "ui_charged_bhava.bmp"
+    },
+    {
+        "TEX_ID": 23079,
+        "FILENAME": "ui_charged_khazila.bmp"
+    },
+    {
+        "TEX_ID": 23080,
+        "FILENAME": "ui_charged_manyu.bmp"
+    },
+    {
+        "TEX_ID": 23081,
+        "FILENAME": "ui_charged_pradaya.bmp"
+    },
+    {
+        "TEX_ID": 23082,
+        "FILENAME": "ui_charged_prakrti.bmp"
+    },
+    {
+        "TEX_ID": 23083,
+        "FILENAME": "ui_charged_vihrti.bmp"
+    },
+    {
+        "TEX_ID": 23084,
+        "FILENAME": "ui_fortress_1stkaustubam.bmp"
+    },
+    {
+        "TEX_ID": 23085,
+        "FILENAME": "ui_fortress_2ndkaustubam.bmp"
+    },
+    {
+        "TEX_ID": 23086,
+        "FILENAME": "ui_fortress_3rdkaustubam.bmp"
+    },
+    {
+        "TEX_ID": 23087,
+        "FILENAME": "ui_fortress_4thkaustubam.bmp"
+    },
+    {
+        "TEX_ID": 23088,
+        "FILENAME": "ui_fortress_completionkaustubam.bmp"
+    },
+    {
+        "TEX_ID": 23089,
+        "FILENAME": "ui_fortress_fortresspustika.bmp"
+    },
+    {
+        "TEX_ID": 23090,
+        "FILENAME": "ui_charged_tarusrasa.bmp"
+    },
+    {
+        "TEX_ID": 23091,
+        "FILENAME": "ui_charged_yogarasa.bmp"
+    },
+    {
+        "TEX_ID": 23092,
+        "FILENAME": "ui_druga_dg_ancientbook.bmp"
+    },
+    {
+        "TEX_ID": 23093,
+        "FILENAME": "ui_druga_dg_bead.bmp"
+    },
+    {
+        "TEX_ID": 23094,
+        "FILENAME": "ui_druga_dg_charm.bmp"
+    },
+    {
+        "TEX_ID": 23095,
+        "FILENAME": "ui_druga_dg_crystalbead.bmp"
+    },
+    {
+        "TEX_ID": 23096,
+        "FILENAME": "ui_druga_dg_magicalpaper.bmp"
+    },
+    {
+        "TEX_ID": 23097,
+        "FILENAME": "ui_druga_dg_scriptures.bmp"
+    },
+    {
+        "TEX_ID": 23098,
+        "FILENAME": "ui_druga_dg_smallbead.bmp"
+    },
+    {
+        "TEX_ID": 23099,
+        "FILENAME": "ui_druga_dg_stringbeads.bmp"
+    },
+    {
+        "TEX_ID": 23100,
+        "FILENAME": "ui_event_gmcoupon01.bmp"
+    },
+    {
+        "TEX_ID": 23101,
+        "FILENAME": "ui_siege01.bmp"
+    },
+    {
+        "TEX_ID": 23102,
+        "FILENAME": "ui_event_oporayam_32.bmp"
+    },
+    {
+        "TEX_ID": 23103,
+        "FILENAME": "ui_event_ketupat_32.bmp"
+    },
+    {
+        "TEX_ID": 23104,
+        "FILENAME": "ui_button48_n_19x19.bmp"
+    },
+    {
+        "TEX_ID": 23105,
+        "FILENAME": "ui_button48_o_19x19.bmp"
+    },
+    {
+        "TEX_ID": 23106,
+        "FILENAME": "ui_button48_d_19x19.bmp"
+    },
+    {
+        "TEX_ID": 23107,
+        "FILENAME": "ui_button47_n_64x19.bmp"
+    },
+    {
+        "TEX_ID": 23108,
+        "FILENAME": "ui_button47_o_64x19.bmp"
+    },
+    {
+        "TEX_ID": 23109,
+        "FILENAME": "ui_button47_d_64x19.bmp"
+    },
+    {
+        "TEX_ID": 23110,
+        "FILENAME": "ui_button42_n_31x21.bmp"
+    },
+    {
+        "TEX_ID": 23111,
+        "FILENAME": "ui_button42_o_31x21.bmp"
+    },
+    {
+        "TEX_ID": 23112,
+        "FILENAME": "ui_button42_d_31x21.bmp"
+    },
+    {
+        "TEX_ID": 23113,
+        "FILENAME": "ui_charged_pranaup_1h_32.bmp"
+    },
+    {
+        "TEX_ID": 23114,
+        "FILENAME": "ui_charged_pranaup_4h_32.bmp"
+    },
+    {
+        "TEX_ID": 23115,
+        "FILENAME": "command_chatroom.bmp"
+    },
+    {
+        "TEX_ID": 23116,
+        "FILENAME": "ui_charged_pranaup2_1h_32.bmp"
+    },
+    {
+        "TEX_ID": 23117,
+        "FILENAME": "ui_charged_pranaup2_4h_32.bmp"
+    },
+    {
+        "TEX_ID": 23118,
+        "FILENAME": "ui_charged_deckarma_1h_32.bmp"
+    },
+    {
+        "TEX_ID": 23119,
+        "FILENAME": "ui_charged_deckarma_4h_32.bmp"
+    },
+    {
+        "TEX_ID": 23120,
+        "FILENAME": "ui_1stanniversary_magiclamp02_32.bmp"
+    },
+    {
+        "TEX_ID": 23121,
+        "FILENAME": "ui_acc-belt06.bmp"
+    },
+    {
+        "TEX_ID": 23122,
+        "FILENAME": "ui_acc-ring06.bmp"
+    },
+    {
+        "TEX_ID": 23123,
+        "FILENAME": "ui_acc-necklace06.bmp"
+    },
+    {
+        "TEX_ID": 23124,
+        "FILENAME": "ui_acc-bracelet06.bmp"
+    },
+    {
+        "TEX_ID": 23125,
+        "FILENAME": "ui_charged_caruzila_32.bmp"
+    },
+    {
+        "TEX_ID": 23126,
+        "FILENAME": "ui_charged_kantha_32.bmp"
+    },
+    {
+        "TEX_ID": 23127,
+        "FILENAME": "ui_charged_lalita_32.bmp"
+    },
+    {
+        "TEX_ID": 23128,
+        "FILENAME": "ui_charged_mala_32.bmp"
+    },
+    {
+        "TEX_ID": 23129,
+        "FILENAME": "ui_charged_saikha_32.bmp"
+    },
+    {
+        "TEX_ID": 23130,
+        "FILENAME": "ui_event_sakura_s_32.bmp"
+    },
+    {
+        "TEX_ID": 23131,
+        "FILENAME": "ui_event_sakura_l_32.bmp"
+    },
+    {
+        "TEX_ID": 23132,
+        "FILENAME": "ui_event_candy.bmp"
+    },
+    {
+        "TEX_ID": 23133,
+        "FILENAME": "ui_charged_pranaup5p.bmp"
+    },
+    {
+        "TEX_ID": 23134,
+        "FILENAME": "ui_charged_pranaup10p.bmp"
+    },
+    {
+        "TEX_ID": 23135,
+        "FILENAME": "ui_charged_pranaup100p.bmp"
+    },
+    {
+        "TEX_ID": 23136,
+        "FILENAME": "ui_defense_shield_kavasa.bmp"
+    },
+    {
+        "TEX_ID": 23137,
+        "FILENAME": "ui_weapon_blunt_tupra.bmp"
+    },
+    {
+        "TEX_ID": 23138,
+        "FILENAME": "ui_weapon_bow_zarggin.bmp"
+    },
+    {
+        "TEX_ID": 23139,
+        "FILENAME": "ui_weapon_dagger_katara.bmp"
+    },
+    {
+        "TEX_ID": 23140,
+        "FILENAME": "ui_weapon_fightglove_pazuta.bmp"
+    },
+    {
+        "TEX_ID": 23141,
+        "FILENAME": "ui_weapon_onehandaxe_mukha.bmp"
+    },
+    {
+        "TEX_ID": 23142,
+        "FILENAME": "ui_weapon_onehandmagic_matruka.bmp"
+    },
+    {
+        "TEX_ID": 23143,
+        "FILENAME": "ui_weapon_spear_pasana.bmp"
+    },
+    {
+        "TEX_ID": 23144,
+        "FILENAME": "ui_weapon_sword_sashaka.bmp"
+    },
+    {
+        "TEX_ID": 23145,
+        "FILENAME": "ui_weapon_twohandaxe_parjava.bmp"
+    },
+    {
+        "TEX_ID": 23146,
+        "FILENAME": "ui_weapon_twohandmagic_kona.bmp"
+    },
+    {
+        "TEX_ID": 23147,
+        "FILENAME": "ui_weapon_twohandsword_nikartu.bmp"
+    },
+    {
+        "TEX_ID": 23148,
+        "FILENAME": "ui_defence_cloth_guda.bmp"
+    },
+    {
+        "TEX_ID": 23149,
+        "FILENAME": "ui_defence_glove_guda.bmp"
+    },
+    {
+        "TEX_ID": 23150,
+        "FILENAME": "ui_defence_hat_guda.bmp"
+    },
+    {
+        "TEX_ID": 23151,
+        "FILENAME": "ui_defence_pants_guda.bmp"
+    },
+    {
+        "TEX_ID": 23152,
+        "FILENAME": "ui_defence_shoes_guda.bmp"
+    },
+    {
+        "TEX_ID": 23153,
+        "FILENAME": "ui_defence_cloth_bahula.bmp"
+    },
+    {
+        "TEX_ID": 23154,
+        "FILENAME": "ui_defence_glove_bahula.bmp"
+    },
+    {
+        "TEX_ID": 23155,
+        "FILENAME": "ui_defence_hat_bahula.bmp"
+    },
+    {
+        "TEX_ID": 23156,
+        "FILENAME": "ui_defence_pants_bahula.bmp"
+    },
+    {
+        "TEX_ID": 23157,
+        "FILENAME": "ui_defence_shoes_bahula.bmp"
+    },
+    {
+        "TEX_ID": 23158,
+        "FILENAME": "ui_defence_cloth_jagara.bmp"
+    },
+    {
+        "TEX_ID": 23159,
+        "FILENAME": "ui_defence_glove_jagara.bmp"
+    },
+    {
+        "TEX_ID": 23160,
+        "FILENAME": "ui_defence_hat_jagara.bmp"
+    },
+    {
+        "TEX_ID": 23161,
+        "FILENAME": "ui_defence_pants_jagara.bmp"
+    },
+    {
+        "TEX_ID": 23162,
+        "FILENAME": "ui_defence_shoes_jagara.bmp"
+    },
+    {
+        "TEX_ID": 23163,
+        "FILENAME": "ui_defence_cloth_amukti.bmp"
+    },
+    {
+        "TEX_ID": 23164,
+        "FILENAME": "ui_defence_glove_amukti.bmp"
+    },
+    {
+        "TEX_ID": 23165,
+        "FILENAME": "ui_defence_hat_amukti.bmp"
+    },
+    {
+        "TEX_ID": 23166,
+        "FILENAME": "ui_defence_pants_amukti.bmp"
+    },
+    {
+        "TEX_ID": 23167,
+        "FILENAME": "ui_defence_shoes_amukti.bmp"
+    },
+    {
+        "TEX_ID": 23168,
+        "FILENAME": "ui_quest_k3_picture.bmp"
+    },
+    {
+        "TEX_ID": 23169,
+        "FILENAME": "ui_quest_k3_condition.bmp"
+    },
+    {
+        "TEX_ID": 23170,
+        "FILENAME": "ui_quest_k3_asparagin.bmp"
+    },
+    {
+        "TEX_ID": 23171,
+        "FILENAME": "ui_quest_k3_ramayana.bmp"
+    },
+    {
+        "TEX_ID": 23172,
+        "FILENAME": "ui_quest_k3_sugribha.bmp"
+    },
+    {
+        "TEX_ID": 23173,
+        "FILENAME": "ui_quest_k3_dongchoong.bmp"
+    },
+    {
+        "TEX_ID": 23174,
+        "FILENAME": "ui_quest_k3_daehwang.bmp"
+    },
+    {
+        "TEX_ID": 23175,
+        "FILENAME": "ui_quest_k3_samcho.bmp"
+    },
+    {
+        "TEX_ID": 23176,
+        "FILENAME": "ui_quest_k3_mushroom.bmp"
+    },
+    {
+        "TEX_ID": 23177,
+        "FILENAME": "ui_quest_k3_moonshine.bmp"
+    },
+    {
+        "TEX_ID": 23178,
+        "FILENAME": "ui_quest_k3_moonshine2.bmp"
+    },
+    {
+        "TEX_ID": 23179,
+        "FILENAME": "ui_quest_k3_riceflour.bmp"
+    },
+    {
+        "TEX_ID": 23180,
+        "FILENAME": "ui_quest_k3_lotusflower.bmp"
+    },
+    {
+        "TEX_ID": 23181,
+        "FILENAME": "ui_quest_k3_voucherofnaoki.bmp"
+    },
+    {
+        "TEX_ID": 23182,
+        "FILENAME": "ui_quest_k3_voucherofyuri.bmp"
+    },
+    {
+        "TEX_ID": 23183,
+        "FILENAME": "ui_quest_k3_evidenceofhero1.bmp"
+    },
+    {
+        "TEX_ID": 23184,
+        "FILENAME": "ui_quest_k3_evidenceofhero2.bmp"
+    },
+    {
+        "TEX_ID": 23185,
+        "FILENAME": "ui_quest_k3_evidenceofhero3.bmp"
+    },
+    {
+        "TEX_ID": 23186,
+        "FILENAME": "ui_quest_k3_evidenceofhero4.bmp"
+    },
+    {
+        "TEX_ID": 23187,
+        "FILENAME": "ui_quest_k3_statuaryofsarasbati.bmp"
+    },
+    {
+        "TEX_ID": 23188,
+        "FILENAME": "ui_event_candra.bmp"
+    },
+    {
+        "TEX_ID": 23189,
+        "FILENAME": "command_shop.bmp"
+    },
+    {
+        "TEX_ID": 23190,
+        "FILENAME": "ui_charged_gem_nayati02.bmp"
+    },
+    {
+        "TEX_ID": 23191,
+        "FILENAME": "ui_charged_gem_lamate02.bmp"
+    },
+    {
+        "TEX_ID": 23192,
+        "FILENAME": "ui_charged_gem_avati02.bmp"
+    },
+    {
+        "TEX_ID": 23193,
+        "FILENAME": "ui_charged_gem_kund_32.bmp"
+    },
+    {
+        "TEX_ID": 23194,
+        "FILENAME": "ui_gathermat_magicbook.bmp"
+    },
+    {
+        "TEX_ID": 23195,
+        "FILENAME": "ui_gathermat_helmofking.bmp"
+    },
+    {
+        "TEX_ID": 23196,
+        "FILENAME": "ui_gathermat_antenna.bmp"
+    },
+    {
+        "TEX_ID": 23197,
+        "FILENAME": "ui_gathermat_bracelet.bmp"
+    },
+    {
+        "TEX_ID": 23198,
+        "FILENAME": "ui_gathermat_brokenaxe.bmp"
+    },
+    {
+        "TEX_ID": 23199,
+        "FILENAME": "ui_gathermat_brokenclaw.bmp"
+    },
+    {
+        "TEX_ID": 23200,
+        "FILENAME": "ui_gathermat_brokenstaff.bmp"
+    },
+    {
+        "TEX_ID": 23201,
+        "FILENAME": "ui_gathermat_bump.bmp"
+    },
+    {
+        "TEX_ID": 23202,
+        "FILENAME": "ui_gathermat_cushion.bmp"
+    },
+    {
+        "TEX_ID": 23203,
+        "FILENAME": "ui_gathermat_fin.bmp"
+    },
+    {
+        "TEX_ID": 23204,
+        "FILENAME": "ui_gathermat_maraleash.bmp"
+    },
+    {
+        "TEX_ID": 23205,
+        "FILENAME": "ui_gathermat_nail3.bmp"
+    },
+    {
+        "TEX_ID": 23206,
+        "FILENAME": "ui_gathermat_pieceoftooth.bmp"
+    },
+    {
+        "TEX_ID": 23207,
+        "FILENAME": "ui_gathermat_spiderfoot.bmp"
+    },
+    {
+        "TEX_ID": 23208,
+        "FILENAME": "ui_gathermat_swordofking.bmp"
+    },
+    {
+        "TEX_ID": 23209,
+        "FILENAME": "ui_gathermat_underwear.bmp"
+    },
+    {
+        "TEX_ID": 23210,
+        "FILENAME": "ui_gathermat_zombiehead.bmp"
+    },
+    {
+        "TEX_ID": 23211,
+        "FILENAME": "ui_gathermat_brokensword.bmp"
+    },
+    {
+        "TEX_ID": 23216,
+        "FILENAME": "ui_charged_azakta.bmp"
+    },
+    {
+        "TEX_ID": 23217,
+        "FILENAME": "ui_charged_varutha.bmp"
+    },
+    {
+        "TEX_ID": 23218,
+        "FILENAME": "ui_charged_apacayatp.bmp"
+    },
+    {
+        "TEX_ID": 23219,
+        "FILENAME": "ui_gathermat_resetquest.bmp"
+    },
+    {
+        "TEX_ID": 23220,
+        "FILENAME": "ui_consume_changegod2.bmp"
+    },
+    {
+        "TEX_ID": 23221,
+        "FILENAME": "ui_consume_changegod3.bmp"
+    },
+    {
+        "TEX_ID": 23222,
+        "FILENAME": "ui_consume_changegod1.bmp"
+    },
+    {
+        "TEX_ID": 23223,
+        "FILENAME": "ui_consume_rempustika.bmp"
+    },
+    {
+        "TEX_ID": 23224,
+        "FILENAME": "ui_charged_aeriallybomb01.bmp"
+    },
+    {
+        "TEX_ID": 23225,
+        "FILENAME": "ui_charged_aeriallybomb02.bmp"
+    },
+    {
+        "TEX_ID": 23226,
+        "FILENAME": "ui_charged_aeriallybomb03.bmp"
+    },
+    {
+        "TEX_ID": 23227,
+        "FILENAME": "ui_charged_bombpack.bmp"
+    },
+    {
+        "TEX_ID": 23228,
+        "FILENAME": "ui_charged_gems_gav.bmp"
+    },
+    {
+        "TEX_ID": 23229,
+        "FILENAME": "ui_gathermat_prasava.bmp"
+    },
+    {
+        "TEX_ID": 23230,
+        "FILENAME": "ui_charged_high_amritapanaka.bmp"
+    },
+    {
+        "TEX_ID": 23231,
+        "FILENAME": "ui_charged_magicbox03.bmp"
+    },
+    {
+        "TEX_ID": 23232,
+        "FILENAME": "ui_charged_magiclamp03.bmp"
+    },
+    {
+        "TEX_ID": 23233,
+        "FILENAME": "ui_charged_magiclamp04.bmp"
+    },
+    {
+        "TEX_ID": 23234,
+        "FILENAME": "ui_charged_magiclamp05.bmp"
+    },
+    {
+        "TEX_ID": 23235,
+        "FILENAME": "ui_event_football.bmp"
+    },
+    {
+        "TEX_ID": 23236,
+        "FILENAME": "ui_quest_barnaknight.bmp"
+    },
+    {
+        "TEX_ID": 23237,
+        "FILENAME": "ui_event_itara.bmp"
+    },
+    {
+        "TEX_ID": 23238,
+        "FILENAME": "ui-totem_danba.bmp"
+    },
+    {
+        "TEX_ID": 23239,
+        "FILENAME": "ui-totem_mahi.bmp"
+    },
+    {
+        "TEX_ID": 23242,
+        "FILENAME": "ui_event_ghost"
+    },
+    {
+        "TEX_ID": 23243,
+        "FILENAME": "ui_event_waterbox01.bmp"
+    },
+    {
+        "TEX_ID": 23244,
+        "FILENAME": "ui_event_himita.bmp"
+    },
+    {
+        "TEX_ID": 23245,
+        "FILENAME": "ui_event_sherbet.bmp"
+    },
+    {
+        "TEX_ID": 23246,
+        "FILENAME": "ui_event_chadcut.bmp"
+    },
+    {
+        "TEX_ID": 23256,
+        "FILENAME": "ui_event_change01_32.bmp"
+    },
+    {
+        "TEX_ID": 23257,
+        "FILENAME": "ui_event_change02_32.bmp"
+    },
+    {
+        "TEX_ID": 23291,
+        "FILENAME": "ui_gathermat_toy.bmp"
+    },
+    {
+        "TEX_ID": 23292,
+        "FILENAME": "ui_gathermat_redensign.bmp"
+    },
+    {
+        "TEX_ID": 23293,
+        "FILENAME": "ui_gathermat_piplicaegg.bmp"
+    },
+    {
+        "TEX_ID": 23294,
+        "FILENAME": "ui_gathermat_oldiron-01.bmp"
+    },
+    {
+        "TEX_ID": 23295,
+        "FILENAME": "command_party.bmp"
+    },
+    {
+        "TEX_ID": 23296,
+        "FILENAME": "command_cheers.bmp"
+    },
+    {
+        "TEX_ID": 23297,
+        "FILENAME": "ui_gathermat_hamazaleg.bmp"
+    },
+    {
+        "TEX_ID": 23299,
+        "FILENAME": "ui_gathermat_bloodtie.bmp"
+    },
+    {
+        "TEX_ID": 23300,
+        "FILENAME": "command_partywithdraw.bmp"
+    },
+    {
+        "TEX_ID": 23301,
+        "FILENAME": "cb_command_n.bmp"
+    },
+    {
+        "TEX_ID": 23302,
+        "FILENAME": "cb_command_o.bmp"
+    },
+    {
+        "TEX_ID": 23303,
+        "FILENAME": "cb_command_d.bmp"
+    },
+    {
+        "TEX_ID": 23304,
+        "FILENAME": "cb_pk_n.bmp"
+    },
+    {
+        "TEX_ID": 23305,
+        "FILENAME": "cb_pk_o.bmp"
+    },
+    {
+        "TEX_ID": 23306,
+        "FILENAME": "cb_pk_d.bmp"
+    },
+    {
+        "TEX_ID": 23307,
+        "FILENAME": "cb_status_n.bmp"
+    },
+    {
+        "TEX_ID": 23308,
+        "FILENAME": "cb_status_d.bmp"
+    },
+    {
+        "TEX_ID": 23309,
+        "FILENAME": "cb_inven_n.bmp"
+    },
+    {
+        "TEX_ID": 23310,
+        "FILENAME": "cb_inven_d.bmp"
+    },
+    {
+        "TEX_ID": 23311,
+        "FILENAME": "cb_quest_n.bmp"
+    },
+    {
+        "TEX_ID": 23312,
+        "FILENAME": "cb_quest_d.bmp"
+    },
+    {
+        "TEX_ID": 23313,
+        "FILENAME": "cb_premium_d.bmp"
+    },
+    {
+        "TEX_ID": 23314,
+        "FILENAME": "cb_premium_n.bmp"
+    },
+    {
+        "TEX_ID": 23315,
+        "FILENAME": "cb_skill_n.bmp"
+    },
+    {
+        "TEX_ID": 23316,
+        "FILENAME": "cb_skill_d.bmp"
+    },
+    {
+        "TEX_ID": 23317,
+        "FILENAME": "cb_system_n.bmp"
+    },
+    {
+        "TEX_ID": 23318,
+        "FILENAME": "cb_system_d.bmp"
+    },
+    {
+        "TEX_ID": 23322,
+        "FILENAME": "cb_status_o.bmp"
+    },
+    {
+        "TEX_ID": 23323,
+        "FILENAME": "cb_inven_o.bmp"
+    },
+    {
+        "TEX_ID": 23324,
+        "FILENAME": "cb_quest_o.bmp"
+    },
+    {
+        "TEX_ID": 23325,
+        "FILENAME": "cb_skill_o.bmp"
+    },
+    {
+        "TEX_ID": 23326,
+        "FILENAME": "cb_system_o.bmp"
+    },
+    {
+        "TEX_ID": 23327,
+        "FILENAME": "command_rush.bmp"
+    },
+    {
+        "TEX_ID": 23328,
+        "FILENAME": "command_provoke.bmp"
+    },
+    {
+        "TEX_ID": 23329,
+        "FILENAME": "command_greet.bmp"
+    },
+    {
+        "TEX_ID": 23330,
+        "FILENAME": "cb_premium_o.bmp"
+    },
+    {
+        "TEX_ID": 23335,
+        "FILENAME": "stamp.tga"
+    },
+    {
+        "TEX_ID": 23461,
+        "FILENAME": "ui_weapon-bow_darapacala.bmp"
+    },
+    {
+        "TEX_ID": 23462,
+        "FILENAME": "ui_weapon-bow_rodapacala.bmp"
+    },
+    {
+        "TEX_ID": 23463,
+        "FILENAME": "ui_weapon-bow_urnacapa.bmp"
+    },
+    {
+        "TEX_ID": 23464,
+        "FILENAME": "ui_weapon-bow_hastacapa.bmp"
+    },
+    {
+        "TEX_ID": 23465,
+        "FILENAME": "ui_event_passitem01.bmp"
+    },
+    {
+        "TEX_ID": 23466,
+        "FILENAME": "ui_event_passitem02.bmp"
+    },
+    {
+        "TEX_ID": 23467,
+        "FILENAME": "ui_event_passitem03.bmp"
+    },
+    {
+        "TEX_ID": 23468,
+        "FILENAME": "ui_event_passitem04.bmp"
+    },
+    {
+        "TEX_ID": 23469,
+        "FILENAME": "icon_skill_ao_antakara.bmp"
+    },
+    {
+        "TEX_ID": 23470,
+        "FILENAME": "icon_skill_ao_gathana.bmp"
+    },
+    {
+        "TEX_ID": 23471,
+        "FILENAME": "icon_skill_ao_irintirika02.bmp"
+    },
+    {
+        "TEX_ID": 23472,
+        "FILENAME": "icon_skill_ao_spare01.bmp"
+    },
+    {
+        "TEX_ID": 23473,
+        "FILENAME": "icon_skill_ao_yamaka02.bmp"
+    },
+    {
+        "TEX_ID": 23474,
+        "FILENAME": "icon_skill_av_umasamate02.bmp"
+    },
+    {
+        "TEX_ID": 23475,
+        "FILENAME": "icon_skill_p_baluca02.bmp"
+    },
+    {
+        "TEX_ID": 23476,
+        "FILENAME": "icon_skill_p_baluca03.bmp"
+    },
+    {
+        "TEX_ID": 23477,
+        "FILENAME": "icon_skill_p_prahastaroka02.bmp"
+    },
+    {
+        "TEX_ID": 23478,
+        "FILENAME": "icon_skill_p_prahastaroka03.bmp"
+    },
+    {
+        "TEX_ID": 23479,
+        "FILENAME": "icon_skill_p_ramhan02.bmp"
+    },
+    {
+        "TEX_ID": 23480,
+        "FILENAME": "icon_skill_p_sazi02.bmp"
+    },
+    {
+        "TEX_ID": 23481,
+        "FILENAME": "icon_skill_ao_astakarohati02.bmp"
+    },
+    {
+        "TEX_ID": 23482,
+        "FILENAME": "icon_skill_ao_zama02.bmp"
+    },
+    {
+        "TEX_ID": 23483,
+        "FILENAME": "icon_skill_ao_basati02.bmp"
+    },
+    {
+        "TEX_ID": 23484,
+        "FILENAME": "icon_skill_ao_dorbatrash02.bmp"
+    },
+    {
+        "TEX_ID": 23485,
+        "FILENAME": "icon_skill_ao_spta02.bmp"
+    },
+    {
+        "TEX_ID": 23486,
+        "FILENAME": "icon_skill_ao_zama03.bmp"
+    },
+    {
+        "TEX_ID": 23487,
+        "FILENAME": "icon_skill_p_cundalinirise02.bmp"
+    },
+    {
+        "TEX_ID": 23488,
+        "FILENAME": "icon_skill_p_cundalinirise03.bmp"
+    },
+    {
+        "TEX_ID": 23489,
+        "FILENAME": "icon_skill_p_laksroka02.bmp"
+    },
+    {
+        "TEX_ID": 23490,
+        "FILENAME": "icon_skill_ao_chaya02.bmp"
+    },
+    {
+        "TEX_ID": 23491,
+        "FILENAME": "icon_skill_ao_bukampa02.bmp"
+    },
+    {
+        "TEX_ID": 23492,
+        "FILENAME": "icon_skill_ao_sptaresman02.bmp"
+    },
+    {
+        "TEX_ID": 23493,
+        "FILENAME": "icon_skill_av_treta03.bmp"
+    },
+    {
+        "TEX_ID": 23494,
+        "FILENAME": "icon_skill_p_sazi03.bmp"
+    },
+    {
+        "TEX_ID": 23495,
+        "FILENAME": "ui_charged_cadoraicharm01.bmp"
+    },
+    {
+        "TEX_ID": 23496,
+        "FILENAME": "ui_charged_element_degrade01.bmp"
+    },
+    {
+        "TEX_ID": 23497,
+        "FILENAME": "ui_charged_high_anubabacharm01.bmp"
+    },
+    {
+        "TEX_ID": 23498,
+        "FILENAME": "ui_charged_high_jibapustika01.bmp"
+    },
+    {
+        "TEX_ID": 23499,
+        "FILENAME": "ui_charged_high_movespeedup01.bmp"
+    },
+    {
+        "TEX_ID": 23500,
+        "FILENAME": "ui_charged_indication01.bmp"
+    },
+    {
+        "TEX_ID": 23511,
+        "FILENAME": "map_weapon_shop.bmp"
+    },
+    {
+        "TEX_ID": 23512,
+        "FILENAME": "map_armor_shop.bmp"
+    },
+    {
+        "TEX_ID": 23513,
+        "FILENAME": "map_miscel.bmp"
+    },
+    {
+        "TEX_ID": 23514,
+        "FILENAME": "map_storehouse.bmp"
+    },
+    {
+        "TEX_ID": 23517,
+        "FILENAME": "ui_charged_letter01.bmp"
+    },
+    {
+        "TEX_ID": 23518,
+        "FILENAME": "ui_charged_lifebook01.bmp"
+    },
+    {
+        "TEX_ID": 23519,
+        "FILENAME": "icon_skill_100lv_01"
+    },
+    {
+        "TEX_ID": 23520,
+        "FILENAME": "icon_skill_100lv_02"
+    },
+    {
+        "TEX_ID": 23521,
+        "FILENAME": "icon_skill_100lv_03"
+    },
+    {
+        "TEX_ID": 23522,
+        "FILENAME": "icon_skill_100lv_04"
+    },
+    {
+        "TEX_ID": 23523,
+        "FILENAME": "icon_skill_100lv_05"
+    },
+    {
+        "TEX_ID": 23524,
+        "FILENAME": "icon_skill_100lv_06"
+    },
+    {
+        "TEX_ID": 23525,
+        "FILENAME": "icon_skill_100lv_07"
+    },
+    {
+        "TEX_ID": 23526,
+        "FILENAME": "icon_skill_100lv_08"
+    },
+    {
+        "TEX_ID": 23527,
+        "FILENAME": "ui_defense_15th_shield.bmp"
+    },
+    {
+        "TEX_ID": 23528,
+        "FILENAME": "ui_weapon_15th_magic2h.bmp"
+    },
+    {
+        "TEX_ID": 23529,
+        "FILENAME": "icon_skill_p_agnisanatha 01.bmp"
+    },
+    {
+        "TEX_ID": 23530,
+        "FILENAME": "icon_skill_p_himasanatha 01.bmp"
+    },
+    {
+        "TEX_ID": 23531,
+        "FILENAME": "icon_skill_p_rusanatha 01.bmp"
+    },
+    {
+        "TEX_ID": 23532,
+        "FILENAME": "icon_skill_p_skandapury 01.bmp"
+    },
+    {
+        "TEX_ID": 23540,
+        "FILENAME": "ui_charged_high_agnisa 01.bmp"
+    },
+    {
+        "TEX_ID": 23541,
+        "FILENAME": "ui_charged_high_himasa 01.bmp"
+    },
+    {
+        "TEX_ID": 23542,
+        "FILENAME": "ui_charged_high_jilakaman_b01.bmp"
+    },
+    {
+        "TEX_ID": 23543,
+        "FILENAME": "ui_charged_high_jilakaman_m01.bmp"
+    },
+    {
+        "TEX_ID": 23544,
+        "FILENAME": "ui_charged_high_jilakaman_s01.bmp"
+    },
+    {
+        "TEX_ID": 23545,
+        "FILENAME": "ui_charged_high_rusa 01.bmp"
+    },
+    {
+        "TEX_ID": 23546,
+        "FILENAME": "ui_charged_krisunacharm 01.bmp"
+    },
+    {
+        "TEX_ID": 23547,
+        "FILENAME": "ui_charged_letter_activate 01.bmp"
+    },
+    {
+        "TEX_ID": 23548,
+        "FILENAME": "ui_charged_letter_unactivate 01.bmp"
+    },
+    {
+        "TEX_ID": 23551,
+        "FILENAME": "ui_gathermat-armordecoration.bmp"
+    },
+    {
+        "TEX_ID": 23552,
+        "FILENAME": "ui_gathermat-armorframe.bmp"
+    },
+    {
+        "TEX_ID": 23553,
+        "FILENAME": "ui_quest-braceletofwiseman.bmp"
+    },
+    {
+        "TEX_ID": 23554,
+        "FILENAME": "ui_quest-bundleofmerchant.bmp"
+    },
+    {
+        "TEX_ID": 23555,
+        "FILENAME": "ui_quest-capacitypill.bmp"
+    },
+    {
+        "TEX_ID": 23556,
+        "FILENAME": "ui_quest-earringofmilitiaofficer.bmp"
+    },
+    {
+        "TEX_ID": 23557,
+        "FILENAME": "ui_quest-earringofwiseman.bmp"
+    },
+    {
+        "TEX_ID": 23558,
+        "FILENAME": "ui_quest-ignitionchemical.bmp"
+    },
+    {
+        "TEX_ID": 23559,
+        "FILENAME": "ui_quest-lefteyeofape.bmp"
+    },
+    {
+        "TEX_ID": 23560,
+        "FILENAME": "ui_quest-letteroflizard.bmp"
+    },
+    {
+        "TEX_ID": 23561,
+        "FILENAME": "ui_quest-tigerhead.bmp"
+    },
+    {
+        "TEX_ID": 23562,
+        "FILENAME": "ui_quest-toolbagofartisan.bmp"
+    },
+    {
+        "TEX_ID": 23563,
+        "FILENAME": "ui_quest-unisonpill.bmp"
+    },
+    {
+        "TEX_ID": 23564,
+        "FILENAME": "ui_charged_aeriallybomb_b01.bmp"
+    },
+    {
+        "TEX_ID": 23565,
+        "FILENAME": "ui_charged_aeriallybomb_m01.bmp"
+    },
+    {
+        "TEX_ID": 23566,
+        "FILENAME": "ui_charged_aeriallybomb_s01.bmp"
+    },
+    {
+        "TEX_ID": 23567,
+        "FILENAME": "ui_charged_atmancharm01.bmp"
+    },
+    {
+        "TEX_ID": 23568,
+        "FILENAME": "ui_charged_highlifebook01.bmp"
+    },
+    {
+        "TEX_ID": 23571,
+        "FILENAME": "bmp_quickskill_box.bmp"
+    },
+    {
+        "TEX_ID": 23573,
+        "FILENAME": "ui_gathermat-armorover.bmp"
+    },
+    {
+        "TEX_ID": 23575,
+        "FILENAME": "ui_gathermat-armorunder.bmp"
+    },
+    {
+        "TEX_ID": 23576,
+        "FILENAME": "ui_gathermat-cuttingcloth.bmp"
+    },
+    {
+        "TEX_ID": 23581,
+        "FILENAME": "ui_gathermat-cuttingthread.bmp"
+    },
+    {
+        "TEX_ID": 23591,
+        "FILENAME": "ui_defence-shoe09.bmp"
+    },
+    {
+        "TEX_ID": 23594,
+        "FILENAME": "ui_weapon-spear11.bmp"
+    },
+    {
+        "TEX_ID": 23595,
+        "FILENAME": "ui_weapon-sword19.bmp"
+    },
+    {
+        "TEX_ID": 23596,
+        "FILENAME": "ui_weapon-sword20.bmp"
+    },
+    {
+        "TEX_ID": 23597,
+        "FILENAME": "ui_defence_glove22.bmp"
+    },
+    {
+        "TEX_ID": 23598,
+        "FILENAME": "ui_defence_trousers22.bmp"
+    },
+    {
+        "TEX_ID": 23599,
+        "FILENAME": "ui_defence-cloth24.bmp"
+    },
+    {
+        "TEX_ID": 23600,
+        "FILENAME": "map_east.bmp"
+    },
+    {
+        "TEX_ID": 23601,
+        "FILENAME": "map_west.bmp"
+    },
+    {
+        "TEX_ID": 23602,
+        "FILENAME": "map_south.bmp"
+    },
+    {
+        "TEX_ID": 23603,
+        "FILENAME": "map_north.bmp"
+    },
+    {
+        "TEX_ID": 23604,
+        "FILENAME": "icon_skill_ao_agupta.bmp"
+    },
+    {
+        "TEX_ID": 23605,
+        "FILENAME": "icon_skill_ao_ambakabizati.bmp"
+    },
+    {
+        "TEX_ID": 23606,
+        "FILENAME": "icon_skill_ao_astakarohati.bmp"
+    },
+    {
+        "TEX_ID": 23607,
+        "FILENAME": "icon_skill_ao_bizsai.bmp"
+    },
+    {
+        "TEX_ID": 23608,
+        "FILENAME": "icon_skill_ao_desti.bmp"
+    },
+    {
+        "TEX_ID": 23609,
+        "FILENAME": "icon_skill_ao_dibanda.bmp"
+    },
+    {
+        "TEX_ID": 23610,
+        "FILENAME": "ui_gathermat-decorationhobnail.bmp"
+    },
+    {
+        "TEX_ID": 23611,
+        "FILENAME": "icon_skill_ao_himatirika.bmp"
+    },
+    {
+        "TEX_ID": 23612,
+        "FILENAME": "ui_gathermat-featheroflegendbird.bmp"
+    },
+    {
+        "TEX_ID": 23613,
+        "FILENAME": "bmp_chat_mark_n.bmp"
+    },
+    {
+        "TEX_ID": 23614,
+        "FILENAME": "bmp_chat_mark_d.bmp"
+    },
+    {
+        "TEX_ID": 23615,
+        "FILENAME": "bmp_drag_point.bmp"
+    },
+    {
+        "TEX_ID": 23616,
+        "FILENAME": "icon_skill_ao_irintirika.bmp"
+    },
+    {
+        "TEX_ID": 23617,
+        "FILENAME": "icon_skill_ao_jakti.bmp"
+    },
+    {
+        "TEX_ID": 23618,
+        "FILENAME": "icon_skill_ao_pauvaprya.bmp"
+    },
+    {
+        "TEX_ID": 23619,
+        "FILENAME": "icon_skill_ao_prapad.bmp"
+    },
+    {
+        "TEX_ID": 23620,
+        "FILENAME": "ui_gathermat-glue.bmp"
+    },
+    {
+        "TEX_ID": 23623,
+        "FILENAME": "bmp_chat_radiobox.bmp"
+    },
+    {
+        "TEX_ID": 23624,
+        "FILENAME": "ui_quest_highqualiityacc_32.bmp"
+    },
+    {
+        "TEX_ID": 23632,
+        "FILENAME": "quest_point2.tga"
+    },
+    {
+        "TEX_ID": 23642,
+        "FILENAME": "bmp_address_naga.bmp"
+    },
+    {
+        "TEX_ID": 23643,
+        "FILENAME": "bmp_address_naga_gray.bmp"
+    },
+    {
+        "TEX_ID": 23644,
+        "FILENAME": "bmp_address_asura.bmp"
+    },
+    {
+        "TEX_ID": 23645,
+        "FILENAME": "bmp_address_asura_gray.bmp"
+    },
+    {
+        "TEX_ID": 23646,
+        "FILENAME": "bmp_address_yakshasa.bmp"
+    },
+    {
+        "TEX_ID": 23647,
+        "FILENAME": "bmp_address_yakshasa_gray.bmp"
+    },
+    {
+        "TEX_ID": 23648,
+        "FILENAME": "bmp_address_deva.bmp"
+    },
+    {
+        "TEX_ID": 23649,
+        "FILENAME": "bmp_address_deva_gray.bmp"
+    },
+    {
+        "TEX_ID": 23650,
+        "FILENAME": "bmp_address_kinnara.bmp"
+    },
+    {
+        "TEX_ID": 23651,
+        "FILENAME": "bmp_address_kinnara_gray.bmp"
+    },
+    {
+        "TEX_ID": 23652,
+        "FILENAME": "bmp_address_rakshasa.bmp"
+    },
+    {
+        "TEX_ID": 23653,
+        "FILENAME": "bmp_address_rakshasa_gray.bmp"
+    },
+    {
+        "TEX_ID": 23654,
+        "FILENAME": "bmp_address_gandarba.bmp"
+    },
+    {
+        "TEX_ID": 23655,
+        "FILENAME": "bmp_address_gandarba_gray.bmp"
+    },
+    {
+        "TEX_ID": 23656,
+        "FILENAME": "bmp_address_garuda.bmp"
+    },
+    {
+        "TEX_ID": 23657,
+        "FILENAME": "bmp_address_garuda_gray.bmp"
+    },
+    {
+        "TEX_ID": 23658,
+        "FILENAME": "bmp_address_god_brahma.bmp"
+    },
+    {
+        "TEX_ID": 23659,
+        "FILENAME": "bmp_address_god_vishunu.bmp"
+    },
+    {
+        "TEX_ID": 23660,
+        "FILENAME": "bmp_address_god_siva.bmp"
+    },
+    {
+        "TEX_ID": 23661,
+        "FILENAME": "bmp_timer_0.tga"
+    },
+    {
+        "TEX_ID": 23664,
+        "FILENAME": "ui_weapon-axe20.bmp"
+    },
+    {
+        "TEX_ID": 23665,
+        "FILENAME": "ui_weapon-axe21.bmp"
+    },
+    {
+        "TEX_ID": 23666,
+        "FILENAME": "ui_weapon-blunt10.bmp"
+    },
+    {
+        "TEX_ID": 23667,
+        "FILENAME": "ui_weapon-bow_bakuracapa.bmp"
+    },
+    {
+        "TEX_ID": 23668,
+        "FILENAME": "ui_weapon-bow_puspacapa.bmp"
+    },
+    {
+        "TEX_ID": 23669,
+        "FILENAME": "ui_weapon-fight12.bmp"
+    },
+    {
+        "TEX_ID": 23689,
+        "FILENAME": "icon_god_brahma.bmp"
+    },
+    {
+        "TEX_ID": 23690,
+        "FILENAME": "icon_god_vishunu.bmp"
+    },
+    {
+        "TEX_ID": 23691,
+        "FILENAME": "icon_god_siva.bmp"
+    },
+    {
+        "TEX_ID": 23692,
+        "FILENAME": "ui_weapon-magic19.bmp"
+    },
+    {
+        "TEX_ID": 23693,
+        "FILENAME": "ui_weapon-magic20.bmp"
+    },
+    {
+        "TEX_ID": 23694,
+        "FILENAME": "icon_race_asura.bmp"
+    },
+    {
+        "TEX_ID": 23695,
+        "FILENAME": "icon_race_yaksa.bmp"
+    },
+    {
+        "TEX_ID": 23696,
+        "FILENAME": "icon_race_deva.bmp"
+    },
+    {
+        "TEX_ID": 23697,
+        "FILENAME": "icon_race_kimnara.bmp"
+    },
+    {
+        "TEX_ID": 23698,
+        "FILENAME": "icon_race_rakahasha.bmp"
+    },
+    {
+        "TEX_ID": 23699,
+        "FILENAME": "icon_race_gandharva.bmp"
+    },
+    {
+        "TEX_ID": 23700,
+        "FILENAME": "icon_race_garuda.bmp"
+    },
+    {
+        "TEX_ID": 23701,
+        "FILENAME": "icon_class_abatra.bmp"
+    },
+    {
+        "TEX_ID": 23702,
+        "FILENAME": "icon_class_brahma.bmp"
+    },
+    {
+        "TEX_ID": 23703,
+        "FILENAME": "icon_class_kshatria.bmp"
+    },
+    {
+        "TEX_ID": 23704,
+        "FILENAME": "icon_class_sudra.bmp"
+    },
+    {
+        "TEX_ID": 23705,
+        "FILENAME": "icon_class_visha.bmp"
+    },
+    {
+        "TEX_ID": 23706,
+        "FILENAME": "ui_weapon-shortsword12.bmp"
+    },
+    {
+        "TEX_ID": 23707,
+        "FILENAME": "icon_skill_p_baluca.bmp"
+    },
+    {
+        "TEX_ID": 23708,
+        "FILENAME": "icon_skill_p_oraamor.bmp"
+    },
+    {
+        "TEX_ID": 23709,
+        "FILENAME": "icon_skill_ao_stun.bmp"
+    },
+    {
+        "TEX_ID": 23710,
+        "FILENAME": "icon_skill_av_savitriforce.bmp"
+    },
+    {
+        "TEX_ID": 23711,
+        "FILENAME": "icon_skill_p_spark.bmp"
+    },
+    {
+        "TEX_ID": 23712,
+        "FILENAME": "icon_skill_av_incresespeed.bmp"
+    },
+    {
+        "TEX_ID": 23713,
+        "FILENAME": "icon_skill_ao_bega.bmp"
+    },
+    {
+        "TEX_ID": 23714,
+        "FILENAME": "icon_skill_av_orashield.bmp"
+    },
+    {
+        "TEX_ID": 23715,
+        "FILENAME": "icon_skill_p_orapunch.bmp"
+    },
+    {
+        "TEX_ID": 23716,
+        "FILENAME": "icon_skill_p_barunaforce.bmp"
+    },
+    {
+        "TEX_ID": 23717,
+        "FILENAME": "icon_skill_ao_bisacro.bmp"
+    },
+    {
+        "TEX_ID": 23718,
+        "FILENAME": "icon_skill_av_scandapuri.bmp"
+    },
+    {
+        "TEX_ID": 23719,
+        "FILENAME": "icon_skill_ao_mantra.bmp"
+    },
+    {
+        "TEX_ID": 23720,
+        "FILENAME": "icon_skill_p_range.bmp"
+    },
+    {
+        "TEX_ID": 23721,
+        "FILENAME": "icon_skill_ao_hima.bmp"
+    },
+    {
+        "TEX_ID": 23722,
+        "FILENAME": "icon_skill_av_indrazala.bmp"
+    },
+    {
+        "TEX_ID": 23723,
+        "FILENAME": "icon_skill_p_cundalinirise.bmp"
+    },
+    {
+        "TEX_ID": 23724,
+        "FILENAME": "icon_skill_av_razasprana.bmp"
+    },
+    {
+        "TEX_ID": 23725,
+        "FILENAME": "icon_skill_p_bishunuzroca.bmp"
+    },
+    {
+        "TEX_ID": 23726,
+        "FILENAME": "icon_skill_av_cure.bmp"
+    },
+    {
+        "TEX_ID": 23727,
+        "FILENAME": "icon_skill_ao_cacolaground.bmp"
+    },
+    {
+        "TEX_ID": 23728,
+        "FILENAME": "icon_skill_av_viraba.bmp"
+    },
+    {
+        "TEX_ID": 23729,
+        "FILENAME": "icon_skill_holdfire.bmp"
+    },
+    {
+        "TEX_ID": 23730,
+        "FILENAME": "icon_skill_ao_holdpoison.bmp"
+    },
+    {
+        "TEX_ID": 23731,
+        "FILENAME": "icon_skill_av_suryaforce.bmp"
+    },
+    {
+        "TEX_ID": 23732,
+        "FILENAME": "icon_skill_ao_pranaarrow.bmp"
+    },
+    {
+        "TEX_ID": 23733,
+        "FILENAME": "icon_skill_agniarrow.bmp"
+    },
+    {
+        "TEX_ID": 23734,
+        "FILENAME": "icon_skill_returntown.bmp"
+    },
+    {
+        "TEX_ID": 23735,
+        "FILENAME": "icon_skill_p_swordmaster.bmp"
+    },
+    {
+        "TEX_ID": 23736,
+        "FILENAME": "icon_skill_p_spearmaster.bmp"
+    },
+    {
+        "TEX_ID": 23737,
+        "FILENAME": "icon_skill_p_xmaster.bmp"
+    },
+    {
+        "TEX_ID": 23738,
+        "FILENAME": "icon_skill_p_masemaster.bmp"
+    },
+    {
+        "TEX_ID": 23739,
+        "FILENAME": "icon_skill_ao_balukatrash.bmp"
+    },
+    {
+        "TEX_ID": 23740,
+        "FILENAME": "icon_skill_ao_sabitristun.bmp"
+    },
+    {
+        "TEX_ID": 23741,
+        "FILENAME": "icon_skill_p_dorbaforce.bmp"
+    },
+    {
+        "TEX_ID": 23742,
+        "FILENAME": "icon_skill_ao_dorbaagainst.bmp"
+    },
+    {
+        "TEX_ID": 23743,
+        "FILENAME": "icon_skill_ao_dorbatrash.bmp"
+    },
+    {
+        "TEX_ID": 23744,
+        "FILENAME": "icon_skill_ao_gail.bmp"
+    },
+    {
+        "TEX_ID": 23745,
+        "FILENAME": "icon_skill_ao_agniblaze.bmp"
+    },
+    {
+        "TEX_ID": 23746,
+        "FILENAME": "icon_skill_ao_chandraforce.bmp"
+    },
+    {
+        "TEX_ID": 23747,
+        "FILENAME": "icon_skill_p_blast.bmp"
+    },
+    {
+        "TEX_ID": 23748,
+        "FILENAME": "icon_skill_ao_chandraroca.bmp"
+    },
+    {
+        "TEX_ID": 23749,
+        "FILENAME": "icon_skill_ao_tripleorapunch.bmp"
+    },
+    {
+        "TEX_ID": 23750,
+        "FILENAME": "icon_skill_p_bisapoison.bmp"
+    },
+    {
+        "TEX_ID": 23751,
+        "FILENAME": "icon_skill_av_suriyaforce.bmp"
+    },
+    {
+        "TEX_ID": 23752,
+        "FILENAME": "icon_skill_p_glovemaster.bmp"
+    },
+    {
+        "TEX_ID": 23753,
+        "FILENAME": "icon_skill_ao_suriafirecrack.bmp"
+    },
+    {
+        "TEX_ID": 23754,
+        "FILENAME": "icon_skill_ao_agni.bmp"
+    },
+    {
+        "TEX_ID": 23755,
+        "FILENAME": "icon_skill_ao_himachacra.bmp"
+    },
+    {
+        "TEX_ID": 23756,
+        "FILENAME": "icon_skill_av_mitraforce.bmp"
+    },
+    {
+        "TEX_ID": 23757,
+        "FILENAME": "icon_skill_p_magicweaponmaster.bmp"
+    },
+    {
+        "TEX_ID": 23758,
+        "FILENAME": "icon_skill_ao_maholka.bmp"
+    },
+    {
+        "TEX_ID": 23759,
+        "FILENAME": "icon_skill_av_incresespeed_yaksa.bmp"
+    },
+    {
+        "TEX_ID": 23760,
+        "FILENAME": "icon_skill_av_incresespeed_asura.bmp"
+    },
+    {
+        "TEX_ID": 23761,
+        "FILENAME": "icon_skill_p_incresechacra_deva.bmp"
+    },
+    {
+        "TEX_ID": 23762,
+        "FILENAME": "icon_skill_incresechacra_naga.bmp"
+    },
+    {
+        "TEX_ID": 23763,
+        "FILENAME": "icon_skill_av_brahmancundarini.bmp"
+    },
+    {
+        "TEX_ID": 23764,
+        "FILENAME": "icon_skill_radablow.bmp"
+    },
+    {
+        "TEX_ID": 23765,
+        "FILENAME": "icon_skill_marutgrasp.bmp"
+    },
+    {
+        "TEX_ID": 23766,
+        "FILENAME": "icon_skill_ratriculs.bmp"
+    },
+    {
+        "TEX_ID": 23767,
+        "FILENAME": "icon_skill_av_vishunuzroca.bmp"
+    },
+    {
+        "TEX_ID": 23768,
+        "FILENAME": "icon_skill_ao_ru.bmp"
+    },
+    {
+        "TEX_ID": 23769,
+        "FILENAME": "icon_skill_ao_rauti.bmp"
+    },
+    {
+        "TEX_ID": 23770,
+        "FILENAME": "icon_skill_ao_gunajast.bmp"
+    },
+    {
+        "TEX_ID": 23771,
+        "FILENAME": "icon_skill_ao_rohati.bmp"
+    },
+    {
+        "TEX_ID": 23772,
+        "FILENAME": "icon_skill_ao_mantraskin.bmp"
+    },
+    {
+        "TEX_ID": 23773,
+        "FILENAME": "icon_skill_ao_basati.bmp"
+    },
+    {
+        "TEX_ID": 23774,
+        "FILENAME": "icon_skill_ao_balukamantra.bmp"
+    },
+    {
+        "TEX_ID": 23775,
+        "FILENAME": "icon_skill_ao_samudaba.bmp"
+    },
+    {
+        "TEX_ID": 23776,
+        "FILENAME": "icon_skill_ao_sacatarada.bmp"
+    },
+    {
+        "TEX_ID": 23777,
+        "FILENAME": "icon_skill_ao_janatipara.bmp"
+    },
+    {
+        "TEX_ID": 23778,
+        "FILENAME": "icon_skill_ao_janite.bmp"
+    },
+    {
+        "TEX_ID": 23779,
+        "FILENAME": "icon_skill_ao_jasat.bmp"
+    },
+    {
+        "TEX_ID": 23780,
+        "FILENAME": "icon_skill_ao_cadorai.bmp"
+    },
+    {
+        "TEX_ID": 23781,
+        "FILENAME": "icon_skill_ao_cramaca.bmp"
+    },
+    {
+        "TEX_ID": 23782,
+        "FILENAME": "icon_skill_ao_tapasasara.bmp"
+    },
+    {
+        "TEX_ID": 23783,
+        "FILENAME": "icon_skill_ao_pranica.bmp"
+    },
+    {
+        "TEX_ID": 23784,
+        "FILENAME": "icon_skill_av_ruguna.bmp"
+    },
+    {
+        "TEX_ID": 23785,
+        "FILENAME": "icon_skill_av_mayat.bmp"
+    },
+    {
+        "TEX_ID": 23786,
+        "FILENAME": "icon_skill_av_bisarada.bmp"
+    },
+    {
+        "TEX_ID": 23787,
+        "FILENAME": "icon_skill_av_agniguna.bmp"
+    },
+    {
+        "TEX_ID": 23788,
+        "FILENAME": "icon_skill_av_agnirada.bmp"
+    },
+    {
+        "TEX_ID": 23789,
+        "FILENAME": "icon_skill_av_azaca.bmp"
+    },
+    {
+        "TEX_ID": 23790,
+        "FILENAME": "icon_skill_av_tarca.bmp"
+    },
+    {
+        "TEX_ID": 23791,
+        "FILENAME": "icon_skill_p_ataniroca.bmp"
+    },
+    {
+        "TEX_ID": 23792,
+        "FILENAME": "icon_skill_p_yakat.bmp"
+    },
+    {
+        "TEX_ID": 23793,
+        "FILENAME": "icon_skill_p_paubica.bmp"
+    },
+    {
+        "TEX_ID": 23794,
+        "FILENAME": "icon_skill_ao_nauti.bmp"
+    },
+    {
+        "TEX_ID": 23795,
+        "FILENAME": "icon_skill_ao_bukampa.bmp"
+    },
+    {
+        "TEX_ID": 23796,
+        "FILENAME": "icon_skill_ao_agnitomara.bmp"
+    },
+    {
+        "TEX_ID": 23797,
+        "FILENAME": "icon_skill_ao_prabeza.bmp"
+    },
+    {
+        "TEX_ID": 23798,
+        "FILENAME": "icon_skill_ao_himaresman.bmp"
+    },
+    {
+        "TEX_ID": 23799,
+        "FILENAME": "icon_skill_av_paracamana.bmp"
+    },
+    {
+        "TEX_ID": 23800,
+        "FILENAME": "icon_skill_p_nakararoka.bmp"
+    },
+    {
+        "TEX_ID": 23811,
+        "FILENAME": "command_sit.bmp"
+    },
+    {
+        "TEX_ID": 23812,
+        "FILENAME": "command_walk.bmp"
+    },
+    {
+        "TEX_ID": 23813,
+        "FILENAME": "command_attack.bmp"
+    },
+    {
+        "TEX_ID": 23814,
+        "FILENAME": "command_trace.bmp"
+    },
+    {
+        "TEX_ID": 23815,
+        "FILENAME": "command_help.bmp"
+    },
+    {
+        "TEX_ID": 23816,
+        "FILENAME": "command_trade.bmp"
+    },
+    {
+        "TEX_ID": 23817,
+        "FILENAME": "command_pic_back.bmp"
+    },
+    {
+        "TEX_ID": 23818,
+        "FILENAME": "command_target.bmp"
+    },
+    {
+        "TEX_ID": 23819,
+        "FILENAME": "command_pickup.bmp"
+    },
+    {
+        "TEX_ID": 23820,
+        "FILENAME": "icon_skill_av_orashield01.bmp"
+    },
+    {
+        "TEX_ID": 23821,
+        "FILENAME": "icon_skill_ao_mantraskin01.bmp"
+    },
+    {
+        "TEX_ID": 23822,
+        "FILENAME": "icon_skill_av_akhila_ruj.bmp"
+    },
+    {
+        "TEX_ID": 23823,
+        "FILENAME": "icon_skill_p_sthirata.bmp"
+    },
+    {
+        "TEX_ID": 23824,
+        "FILENAME": "icon_skill_av_antarya.bmp"
+    },
+    {
+        "TEX_ID": 23825,
+        "FILENAME": "icon_skill_av_antaryavirati.bmp"
+    },
+    {
+        "TEX_ID": 23826,
+        "FILENAME": "icon_skill_av_tan.bmp"
+    },
+    {
+        "TEX_ID": 23827,
+        "FILENAME": "icon_skill_av_varana.bmp"
+    },
+    {
+        "TEX_ID": 23828,
+        "FILENAME": "icon_skill_ao_agnimani.bmp"
+    },
+    {
+        "TEX_ID": 23829,
+        "FILENAME": "icon_skill_ao_pravara.bmp"
+    },
+    {
+        "TEX_ID": 23830,
+        "FILENAME": "icon_skill_ao_rogazama.bmp"
+    },
+    {
+        "TEX_ID": 23852,
+        "FILENAME": "ui_defence_glove23.bmp"
+    },
+    {
+        "TEX_ID": 23853,
+        "FILENAME": "ui_defence_trousers23.bmp"
+    },
+    {
+        "TEX_ID": 23854,
+        "FILENAME": "ui_defence-cloth25.bmp"
+    },
+    {
+        "TEX_ID": 23855,
+        "FILENAME": "ui_defence-shoe10.bmp"
+    },
+    {
+        "TEX_ID": 23856,
+        "FILENAME": "ui_defence_glove21.bmp"
+    },
+    {
+        "TEX_ID": 23857,
+        "FILENAME": "ui_defence_trousers21.bmp"
+    },
+    {
+        "TEX_ID": 23858,
+        "FILENAME": "ui_defence-cloth23.bmp"
+    },
+    {
+        "TEX_ID": 23859,
+        "FILENAME": "ui_defence-shoe08.bmp"
+    },
+    {
+        "TEX_ID": 23860,
+        "FILENAME": "ui_defence_glove24.bmp"
+    },
+    {
+        "TEX_ID": 23861,
+        "FILENAME": "ui_defence_trousers24.bmp"
+    },
+    {
+        "TEX_ID": 23862,
+        "FILENAME": "ui_defence-cloth26.bmp"
+    },
+    {
+        "TEX_ID": 23863,
+        "FILENAME": "ui_defence-shoe11.bmp"
+    },
+    {
+        "TEX_ID": 23864,
+        "FILENAME": "ui_defence_shield09.bmp"
+    },
+    {
+        "TEX_ID": 23865,
+        "FILENAME": "icon_skill_ao_stun01.bmp"
+    },
+    {
+        "TEX_ID": 23866,
+        "FILENAME": "icon_skill_ao_mantra01.bmp"
+    },
+    {
+        "TEX_ID": 23867,
+        "FILENAME": "icon_skill_ao_ambakabizati01.bmp"
+    },
+    {
+        "TEX_ID": 23868,
+        "FILENAME": "icon_skill_p_barunaforce01.bmp"
+    },
+    {
+        "TEX_ID": 23869,
+        "FILENAME": "icon_skill_ao_rohatisusarba.bmp"
+    },
+    {
+        "TEX_ID": 23870,
+        "FILENAME": "icon_skill_ao_sidharu.bmp"
+    },
+    {
+        "TEX_ID": 23871,
+        "FILENAME": "icon_skill_ao_yamaka.bmp"
+    },
+    {
+        "TEX_ID": 23872,
+        "FILENAME": "icon_skill_ao_zama.bmp"
+    },
+    {
+        "TEX_ID": 23873,
+        "FILENAME": "icon_skill_ao_zamatirika.bmp"
+    },
+    {
+        "TEX_ID": 23874,
+        "FILENAME": "icon_skill_av_arokakin.bmp"
+    },
+    {
+        "TEX_ID": 23875,
+        "FILENAME": "icon_skill_av_bisaiyasarvana.bmp"
+    },
+    {
+        "TEX_ID": 23876,
+        "FILENAME": "icon_skill_av_damanibandana.bmp"
+    },
+    {
+        "TEX_ID": 23877,
+        "FILENAME": "icon_skill_av_dehinutara.bmp"
+    },
+    {
+        "TEX_ID": 23878,
+        "FILENAME": "icon_skill_av_himarada.bmp"
+    },
+    {
+        "TEX_ID": 23879,
+        "FILENAME": "icon_skill_av_juvas.bmp"
+    },
+    {
+        "TEX_ID": 23880,
+        "FILENAME": "icon_skill_av_kalati.bmp"
+    },
+    {
+        "TEX_ID": 23881,
+        "FILENAME": "icon_skill_av_scandapuri01.bmp"
+    },
+    {
+        "TEX_ID": 23882,
+        "FILENAME": "icon_skill_av_saata.bmp"
+    },
+    {
+        "TEX_ID": 23883,
+        "FILENAME": "ui_gathermat-increasesteel.bmp"
+    },
+    {
+        "TEX_ID": 23884,
+        "FILENAME": "ui_gathermat-processingskin.bmp"
+    },
+    {
+        "TEX_ID": 23885,
+        "FILENAME": "ui_gathermat-toughskin.bmp"
+    },
+    {
+        "TEX_ID": 23886,
+        "FILENAME": "icon_skill_av_stamcarman.bmp"
+    },
+    {
+        "TEX_ID": 23887,
+        "FILENAME": "icon_skill_av_treta.bmp"
+    },
+    {
+        "TEX_ID": 23888,
+        "FILENAME": "icon_skill_av_umasamate.bmp"
+    },
+    {
+        "TEX_ID": 23889,
+        "FILENAME": "icon_skill_p_dvairadaroka.bmp"
+    },
+    {
+        "TEX_ID": 23890,
+        "FILENAME": "icon_skill_p_laksroka.bmp"
+    },
+    {
+        "TEX_ID": 23891,
+        "FILENAME": "icon_skill_p_prahastaroka.bmp"
+    },
+    {
+        "TEX_ID": 23892,
+        "FILENAME": "icon_skill_p_ramhas.bmp"
+    },
+    {
+        "TEX_ID": 23893,
+        "FILENAME": "icon_skill_p_sazi.bmp"
+    },
+    {
+        "TEX_ID": 23894,
+        "FILENAME": "icon_skill_av_bukazama.bmp"
+    },
+    {
+        "TEX_ID": 23895,
+        "FILENAME": "cursor_keyboard.bmp"
+    },
+    {
+        "TEX_ID": 23896,
+        "FILENAME": "icon_skill_av_orashield01.bmp"
+    },
+    {
+        "TEX_ID": 23897,
+        "FILENAME": "icon_skill_ao_mantraskin01.bmp"
+    },
+    {
+        "TEX_ID": 23898,
+        "FILENAME": "icon_skill_p_cundalinirise04.bmp"
+    },
+    {
+        "TEX_ID": 23899,
+        "FILENAME": "white.bmp"
+    },
+    {
+        "TEX_ID": 23900,
+        "FILENAME": "ui_weapon-sword09_rare.bmp"
+    },
+    {
+        "TEX_ID": 23901,
+        "FILENAME": "ui_weapon-sword12_rare.bmp"
+    },
+    {
+        "TEX_ID": 23902,
+        "FILENAME": "ui_weapon-sword13_rare.bmp"
+    },
+    {
+        "TEX_ID": 23903,
+        "FILENAME": "ui_weapon-shortsword02_rare.bmp"
+    },
+    {
+        "TEX_ID": 23904,
+        "FILENAME": "ui_weapon-shortsword03_rare.bmp"
+    },
+    {
+        "TEX_ID": 23905,
+        "FILENAME": "ui_weapon-shortsword01_rare.bmp"
+    },
+    {
+        "TEX_ID": 23906,
+        "FILENAME": "ui_weapon-shortsword06_rare.bmp"
+    },
+    {
+        "TEX_ID": 23907,
+        "FILENAME": "ui_weapon-shortsword04_rare.bmp"
+    },
+    {
+        "TEX_ID": 23908,
+        "FILENAME": "ui_weapon-shortsword08_rare.bmp"
+    },
+    {
+        "TEX_ID": 23909,
+        "FILENAME": "ui_weapon-shortsword05_rare.bmp"
+    },
+    {
+        "TEX_ID": 23910,
+        "FILENAME": "ui_weapon-shortsword09_rare.bmp"
+    },
+    {
+        "TEX_ID": 23911,
+        "FILENAME": "ui_weapon-shortsword10_rare.bmp"
+    },
+    {
+        "TEX_ID": 23912,
+        "FILENAME": "ui_weapon-shortsword11_rare.bmp"
+    },
+    {
+        "TEX_ID": 23913,
+        "FILENAME": "ui_weapon-axe01_rare.bmp"
+    },
+    {
+        "TEX_ID": 23914,
+        "FILENAME": "ui_weapon-axe02_rare.bmp"
+    },
+    {
+        "TEX_ID": 23915,
+        "FILENAME": "ui_weapon-axe07_rare.bmp"
+    },
+    {
+        "TEX_ID": 23916,
+        "FILENAME": "ui_weapon-axe08_rare.bmp"
+    },
+    {
+        "TEX_ID": 23917,
+        "FILENAME": "ui_weapon-axe09_rare.bmp"
+    },
+    {
+        "TEX_ID": 23918,
+        "FILENAME": "ui_weapon-axe11_rare.bmp"
+    },
+    {
+        "TEX_ID": 23919,
+        "FILENAME": "ui_weapon-axe12_rare.bmp"
+    },
+    {
+        "TEX_ID": 23920,
+        "FILENAME": "ui_weapon-axe13_rare.bmp"
+    },
+    {
+        "TEX_ID": 23921,
+        "FILENAME": "ui_weapon-axe14_rare.bmp"
+    },
+    {
+        "TEX_ID": 23922,
+        "FILENAME": "ui_weapon-axe15_rare.bmp"
+    },
+    {
+        "TEX_ID": 23923,
+        "FILENAME": "ui_weapon-blunt06_rare.bmp"
+    },
+    {
+        "TEX_ID": 23924,
+        "FILENAME": "ui_weapon-blunt01_rare.bmp"
+    },
+    {
+        "TEX_ID": 23925,
+        "FILENAME": "ui_weapon-blunt02.bmp"
+    },
+    {
+        "TEX_ID": 23926,
+        "FILENAME": "ui_weapon-blunt04_rare.bmp"
+    },
+    {
+        "TEX_ID": 23927,
+        "FILENAME": "ui_weapon-blunt07_rare.bmp"
+    },
+    {
+        "TEX_ID": 23928,
+        "FILENAME": "ui_weapon-blunt08_rare.bmp"
+    },
+    {
+        "TEX_ID": 23929,
+        "FILENAME": "ui_weapon-blunt09_rare.bmp"
+    },
+    {
+        "TEX_ID": 23930,
+        "FILENAME": "ui_weapon-magic06_rare.bmp"
+    },
+    {
+        "TEX_ID": 23931,
+        "FILENAME": "ui_weapon-magic07_rare.bmp"
+    },
+    {
+        "TEX_ID": 23932,
+        "FILENAME": "ui_weapon-magic01_rare.bmp"
+    },
+    {
+        "TEX_ID": 23933,
+        "FILENAME": "ui_weapon-magic02_rare.bmp"
+    },
+    {
+        "TEX_ID": 23934,
+        "FILENAME": "ui_weapon-magic08_rare.bmp"
+    },
+    {
+        "TEX_ID": 23935,
+        "FILENAME": "ui_weapon-magic09_rare.bmp"
+    },
+    {
+        "TEX_ID": 23936,
+        "FILENAME": "ui_weapon-magic10_rare.bmp"
+    },
+    {
+        "TEX_ID": 23937,
+        "FILENAME": "ui_weapon-magic11_rare.bmp"
+    },
+    {
+        "TEX_ID": 23938,
+        "FILENAME": "ui_weapon-sword19_rare.bmp"
+    },
+    {
+        "TEX_ID": 23939,
+        "FILENAME": "ui_weapon-shortsword12_rare.bmp"
+    },
+    {
+        "TEX_ID": 23940,
+        "FILENAME": "ui_weapon-axe20_rare.bmp"
+    },
+    {
+        "TEX_ID": 23941,
+        "FILENAME": "ui_weapon-blunt10_rare.bmp"
+    },
+    {
+        "TEX_ID": 23942,
+        "FILENAME": "ui_weapon-magic19_rare.bmp"
+    },
+    {
+        "TEX_ID": 23943,
+        "FILENAME": "ui_weapon-rank11_onehandsword-01_rare.bmp"
+    },
+    {
+        "TEX_ID": 23944,
+        "FILENAME": "ui_weapon-rank11_dagger-01_rare.bmp"
+    },
+    {
+        "TEX_ID": 23945,
+        "FILENAME": "ui_weapon-rank11_blunt-01_rare.bmp"
+    },
+    {
+        "TEX_ID": 23946,
+        "FILENAME": "ui_weapon-rank11_onehandaxe-01_rare.bmp"
+    },
+    {
+        "TEX_ID": 23947,
+        "FILENAME": "ui_weapon_sword_azri_rare.bmp"
+    },
+    {
+        "TEX_ID": 23948,
+        "FILENAME": "ui_weapon_dagger_krti_rare.bmp"
+    },
+    {
+        "TEX_ID": 23949,
+        "FILENAME": "ui_weapon_onehandaxe_tagka_rare.bmp"
+    },
+    {
+        "TEX_ID": 23950,
+        "FILENAME": "ui_weapon_blunt_kapota_rare.bmp"
+    },
+    {
+        "TEX_ID": 23951,
+        "FILENAME": "ui_weapon-sword14_rare.bmp"
+    },
+    {
+        "TEX_ID": 23952,
+        "FILENAME": "ui_weapon-sword15_rare.bmp"
+    },
+    {
+        "TEX_ID": 23953,
+        "FILENAME": "ui_weapon-sword16_rare.bmp"
+    },
+    {
+        "TEX_ID": 23954,
+        "FILENAME": "ui_weapon-sword08_rare.bmp"
+    },
+    {
+        "TEX_ID": 23955,
+        "FILENAME": "ui_weapon-sword17_rare.bmp"
+    },
+    {
+        "TEX_ID": 23956,
+        "FILENAME": "ui_weapon-sword10_rare.bmp"
+    },
+    {
+        "TEX_ID": 23957,
+        "FILENAME": "ui_weapon-sword18_rare.bmp"
+    },
+    {
+        "TEX_ID": 23958,
+        "FILENAME": "ui_weapon-spear01_rare.bmp"
+    },
+    {
+        "TEX_ID": 23959,
+        "FILENAME": "ui_weapon-spear02_rare.bmp"
+    },
+    {
+        "TEX_ID": 23960,
+        "FILENAME": "ui_weapon-spear07_rare.bmp"
+    },
+    {
+        "TEX_ID": 23961,
+        "FILENAME": "ui_weapon-spear03_rare.bmp"
+    },
+    {
+        "TEX_ID": 23962,
+        "FILENAME": "ui_weapon-spear08_rare.bmp"
+    },
+    {
+        "TEX_ID": 23963,
+        "FILENAME": "ui_weapon-spear04_rare.bmp"
+    },
+    {
+        "TEX_ID": 23964,
+        "FILENAME": "ui_weapon-spear09_rare.bmp"
+    },
+    {
+        "TEX_ID": 23965,
+        "FILENAME": "ui_weapon-spear05_rare.bmp"
+    },
+    {
+        "TEX_ID": 23966,
+        "FILENAME": "ui_weapon-spear10_rare.bmp"
+    },
+    {
+        "TEX_ID": 23967,
+        "FILENAME": "ui_weapon-spear06_rare.bmp"
+    },
+    {
+        "TEX_ID": 23968,
+        "FILENAME": "ui_weapon-axe16_rare.bmp"
+    },
+    {
+        "TEX_ID": 23969,
+        "FILENAME": "ui_weapon-axe03_rare.bmp"
+    },
+    {
+        "TEX_ID": 23970,
+        "FILENAME": "ui_weapon-axe04_rare.bmp"
+    },
+    {
+        "TEX_ID": 23971,
+        "FILENAME": "ui_weapon-axe05_rare.bmp"
+    },
+    {
+        "TEX_ID": 23972,
+        "FILENAME": "ui_weapon-axe17_rare.bmp"
+    },
+    {
+        "TEX_ID": 23973,
+        "FILENAME": "ui_weapon-axe06_rare.bmp"
+    },
+    {
+        "TEX_ID": 23974,
+        "FILENAME": "ui_weapon-axe18_rare.bmp"
+    },
+    {
+        "TEX_ID": 23975,
+        "FILENAME": "ui_weapon-axe19_rare.bmp"
+    },
+    {
+        "TEX_ID": 23976,
+        "FILENAME": "ui_weapon-fight01_rare.bmp"
+    },
+    {
+        "TEX_ID": 23977,
+        "FILENAME": "ui_weapon-fight02_rare.bmp"
+    },
+    {
+        "TEX_ID": 23978,
+        "FILENAME": "ui_weapon-fight03_rare.bmp"
+    },
+    {
+        "TEX_ID": 23979,
+        "FILENAME": "ui_weapon-fight04_rare.bmp"
+    },
+    {
+        "TEX_ID": 23980,
+        "FILENAME": "ui_weapon-fight05_rare.bmp"
+    },
+    {
+        "TEX_ID": 23981,
+        "FILENAME": "ui_weapon-fight09_rare.bmp"
+    },
+    {
+        "TEX_ID": 23982,
+        "FILENAME": "ui_weapon-fight10_rare.bmp"
+    },
+    {
+        "TEX_ID": 23983,
+        "FILENAME": "ui_weapon-fight07_rare.bmp"
+    },
+    {
+        "TEX_ID": 23984,
+        "FILENAME": "ui_weapon-fight11_rare.bmp"
+    },
+    {
+        "TEX_ID": 23985,
+        "FILENAME": "ui_weapon-fight08_rare.bmp"
+    },
+    {
+        "TEX_ID": 23986,
+        "FILENAME": "ui_weapon-rank11_twohandsword-01_rare.bmp"
+    },
+    {
+        "TEX_ID": 23987,
+        "FILENAME": "ui_weapon-rank11_spear-01.bmp"
+    },
+    {
+        "TEX_ID": 23988,
+        "FILENAME": "ui_weapon-rank11_twohandaxe-01_rare.bmp"
+    },
+    {
+        "TEX_ID": 23989,
+        "FILENAME": "ui_weapon-rank11_fightglove-01_rare.bmp"
+    },
+    {
+        "TEX_ID": 23990,
+        "FILENAME": "ui_weapon_fightglove_ratni_rare.bmp"
+    },
+    {
+        "TEX_ID": 23991,
+        "FILENAME": "ui_weapon_spear_athari_rare.bmp"
+    },
+    {
+        "TEX_ID": 23992,
+        "FILENAME": "ui_weapon_twohandaxe_tagkavat_rare.bmp"
+    },
+    {
+        "TEX_ID": 23993,
+        "FILENAME": "ui_weapon_twohandsword_aksara_rare.bmp"
+    },
+    {
+        "TEX_ID": 23994,
+        "FILENAME": "ui_weapon_fightglove_pazuta_rare.bmp"
+    },
+    {
+        "TEX_ID": 23995,
+        "FILENAME": "ui_weapon_spear_pasana_rare.bmp"
+    },
+    {
+        "TEX_ID": 23996,
+        "FILENAME": "ui_weapon_twohandaxe_parjava_rare.bmp"
+    },
+    {
+        "TEX_ID": 23997,
+        "FILENAME": "ui_weapon_twohandsword_nikartu_rare.bmp"
+    },
+    {
+        "TEX_ID": 23998,
+        "FILENAME": "ui_weapon-magic13_rare.bmp"
+    },
+    {
+        "TEX_ID": 23999,
+        "FILENAME": "ui_weapon-magic14_rare.bmp"
+    },
+    {
+        "TEX_ID": 24000,
+        "FILENAME": "ui_weapon-magic12_rare.bmp"
+    },
+    {
+        "TEX_ID": 24001,
+        "FILENAME": "ui_weapon-magic04_rare.bmp"
+    },
+    {
+        "TEX_ID": 24002,
+        "FILENAME": "ui_weapon-magic15_rare.bmp"
+    },
+    {
+        "TEX_ID": 24003,
+        "FILENAME": "ui_weapon-magic05_rare.bmp"
+    },
+    {
+        "TEX_ID": 24004,
+        "FILENAME": "ui_weapon-magic16_rare.bmp"
+    },
+    {
+        "TEX_ID": 24005,
+        "FILENAME": "ui_weapon-magic17_rare.bmp"
+    },
+    {
+        "TEX_ID": 24006,
+        "FILENAME": "ui_weapon-magic18_rare.bmp"
+    },
+    {
+        "TEX_ID": 24007,
+        "FILENAME": "ui_weapon-sword20_rare.bmp"
+    },
+    {
+        "TEX_ID": 24008,
+        "FILENAME": "ui_weapon-spear11_rare.bmp"
+    },
+    {
+        "TEX_ID": 24009,
+        "FILENAME": "ui_weapon-axe21_rare.bmp"
+    },
+    {
+        "TEX_ID": 24010,
+        "FILENAME": "ui_weapon-fight12_rare.bmp"
+    },
+    {
+        "TEX_ID": 24011,
+        "FILENAME": "ui_weapon-magic20_rare.bmp"
+    },
+    {
+        "TEX_ID": 24012,
+        "FILENAME": "ui_weapon-rank11_twohandmagic-01_rare.bmp"
+    },
+    {
+        "TEX_ID": 24013,
+        "FILENAME": "ui_weapon_twohandmagic_sunetra_rare.bmp"
+    },
+    {
+        "TEX_ID": 24014,
+        "FILENAME": "ui_weapon_twohandmagic_kona_rare.bmp"
+    },
+    {
+        "TEX_ID": 24015,
+        "FILENAME": "ui_weapon-bow_danba_rare.bmp"
+    },
+    {
+        "TEX_ID": 24016,
+        "FILENAME": "ui_weapon-bow_kapa_rare.bmp"
+    },
+    {
+        "TEX_ID": 24017,
+        "FILENAME": "ui_weapon-bow_pakala_rare.bmp"
+    },
+    {
+        "TEX_ID": 24018,
+        "FILENAME": "ui_weapon-bow_darapacala_rare.bmp"
+    },
+    {
+        "TEX_ID": 24019,
+        "FILENAME": "ui_weapon-bow_urnacapa_rare.bmp"
+    },
+    {
+        "TEX_ID": 24020,
+        "FILENAME": "ui_weapon-bow_hastacapa_rare.bmp"
+    },
+    {
+        "TEX_ID": 24021,
+        "FILENAME": "ui_weapon-bow_bakuracapa_rare.bmp"
+    },
+    {
+        "TEX_ID": 24022,
+        "FILENAME": "ui_weapon-bow_puspacapa_rare.bmp"
+    },
+    {
+        "TEX_ID": 24023,
+        "FILENAME": "ui_weapon-rank11_bow-01_rare.bmp"
+    },
+    {
+        "TEX_ID": 24024,
+        "FILENAME": "ui_weapon_bow_bahu_rare.bmp"
+    },
+    {
+        "TEX_ID": 24025,
+        "FILENAME": "ui_weapon_bow_zarggin_rare.bmp"
+    },
+    {
+        "TEX_ID": 24026,
+        "FILENAME": "ui-bhudharani_rare.bmp"
+    },
+    {
+        "TEX_ID": 24027,
+        "FILENAME": "ui-zakunadharani_rare.bmp"
+    },
+    {
+        "TEX_ID": 24028,
+        "FILENAME": "ui-mrgendradharani_rare.bmp"
+    },
+    {
+        "TEX_ID": 24029,
+        "FILENAME": "ui-cajcudharani_rare.bmp"
+    },
+    {
+        "TEX_ID": 24030,
+        "FILENAME": "ui-totem_stampofgreatbear_rare.bmp"
+    },
+    {
+        "TEX_ID": 24031,
+        "FILENAME": "ui-totem_wooddoll_rare.bmp"
+    },
+    {
+        "TEX_ID": 24032,
+        "FILENAME": "ui-totem_talismanofgodarmy_rare.bmp"
+    },
+    {
+        "TEX_ID": 24033,
+        "FILENAME": "ui-totem_appointmentofgreatbear_rare.bmp"
+    },
+    {
+        "TEX_ID": 24034,
+        "FILENAME": "ui-totem_danba_rare.bmp"
+    },
+    {
+        "TEX_ID": 24035,
+        "FILENAME": "ui-totem_mahi_rare.bmp"
+    },
+    {
+        "TEX_ID": 24036,
+        "FILENAME": "ui_quest_barnaknight_rare.bmp"
+    },
+    {
+        "TEX_ID": 24037,
+        "FILENAME": "ui_defence_shield08_rare.bmp"
+    },
+    {
+        "TEX_ID": 24038,
+        "FILENAME": "ui_defence_shield03_rare.bmp"
+    },
+    {
+        "TEX_ID": 24039,
+        "FILENAME": "ui_defence_shield05_rare.bmp"
+    },
+    {
+        "TEX_ID": 24040,
+        "FILENAME": "ui_defence_shield06_rare.bmp"
+    },
+    {
+        "TEX_ID": 24041,
+        "FILENAME": "ui_acc-belt06_rare.bmp"
+    },
+    {
+        "TEX_ID": 24042,
+        "FILENAME": "ui_weapon_onehandmagic_matruka_rare.bmp"
+    },
+    {
+        "TEX_ID": 24043,
+        "FILENAME": "ui_weapon_onehandmagic_casa_rare.bmp"
+    },
+    {
+        "TEX_ID": 24044,
+        "FILENAME": "ui_weapon_sword_sashaka_rare.bmp"
+    },
+    {
+        "TEX_ID": 24045,
+        "FILENAME": "ui_weapon_dagger_katara_rare.bmp"
+    },
+    {
+        "TEX_ID": 24046,
+        "FILENAME": "ui_weapon_onehandaxe_mukha_rare.bmp"
+    },
+    {
+        "TEX_ID": 24047,
+        "FILENAME": "ui_weapon_blunt_tupra_rare.bmp"
+    },
+    {
+        "TEX_ID": 24048,
+        "FILENAME": "ui_weapon-rank11_onehandmagic-01_rare.bmp"
+    }
+]

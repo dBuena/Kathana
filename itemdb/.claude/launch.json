@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "kathanadb",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8000", "--directory", "I:\\Server Files\\Tantra K3 Full Source\\ItemDB_Dashboard\\KathanaDB"],
+      "port": 8000
+    }
+  ]
+}

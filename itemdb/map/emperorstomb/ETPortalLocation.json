@@ -1,0 +1,7 @@
+{
+  "portals": [
+    { "id": 9001, "label": "Entrance Hall of Emperor's Tomb", "x": 638, "y": 954 },
+    { "id": 9002, "label": "West Emperor's Hallway", "x": 189, "y": 231 },
+    { "id": 9003, "label": "East Emperor's Hallway", "x": 851, "y": 231 }
+  ]
+}

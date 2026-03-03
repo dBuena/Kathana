@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Skill Builder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Custom Tab Styling */
+    .nav-tabs {
+      border-bottom: 2px solid #00d4ff;
+      gap: 8px;
+    }
+
+    .nav-link {
+      color: #888;
+      border: none;
+      background: rgba(26, 26, 26, 0.5);
+      border-bottom: 3px solid transparent;
+      padding: 12px 20px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      border-radius: 4px 4px 0 0;
+      position: relative;
+    }
+
+    .nav-link:hover {
+      color: #00d4ff;
+      background: rgba(26, 26, 26, 0.8);
+      border-bottom-color: #00d4ff;
+      box-shadow: 0 0 10px rgba(0, 212, 255, 0.2);
+    }
+
+    .nav-link.active {
+      color: #00ffff;
+      background: linear-gradient(135deg, rgba(0, 50, 100, 0.4) 0%, rgba(0, 20, 60, 0.4) 100%);
+      border-bottom: 3px solid #00d4ff;
+      box-shadow:
+        0 0 15px rgba(0, 212, 255, 0.4),
+        inset 0 0 10px rgba(0, 212, 255, 0.1);
+    }
+  </style>
+</head>
+
+<body class="bg-dark text-light">
+
+<div class="container py-2">
+
+  <!-- Header Controls -->
+  <div class="mb-3 d-flex align-items-center gap-3">
+    <label for="charLevel-global" class="form-label mb-0">Set character level</label>
+    <select id="charLevel-global" class="form-select form-select-sm w-auto"></select>
+    <span>Skill Points: <strong id="points-global">0</strong></span>
+    <span>God Points: <strong id="god-points-global">30</strong></span>
+    <button id="reset-global" class="btn btn-warning btn-sm">Reset All Skills</button>
+  </div>
+
+  <!-- Tabs -->
+  <ul class="nav nav-tabs mb-3" id="skillTabs" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="blade-tab" data-bs-toggle="tab" data-bs-target="#blade-content" type="button" role="tab">Blade</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="archery-tab" data-bs-toggle="tab" data-bs-target="#archery-content" type="button" role="tab">Archery</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="support-tab" data-bs-toggle="tab" data-bs-target="#support-content" type="button" role="tab">Support</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="amara-tab" data-bs-toggle="tab" data-bs-target="#amara-content" type="button" role="tab">Amara</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="god-tab" data-bs-toggle="tab" data-bs-target="#god-content" type="button" role="tab">God</button>
+    </li>
+  </ul>
+
+  <!-- Tab Content -->
+  <div class="tab-content" id="skillTabsContent">
+    <!-- Blade Tab -->
+    <div class="tab-pane fade show active" id="blade-content" role="tabpanel">
+      <!-- Skill Tree -->
+      <div id="tree-blade" class="skill-grid"></div>
+    </div>
+
+    <!-- Archery Tab -->
+    <div class="tab-pane fade" id="archery-content" role="tabpanel">
+      <!-- Skill Tree -->
+      <div id="tree-archery" class="skill-grid"></div>
+    </div>
+
+    <!-- Support Tab -->
+    <div class="tab-pane fade" id="support-content" role="tabpanel">
+      <!-- Skill Tree -->
+      <div id="tree-support" class="skill-grid"></div>
+    </div>
+
+    <!-- Amara Tab -->
+    <div class="tab-pane fade" id="amara-content" role="tabpanel">
+      <!-- Skill Tree -->
+      <div id="tree-amara" class="skill-grid"></div>
+    </div>
+
+    <!-- God Tab -->
+    <div class="tab-pane fade" id="god-content" role="tabpanel">
+      <!-- Skill Tree -->
+      <div id="tree-god" class="skill-grid"></div>
+    </div>
+  </div>
+
+  <!-- Share Build Section -->
+  <div class="share-build-section">
+    <h5>Share Your Build</h5>
+    <div class="share-link-input-group">
+      <input type="text" id="share-link-input" class="share-link-input" placeholder="Your shareable link will appear here..." readonly>
+      <button id="copy-link-btn" class="copy-link-btn" type="button">📋 Copy</button>
+    </div>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="skillData.js"></script>
+<script src="buildShare.js"></script>
+<script src="tooltip.js"></script>
+<script src="druka/character.js"></script>
+<script src="druka/blade.js"></script>
+<script src="druka/archery.js"></script>
+<script src="druka/support.js"></script>
+<script src="druka/amara.js"></script>
+<script src="druka/god.js"></script>
+
+<!-- Copy button handler -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const copyBtn = document.getElementById('copy-link-btn');
+    if (copyBtn) {
+      copyBtn.addEventListener('click', copyShareLink);
+    }
+  });
+</script>
+</body>
+</html>

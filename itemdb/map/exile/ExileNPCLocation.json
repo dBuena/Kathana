@@ -1,0 +1,53 @@
+{
+  "npcs": [
+    {
+      "id": 1,
+      "label": "Storehouse Keeper Borer",
+      "x": 500,
+      "y": 862
+    },
+    {
+      "id": 2,
+      "label": "Elder Haiddungddashu",
+      "x": 539,
+      "y": 661
+    },
+    {
+      "id": 3,
+      "label": "Discipling Monk Ryuzshun",
+      "x": 676,
+      "y": 798
+    },
+    {
+      "id": 4,
+      "label": "Discipling Monk Usong",
+      "x": 410,
+      "y": 816
+    },
+    {
+      "id": 5,
+      "label": "Goods Salesman Ryupuwei",
+      "x": 614,
+      "y": 874
+    },
+    {
+      "id": 6,
+      "label": "Farmer Shunongs",
+      "x": 450,
+      "y": 814
+    },
+    {
+      "id": 7,
+      "label": "Maid Ssunalang",
+      "x": 622,
+      "y": 818
+    },
+	{
+      "id": 8,
+      "label": "Memory Maiden",
+      "x": 540,
+      "y": 780
+    }
+  ],
+  "portals": []
+}

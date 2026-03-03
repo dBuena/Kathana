@@ -1,0 +1,107 @@
+{
+  "npcs": [
+    {
+      "id": 1,
+      "label": "Security Soldier Abhei",
+      "x": 482,
+      "y": 274
+    },
+    {
+      "id": 2,
+      "label": "Security Soldier Kumar",
+      "x": 494,
+      "y": 276
+    },
+    {
+      "id": 3,
+      "label": "Hajit",
+      "x": 482,
+      "y": 196
+    },
+    {
+      "id": 5,
+      "label": "Anjali",
+      "x": 502,
+      "y": 180
+    },
+    {
+      "id": 7,
+      "label": "Blacksmith Vartan",
+      "x": 434,
+      "y": 203
+    },
+    {
+      "id": 8,
+      "label": "Craftsman Kirika",
+      "x": 544,
+      "y": 201
+    },
+    {
+      "id": 9,
+      "label": "Jeweler Ashuri",
+      "x": 558,
+      "y": 142
+    },
+    {
+      "id": 10,
+      "label": "Priest Vananta",
+      "x": 668,
+      "y": 174
+    },
+    {
+      "id": 11,
+      "label": "Tradesman Buvan",
+      "x": 412,
+      "y": 116
+    },
+    {
+      "id": 12,
+      "label": "Horseman Rahul",
+      "x": 544,
+      "y": 111
+    },
+    {
+      "id": 13,
+      "label": "Pharmacist Karan",
+      "x": 468,
+      "y": 194
+    },
+    {
+      "id": 14,
+      "label": "Defense General Apvas",
+      "x": 484,
+      "y": 250
+    },
+    {
+      "id": 21,
+      "label": "Security Soldier Kananta",
+      "x": 241,
+      "y": 272
+    },
+    {
+      "id": 22,
+      "label": "Security Soldier Badru",
+      "x": 903,
+      "y": 197
+    },
+    {
+      "id": 23,
+      "label": "Lost Way Boy",
+      "x": 165,
+      "y": 517
+    },
+    {
+      "id": 25,
+      "label": "Security Soldier Sankar",
+      "x": 734,
+      "y": 741
+    },
+    {
+      "id": 26,
+      "label": "Memory Maiden",
+      "x": 491,
+      "y": 176
+    }
+  ],
+  "portals": []
+}

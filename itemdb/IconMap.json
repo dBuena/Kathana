@@ -1,0 +1,9117 @@
+[
+    {
+        "ID": 4001,
+        "Name": "Old Sword",
+        "Tex_ID": 22101
+    },
+    {
+        "ID": 4002,
+        "Name": "Long Sword",
+        "Tex_ID": 22101
+    },
+    {
+        "ID": 4003,
+        "Name": "Shamshir",
+        "Tex_ID": 22102
+    },
+    {
+        "ID": 4004,
+        "Name": "Earth Shamshir",
+        "Tex_ID": 22102
+    },
+    {
+        "ID": 4005,
+        "Name": "Pata",
+        "Tex_ID": 22103
+    },
+    {
+        "ID": 4006,
+        "Name": "Kindjal",
+        "Tex_ID": 22104
+    },
+    {
+        "ID": 4007,
+        "Name": "Ara",
+        "Tex_ID": 22105
+    },
+    {
+        "ID": 4008,
+        "Name": "Khora",
+        "Tex_ID": 22106
+    },
+    {
+        "ID": 4009,
+        "Name": "Talwar",
+        "Tex_ID": 22107
+    },
+    {
+        "ID": 4010,
+        "Name": "Talwar of The Spirits",
+        "Tex_ID": 22727
+    },
+    {
+        "ID": 4011,
+        "Name": "Zastra",
+        "Tex_ID": 22111
+    },
+    {
+        "ID": 4012,
+        "Name": "Scimitar",
+        "Tex_ID": 22109
+    },
+    {
+        "ID": 4013,
+        "Name": "Sarpa",
+        "Tex_ID": 22112
+    },
+    {
+        "ID": 4014,
+        "Name": "Zakukana",
+        "Tex_ID": 22113
+    },
+    {
+        "ID": 4015,
+        "Name": "Dagger",
+        "Tex_ID": 22138
+    },
+    {
+        "ID": 4016,
+        "Name": "Jambiya",
+        "Tex_ID": 22139
+    },
+    {
+        "ID": 4017,
+        "Name": "Kris",
+        "Tex_ID": 22140
+    },
+    {
+        "ID": 4018,
+        "Name": "Asira",
+        "Tex_ID": 22143
+    },
+    {
+        "ID": 4019,
+        "Name": "Zahati",
+        "Tex_ID": 22144
+    },
+    {
+        "ID": 4020,
+        "Name": "Khanjar",
+        "Tex_ID": 22141
+    },
+    {
+        "ID": 4021,
+        "Name": "Suraka",
+        "Tex_ID": 22145
+    },
+    {
+        "ID": 4022,
+        "Name": "Jasa",
+        "Tex_ID": 22142
+    },
+    {
+        "ID": 4023,
+        "Name": "Sinamusti",
+        "Tex_ID": 22146
+    },
+    {
+        "ID": 4024,
+        "Name": "Krpana",
+        "Tex_ID": 22147
+    },
+    {
+        "ID": 4025,
+        "Name": "Khaskara",
+        "Tex_ID": 22148
+    },
+    {
+        "ID": 4026,
+        "Name": "Old Hand Axe",
+        "Tex_ID": 22153
+    },
+    {
+        "ID": 4027,
+        "Name": "Hand Axe",
+        "Tex_ID": 22153
+    },
+    {
+        "ID": 4028,
+        "Name": "Parashu",
+        "Tex_ID": 22154
+    },
+    {
+        "ID": 4029,
+        "Name": "Earth Parashu",
+        "Tex_ID": 22154
+    },
+    {
+        "ID": 4030,
+        "Name": "Suvas",
+        "Tex_ID": 22159
+    },
+    {
+        "ID": 4031,
+        "Name": "Kisu",
+        "Tex_ID": 22160
+    },
+    {
+        "ID": 4032,
+        "Name": "Kuriza",
+        "Tex_ID": 22161
+    },
+    {
+        "ID": 4033,
+        "Name": "Subadi",
+        "Tex_ID": 22162
+    },
+    {
+        "ID": 4034,
+        "Name": "Hirana",
+        "Tex_ID": 22163
+    },
+    {
+        "ID": 4035,
+        "Name": "Ksarika",
+        "Tex_ID": 22164
+    },
+    {
+        "ID": 4036,
+        "Name": "Vahasti",
+        "Tex_ID": 22165
+    },
+    {
+        "ID": 4037,
+        "Name": "Prazas",
+        "Tex_ID": 22166
+    },
+    {
+        "ID": 4038,
+        "Name": "Kalaparashu",
+        "Tex_ID": 22167
+    },
+    {
+        "ID": 4039,
+        "Name": "Mas",
+        "Tex_ID": 22181
+    },
+    {
+        "ID": 4040,
+        "Name": "Kaja",
+        "Tex_ID": 22176
+    },
+    {
+        "ID": 4041,
+        "Name": "Danda",
+        "Tex_ID": 22177
+    },
+    {
+        "ID": 4042,
+        "Name": "Gada",
+        "Tex_ID": 22178
+    },
+    {
+        "ID": 4043,
+        "Name": "Lagda",
+        "Tex_ID": 22182
+    },
+    {
+        "ID": 4044,
+        "Name": "Ghana",
+        "Tex_ID": 22179
+    },
+    {
+        "ID": 4045,
+        "Name": "Drogana",
+        "Tex_ID": 22180
+    },
+    {
+        "ID": 4046,
+        "Name": "Musara",
+        "Tex_ID": 22183
+    },
+    {
+        "ID": 4047,
+        "Name": "Lagdahasta",
+        "Tex_ID": 22184
+    },
+    {
+        "ID": 4048,
+        "Name": "Hand Axe of Satvan",
+        "Tex_ID": 22153
+    },
+    {
+        "ID": 4049,
+        "Name": "Dagger of Dvanta",
+        "Tex_ID": 22138
+    },
+    {
+        "ID": 4050,
+        "Name": "Vishnu's Wrath",
+        "Tex_ID": 22371
+    },
+    {
+        "ID": 4051,
+        "Name": "Shiva's Chaos",
+        "Tex_ID": 22371
+    },
+    {
+        "ID": 4052,
+        "Name": "Brahma's Force",
+        "Tex_ID": 22371
+    },
+    {
+        "ID": 4053,
+        "Name": "Avrahta",
+        "Tex_ID": 23595
+    },
+    {
+        "ID": 4054,
+        "Name": "Kalanaka",
+        "Tex_ID": 23706
+    },
+    {
+        "ID": 4055,
+        "Name": "Chid",
+        "Tex_ID": 23664
+    },
+    {
+        "ID": 4056,
+        "Name": "Pariga",
+        "Tex_ID": 23666
+    },
+    {
+        "ID": 4057,
+        "Name": "Nheutou",
+        "Tex_ID": 23028
+    },
+    {
+        "ID": 4058,
+        "Name": "Rhomphaia",
+        "Tex_ID": 23024
+    },
+    {
+        "ID": 4059,
+        "Name": "Khudama",
+        "Tex_ID": 23026
+    },
+    {
+        "ID": 4060,
+        "Name": "Gatova Guna",
+        "Tex_ID": 23022
+    },
+    {
+        "ID": 4061,
+        "Name": "Azuri",
+        "Tex_ID": 22667
+    },
+    {
+        "ID": 4062,
+        "Name": "Khrati",
+        "Tex_ID": 22662
+    },
+    {
+        "ID": 4063,
+        "Name": "Taguka",
+        "Tex_ID": 22664
+    },
+    {
+        "ID": 4064,
+        "Name": "Khapouta",
+        "Tex_ID": 22660
+    },
+    {
+        "ID": 4065,
+        "Name": "Sashaka",
+        "Tex_ID": 23144
+    },
+    {
+        "ID": 4066,
+        "Name": "Katara",
+        "Tex_ID": 23139
+    },
+    {
+        "ID": 4067,
+        "Name": "Muka",
+        "Tex_ID": 23141
+    },
+    {
+        "ID": 4068,
+        "Name": "Tuphara",
+        "Tex_ID": 23137
+    },
+    {
+        "ID": 4111,
+        "Name": "Basic Cane",
+        "Tex_ID": 22190
+    },
+    {
+        "ID": 4112,
+        "Name": "Cane",
+        "Tex_ID": 22190
+    },
+    {
+        "ID": 4113,
+        "Name": "Jamia",
+        "Tex_ID": 22191
+    },
+    {
+        "ID": 4114,
+        "Name": "Jamia of The Earth",
+        "Tex_ID": 22191
+    },
+    {
+        "ID": 4115,
+        "Name": "Rambha",
+        "Tex_ID": 22185
+    },
+    {
+        "ID": 4116,
+        "Name": "Vajradhara",
+        "Tex_ID": 22186
+    },
+    {
+        "ID": 4117,
+        "Name": "Vajra",
+        "Tex_ID": 22187
+    },
+    {
+        "ID": 4118,
+        "Name": "Zalas",
+        "Tex_ID": 22192
+    },
+    {
+        "ID": 4119,
+        "Name": "Pinaka",
+        "Tex_ID": 22193
+    },
+    {
+        "ID": 4120,
+        "Name": "Vettra",
+        "Tex_ID": 22194
+    },
+    {
+        "ID": 4121,
+        "Name": "Kalavettra",
+        "Tex_ID": 22195
+    },
+    {
+        "ID": 4122,
+        "Name": "Staff of Mantraka",
+        "Tex_ID": 22190
+    },
+    {
+        "ID": 4123,
+        "Name": "Dordanda",
+        "Tex_ID": 23692
+    },
+    {
+        "ID": 4124,
+        "Name": "Pumati Akama",
+        "Tex_ID": 23027
+    },
+    {
+        "ID": 4125,
+        "Name": "Khasa",
+        "Tex_ID": 22665
+    },
+    {
+        "ID": 4126,
+        "Name": "Matrika",
+        "Tex_ID": 23142
+    },
+    {
+        "ID": 4141,
+        "Name": "Blade of Bahamut",
+        "Tex_ID": 22576
+    },
+    {
+        "ID": 4142,
+        "Name": "Shamshir of Adana",
+        "Tex_ID": 22754
+    },
+    {
+        "ID": 4143,
+        "Name": "Pata of Grapa",
+        "Tex_ID": 22103
+    },
+    {
+        "ID": 4144,
+        "Name": "Kindjal of Deadly Poison",
+        "Tex_ID": 22756
+    },
+    {
+        "ID": 4145,
+        "Name": "Ara of Deadly Poison",
+        "Tex_ID": 22757
+    },
+    {
+        "ID": 4146,
+        "Name": "Rada Kora of Adana",
+        "Tex_ID": 22758
+    },
+    {
+        "ID": 4147,
+        "Name": "Talwar of The Warrior",
+        "Tex_ID": 22727
+    },
+    {
+        "ID": 4148,
+        "Name": "Talwar of Primitive Warrior",
+        "Tex_ID": 22727
+    },
+    {
+        "ID": 4149,
+        "Name": "Sumati Scimitar of Bahamut",
+        "Tex_ID": 23900
+    },
+    {
+        "ID": 4150,
+        "Name": "Rada Sarpa of Adana",
+        "Tex_ID": 23901
+    },
+    {
+        "ID": 4151,
+        "Name": "Rada Zakukana of Grapa",
+        "Tex_ID": 23902
+    },
+    {
+        "ID": 4152,
+        "Name": "Short Blade of Bahamut",
+        "Tex_ID": 22577
+    },
+    {
+        "ID": 4153,
+        "Name": "Jambiya of Adana",
+        "Tex_ID": 23903
+    },
+    {
+        "ID": 4154,
+        "Name": "Kris of Grapa",
+        "Tex_ID": 23904
+    },
+    {
+        "ID": 4155,
+        "Name": "Asira of Ajaka",
+        "Tex_ID": 23906
+    },
+    {
+        "ID": 4156,
+        "Name": "Hima Kindjar",
+        "Tex_ID": 23907
+    },
+    {
+        "ID": 4157,
+        "Name": "Suraka of The Muscle",
+        "Tex_ID": 23908
+    },
+    {
+        "ID": 4158,
+        "Name": "Suraka of The Wild Beast",
+        "Tex_ID": 23908
+    },
+    {
+        "ID": 4159,
+        "Name": "Gatokas Jasa of Ajaka",
+        "Tex_ID": 23909
+    },
+    {
+        "ID": 4160,
+        "Name": "Sumati Sinamusti of Bahamut",
+        "Tex_ID": 23910
+    },
+    {
+        "ID": 4161,
+        "Name": "Rada Krpana Adana",
+        "Tex_ID": 23911
+    },
+    {
+        "ID": 4162,
+        "Name": "Rada Kaskara of Grapa",
+        "Tex_ID": 23912
+    },
+    {
+        "ID": 4163,
+        "Name": "Hand Axe of Bahamut",
+        "Tex_ID": 23913
+    },
+    {
+        "ID": 4164,
+        "Name": "Parashu of Adana",
+        "Tex_ID": 23914
+    },
+    {
+        "ID": 4165,
+        "Name": "Suvas of Grapa",
+        "Tex_ID": 23915
+    },
+    {
+        "ID": 4166,
+        "Name": "Kisu of Primative Warrior",
+        "Tex_ID": 23916
+    },
+    {
+        "ID": 4167,
+        "Name": "Gatokaga Kuriza of Bahamut",
+        "Tex_ID": 23917
+    },
+    {
+        "ID": 4168,
+        "Name": "Hirana of Deadly Poison",
+        "Tex_ID": 23918
+    },
+    {
+        "ID": 4169,
+        "Name": "Sumati Hirana of Grapa",
+        "Tex_ID": 23918
+    },
+    {
+        "ID": 4170,
+        "Name": "Gatokaga Ksarika of Ajaka",
+        "Tex_ID": 23919
+    },
+    {
+        "ID": 4171,
+        "Name": "Sumadi Bahasti of Bahamut",
+        "Tex_ID": 23920
+    },
+    {
+        "ID": 4172,
+        "Name": "Rada Prazas of Adana",
+        "Tex_ID": 23921
+    },
+    {
+        "ID": 4173,
+        "Name": "Rada Kalaparashu of Grapa",
+        "Tex_ID": 23922
+    },
+    {
+        "ID": 4174,
+        "Name": "Mas of Adana",
+        "Tex_ID": 23923
+    },
+    {
+        "ID": 4175,
+        "Name": "Kaja of Mara",
+        "Tex_ID": 23924
+    },
+    {
+        "ID": 4176,
+        "Name": "Danda of Ajaka",
+        "Tex_ID": 23925
+    },
+    {
+        "ID": 4177,
+        "Name": "Ghana of The Muscle",
+        "Tex_ID": 23926
+    },
+    {
+        "ID": 4178,
+        "Name": "Lagda of Tapas",
+        "Tex_ID": 23927
+    },
+    {
+        "ID": 4179,
+        "Name": "Hima Ghana",
+        "Tex_ID": 23926
+    },
+    {
+        "ID": 4180,
+        "Name": "Ghana of Mantra",
+        "Tex_ID": 23926
+    },
+    {
+        "ID": 4181,
+        "Name": "Sumati Musara of Bahamut",
+        "Tex_ID": 23928
+    },
+    {
+        "ID": 4182,
+        "Name": "Rada Lagdahasta of Adana",
+        "Tex_ID": 23929
+    },
+    {
+        "ID": 4183,
+        "Name": "Staff of Bahamut",
+        "Tex_ID": 23930
+    },
+    {
+        "ID": 4184,
+        "Name": "Earth Zamia",
+        "Tex_ID": 23931
+    },
+    {
+        "ID": 4185,
+        "Name": "Rambha of Grapa",
+        "Tex_ID": 23932
+    },
+    {
+        "ID": 4186,
+        "Name": "Agni Vajradhara",
+        "Tex_ID": 23933
+    },
+    {
+        "ID": 4187,
+        "Name": "Hima Zalas",
+        "Tex_ID": 23934
+    },
+    {
+        "ID": 4188,
+        "Name": "Rautii Zalas",
+        "Tex_ID": 23934
+    },
+    {
+        "ID": 4189,
+        "Name": "Sumati Pinaka of Grapa",
+        "Tex_ID": 23935
+    },
+    {
+        "ID": 4190,
+        "Name": "Gatokaga Vettra of Ajaka",
+        "Tex_ID": 23936
+    },
+    {
+        "ID": 4191,
+        "Name": "Sumati Kalavettra of Bahamut",
+        "Tex_ID": 23937
+    },
+    {
+        "ID": 4192,
+        "Name": "Kindjal of Charge",
+        "Tex_ID": 22756
+    },
+    {
+        "ID": 4193,
+        "Name": "Strong Ara",
+        "Tex_ID": 22757
+    },
+    {
+        "ID": 4194,
+        "Name": "Bisa Dantaka",
+        "Tex_ID": 22727
+    },
+    {
+        "ID": 4195,
+        "Name": "Strong Kisu",
+        "Tex_ID": 23916
+    },
+    {
+        "ID": 4196,
+        "Name": "Agni Kisu",
+        "Tex_ID": 23916
+    },
+    {
+        "ID": 4197,
+        "Name": "Ru Vajradhara",
+        "Tex_ID": 23933
+    },
+    {
+        "ID": 4198,
+        "Name": "Vajra of The Dead",
+        "Tex_ID": 23933
+    },
+    {
+        "ID": 4199,
+        "Name": "Datu Avrahta",
+        "Tex_ID": 23938
+    },
+    {
+        "ID": 4201,
+        "Name": "Datu Kalanaka",
+        "Tex_ID": 23939
+    },
+    {
+        "ID": 4202,
+        "Name": "Datu Chid",
+        "Tex_ID": 23940
+    },
+    {
+        "ID": 4203,
+        "Name": "Datu Pariga",
+        "Tex_ID": 23941
+    },
+    {
+        "ID": 4204,
+        "Name": "Datu Dordanda",
+        "Tex_ID": 23942
+    },
+    {
+        "ID": 4205,
+        "Name": "Datu Makat",
+        "Tex_ID": 23942
+    },
+    {
+        "ID": 4206,
+        "Name": "Datu Nheutou",
+        "Tex_ID": 23943
+    },
+    {
+        "ID": 4207,
+        "Name": "Datu Rhomphaia",
+        "Tex_ID": 23944
+    },
+    {
+        "ID": 4208,
+        "Name": "Datu Khudama",
+        "Tex_ID": 23945
+    },
+    {
+        "ID": 4209,
+        "Name": "Datu Gatova Guna",
+        "Tex_ID": 23946
+    },
+    {
+        "ID": 4210,
+        "Name": "Datu Azuri",
+        "Tex_ID": 23947
+    },
+    {
+        "ID": 4211,
+        "Name": "Datu Khrati",
+        "Tex_ID": 23948
+    },
+    {
+        "ID": 4212,
+        "Name": "Datu Taguka",
+        "Tex_ID": 23949
+    },
+    {
+        "ID": 4213,
+        "Name": "Datu Khapouta",
+        "Tex_ID": 23950
+    },
+    {
+        "ID": 4214,
+        "Name": "Forbidden Sword of Azuri",
+        "Tex_ID": 22667
+    },
+    {
+        "ID": 4215,
+        "Name": "Forbidden Dagger of Khrati",
+        "Tex_ID": 22662
+    },
+    {
+        "ID": 4216,
+        "Name": "Forbidden Axe of Taguka",
+        "Tex_ID": 22664
+    },
+    {
+        "ID": 4217,
+        "Name": "Forbidden Weapon of Khapouta",
+        "Tex_ID": 22660
+    },
+    {
+        "ID": 4218,
+        "Name": "Datu Sashaka",
+        "Tex_ID": 24044
+    },
+    {
+        "ID": 4219,
+        "Name": "Datu Katara",
+        "Tex_ID": 24045
+    },
+    {
+        "ID": 4220,
+        "Name": "Datu Muka",
+        "Tex_ID": 24046
+    },
+    {
+        "ID": 4221,
+        "Name": "Datu Tuphara",
+        "Tex_ID": 24047
+    },
+    {
+        "ID": 4251,
+        "Name": "Datu Pumati Akama",
+        "Tex_ID": 24048
+    },
+    {
+        "ID": 4252,
+        "Name": "Datu Khasa",
+        "Tex_ID": 24043
+    },
+    {
+        "ID": 4253,
+        "Name": "Forbidden Staff of Khasa",
+        "Tex_ID": 22665
+    },
+    {
+        "ID": 4254,
+        "Name": "Datu Matrika",
+        "Tex_ID": 24042
+    },
+    {
+        "ID": 4281,
+        "Name": "Sword of Zarku Rudhira",
+        "Tex_ID": 22364
+    },
+    {
+        "ID": 4282,
+        "Name": "Axe of Ulkamuka Kaura",
+        "Tex_ID": 22365
+    },
+    {
+        "ID": 4283,
+        "Name": "Hammer of Srbinda Satvan",
+        "Tex_ID": 22366
+    },
+    {
+        "ID": 4291,
+        "Name": "Strong Sword of Vartan",
+        "Tex_ID": 22104
+    },
+    {
+        "ID": 4292,
+        "Name": "Sword of the Great Bear",
+        "Tex_ID": 22113
+    },
+    {
+        "ID": 4301,
+        "Name": "Para",
+        "Tex_ID": 22114
+    },
+    {
+        "ID": 4302,
+        "Name": "Paraga",
+        "Tex_ID": 22115
+    },
+    {
+        "ID": 4303,
+        "Name": "Pattra",
+        "Tex_ID": 22116
+    },
+    {
+        "ID": 4304,
+        "Name": "Kukri",
+        "Tex_ID": 22108
+    },
+    {
+        "ID": 4305,
+        "Name": "Asirata",
+        "Tex_ID": 22117
+    },
+    {
+        "ID": 4306,
+        "Name": "Chandrapata",
+        "Tex_ID": 22110
+    },
+    {
+        "ID": 4307,
+        "Name": "Ananta Pata",
+        "Tex_ID": 22118
+    },
+    {
+        "ID": 4308,
+        "Name": "Kunta",
+        "Tex_ID": 22207
+    },
+    {
+        "ID": 4309,
+        "Name": "Pattiza",
+        "Tex_ID": 22208
+    },
+    {
+        "ID": 4310,
+        "Name": "Trizra",
+        "Tex_ID": 22213
+    },
+    {
+        "ID": 4311,
+        "Name": "Braha",
+        "Tex_ID": 22209
+    },
+    {
+        "ID": 4312,
+        "Name": "Trizika",
+        "Tex_ID": 22214
+    },
+    {
+        "ID": 4313,
+        "Name": "Angkus",
+        "Tex_ID": 22210
+    },
+    {
+        "ID": 4314,
+        "Name": "Angkus of Spirit",
+        "Tex_ID": 22210
+    },
+    {
+        "ID": 4315,
+        "Name": "Ardenu",
+        "Tex_ID": 22215
+    },
+    {
+        "ID": 4316,
+        "Name": "Buji",
+        "Tex_ID": 22211
+    },
+    {
+        "ID": 4317,
+        "Name": "Tomara",
+        "Tex_ID": 22216
+    },
+    {
+        "ID": 4318,
+        "Name": "Kanaka Jakti",
+        "Tex_ID": 22212
+    },
+    {
+        "ID": 4319,
+        "Name": "Zaruparashu",
+        "Tex_ID": 22168
+    },
+    {
+        "ID": 4320,
+        "Name": "Tabarzin",
+        "Tex_ID": 22155
+    },
+    {
+        "ID": 4321,
+        "Name": "Berdysh",
+        "Tex_ID": 22156
+    },
+    {
+        "ID": 4322,
+        "Name": "Tarbar",
+        "Tex_ID": 22157
+    },
+    {
+        "ID": 4323,
+        "Name": "Rohiparaz",
+        "Tex_ID": 22169
+    },
+    {
+        "ID": 4324,
+        "Name": "Parazvada",
+        "Tex_ID": 22158
+    },
+    {
+        "ID": 4325,
+        "Name": "Parazudara",
+        "Tex_ID": 22170
+    },
+    {
+        "ID": 4326,
+        "Name": "Mahoraska",
+        "Tex_ID": 22171
+    },
+    {
+        "ID": 4327,
+        "Name": "Old Gauntlet",
+        "Tex_ID": 22123
+    },
+    {
+        "ID": 4328,
+        "Name": "Gauntlet",
+        "Tex_ID": 22123
+    },
+    {
+        "ID": 4329,
+        "Name": "Varti",
+        "Tex_ID": 22124
+    },
+    {
+        "ID": 4330,
+        "Name": "Earth Varti",
+        "Tex_ID": 22124
+    },
+    {
+        "ID": 4331,
+        "Name": "Nakhara",
+        "Tex_ID": 22125
+    },
+    {
+        "ID": 4332,
+        "Name": "Musti",
+        "Tex_ID": 22126
+    },
+    {
+        "ID": 4333,
+        "Name": "Kesarin",
+        "Tex_ID": 22127
+    },
+    {
+        "ID": 4334,
+        "Name": "Karasna",
+        "Tex_ID": 22131
+    },
+    {
+        "ID": 4335,
+        "Name": "Katar",
+        "Tex_ID": 22128
+    },
+    {
+        "ID": 4336,
+        "Name": "Katar of Spirit",
+        "Tex_ID": 22128
+    },
+    {
+        "ID": 4337,
+        "Name": "Karanka",
+        "Tex_ID": 22132
+    },
+    {
+        "ID": 4338,
+        "Name": "Parazpa",
+        "Tex_ID": 22129
+    },
+    {
+        "ID": 4339,
+        "Name": "Padanaka",
+        "Tex_ID": 22133
+    },
+    {
+        "ID": 4340,
+        "Name": "Yadas",
+        "Tex_ID": 22130
+    },
+    {
+        "ID": 4341,
+        "Name": "Nirvana's Gloves",
+        "Tex_ID": 22123
+    },
+    {
+        "ID": 4342,
+        "Name": "Kanjin",
+        "Tex_ID": 23596
+    },
+    {
+        "ID": 4343,
+        "Name": "Jaktima",
+        "Tex_ID": 23594
+    },
+    {
+        "ID": 4344,
+        "Name": "Vifla",
+        "Tex_ID": 23665
+    },
+    {
+        "ID": 4345,
+        "Name": "Potra",
+        "Tex_ID": 23669
+    },
+    {
+        "ID": 4346,
+        "Name": "Vikoj",
+        "Tex_ID": 23033
+    },
+    {
+        "ID": 4347,
+        "Name": "Khatu",
+        "Tex_ID": 23030
+    },
+    {
+        "ID": 4348,
+        "Name": "Khakara",
+        "Tex_ID": 23031
+    },
+    {
+        "ID": 4349,
+        "Name": "Madanti",
+        "Tex_ID": 23025
+    },
+    {
+        "ID": 4350,
+        "Name": "Ahksara",
+        "Tex_ID": 22670
+    },
+    {
+        "ID": 4351,
+        "Name": "Takugabatou",
+        "Tex_ID": 22668
+    },
+    {
+        "ID": 4352,
+        "Name": "Atari",
+        "Tex_ID": 22666
+    },
+    {
+        "ID": 4353,
+        "Name": "Ratuni",
+        "Tex_ID": 22663
+    },
+    {
+        "ID": 4354,
+        "Name": "Pazta",
+        "Tex_ID": 23140
+    },
+    {
+        "ID": 4355,
+        "Name": "Parjaba",
+        "Tex_ID": 23145
+    },
+    {
+        "ID": 4356,
+        "Name": "Pasana",
+        "Tex_ID": 23143
+    },
+    {
+        "ID": 4357,
+        "Name": "Nikartu",
+        "Tex_ID": 23147
+    },
+    {
+        "ID": 4411,
+        "Name": "Bip",
+        "Tex_ID": 22197
+    },
+    {
+        "ID": 4412,
+        "Name": "Arana",
+        "Tex_ID": 22198
+    },
+    {
+        "ID": 4413,
+        "Name": "Bhramadanda",
+        "Tex_ID": 22196
+    },
+    {
+        "ID": 4414,
+        "Name": "Masuvera",
+        "Tex_ID": 22188
+    },
+    {
+        "ID": 4415,
+        "Name": "Pataka",
+        "Tex_ID": 22199
+    },
+    {
+        "ID": 4416,
+        "Name": "Pataka of The Earth",
+        "Tex_ID": 22199
+    },
+    {
+        "ID": 4417,
+        "Name": "Yasticala",
+        "Tex_ID": 22189
+    },
+    {
+        "ID": 4418,
+        "Name": "Basayasti",
+        "Tex_ID": 22200
+    },
+    {
+        "ID": 4419,
+        "Name": "Vettrayasti",
+        "Tex_ID": 22201
+    },
+    {
+        "ID": 4420,
+        "Name": "Sidhazana",
+        "Tex_ID": 22202
+    },
+    {
+        "ID": 4421,
+        "Name": "Udanda",
+        "Tex_ID": 23693
+    },
+    {
+        "ID": 4422,
+        "Name": "Dotra",
+        "Tex_ID": 23693
+    },
+    {
+        "ID": 4423,
+        "Name": "Byotra",
+        "Tex_ID": 23032
+    },
+    {
+        "ID": 4424,
+        "Name": "Sunietora",
+        "Tex_ID": 22669
+    },
+    {
+        "ID": 4425,
+        "Name": "Kona",
+        "Tex_ID": 23146
+    },
+    {
+        "ID": 4441,
+        "Name": "Para of Adana",
+        "Tex_ID": 23951
+    },
+    {
+        "ID": 4442,
+        "Name": "Paraga of Grapa",
+        "Tex_ID": 23952
+    },
+    {
+        "ID": 4443,
+        "Name": "Strong Pattra",
+        "Tex_ID": 23953
+    },
+    {
+        "ID": 4444,
+        "Name": "Rauti Kukri",
+        "Tex_ID": 23954
+    },
+    {
+        "ID": 4445,
+        "Name": "Sumati Asirata of Grapa",
+        "Tex_ID": 23955
+    },
+    {
+        "ID": 4446,
+        "Name": "Sumati Chandrapata of Bahamut",
+        "Tex_ID": 23956
+    },
+    {
+        "ID": 4447,
+        "Name": "Rada Ananta Pata of Grapa",
+        "Tex_ID": 23957
+    },
+    {
+        "ID": 4448,
+        "Name": "Kunta of Adana",
+        "Tex_ID": 23958
+    },
+    {
+        "ID": 4449,
+        "Name": "Patizza of Grapa",
+        "Tex_ID": 23959
+    },
+    {
+        "ID": 4450,
+        "Name": "Trizra of Ajaka",
+        "Tex_ID": 23960
+    },
+    {
+        "ID": 4451,
+        "Name": "Gatokaga Braha of Bahamut",
+        "Tex_ID": 23961
+    },
+    {
+        "ID": 4452,
+        "Name": "Trijika of Destruction",
+        "Tex_ID": 23962
+    },
+    {
+        "ID": 4453,
+        "Name": "Yakatu Engkus",
+        "Tex_ID": 23963
+    },
+    {
+        "ID": 4454,
+        "Name": "Gatokaga Ardenu of Ajaka",
+        "Tex_ID": 23964
+    },
+    {
+        "ID": 4455,
+        "Name": "Sumati Buji of Bahamut",
+        "Tex_ID": 23965
+    },
+    {
+        "ID": 4456,
+        "Name": "Rada Tomara of Adana",
+        "Tex_ID": 23966
+    },
+    {
+        "ID": 4457,
+        "Name": "Rada Kanaka Jakti of Grapa",
+        "Tex_ID": 23967
+    },
+    {
+        "ID": 4458,
+        "Name": "Zaruparashu of Adana",
+        "Tex_ID": 23968
+    },
+    {
+        "ID": 4459,
+        "Name": "Tabarzin of Grapa",
+        "Tex_ID": 23969
+    },
+    {
+        "ID": 4460,
+        "Name": "Ru Berdysh",
+        "Tex_ID": 23970
+    },
+    {
+        "ID": 4461,
+        "Name": "Gatokaga Tarbar of Bahamut",
+        "Tex_ID": 23971
+    },
+    {
+        "ID": 4462,
+        "Name": "Rohiparaz of The Dead",
+        "Tex_ID": 23972
+    },
+    {
+        "ID": 4463,
+        "Name": "Sumati Parazvada of Grapa",
+        "Tex_ID": 23973
+    },
+    {
+        "ID": 4464,
+        "Name": "Sumati Parazudara of Bahamut",
+        "Tex_ID": 23974
+    },
+    {
+        "ID": 4465,
+        "Name": "Rada Mahoraska of Grapa",
+        "Tex_ID": 23975
+    },
+    {
+        "ID": 4466,
+        "Name": "Gauntlet of Bahamut",
+        "Tex_ID": 23976
+    },
+    {
+        "ID": 4467,
+        "Name": "Varti of Adana",
+        "Tex_ID": 23977
+    },
+    {
+        "ID": 4468,
+        "Name": "Nakhara of Mara",
+        "Tex_ID": 23978
+    },
+    {
+        "ID": 4469,
+        "Name": "Musti of Ajaka",
+        "Tex_ID": 23979
+    },
+    {
+        "ID": 4470,
+        "Name": "Gatokaki Kesarin of Bahamut",
+        "Tex_ID": 23980
+    },
+    {
+        "ID": 4471,
+        "Name": "Tapas Karasna",
+        "Tex_ID": 23981
+    },
+    {
+        "ID": 4472,
+        "Name": "Karasna of Guhsu",
+        "Tex_ID": 23981
+    },
+    {
+        "ID": 4473,
+        "Name": "Gatokaga Karanka of Ajaka",
+        "Tex_ID": 23982
+    },
+    {
+        "ID": 4474,
+        "Name": "Sumati Parazpa of Bahamut",
+        "Tex_ID": 23983
+    },
+    {
+        "ID": 4475,
+        "Name": "Rada Padanaka of Adana",
+        "Tex_ID": 23984
+    },
+    {
+        "ID": 4476,
+        "Name": "Rada Yadas of Grapa",
+        "Tex_ID": 23985
+    },
+    {
+        "ID": 4477,
+        "Name": "Hima Berdysh",
+        "Tex_ID": 23970
+    },
+    {
+        "ID": 4478,
+        "Name": "Strong Berdysh",
+        "Tex_ID": 23970
+    },
+    {
+        "ID": 4479,
+        "Name": "Trizika of Life",
+        "Tex_ID": 23962
+    },
+    {
+        "ID": 4480,
+        "Name": "Pattra of Destruction",
+        "Tex_ID": 23953
+    },
+    {
+        "ID": 4481,
+        "Name": "Pattra of Fortune",
+        "Tex_ID": 23953
+    },
+    {
+        "ID": 4482,
+        "Name": "Datu Vikoj",
+        "Tex_ID": 23986
+    },
+    {
+        "ID": 4483,
+        "Name": "Datu Khatu",
+        "Tex_ID": 23987
+    },
+    {
+        "ID": 4484,
+        "Name": "Datu Khakara",
+        "Tex_ID": 23988
+    },
+    {
+        "ID": 4485,
+        "Name": "Datu Madanti",
+        "Tex_ID": 23989
+    },
+    {
+        "ID": 4486,
+        "Name": "Datu Ratuni",
+        "Tex_ID": 23990
+    },
+    {
+        "ID": 4487,
+        "Name": "Datu Atari",
+        "Tex_ID": 23991
+    },
+    {
+        "ID": 4488,
+        "Name": "Datu Tagukabatou",
+        "Tex_ID": 23992
+    },
+    {
+        "ID": 4489,
+        "Name": "Datu Ahksara",
+        "Tex_ID": 23993
+    },
+    {
+        "ID": 4490,
+        "Name": "Forbidden Claw of Ratuni",
+        "Tex_ID": 22663
+    },
+    {
+        "ID": 4491,
+        "Name": "Forbidden Spear of Atari",
+        "Tex_ID": 22666
+    },
+    {
+        "ID": 4492,
+        "Name": "Forbidden Axe of Tagukabatou",
+        "Tex_ID": 22668
+    },
+    {
+        "ID": 4493,
+        "Name": "Forbidden Sword of Ahksara",
+        "Tex_ID": 22670
+    },
+    {
+        "ID": 4494,
+        "Name": "Datu Pazta",
+        "Tex_ID": 23994
+    },
+    {
+        "ID": 4495,
+        "Name": "Datu Pasana",
+        "Tex_ID": 23995
+    },
+    {
+        "ID": 4496,
+        "Name": "Datu Parjaba",
+        "Tex_ID": 23996
+    },
+    {
+        "ID": 4497,
+        "Name": "Datu Nikartu",
+        "Tex_ID": 23997
+    },
+    {
+        "ID": 4551,
+        "Name": "Bip of Grapa",
+        "Tex_ID": 23998
+    },
+    {
+        "ID": 4552,
+        "Name": "Arana of Ajaka",
+        "Tex_ID": 23999
+    },
+    {
+        "ID": 4553,
+        "Name": "Gatokaga Bhramadanda of Bahamut",
+        "Tex_ID": 24000
+    },
+    {
+        "ID": 4554,
+        "Name": "Agni Masuvera",
+        "Tex_ID": 24001
+    },
+    {
+        "ID": 4555,
+        "Name": "Pataka of Flame",
+        "Tex_ID": 24002
+    },
+    {
+        "ID": 4556,
+        "Name": "Gatokaga Yasticala of Ajaka",
+        "Tex_ID": 24003
+    },
+    {
+        "ID": 4557,
+        "Name": "Sumati Bazayasti of Bahamut",
+        "Tex_ID": 24004
+    },
+    {
+        "ID": 4558,
+        "Name": "Rada Vettrayasti of Adana",
+        "Tex_ID": 24005
+    },
+    {
+        "ID": 4559,
+        "Name": "Rada Sidhajana of Grapa",
+        "Tex_ID": 24006
+    },
+    {
+        "ID": 4560,
+        "Name": "Datu Kanjin",
+        "Tex_ID": 24007
+    },
+    {
+        "ID": 4561,
+        "Name": "Datu Jaktima",
+        "Tex_ID": 24008
+    },
+    {
+        "ID": 4562,
+        "Name": "Datu Vifla",
+        "Tex_ID": 24009
+    },
+    {
+        "ID": 4563,
+        "Name": "Datu Potra",
+        "Tex_ID": 24010
+    },
+    {
+        "ID": 4564,
+        "Name": "Datu Udanda",
+        "Tex_ID": 24011
+    },
+    {
+        "ID": 4565,
+        "Name": "Datu Byotra",
+        "Tex_ID": 24012
+    },
+    {
+        "ID": 4566,
+        "Name": "Datu Sunietora",
+        "Tex_ID": 24013
+    },
+    {
+        "ID": 4567,
+        "Name": "Forbidden Staff of Sunietora",
+        "Tex_ID": 22669
+    },
+    {
+        "ID": 4568,
+        "Name": "Datu Kona",
+        "Tex_ID": 24014
+    },
+    {
+        "ID": 4581,
+        "Name": "Sword of Ananga",
+        "Tex_ID": 22362
+    },
+    {
+        "ID": 4582,
+        "Name": "Sword of Ananga Dvanta",
+        "Tex_ID": 22363
+    },
+    {
+        "ID": 4583,
+        "Name": "Spear of Zarku",
+        "Tex_ID": 22368
+    },
+    {
+        "ID": 4584,
+        "Name": "Balasta Spear",
+        "Tex_ID": 22369
+    },
+    {
+        "ID": 4589,
+        "Name": "Kaladanda of Meghamalin",
+        "Tex_ID": 22367
+    },
+    {
+        "ID": 4601,
+        "Name": "Danva",
+        "Tex_ID": 22224
+    },
+    {
+        "ID": 4602,
+        "Name": "Capa",
+        "Tex_ID": 22225
+    },
+    {
+        "ID": 4603,
+        "Name": "Pakala",
+        "Tex_ID": 22226
+    },
+    {
+        "ID": 4604,
+        "Name": "Hastacapa",
+        "Tex_ID": 23461
+    },
+    {
+        "ID": 4605,
+        "Name": "Urnacapa",
+        "Tex_ID": 23463
+    },
+    {
+        "ID": 4606,
+        "Name": "Rhodapacapa",
+        "Tex_ID": 23462
+    },
+    {
+        "ID": 4607,
+        "Name": "Darapacapa",
+        "Tex_ID": 23464
+    },
+    {
+        "ID": 4608,
+        "Name": "Vakuracapa",
+        "Tex_ID": 23667
+    },
+    {
+        "ID": 4609,
+        "Name": "Fuspacapa",
+        "Tex_ID": 23668
+    },
+    {
+        "ID": 4610,
+        "Name": "Khandiva",
+        "Tex_ID": 23023
+    },
+    {
+        "ID": 4611,
+        "Name": "Bao",
+        "Tex_ID": 22661
+    },
+    {
+        "ID": 4612,
+        "Name": "Jargin",
+        "Tex_ID": 23138
+    },
+    {
+        "ID": 4646,
+        "Name": "Danva of Adana",
+        "Tex_ID": 24015
+    },
+    {
+        "ID": 4647,
+        "Name": "Capa of Grapa",
+        "Tex_ID": 24016
+    },
+    {
+        "ID": 4648,
+        "Name": "Pakala of Ajaka",
+        "Tex_ID": 24017
+    },
+    {
+        "ID": 4649,
+        "Name": "Strong Hastacapa",
+        "Tex_ID": 24018
+    },
+    {
+        "ID": 4650,
+        "Name": "Hastacapa of Deadly Poison",
+        "Tex_ID": 24018
+    },
+    {
+        "ID": 4651,
+        "Name": "Agni Urnacapa",
+        "Tex_ID": 24019
+    },
+    {
+        "ID": 4652,
+        "Name": "Sumati Darapacapla of Bahamut",
+        "Tex_ID": 24020
+    },
+    {
+        "ID": 4653,
+        "Name": "Rada Bakurakapa of Grapa",
+        "Tex_ID": 24021
+    },
+    {
+        "ID": 4654,
+        "Name": "Datu Fuspakapa",
+        "Tex_ID": 24022
+    },
+    {
+        "ID": 4655,
+        "Name": "Datu Khandiva",
+        "Tex_ID": 24023
+    },
+    {
+        "ID": 4656,
+        "Name": "Datu Bao",
+        "Tex_ID": 24024
+    },
+    {
+        "ID": 4657,
+        "Name": "Forbidden Bow of Bao",
+        "Tex_ID": 22661
+    },
+    {
+        "ID": 4658,
+        "Name": "Datu Jargin",
+        "Tex_ID": 24025
+    },
+    {
+        "ID": 5001,
+        "Name": "Chori Armor",
+        "Tex_ID": 22262
+    },
+    {
+        "ID": 5002,
+        "Name": "Acchada Armor",
+        "Tex_ID": 22263
+    },
+    {
+        "ID": 5003,
+        "Name": "Acchada Armor of Protection",
+        "Tex_ID": 22263
+    },
+    {
+        "ID": 5004,
+        "Name": "Varman Armor",
+        "Tex_ID": 22264
+    },
+    {
+        "ID": 5005,
+        "Name": "Trana Plate",
+        "Tex_ID": 22270
+    },
+    {
+        "ID": 5006,
+        "Name": "Jalaka Plate",
+        "Tex_ID": 22265
+    },
+    {
+        "ID": 5007,
+        "Name": "Amsatra Plate",
+        "Tex_ID": 22283
+    },
+    {
+        "ID": 5008,
+        "Name": "Amsatra Plate of Darkness",
+        "Tex_ID": 22283
+    },
+    {
+        "ID": 5009,
+        "Name": "Tanuvarman Plate",
+        "Tex_ID": 22266
+    },
+    {
+        "ID": 5010,
+        "Name": "Kalatanuvarman Plate",
+        "Tex_ID": 22267
+    },
+    {
+        "ID": 5011,
+        "Name": "Vadati Suit",
+        "Tex_ID": 22269
+    },
+    {
+        "ID": 5012,
+        "Name": "Jayati Suit",
+        "Tex_ID": 22274
+    },
+    {
+        "ID": 5013,
+        "Name": "Prathana Suit",
+        "Tex_ID": 22277
+    },
+    {
+        "ID": 5014,
+        "Name": "Prathana Suit of Darnkess",
+        "Tex_ID": 22277
+    },
+    {
+        "ID": 5015,
+        "Name": "Karyanimaya Suit",
+        "Tex_ID": 22280
+    },
+    {
+        "ID": 5016,
+        "Name": "Tars Garb",
+        "Tex_ID": 22272
+    },
+    {
+        "ID": 5017,
+        "Name": "Samyuga Garb",
+        "Tex_ID": 22275
+    },
+    {
+        "ID": 5018,
+        "Name": "Pradana Garb",
+        "Tex_ID": 22278
+    },
+    {
+        "ID": 5019,
+        "Name": "Pradana Garb of Darkness",
+        "Tex_ID": 22278
+    },
+    {
+        "ID": 5020,
+        "Name": "Zastrakali Garb",
+        "Tex_ID": 22281
+    },
+    {
+        "ID": 5021,
+        "Name": "Varabana Robe",
+        "Tex_ID": 22273
+    },
+    {
+        "ID": 5022,
+        "Name": "Visamnnaha Robe",
+        "Tex_ID": 22276
+    },
+    {
+        "ID": 5023,
+        "Name": "Kajcuka Robe",
+        "Tex_ID": 22279
+    },
+    {
+        "ID": 5024,
+        "Name": "Kajcuka Robe of Darkness Robe",
+        "Tex_ID": 22279
+    },
+    {
+        "ID": 5025,
+        "Name": "Jalavala Robe",
+        "Tex_ID": 22282
+    },
+    {
+        "ID": 5026,
+        "Name": "Vanutija Plate",
+        "Tex_ID": 22284
+    },
+    {
+        "ID": 5027,
+        "Name": "Varahaja Plate",
+        "Tex_ID": 22285
+    },
+    {
+        "ID": 5028,
+        "Name": "Tanadatt Suit",
+        "Tex_ID": 22284
+    },
+    {
+        "ID": 5029,
+        "Name": "Nuhavati Suit",
+        "Tex_ID": 22591
+    },
+    {
+        "ID": 5030,
+        "Name": "Muresan Garb",
+        "Tex_ID": 22284
+    },
+    {
+        "ID": 5031,
+        "Name": "Rajastanv Garb",
+        "Tex_ID": 22595
+    },
+    {
+        "ID": 5032,
+        "Name": "Gayatri Robe",
+        "Tex_ID": 22284
+    },
+    {
+        "ID": 5033,
+        "Name": "Sahasrara Robe",
+        "Tex_ID": 22587
+    },
+    {
+        "ID": 5034,
+        "Name": "Vikavaka Plate",
+        "Tex_ID": 23858
+    },
+    {
+        "ID": 5035,
+        "Name": "Kakuta Suit",
+        "Tex_ID": 23599
+    },
+    {
+        "ID": 5036,
+        "Name": "Samahana Garb",
+        "Tex_ID": 23854
+    },
+    {
+        "ID": 5037,
+        "Name": "Jalabant Robe",
+        "Tex_ID": 23862
+    },
+    {
+        "ID": 5038,
+        "Name": "Aruta Plate",
+        "Tex_ID": 22978
+    },
+    {
+        "ID": 5039,
+        "Name": "Shinra Suit",
+        "Tex_ID": 22994
+    },
+    {
+        "ID": 5040,
+        "Name": "Kharyadin Garb",
+        "Tex_ID": 22972
+    },
+    {
+        "ID": 5041,
+        "Name": "Vharumica Robe",
+        "Tex_ID": 22989
+    },
+    {
+        "ID": 5042,
+        "Name": "Piezur Armor",
+        "Tex_ID": 22676
+    },
+    {
+        "ID": 5043,
+        "Name": "Soupuro Suit",
+        "Tex_ID": 22686
+    },
+    {
+        "ID": 5044,
+        "Name": "Adier Garb",
+        "Tex_ID": 22671
+    },
+    {
+        "ID": 5045,
+        "Name": "Sitah Robe",
+        "Tex_ID": 22681
+    },
+    {
+        "ID": 5046,
+        "Name": "Bahula Armor",
+        "Tex_ID": 23153
+    },
+    {
+        "ID": 5047,
+        "Name": "Amuti Armor",
+        "Tex_ID": 23163
+    },
+    {
+        "ID": 5048,
+        "Name": "Guda Robe",
+        "Tex_ID": 23148
+    },
+    {
+        "ID": 5049,
+        "Name": "Jagara Robe",
+        "Tex_ID": 23158
+    },
+    {
+        "ID": 5071,
+        "Name": "Gana of Bahamut",
+        "Tex_ID": 22263
+    },
+    {
+        "ID": 5072,
+        "Name": "Acchada Armor of Adana",
+        "Tex_ID": 22263
+    },
+    {
+        "ID": 5073,
+        "Name": "Varman Armor of Grapa",
+        "Tex_ID": 22264
+    },
+    {
+        "ID": 5074,
+        "Name": "Trana Plate of Ajaka",
+        "Tex_ID": 22270
+    },
+    {
+        "ID": 5075,
+        "Name": "Gatokaga Jalaka Plate of Bahamut",
+        "Tex_ID": 22265
+    },
+    {
+        "ID": 5076,
+        "Name": "Sumati Amsatra Plate of Grapa",
+        "Tex_ID": 22283
+    },
+    {
+        "ID": 5077,
+        "Name": "Sumati Tanuvarman Plate of Bahamut",
+        "Tex_ID": 22266
+    },
+    {
+        "ID": 5078,
+        "Name": "Rada Kalatanuvarman Plate of Grapa",
+        "Tex_ID": 22267
+    },
+    {
+        "ID": 5079,
+        "Name": "Vadati Suit of Ajaka",
+        "Tex_ID": 22271
+    },
+    {
+        "ID": 5080,
+        "Name": "Gatokaga Jayati Suit of Bahamut",
+        "Tex_ID": 22274
+    },
+    {
+        "ID": 5081,
+        "Name": "Sumati Pratana Suit of Grapa",
+        "Tex_ID": 22277
+    },
+    {
+        "ID": 5082,
+        "Name": "Sumati Karyanimaya Suit of Bahamut",
+        "Tex_ID": 22280
+    },
+    {
+        "ID": 5083,
+        "Name": "Tars Garb of Ajaka",
+        "Tex_ID": 22272
+    },
+    {
+        "ID": 5084,
+        "Name": "Gatokaga Samyuga Garb of Bahamut",
+        "Tex_ID": 22275
+    },
+    {
+        "ID": 5085,
+        "Name": "Sumati Pradana Garb of Grapa",
+        "Tex_ID": 22278
+    },
+    {
+        "ID": 5086,
+        "Name": "Sumati Zastrakali Garb of Bahamut",
+        "Tex_ID": 22281
+    },
+    {
+        "ID": 5087,
+        "Name": "Varabana Robe of Ajaka",
+        "Tex_ID": 22273
+    },
+    {
+        "ID": 5088,
+        "Name": "Gatokaga Visamnnaha Robe of Bahamut",
+        "Tex_ID": 22276
+    },
+    {
+        "ID": 5089,
+        "Name": "Sumati Kajcuka Robe of Grapa",
+        "Tex_ID": 22279
+    },
+    {
+        "ID": 5090,
+        "Name": "Sumati Jalavala Robe of Bahamut",
+        "Tex_ID": 22282
+    },
+    {
+        "ID": 5091,
+        "Name": "Forbidden plate of Aruta",
+        "Tex_ID": 22978
+    },
+    {
+        "ID": 5092,
+        "Name": "Forbidden suit of Shinra",
+        "Tex_ID": 22994
+    },
+    {
+        "ID": 5093,
+        "Name": "Forbidden garb of Kharyadin",
+        "Tex_ID": 22972
+    },
+    {
+        "ID": 5094,
+        "Name": "Forbidden robe of Vharumica",
+        "Tex_ID": 22989
+    },
+    {
+        "ID": 5095,
+        "Name": "Forbidden Plate of Piezur",
+        "Tex_ID": 22676
+    },
+    {
+        "ID": 5096,
+        "Name": "Forbidden Suit of Soupuro",
+        "Tex_ID": 22686
+    },
+    {
+        "ID": 5097,
+        "Name": "Forbidden Garb of Adier",
+        "Tex_ID": 22671
+    },
+    {
+        "ID": 5098,
+        "Name": "Forbidden Robe of Sitah",
+        "Tex_ID": 22681
+    },
+    {
+        "ID": 5099,
+        "Name": "Forbidden Armor from the Sun",
+        "Tex_ID": 22267
+    },
+    {
+        "ID": 5149,
+        "Name": "Chori Armor",
+        "Tex_ID": 22262
+    },
+    {
+        "ID": 5151,
+        "Name": "Chori Pants",
+        "Tex_ID": 22465
+    },
+    {
+        "ID": 5152,
+        "Name": "Acchada Pants",
+        "Tex_ID": 22466
+    },
+    {
+        "ID": 5153,
+        "Name": "Varman Pants",
+        "Tex_ID": 22467
+    },
+    {
+        "ID": 5154,
+        "Name": "Trana Pants",
+        "Tex_ID": 22468
+    },
+    {
+        "ID": 5155,
+        "Name": "Jalaka Pants",
+        "Tex_ID": 22469
+    },
+    {
+        "ID": 5156,
+        "Name": "Amsatra Pants",
+        "Tex_ID": 22470
+    },
+    {
+        "ID": 5157,
+        "Name": "Tanuvarman Pants",
+        "Tex_ID": 22471
+    },
+    {
+        "ID": 5158,
+        "Name": "Kalatanuvarman Pants",
+        "Tex_ID": 22472
+    },
+    {
+        "ID": 5159,
+        "Name": "Vadati Pants",
+        "Tex_ID": 22473
+    },
+    {
+        "ID": 5160,
+        "Name": "Jayati Pants",
+        "Tex_ID": 22474
+    },
+    {
+        "ID": 5161,
+        "Name": "Pratana Pants",
+        "Tex_ID": 22475
+    },
+    {
+        "ID": 5162,
+        "Name": "Karyanimaya Pants",
+        "Tex_ID": 22476
+    },
+    {
+        "ID": 5163,
+        "Name": "Tars Pants",
+        "Tex_ID": 22477
+    },
+    {
+        "ID": 5164,
+        "Name": "Samyuga Pants",
+        "Tex_ID": 22478
+    },
+    {
+        "ID": 5165,
+        "Name": "Pradana Pants",
+        "Tex_ID": 22479
+    },
+    {
+        "ID": 5166,
+        "Name": "Zastrakali Pants",
+        "Tex_ID": 22480
+    },
+    {
+        "ID": 5167,
+        "Name": "Varabana Pants",
+        "Tex_ID": 22481
+    },
+    {
+        "ID": 5168,
+        "Name": "Visamnnaha Pants",
+        "Tex_ID": 22482
+    },
+    {
+        "ID": 5169,
+        "Name": "Kajcuka Pants",
+        "Tex_ID": 22483
+    },
+    {
+        "ID": 5170,
+        "Name": "Jalavala Pants",
+        "Tex_ID": 22484
+    },
+    {
+        "ID": 5171,
+        "Name": "Vanutija Pants",
+        "Tex_ID": 22429
+    },
+    {
+        "ID": 5172,
+        "Name": "Varahaja Pants",
+        "Tex_ID": 22430
+    },
+    {
+        "ID": 5173,
+        "Name": "Tanadatt Pants",
+        "Tex_ID": 22429
+    },
+    {
+        "ID": 5174,
+        "Name": "Nuhavati Pants",
+        "Tex_ID": 22590
+    },
+    {
+        "ID": 5175,
+        "Name": "Muresan Pants",
+        "Tex_ID": 22429
+    },
+    {
+        "ID": 5176,
+        "Name": "Rajastanv Pants",
+        "Tex_ID": 22594
+    },
+    {
+        "ID": 5177,
+        "Name": "Gayatri Pants",
+        "Tex_ID": 22429
+    },
+    {
+        "ID": 5178,
+        "Name": "Sahasrara Pants",
+        "Tex_ID": 22586
+    },
+    {
+        "ID": 5179,
+        "Name": "Vikavaka Pants",
+        "Tex_ID": 23857
+    },
+    {
+        "ID": 5180,
+        "Name": "Kakuta Pants",
+        "Tex_ID": 23598
+    },
+    {
+        "ID": 5181,
+        "Name": "Samahana Pants",
+        "Tex_ID": 23853
+    },
+    {
+        "ID": 5182,
+        "Name": "Jalabant Pants",
+        "Tex_ID": 23861
+    },
+    {
+        "ID": 5183,
+        "Name": "Aruta Pants",
+        "Tex_ID": 22977
+    },
+    {
+        "ID": 5184,
+        "Name": "Shinra Pants",
+        "Tex_ID": 22992
+    },
+    {
+        "ID": 5185,
+        "Name": "Kharyadin Pants",
+        "Tex_ID": 22971
+    },
+    {
+        "ID": 5186,
+        "Name": "Vharumica Pants",
+        "Tex_ID": 22988
+    },
+    {
+        "ID": 5187,
+        "Name": "Piezur Pants",
+        "Tex_ID": 22679
+    },
+    {
+        "ID": 5188,
+        "Name": "Soupuro Pants",
+        "Tex_ID": 22689
+    },
+    {
+        "ID": 5189,
+        "Name": "Adier Pants",
+        "Tex_ID": 22674
+    },
+    {
+        "ID": 5190,
+        "Name": "Sitah Pants",
+        "Tex_ID": 22684
+    },
+    {
+        "ID": 5191,
+        "Name": "Bahula Pants",
+        "Tex_ID": 23156
+    },
+    {
+        "ID": 5192,
+        "Name": "Amuti Pants",
+        "Tex_ID": 23166
+    },
+    {
+        "ID": 5193,
+        "Name": "Guda Pants",
+        "Tex_ID": 23151
+    },
+    {
+        "ID": 5194,
+        "Name": "Jagara Pants",
+        "Tex_ID": 23161
+    },
+    {
+        "ID": 5196,
+        "Name": "Zvas of Buhamut",
+        "Tex_ID": 22466
+    },
+    {
+        "ID": 5197,
+        "Name": "Acchada Pants of Adana",
+        "Tex_ID": 22466
+    },
+    {
+        "ID": 5198,
+        "Name": "Varman Pants of Grapa",
+        "Tex_ID": 22467
+    },
+    {
+        "ID": 5199,
+        "Name": "Trana Pants of Ajaka",
+        "Tex_ID": 22468
+    },
+    {
+        "ID": 5200,
+        "Name": "Gatokaga Jalaka Pants of Bahamut",
+        "Tex_ID": 22469
+    },
+    {
+        "ID": 5201,
+        "Name": "Sumati Amsatra Pants of Grapa",
+        "Tex_ID": 22470
+    },
+    {
+        "ID": 5202,
+        "Name": "Sumati Tanuvarman Pants of Bahamut",
+        "Tex_ID": 22471
+    },
+    {
+        "ID": 5203,
+        "Name": "Rada Kalatanuvarman Pants of Grapa",
+        "Tex_ID": 22472
+    },
+    {
+        "ID": 5204,
+        "Name": "Vadati Pants of Ajaka",
+        "Tex_ID": 22473
+    },
+    {
+        "ID": 5205,
+        "Name": "Gatokaga Jayati Pants of Bahamut",
+        "Tex_ID": 22474
+    },
+    {
+        "ID": 5206,
+        "Name": "Sumati Pratana Pants of Grapa",
+        "Tex_ID": 22475
+    },
+    {
+        "ID": 5207,
+        "Name": "Sumati Karyanimaya Pants of Bahamut",
+        "Tex_ID": 22476
+    },
+    {
+        "ID": 5208,
+        "Name": "Tars Pants of Ajaka",
+        "Tex_ID": 22477
+    },
+    {
+        "ID": 5209,
+        "Name": "Gatokaga Samyuga Pants of Bahamut",
+        "Tex_ID": 22478
+    },
+    {
+        "ID": 5210,
+        "Name": "Sumati Pradana Pants of Grapa",
+        "Tex_ID": 22479
+    },
+    {
+        "ID": 5211,
+        "Name": "Sumati Zastrakali Pants of Bahamut",
+        "Tex_ID": 22480
+    },
+    {
+        "ID": 5212,
+        "Name": "Varabana Pants of Ajaka",
+        "Tex_ID": 22481
+    },
+    {
+        "ID": 5213,
+        "Name": "Gatokaga Visamnnaha Pants of Bahamut",
+        "Tex_ID": 22482
+    },
+    {
+        "ID": 5214,
+        "Name": "Sumati Kajcuka Pants of Grapa",
+        "Tex_ID": 22483
+    },
+    {
+        "ID": 5215,
+        "Name": "Sumati Jalavala Pants of Bahamut",
+        "Tex_ID": 22484
+    },
+    {
+        "ID": 5216,
+        "Name": "Forbidden Pants of Piezur",
+        "Tex_ID": 22679
+    },
+    {
+        "ID": 5217,
+        "Name": "Forbidden Pants of Soupuro",
+        "Tex_ID": 22689
+    },
+    {
+        "ID": 5218,
+        "Name": "Forbidden Pants of Adier",
+        "Tex_ID": 22674
+    },
+    {
+        "ID": 5219,
+        "Name": "Forbidden Pants of Sitah",
+        "Tex_ID": 22684
+    },
+    {
+        "ID": 5220,
+        "Name": "Forbidden Pants from the Sun",
+        "Tex_ID": 22472
+    },
+    {
+        "ID": 5249,
+        "Name": "Chori Pants",
+        "Tex_ID": 22465
+    },
+    {
+        "ID": 5251,
+        "Name": "Head Band",
+        "Tex_ID": 22227
+    },
+    {
+        "ID": 5252,
+        "Name": "Trate",
+        "Tex_ID": 22228
+    },
+    {
+        "ID": 5253,
+        "Name": "Zipra",
+        "Tex_ID": 22229
+    },
+    {
+        "ID": 5254,
+        "Name": "Zipura Helm",
+        "Tex_ID": 22233
+    },
+    {
+        "ID": 5255,
+        "Name": "Jala Helm",
+        "Tex_ID": 22237
+    },
+    {
+        "ID": 5256,
+        "Name": "Mukuta Helm",
+        "Tex_ID": 22230
+    },
+    {
+        "ID": 5257,
+        "Name": "Shishak Helm",
+        "Tex_ID": 22232
+    },
+    {
+        "ID": 5258,
+        "Name": "Shishak of Darkness",
+        "Tex_ID": 22232
+    },
+    {
+        "ID": 5259,
+        "Name": "Hirizipra Helm",
+        "Tex_ID": 22231
+    },
+    {
+        "ID": 5260,
+        "Name": "Ziromani Hood",
+        "Tex_ID": 22234
+    },
+    {
+        "ID": 5261,
+        "Name": "Maya Hood",
+        "Tex_ID": 22238
+    },
+    {
+        "ID": 5262,
+        "Name": "Bitaka Hood",
+        "Tex_ID": 22241
+    },
+    {
+        "ID": 5263,
+        "Name": "Yuvaraja Hood",
+        "Tex_ID": 22244
+    },
+    {
+        "ID": 5264,
+        "Name": "Yuvaraja of Darkness",
+        "Tex_ID": 22244
+    },
+    {
+        "ID": 5265,
+        "Name": "Lothana Crown",
+        "Tex_ID": 22235
+    },
+    {
+        "ID": 5266,
+        "Name": "Sazirsan Crown",
+        "Tex_ID": 22239
+    },
+    {
+        "ID": 5267,
+        "Name": "Savestana Crown",
+        "Tex_ID": 22242
+    },
+    {
+        "ID": 5268,
+        "Name": "Kezakezi Crown",
+        "Tex_ID": 22245
+    },
+    {
+        "ID": 5269,
+        "Name": "Kezakezi of Darkness",
+        "Tex_ID": 22245
+    },
+    {
+        "ID": 5270,
+        "Name": "Darbi Hat",
+        "Tex_ID": 22236
+    },
+    {
+        "ID": 5271,
+        "Name": "Pana Hat",
+        "Tex_ID": 22240
+    },
+    {
+        "ID": 5272,
+        "Name": "Kalapana Hat",
+        "Tex_ID": 22243
+    },
+    {
+        "ID": 5273,
+        "Name": "Darbikara Hat",
+        "Tex_ID": 22246
+    },
+    {
+        "ID": 5274,
+        "Name": "Darbikara of Darkness",
+        "Tex_ID": 22246
+    },
+    {
+        "ID": 5275,
+        "Name": "Zipura of Saranu",
+        "Tex_ID": 22233
+    },
+    {
+        "ID": 5276,
+        "Name": "Ziromani of Saranu",
+        "Tex_ID": 22234
+    },
+    {
+        "ID": 5277,
+        "Name": "Lothana of Saranu",
+        "Tex_ID": 22235
+    },
+    {
+        "ID": 5278,
+        "Name": "Darbi of Saranu",
+        "Tex_ID": 22236
+    },
+    {
+        "ID": 5279,
+        "Name": "Vanutija Helm",
+        "Tex_ID": 22229
+    },
+    {
+        "ID": 5300,
+        "Name": "Varahaja Helm",
+        "Tex_ID": 22230
+    },
+    {
+        "ID": 5301,
+        "Name": "Tanadatt Hood",
+        "Tex_ID": 22229
+    },
+    {
+        "ID": 5302,
+        "Name": "Nuhavati Hood",
+        "Tex_ID": 22598
+    },
+    {
+        "ID": 5303,
+        "Name": "Mount Murae Crown",
+        "Tex_ID": 22229
+    },
+    {
+        "ID": 5304,
+        "Name": "Rajastanv Crown",
+        "Tex_ID": 22599
+    },
+    {
+        "ID": 5305,
+        "Name": "Gayatri Hat",
+        "Tex_ID": 22229
+    },
+    {
+        "ID": 5306,
+        "Name": "Sahasrara Hat",
+        "Tex_ID": 22600
+    },
+    {
+        "ID": 5307,
+        "Name": "Vikavaka Helm",
+        "Tex_ID": 22597
+    },
+    {
+        "ID": 5308,
+        "Name": "Kakuta Hood",
+        "Tex_ID": 22598
+    },
+    {
+        "ID": 5309,
+        "Name": "Samahana Crown",
+        "Tex_ID": 22599
+    },
+    {
+        "ID": 5310,
+        "Name": "Jalabant Hat",
+        "Tex_ID": 22600
+    },
+    {
+        "ID": 5311,
+        "Name": "Aruta Helm",
+        "Tex_ID": 22962
+    },
+    {
+        "ID": 5312,
+        "Name": "Shinra Hood",
+        "Tex_ID": 22963
+    },
+    {
+        "ID": 5313,
+        "Name": "Kharyadin Crown",
+        "Tex_ID": 22964
+    },
+    {
+        "ID": 5314,
+        "Name": "Vharumica Hat",
+        "Tex_ID": 22965
+    },
+    {
+        "ID": 5315,
+        "Name": "Piezur Helm",
+        "Tex_ID": 22678
+    },
+    {
+        "ID": 5316,
+        "Name": "Soupuro Hood",
+        "Tex_ID": 22688
+    },
+    {
+        "ID": 5317,
+        "Name": "Adier Crown",
+        "Tex_ID": 22673
+    },
+    {
+        "ID": 5318,
+        "Name": "Sitah Hat",
+        "Tex_ID": 22683
+    },
+    {
+        "ID": 5319,
+        "Name": "Bahulra Helm",
+        "Tex_ID": 23155
+    },
+    {
+        "ID": 5320,
+        "Name": "Amuti Hood",
+        "Tex_ID": 23165
+    },
+    {
+        "ID": 5321,
+        "Name": "Jirastra of Bahamut",
+        "Tex_ID": 22228
+    },
+    {
+        "ID": 5322,
+        "Name": "Trate of Adana",
+        "Tex_ID": 22228
+    },
+    {
+        "ID": 5323,
+        "Name": "Zipra of Grapa",
+        "Tex_ID": 22229
+    },
+    {
+        "ID": 5324,
+        "Name": "Zipra of Ajaka",
+        "Tex_ID": 22233
+    },
+    {
+        "ID": 5325,
+        "Name": "Gatokaga Jalaka of Bahamut",
+        "Tex_ID": 22237
+    },
+    {
+        "ID": 5326,
+        "Name": "Sumati Mukuta of Grapa",
+        "Tex_ID": 22230
+    },
+    {
+        "ID": 5327,
+        "Name": "Sumati Shishak of Bahamut",
+        "Tex_ID": 22232
+    },
+    {
+        "ID": 5328,
+        "Name": "Rada Hirizipra of Grapa",
+        "Tex_ID": 22231
+    },
+    {
+        "ID": 5329,
+        "Name": "Ziromani of Ajaka",
+        "Tex_ID": 22234
+    },
+    {
+        "ID": 5330,
+        "Name": "Gatokaga Maya of Bahamut",
+        "Tex_ID": 22238
+    },
+    {
+        "ID": 5331,
+        "Name": "Sumati Bitika of Grapa",
+        "Tex_ID": 22241
+    },
+    {
+        "ID": 5332,
+        "Name": "Sumati Yuvaraja of Bahamut",
+        "Tex_ID": 22244
+    },
+    {
+        "ID": 5333,
+        "Name": "Lothana of Ajaka",
+        "Tex_ID": 22235
+    },
+    {
+        "ID": 5334,
+        "Name": "Gatokaga Sazirsan of Bahamut",
+        "Tex_ID": 22239
+    },
+    {
+        "ID": 5335,
+        "Name": "Sumati Savestana of Grapa",
+        "Tex_ID": 22242
+    },
+    {
+        "ID": 5336,
+        "Name": "Sumati Kezakezi of Bahamut",
+        "Tex_ID": 22245
+    },
+    {
+        "ID": 5337,
+        "Name": "Darbi of Ajaka",
+        "Tex_ID": 22236
+    },
+    {
+        "ID": 5338,
+        "Name": "Gatokaga Pana of Bahamut",
+        "Tex_ID": 22240
+    },
+    {
+        "ID": 5339,
+        "Name": "Sumati Kalapana of Grapa",
+        "Tex_ID": 22243
+    },
+    {
+        "ID": 5340,
+        "Name": "Sumati Darbikara of Bahamut",
+        "Tex_ID": 22246
+    },
+    {
+        "ID": 5379,
+        "Name": "Brahman Valastha",
+        "Tex_ID": 22945
+    },
+    {
+        "ID": 5380,
+        "Name": "Brahman Thisya",
+        "Tex_ID": 22945
+    },
+    {
+        "ID": 5381,
+        "Name": "Brahman Hotra",
+        "Tex_ID": 22945
+    },
+    {
+        "ID": 5382,
+        "Name": "Brahman Sadaka",
+        "Tex_ID": 22945
+    },
+    {
+        "ID": 5383,
+        "Name": "Vishnite Valastha",
+        "Tex_ID": 22947
+    },
+    {
+        "ID": 5384,
+        "Name": "Vishnite Thisya",
+        "Tex_ID": 22947
+    },
+    {
+        "ID": 5385,
+        "Name": "Vishnite Hotra",
+        "Tex_ID": 22947
+    },
+    {
+        "ID": 5386,
+        "Name": "Vishnite Sadaka",
+        "Tex_ID": 22947
+    },
+    {
+        "ID": 5387,
+        "Name": "Shivan Valastha",
+        "Tex_ID": 22946
+    },
+    {
+        "ID": 5388,
+        "Name": "Shivan Thisya",
+        "Tex_ID": 22946
+    },
+    {
+        "ID": 5389,
+        "Name": "Shivan Hotra",
+        "Tex_ID": 22946
+    },
+    {
+        "ID": 5390,
+        "Name": "Shivan Sadaka",
+        "Tex_ID": 22946
+    },
+    {
+        "ID": 5399,
+        "Name": "Head Band",
+        "Tex_ID": 22227
+    },
+    {
+        "ID": 5401,
+        "Name": "Chori Gloves",
+        "Tex_ID": 22861
+    },
+    {
+        "ID": 5402,
+        "Name": "Acchada Gloves",
+        "Tex_ID": 22862
+    },
+    {
+        "ID": 5403,
+        "Name": "Varman Gloves",
+        "Tex_ID": 22863
+    },
+    {
+        "ID": 5404,
+        "Name": "Trana Gauntlets",
+        "Tex_ID": 22864
+    },
+    {
+        "ID": 5405,
+        "Name": "Jalaka Gauntlets",
+        "Tex_ID": 22865
+    },
+    {
+        "ID": 5406,
+        "Name": "Amsatra Gauntlets",
+        "Tex_ID": 22866
+    },
+    {
+        "ID": 5407,
+        "Name": "Tanuvarman Gauntlets",
+        "Tex_ID": 22867
+    },
+    {
+        "ID": 5408,
+        "Name": "Kalatanuvarman Gauntlets",
+        "Tex_ID": 22868
+    },
+    {
+        "ID": 5409,
+        "Name": "Vadati Knuckle Guards",
+        "Tex_ID": 22869
+    },
+    {
+        "ID": 5410,
+        "Name": "Jayati Knuckle Guards",
+        "Tex_ID": 22870
+    },
+    {
+        "ID": 5411,
+        "Name": "Pratana Knuckle Guards",
+        "Tex_ID": 22871
+    },
+    {
+        "ID": 5412,
+        "Name": "Karyanimaya Knuckle Guards",
+        "Tex_ID": 22872
+    },
+    {
+        "ID": 5413,
+        "Name": "Tars Gloves",
+        "Tex_ID": 22873
+    },
+    {
+        "ID": 5414,
+        "Name": "Samyuga Gloves",
+        "Tex_ID": 22874
+    },
+    {
+        "ID": 5415,
+        "Name": "Pradana Gloves",
+        "Tex_ID": 22875
+    },
+    {
+        "ID": 5416,
+        "Name": "Zastrakali Gloves",
+        "Tex_ID": 22876
+    },
+    {
+        "ID": 5417,
+        "Name": "Varabana Mittens",
+        "Tex_ID": 22877
+    },
+    {
+        "ID": 5418,
+        "Name": "Visamnnaha Mittens",
+        "Tex_ID": 22878
+    },
+    {
+        "ID": 5419,
+        "Name": "Kajcuka Mittens",
+        "Tex_ID": 22879
+    },
+    {
+        "ID": 5420,
+        "Name": "Jalavala Mittens",
+        "Tex_ID": 22880
+    },
+    {
+        "ID": 5421,
+        "Name": "Vanutija Gauntlets",
+        "Tex_ID": 22881
+    },
+    {
+        "ID": 5422,
+        "Name": "Varahaja Gauntlets",
+        "Tex_ID": 22882
+    },
+    {
+        "ID": 5423,
+        "Name": "Tanadatt Knuckle Guards",
+        "Tex_ID": 22881
+    },
+    {
+        "ID": 5424,
+        "Name": "Nuhavati Knuckle Guards",
+        "Tex_ID": 22589
+    },
+    {
+        "ID": 5425,
+        "Name": "Muresan Gloves",
+        "Tex_ID": 22881
+    },
+    {
+        "ID": 5426,
+        "Name": "Rajastanv Gloves",
+        "Tex_ID": 22593
+    },
+    {
+        "ID": 5427,
+        "Name": "Gayatri Mittens",
+        "Tex_ID": 22881
+    },
+    {
+        "ID": 5428,
+        "Name": "Sahasrara Mittens",
+        "Tex_ID": 22585
+    },
+    {
+        "ID": 5429,
+        "Name": "Vikavaka Gauntlets",
+        "Tex_ID": 23856
+    },
+    {
+        "ID": 5430,
+        "Name": "Kakuta Knuckle Guards",
+        "Tex_ID": 23597
+    },
+    {
+        "ID": 5431,
+        "Name": "Samahana Gloves",
+        "Tex_ID": 23852
+    },
+    {
+        "ID": 5432,
+        "Name": "Jalabant Mittens",
+        "Tex_ID": 23860
+    },
+    {
+        "ID": 5433,
+        "Name": "Aruta Gauntlets",
+        "Tex_ID": 22976
+    },
+    {
+        "ID": 5434,
+        "Name": "Shinra Knuckle Guards",
+        "Tex_ID": 22991
+    },
+    {
+        "ID": 5435,
+        "Name": "Kharyadin Gloves",
+        "Tex_ID": 22970
+    },
+    {
+        "ID": 5436,
+        "Name": "Vharumica Mittens",
+        "Tex_ID": 22981
+    },
+    {
+        "ID": 5437,
+        "Name": "Piezur Gauntlets",
+        "Tex_ID": 22677
+    },
+    {
+        "ID": 5438,
+        "Name": "Soupuro Knuckle Guards",
+        "Tex_ID": 22687
+    },
+    {
+        "ID": 5439,
+        "Name": "Adier Gloves",
+        "Tex_ID": 22672
+    },
+    {
+        "ID": 5440,
+        "Name": "Sitah Mittens",
+        "Tex_ID": 22682
+    },
+    {
+        "ID": 5441,
+        "Name": "Bahula Gloves",
+        "Tex_ID": 23154
+    },
+    {
+        "ID": 5442,
+        "Name": "Amuti Gloves",
+        "Tex_ID": 23164
+    },
+    {
+        "ID": 5443,
+        "Name": "Guda Gloves",
+        "Tex_ID": 23149
+    },
+    {
+        "ID": 5444,
+        "Name": "Jagara Gloves",
+        "Tex_ID": 23159
+    },
+    {
+        "ID": 5446,
+        "Name": "Naka of Bahamut",
+        "Tex_ID": 22862
+    },
+    {
+        "ID": 5447,
+        "Name": "Acchada Gloves of Adana",
+        "Tex_ID": 22862
+    },
+    {
+        "ID": 5448,
+        "Name": "Varman Gloves of Grapa",
+        "Tex_ID": 22863
+    },
+    {
+        "ID": 5449,
+        "Name": "Trana Gauntlets of Ajaka",
+        "Tex_ID": 22864
+    },
+    {
+        "ID": 5450,
+        "Name": "Gatokaga Jalaka Gauntlets of Bahamut",
+        "Tex_ID": 22865
+    },
+    {
+        "ID": 5451,
+        "Name": "Sumati Amsatra Gauntlets of Grapa",
+        "Tex_ID": 22866
+    },
+    {
+        "ID": 5452,
+        "Name": "Sumati Tanuvarman Gauntlets of Bahamut",
+        "Tex_ID": 22867
+    },
+    {
+        "ID": 5453,
+        "Name": "Rada Kalatanuvarman Gauntlets of Grapa",
+        "Tex_ID": 22868
+    },
+    {
+        "ID": 5454,
+        "Name": "Vadati Knuckle Guards of Ajaka",
+        "Tex_ID": 22869
+    },
+    {
+        "ID": 5455,
+        "Name": "Gatokaga Jayati Knuckle Guards of Bahamut",
+        "Tex_ID": 22870
+    },
+    {
+        "ID": 5456,
+        "Name": "Sumati Pratana Knuckle Guards of Grapa",
+        "Tex_ID": 22871
+    },
+    {
+        "ID": 5457,
+        "Name": "Sumati Karyanimaya Knuckle Guards of Bahamut",
+        "Tex_ID": 22872
+    },
+    {
+        "ID": 5458,
+        "Name": "Tars Gloves of Ajaka",
+        "Tex_ID": 22873
+    },
+    {
+        "ID": 5459,
+        "Name": "Gatokaga Samyuga Gloves of Bahamut",
+        "Tex_ID": 22874
+    },
+    {
+        "ID": 5460,
+        "Name": "Sumati Pradana Gloves of Grapa",
+        "Tex_ID": 22875
+    },
+    {
+        "ID": 5461,
+        "Name": "Sumati Zastrakali Gloves of Bahamut",
+        "Tex_ID": 22876
+    },
+    {
+        "ID": 5462,
+        "Name": "Varabana Mittens of Ajaka",
+        "Tex_ID": 22877
+    },
+    {
+        "ID": 5463,
+        "Name": "Gatokaga Visamnnaha Mittens of Bahamut",
+        "Tex_ID": 22878
+    },
+    {
+        "ID": 5464,
+        "Name": "Sumati Kajcuka Mittens of Grapa",
+        "Tex_ID": 22879
+    },
+    {
+        "ID": 5465,
+        "Name": "Sumati Jalavala Mittens of Bahamut",
+        "Tex_ID": 22880
+    },
+    {
+        "ID": 5466,
+        "Name": "Forbidden Gauntlets of Aruta",
+        "Tex_ID": 22976
+    },
+    {
+        "ID": 5467,
+        "Name": "Forbidden Knuckle Guards of Shinra",
+        "Tex_ID": 22991
+    },
+    {
+        "ID": 5468,
+        "Name": "Forbidden Gloves of Kharyadin",
+        "Tex_ID": 22970
+    },
+    {
+        "ID": 5469,
+        "Name": "Forbidden Mittens of Vharumica",
+        "Tex_ID": 22981
+    },
+    {
+        "ID": 5470,
+        "Name": "Forbidden Gloves from the Sun",
+        "Tex_ID": 22868
+    },
+    {
+        "ID": 5499,
+        "Name": "Chori Gloves",
+        "Tex_ID": 22861
+    },
+    {
+        "ID": 5501,
+        "Name": "Hira",
+        "Tex_ID": 22315
+    },
+    {
+        "ID": 5502,
+        "Name": "Chabi",
+        "Tex_ID": 22316
+    },
+    {
+        "ID": 5503,
+        "Name": "Chabi of Holy Army",
+        "Tex_ID": 22316
+    },
+    {
+        "ID": 5504,
+        "Name": "Leather Hira",
+        "Tex_ID": 22317
+    },
+    {
+        "ID": 5505,
+        "Name": "Roha Chabi",
+        "Tex_ID": 22318
+    },
+    {
+        "ID": 5506,
+        "Name": "Kalapana",
+        "Tex_ID": 22319
+    },
+    {
+        "ID": 5507,
+        "Name": "Bratina",
+        "Tex_ID": 22320
+    },
+    {
+        "ID": 5546,
+        "Name": "Hira of Bahamut",
+        "Tex_ID": 22315
+    },
+    {
+        "ID": 5547,
+        "Name": "Chabi of Grapa",
+        "Tex_ID": 22316
+    },
+    {
+        "ID": 5548,
+        "Name": "Leather Hira of Caulitara",
+        "Tex_ID": 22317
+    },
+    {
+        "ID": 5549,
+        "Name": "Roha Chabi of Life",
+        "Tex_ID": 22318
+    },
+    {
+        "ID": 5550,
+        "Name": "Roha Chabi of Spells",
+        "Tex_ID": 22318
+    },
+    {
+        "ID": 5551,
+        "Name": "Rada Bratina of Grapa",
+        "Tex_ID": 22320
+    },
+    {
+        "ID": 5552,
+        "Name": "Hero's Waistband",
+        "Tex_ID": 22320
+    },
+    {
+        "ID": 5553,
+        "Name": "Belt of the Great Bear",
+        "Tex_ID": 24041
+    },
+    {
+        "ID": 5601,
+        "Name": "Chori Shoes",
+        "Tex_ID": 22251
+    },
+    {
+        "ID": 5602,
+        "Name": "Acchada",
+        "Tex_ID": 22256
+    },
+    {
+        "ID": 5603,
+        "Name": "Varman",
+        "Tex_ID": 22252
+    },
+    {
+        "ID": 5604,
+        "Name": "Aruta Greaves",
+        "Tex_ID": 22975
+    },
+    {
+        "ID": 5605,
+        "Name": "Shinra Boots",
+        "Tex_ID": 22990
+    },
+    {
+        "ID": 5606,
+        "Name": "Paduka of God's Force",
+        "Tex_ID": 22253
+    },
+    {
+        "ID": 5607,
+        "Name": "Kharyadin Shoes",
+        "Tex_ID": 22969
+    },
+    {
+        "ID": 5608,
+        "Name": "Piezur Greaves",
+        "Tex_ID": 22680
+    },
+    {
+        "ID": 5609,
+        "Name": "Soupuro Boots",
+        "Tex_ID": 22690
+    },
+    {
+        "ID": 5610,
+        "Name": "Adier Shoes",
+        "Tex_ID": 22675
+    },
+    {
+        "ID": 5611,
+        "Name": "Sitah Sandals",
+        "Tex_ID": 22685
+    },
+    {
+        "ID": 5612,
+        "Name": "Bahulra Greaves",
+        "Tex_ID": 23157
+    },
+    {
+        "ID": 5613,
+        "Name": "Amuti Boots",
+        "Tex_ID": 23167
+    },
+    {
+        "ID": 5614,
+        "Name": "Guda Shoes",
+        "Tex_ID": 23152
+    },
+    {
+        "ID": 5615,
+        "Name": "Jagara Sandals",
+        "Tex_ID": 23162
+    },
+    {
+        "ID": 5616,
+        "Name": "Vharumica Sandals",
+        "Tex_ID": 22974
+    },
+    {
+        "ID": 5617,
+        "Name": "Trana Greaves",
+        "Tex_ID": 22254
+    },
+    {
+        "ID": 5618,
+        "Name": "Jalaka Greaves",
+        "Tex_ID": 22255
+    },
+    {
+        "ID": 5619,
+        "Name": "Amsatra Greaves",
+        "Tex_ID": 22256
+    },
+    {
+        "ID": 5620,
+        "Name": "Tanuvarman Greaves",
+        "Tex_ID": 22257
+    },
+    {
+        "ID": 5622,
+        "Name": "Vadati Boots",
+        "Tex_ID": 22254
+    },
+    {
+        "ID": 5623,
+        "Name": "Jayati Boots",
+        "Tex_ID": 22255
+    },
+    {
+        "ID": 5624,
+        "Name": "Pratana Boots",
+        "Tex_ID": 22256
+    },
+    {
+        "ID": 5625,
+        "Name": "Karyanimaya Boots",
+        "Tex_ID": 22257
+    },
+    {
+        "ID": 5626,
+        "Name": "Tars Shoes",
+        "Tex_ID": 22254
+    },
+    {
+        "ID": 5627,
+        "Name": "Samyuga Shoes",
+        "Tex_ID": 22255
+    },
+    {
+        "ID": 5628,
+        "Name": "Pradana Shoes",
+        "Tex_ID": 22256
+    },
+    {
+        "ID": 5629,
+        "Name": "Zastrakali Shoes",
+        "Tex_ID": 22257
+    },
+    {
+        "ID": 5630,
+        "Name": "Varabana Sandals",
+        "Tex_ID": 22254
+    },
+    {
+        "ID": 5631,
+        "Name": "Visamnnaha Sandals",
+        "Tex_ID": 22255
+    },
+    {
+        "ID": 5632,
+        "Name": "Kajcuka Sandals",
+        "Tex_ID": 22256
+    },
+    {
+        "ID": 5633,
+        "Name": "Jalavala Sandals",
+        "Tex_ID": 22257
+    },
+    {
+        "ID": 5634,
+        "Name": "Jalabant Sandals",
+        "Tex_ID": 23863
+    },
+    {
+        "ID": 5635,
+        "Name": "Vanutija Greaves",
+        "Tex_ID": 22258
+    },
+    {
+        "ID": 5636,
+        "Name": "Varahaja Greaves",
+        "Tex_ID": 22259
+    },
+    {
+        "ID": 5637,
+        "Name": "Tanadatt Boots",
+        "Tex_ID": 22258
+    },
+    {
+        "ID": 5638,
+        "Name": "Nuhavati Boots",
+        "Tex_ID": 22592
+    },
+    {
+        "ID": 5639,
+        "Name": "Muresan Shoes",
+        "Tex_ID": 22258
+    },
+    {
+        "ID": 5640,
+        "Name": "Rajastanv Shoes",
+        "Tex_ID": 22596
+    },
+    {
+        "ID": 5641,
+        "Name": "Gayatri Sandals",
+        "Tex_ID": 22258
+    },
+    {
+        "ID": 5642,
+        "Name": "Sahasrara Sandals",
+        "Tex_ID": 22588
+    },
+    {
+        "ID": 5643,
+        "Name": "Vikavaka Greaves",
+        "Tex_ID": 23859
+    },
+    {
+        "ID": 5644,
+        "Name": "Kakuta Boots",
+        "Tex_ID": 23591
+    },
+    {
+        "ID": 5645,
+        "Name": "Samahana Shoes",
+        "Tex_ID": 23855
+    },
+    {
+        "ID": 5646,
+        "Name": "Patika of Bahamut",
+        "Tex_ID": 22252
+    },
+    {
+        "ID": 5647,
+        "Name": "Leather Upana of Adana",
+        "Tex_ID": 22252
+    },
+    {
+        "ID": 5648,
+        "Name": "Arapada of Adana",
+        "Tex_ID": 22256
+    },
+    {
+        "ID": 5649,
+        "Name": "Bapada of Ajaka",
+        "Tex_ID": 22257
+    },
+    {
+        "ID": 5650,
+        "Name": "Gatokaga Paduka Bahamut",
+        "Tex_ID": 22253
+    },
+    {
+        "ID": 5651,
+        "Name": "Sumati Padutra of Grapa",
+        "Tex_ID": 22254
+    },
+    {
+        "ID": 5652,
+        "Name": "Sumati Hiriwupauna",
+        "Tex_ID": 22255
+    },
+    {
+        "ID": 5653,
+        "Name": "Trana Grieves of Ajaka",
+        "Tex_ID": 22254
+    },
+    {
+        "ID": 5654,
+        "Name": "Gatokaga Jalka Grieves of Bahamut",
+        "Tex_ID": 22255
+    },
+    {
+        "ID": 5655,
+        "Name": "Sumati Amsatra Grieves of Grapa",
+        "Tex_ID": 22256
+    },
+    {
+        "ID": 5656,
+        "Name": "Sumati Tanuvarman Grieves of Bahamut",
+        "Tex_ID": 22257
+    },
+    {
+        "ID": 5657,
+        "Name": "Rada Kalatanuvarman Grieves of Grapa",
+        "Tex_ID": 22255
+    },
+    {
+        "ID": 5658,
+        "Name": "Vadati Boots of Ajaka",
+        "Tex_ID": 22254
+    },
+    {
+        "ID": 5659,
+        "Name": "Gatokaga Jayati Boots of Bahamut",
+        "Tex_ID": 22255
+    },
+    {
+        "ID": 5660,
+        "Name": "Sumati Pratana Boots of Grapa",
+        "Tex_ID": 22256
+    },
+    {
+        "ID": 5661,
+        "Name": "Sumati Karyanimaya Boots of Bahamut",
+        "Tex_ID": 22257
+    },
+    {
+        "ID": 5662,
+        "Name": "Tars Shoes of Ajaka",
+        "Tex_ID": 22254
+    },
+    {
+        "ID": 5663,
+        "Name": "Gatokaga Samyuga Shoes of Bahamut",
+        "Tex_ID": 22255
+    },
+    {
+        "ID": 5664,
+        "Name": "Sumati Pradana Shoes of Grapa",
+        "Tex_ID": 22256
+    },
+    {
+        "ID": 5665,
+        "Name": "Sumati Zastrakali Shoes of Bahamut",
+        "Tex_ID": 22257
+    },
+    {
+        "ID": 5666,
+        "Name": "Varabana Sandals of Ajaka",
+        "Tex_ID": 22254
+    },
+    {
+        "ID": 5667,
+        "Name": "Gatokaga Visamnnaha Sandals of Bahamut",
+        "Tex_ID": 22255
+    },
+    {
+        "ID": 5668,
+        "Name": "Sumati Kajcuka Sandals of Grapa",
+        "Tex_ID": 22256
+    },
+    {
+        "ID": 5669,
+        "Name": "Sumati Jalavala Sandals of Bahamut",
+        "Tex_ID": 22257
+    },
+    {
+        "ID": 5670,
+        "Name": "Dash Boots",
+        "Tex_ID": 22257
+    },
+    {
+        "ID": 5671,
+        "Name": "Forbidden Greaves of Aruta",
+        "Tex_ID": 22975
+    },
+    {
+        "ID": 5672,
+        "Name": "Forbidden Boots of Shinra",
+        "Tex_ID": 22990
+    },
+    {
+        "ID": 5673,
+        "Name": "Forbidden Shoes of Kharyadin",
+        "Tex_ID": 22969
+    },
+    {
+        "ID": 5674,
+        "Name": "Forbidden Sandals of Vharumica",
+        "Tex_ID": 22974
+    },
+    {
+        "ID": 5699,
+        "Name": "Chori Shoes",
+        "Tex_ID": 22251
+    },
+    {
+        "ID": 5701,
+        "Name": "Wooden Buckler",
+        "Tex_ID": 22286
+    },
+    {
+        "ID": 5702,
+        "Name": "Dhala",
+        "Tex_ID": 22292
+    },
+    {
+        "ID": 5703,
+        "Name": "Kalkan",
+        "Tex_ID": 22287
+    },
+    {
+        "ID": 5704,
+        "Name": "Phalaka",
+        "Tex_ID": 22293
+    },
+    {
+        "ID": 5705,
+        "Name": "Carman",
+        "Tex_ID": 22288
+    },
+    {
+        "ID": 5706,
+        "Name": "Silver Carman",
+        "Tex_ID": 22289
+    },
+    {
+        "ID": 5707,
+        "Name": "Chagala Carman",
+        "Tex_ID": 22290
+    },
+    {
+        "ID": 5708,
+        "Name": "Iron Carman",
+        "Tex_ID": 22291
+    },
+    {
+        "ID": 5709,
+        "Name": "Zata Khandra",
+        "Tex_ID": 23029
+    },
+    {
+        "ID": 5710,
+        "Name": "Kieta",
+        "Tex_ID": 22659
+    },
+    {
+        "ID": 5711,
+        "Name": "Kabasa",
+        "Tex_ID": 23136
+    },
+    {
+        "ID": 5746,
+        "Name": "Wooden Buckler of Bahamut",
+        "Tex_ID": 22286
+    },
+    {
+        "ID": 5747,
+        "Name": "Dara of Adana",
+        "Tex_ID": 22292
+    },
+    {
+        "ID": 5748,
+        "Name": "Kalkan of Grapa",
+        "Tex_ID": 22287
+    },
+    {
+        "ID": 5749,
+        "Name": "Phalaka of Life",
+        "Tex_ID": 24037
+    },
+    {
+        "ID": 5750,
+        "Name": "Carman of Wild Beast",
+        "Tex_ID": 24038
+    },
+    {
+        "ID": 5751,
+        "Name": "Carman of Warrior",
+        "Tex_ID": 24038
+    },
+    {
+        "ID": 5752,
+        "Name": "Sumati Chagala Kalkan of Bahamut",
+        "Tex_ID": 24039
+    },
+    {
+        "ID": 5753,
+        "Name": "Rada Iron Kalkan of Grapa",
+        "Tex_ID": 24040
+    },
+    {
+        "ID": 5754,
+        "Name": "Yakat Phalaka",
+        "Tex_ID": 24037
+    },
+    {
+        "ID": 5755,
+        "Name": "Sabitri Phalaka",
+        "Tex_ID": 24037
+    },
+    {
+        "ID": 5756,
+        "Name": "Forbidden Shield of Kieta",
+        "Tex_ID": 22659
+    },
+    {
+        "ID": 5801,
+        "Name": "Charm of the Panda",
+        "Tex_ID": 24026
+    },
+    {
+        "ID": 5802,
+        "Name": "Charm of the Eagle",
+        "Tex_ID": 24027
+    },
+    {
+        "ID": 5803,
+        "Name": "Charm of Samudra",
+        "Tex_ID": 24028
+    },
+    {
+        "ID": 5804,
+        "Name": "Charm of Surya",
+        "Tex_ID": 24029
+    },
+    {
+        "ID": 5805,
+        "Name": "Charm of Pranas",
+        "Tex_ID": 24030
+    },
+    {
+        "ID": 5806,
+        "Name": "Charm of Amsha",
+        "Tex_ID": 24031
+    },
+    {
+        "ID": 5807,
+        "Name": "Charm of Vedha",
+        "Tex_ID": 24032
+    },
+    {
+        "ID": 5808,
+        "Name": "Charm of Ghosha",
+        "Tex_ID": 24033
+    },
+    {
+        "ID": 5809,
+        "Name": "Charm of Gruta",
+        "Tex_ID": 24034
+    },
+    {
+        "ID": 5810,
+        "Name": "Charm of Ara",
+        "Tex_ID": 24035
+    },
+    {
+        "ID": 5811,
+        "Name": "Charm of Chakra Darani",
+        "Tex_ID": 24036
+    },
+    {
+        "ID": 5812,
+        "Name": "Charm of Darani I",
+        "Tex_ID": 24036
+    },
+    {
+        "ID": 5813,
+        "Name": "Charm of Darani II",
+        "Tex_ID": 24036
+    },
+    {
+        "ID": 5814,
+        "Name": "Charm of Darani III",
+        "Tex_ID": 24036
+    },
+    {
+        "ID": 5815,
+        "Name": "Charm of Darani IV",
+        "Tex_ID": 24036
+    },
+    {
+        "ID": 6001,
+        "Name": "Karna of Muscle",
+        "Tex_ID": 22297
+    },
+    {
+        "ID": 6002,
+        "Name": "Karna of Nerve",
+        "Tex_ID": 22297
+    },
+    {
+        "ID": 6003,
+        "Name": "Karna of Heart",
+        "Tex_ID": 22297
+    },
+    {
+        "ID": 6004,
+        "Name": "Karna of Spirit",
+        "Tex_ID": 22297
+    },
+    {
+        "ID": 6005,
+        "Name": "Kakana of Muscle",
+        "Tex_ID": 22298
+    },
+    {
+        "ID": 6006,
+        "Name": "Kakana of Nerve",
+        "Tex_ID": 22298
+    },
+    {
+        "ID": 6007,
+        "Name": "Kakana of Heart",
+        "Tex_ID": 22298
+    },
+    {
+        "ID": 6008,
+        "Name": "Kakana of Spirit",
+        "Tex_ID": 22298
+    },
+    {
+        "ID": 6009,
+        "Name": "Kundala of Muscle",
+        "Tex_ID": 22299
+    },
+    {
+        "ID": 6010,
+        "Name": "Kundala of Nerve",
+        "Tex_ID": 22299
+    },
+    {
+        "ID": 6011,
+        "Name": "Kundala of Heart",
+        "Tex_ID": 22299
+    },
+    {
+        "ID": 6012,
+        "Name": "Kundala of Spirit",
+        "Tex_ID": 22299
+    },
+    {
+        "ID": 6013,
+        "Name": "Karnaka of Muscle",
+        "Tex_ID": 22300
+    },
+    {
+        "ID": 6014,
+        "Name": "Karnaka of Nerve",
+        "Tex_ID": 22300
+    },
+    {
+        "ID": 6015,
+        "Name": "Karnaka of Heart",
+        "Tex_ID": 22300
+    },
+    {
+        "ID": 6016,
+        "Name": "Karnaka of Spirit",
+        "Tex_ID": 22300
+    },
+    {
+        "ID": 6017,
+        "Name": "Avatamsa of Muscle",
+        "Tex_ID": 22301
+    },
+    {
+        "ID": 6018,
+        "Name": "Avatamsa of Nerve",
+        "Tex_ID": 22301
+    },
+    {
+        "ID": 6019,
+        "Name": "Avatamsa of Heart",
+        "Tex_ID": 22301
+    },
+    {
+        "ID": 6020,
+        "Name": "Avatamsa of Spirit",
+        "Tex_ID": 22301
+    },
+    {
+        "ID": 6021,
+        "Name": "Karna of Flame",
+        "Tex_ID": 22297
+    },
+    {
+        "ID": 6022,
+        "Name": "Karna of Ice",
+        "Tex_ID": 22297
+    },
+    {
+        "ID": 6023,
+        "Name": "Karna of Thunder",
+        "Tex_ID": 22297
+    },
+    {
+        "ID": 6024,
+        "Name": "Karna of Poison",
+        "Tex_ID": 22297
+    },
+    {
+        "ID": 6025,
+        "Name": "Kakana of Flame",
+        "Tex_ID": 22298
+    },
+    {
+        "ID": 6026,
+        "Name": "Kakana of Ice",
+        "Tex_ID": 22298
+    },
+    {
+        "ID": 6027,
+        "Name": "Kakana of Thunder",
+        "Tex_ID": 22298
+    },
+    {
+        "ID": 6028,
+        "Name": "Kakana of Poison",
+        "Tex_ID": 22298
+    },
+    {
+        "ID": 6029,
+        "Name": "Kundala of Flame",
+        "Tex_ID": 22299
+    },
+    {
+        "ID": 6030,
+        "Name": "Kundala of Ice",
+        "Tex_ID": 22299
+    },
+    {
+        "ID": 6031,
+        "Name": "Kundala of Thunder",
+        "Tex_ID": 22299
+    },
+    {
+        "ID": 6032,
+        "Name": "Kundala of Poison",
+        "Tex_ID": 22299
+    },
+    {
+        "ID": 6033,
+        "Name": "Karnaka of Flame",
+        "Tex_ID": 22300
+    },
+    {
+        "ID": 6034,
+        "Name": "Karnaka of Ice",
+        "Tex_ID": 22300
+    },
+    {
+        "ID": 6035,
+        "Name": "Karnaka of Thunder",
+        "Tex_ID": 22300
+    },
+    {
+        "ID": 6036,
+        "Name": "Karnaka of Poison",
+        "Tex_ID": 22300
+    },
+    {
+        "ID": 6037,
+        "Name": "Avatamsa of Flame",
+        "Tex_ID": 22301
+    },
+    {
+        "ID": 6038,
+        "Name": "Avatamsa of Ice",
+        "Tex_ID": 22301
+    },
+    {
+        "ID": 6039,
+        "Name": "Avatamsa of Thunder",
+        "Tex_ID": 22301
+    },
+    {
+        "ID": 6040,
+        "Name": "Avatamsa of Poison",
+        "Tex_ID": 22301
+    },
+    {
+        "ID": 6046,
+        "Name": "Skill Karna",
+        "Tex_ID": 22297
+    },
+    {
+        "ID": 6047,
+        "Name": "Bravery Karna",
+        "Tex_ID": 22297
+    },
+    {
+        "ID": 6048,
+        "Name": "Magic Karna",
+        "Tex_ID": 22297
+    },
+    {
+        "ID": 6049,
+        "Name": "Nerve Karna of Adana",
+        "Tex_ID": 22297
+    },
+    {
+        "ID": 6050,
+        "Name": "Muscle Kakana of Ajaka",
+        "Tex_ID": 22298
+    },
+    {
+        "ID": 6051,
+        "Name": "Nerve Kakana of Ajaka",
+        "Tex_ID": 22298
+    },
+    {
+        "ID": 6052,
+        "Name": "Life Kakana of Ajaka",
+        "Tex_ID": 22298
+    },
+    {
+        "ID": 6053,
+        "Name": "Spirit Kakana of Ajaka",
+        "Tex_ID": 22298
+    },
+    {
+        "ID": 6054,
+        "Name": "Muscle Rada Kundala of Adana",
+        "Tex_ID": 22299
+    },
+    {
+        "ID": 6055,
+        "Name": "Nerve Rada Kundala of Adana",
+        "Tex_ID": 22299
+    },
+    {
+        "ID": 6056,
+        "Name": "Heart Rada Kundala of Adana",
+        "Tex_ID": 22299
+    },
+    {
+        "ID": 6057,
+        "Name": "Spirit Rada Kundala of Adana",
+        "Tex_ID": 22299
+    },
+    {
+        "ID": 6058,
+        "Name": "Muscle Gatokaga Karnaka of Ajaka",
+        "Tex_ID": 22300
+    },
+    {
+        "ID": 6059,
+        "Name": "Nerve Atokaga Karnaka of Ajaka",
+        "Tex_ID": 22300
+    },
+    {
+        "ID": 6060,
+        "Name": "Heart Gatokaga Karnaka of Ajaka",
+        "Tex_ID": 22300
+    },
+    {
+        "ID": 6061,
+        "Name": "Spirit Gatokaga Karnaka of Ajaka",
+        "Tex_ID": 22300
+    },
+    {
+        "ID": 6062,
+        "Name": "Muscle Rada Avatamsa of Adana",
+        "Tex_ID": 22301
+    },
+    {
+        "ID": 6063,
+        "Name": "Nerve Rada Avatamsa of Adana",
+        "Tex_ID": 22301
+    },
+    {
+        "ID": 6064,
+        "Name": "Heart Rada Avatamsa of Adana",
+        "Tex_ID": 22301
+    },
+    {
+        "ID": 6065,
+        "Name": "Spirit Rada Avatamsa of Adana",
+        "Tex_ID": 22301
+    },
+    {
+        "ID": 6066,
+        "Name": "Gatekeeper's Earring I",
+        "Tex_ID": 22300
+    },
+    {
+        "ID": 6067,
+        "Name": "Gatekeeper's Earring II",
+        "Tex_ID": 22300
+    },
+    {
+        "ID": 6068,
+        "Name": "Gatekeeper's Earring III",
+        "Tex_ID": 22300
+    },
+    {
+        "ID": 6069,
+        "Name": "Demi Mantra Earring I",
+        "Tex_ID": 22301
+    },
+    {
+        "ID": 6070,
+        "Name": "Demi Mantra Earring II",
+        "Tex_ID": 22301
+    },
+    {
+        "ID": 6071,
+        "Name": "Demi Mantra Earring III",
+        "Tex_ID": 22301
+    },
+    {
+        "ID": 6072,
+        "Name": "Earring of the Sun",
+        "Tex_ID": 23557
+    },
+    {
+        "ID": 6096,
+        "Name": "Earring of Militia Offficer",
+        "Tex_ID": 23556
+    },
+    {
+        "ID": 6097,
+        "Name": "Earring of the Wise",
+        "Tex_ID": 23557
+    },
+    {
+        "ID": 6101,
+        "Name": "Bangle of Muscle",
+        "Tex_ID": 22323
+    },
+    {
+        "ID": 6102,
+        "Name": "Bangle of Nerve",
+        "Tex_ID": 22323
+    },
+    {
+        "ID": 6103,
+        "Name": "Bangle of Heart",
+        "Tex_ID": 22323
+    },
+    {
+        "ID": 6104,
+        "Name": "Bangle of Spirit",
+        "Tex_ID": 22323
+    },
+    {
+        "ID": 6105,
+        "Name": "Khadi of Muscle",
+        "Tex_ID": 22324
+    },
+    {
+        "ID": 6106,
+        "Name": "Khadi of Nerve",
+        "Tex_ID": 22324
+    },
+    {
+        "ID": 6107,
+        "Name": "Khadi of Heart",
+        "Tex_ID": 22324
+    },
+    {
+        "ID": 6108,
+        "Name": "Khadi of Spirit",
+        "Tex_ID": 22324
+    },
+    {
+        "ID": 6109,
+        "Name": "Kambu of Muscle",
+        "Tex_ID": 22325
+    },
+    {
+        "ID": 6110,
+        "Name": "Kambu of Nerve",
+        "Tex_ID": 22325
+    },
+    {
+        "ID": 6111,
+        "Name": "Kambu of Heart",
+        "Tex_ID": 22325
+    },
+    {
+        "ID": 6112,
+        "Name": "Kambu of Spirit",
+        "Tex_ID": 22325
+    },
+    {
+        "ID": 6113,
+        "Name": "Kataka of Muscle",
+        "Tex_ID": 22326
+    },
+    {
+        "ID": 6114,
+        "Name": "Kataka of Nerve",
+        "Tex_ID": 22326
+    },
+    {
+        "ID": 6115,
+        "Name": "Kataka of Heart",
+        "Tex_ID": 22326
+    },
+    {
+        "ID": 6116,
+        "Name": "Kataka of Spirit",
+        "Tex_ID": 22326
+    },
+    {
+        "ID": 6117,
+        "Name": "Suvarna of Muscle",
+        "Tex_ID": 22327
+    },
+    {
+        "ID": 6118,
+        "Name": "Suvarna of Nerve",
+        "Tex_ID": 22327
+    },
+    {
+        "ID": 6119,
+        "Name": "Suvarna of Heart",
+        "Tex_ID": 22327
+    },
+    {
+        "ID": 6120,
+        "Name": "Suvarna of Spirit",
+        "Tex_ID": 22327
+    },
+    {
+        "ID": 6121,
+        "Name": "Bangle of Flame",
+        "Tex_ID": 22323
+    },
+    {
+        "ID": 6122,
+        "Name": "Bangle of Ice",
+        "Tex_ID": 22323
+    },
+    {
+        "ID": 6123,
+        "Name": "Bangle of Thunder",
+        "Tex_ID": 22323
+    },
+    {
+        "ID": 6124,
+        "Name": "Bangle of Poison",
+        "Tex_ID": 22323
+    },
+    {
+        "ID": 6125,
+        "Name": "Khadi of Flame",
+        "Tex_ID": 22324
+    },
+    {
+        "ID": 6126,
+        "Name": "Khadi of Ice",
+        "Tex_ID": 22324
+    },
+    {
+        "ID": 6127,
+        "Name": "Khadi of Thunder",
+        "Tex_ID": 22324
+    },
+    {
+        "ID": 6128,
+        "Name": "Khadi of Poison",
+        "Tex_ID": 22324
+    },
+    {
+        "ID": 6129,
+        "Name": "Kambu of Flame",
+        "Tex_ID": 22325
+    },
+    {
+        "ID": 6130,
+        "Name": "Kambu of Ice",
+        "Tex_ID": 22325
+    },
+    {
+        "ID": 6131,
+        "Name": "Kambu of Thunder",
+        "Tex_ID": 22325
+    },
+    {
+        "ID": 6132,
+        "Name": "Kambu of Poison",
+        "Tex_ID": 22325
+    },
+    {
+        "ID": 6133,
+        "Name": "Kataka of Flame",
+        "Tex_ID": 22326
+    },
+    {
+        "ID": 6134,
+        "Name": "Kataka of Ice",
+        "Tex_ID": 22326
+    },
+    {
+        "ID": 6135,
+        "Name": "Kataka of Thunder",
+        "Tex_ID": 22326
+    },
+    {
+        "ID": 6136,
+        "Name": "Kataka of Poison",
+        "Tex_ID": 22326
+    },
+    {
+        "ID": 6137,
+        "Name": "Suvarna of Flame",
+        "Tex_ID": 22327
+    },
+    {
+        "ID": 6138,
+        "Name": "Suvarna of Ice",
+        "Tex_ID": 22327
+    },
+    {
+        "ID": 6139,
+        "Name": "Suvarna of Thunder",
+        "Tex_ID": 22327
+    },
+    {
+        "ID": 6140,
+        "Name": "Suvarna of Poison",
+        "Tex_ID": 22327
+    },
+    {
+        "ID": 6146,
+        "Name": "Life Bangle of Bahamut",
+        "Tex_ID": 22323
+    },
+    {
+        "ID": 6147,
+        "Name": "Magic Bangle of Bahamut",
+        "Tex_ID": 22323
+    },
+    {
+        "ID": 6148,
+        "Name": "Spell Bangle of Bahamut",
+        "Tex_ID": 22323
+    },
+    {
+        "ID": 6149,
+        "Name": "Spirit Bangle of Bahamut",
+        "Tex_ID": 22323
+    },
+    {
+        "ID": 6150,
+        "Name": "Muscle Khadi of Grapa",
+        "Tex_ID": 22324
+    },
+    {
+        "ID": 6151,
+        "Name": "Nerve Khadi of Grapa",
+        "Tex_ID": 22324
+    },
+    {
+        "ID": 6152,
+        "Name": "Heart Khadi of Grapa",
+        "Tex_ID": 22324
+    },
+    {
+        "ID": 6153,
+        "Name": "Spirit Khadi of Grapa",
+        "Tex_ID": 22324
+    },
+    {
+        "ID": 6154,
+        "Name": "Kambu of Spell",
+        "Tex_ID": 22325
+    },
+    {
+        "ID": 6155,
+        "Name": "Strong Kambu",
+        "Tex_ID": 22325
+    },
+    {
+        "ID": 6156,
+        "Name": "Heart Gatokaga Kambu of Bahamut",
+        "Tex_ID": 22325
+    },
+    {
+        "ID": 6157,
+        "Name": "Spirit Gatokaga Kambu of Bahamut",
+        "Tex_ID": 22325
+    },
+    {
+        "ID": 6158,
+        "Name": "Muscle Sumati Kataka of Grapa",
+        "Tex_ID": 22326
+    },
+    {
+        "ID": 6159,
+        "Name": "Nerve Sumati Kataka of Grapa",
+        "Tex_ID": 22326
+    },
+    {
+        "ID": 6160,
+        "Name": "Heart Sumati Kataka of Grapa",
+        "Tex_ID": 22326
+    },
+    {
+        "ID": 6161,
+        "Name": "Spirit Sumati Kataka of Grapa",
+        "Tex_ID": 22326
+    },
+    {
+        "ID": 6162,
+        "Name": "Muscle Sumati Suvarna of Bahamut",
+        "Tex_ID": 22327
+    },
+    {
+        "ID": 6163,
+        "Name": "Nerve Sumati Suvarna of Bahamut",
+        "Tex_ID": 22327
+    },
+    {
+        "ID": 6164,
+        "Name": "Heart Sumati Suvarna of Bahamut",
+        "Tex_ID": 22327
+    },
+    {
+        "ID": 6165,
+        "Name": "Spirit Sumati Suvarna of Bahamut",
+        "Tex_ID": 22327
+    },
+    {
+        "ID": 6166,
+        "Name": "Desert Lord Bracelet I",
+        "Tex_ID": 22326
+    },
+    {
+        "ID": 6167,
+        "Name": "Desert Lord Bracelet II",
+        "Tex_ID": 22326
+    },
+    {
+        "ID": 6168,
+        "Name": "Desert Lord Bracelet III",
+        "Tex_ID": 22326
+    },
+    {
+        "ID": 6169,
+        "Name": "Yin Yang Bracelet I",
+        "Tex_ID": 22327
+    },
+    {
+        "ID": 6170,
+        "Name": "Yin Yang Bracelet II",
+        "Tex_ID": 22327
+    },
+    {
+        "ID": 6171,
+        "Name": "Yin Yang Bracelet III",
+        "Tex_ID": 22327
+    },
+    {
+        "ID": 6172,
+        "Name": "Bracelet of the Sun",
+        "Tex_ID": 23553
+    },
+    {
+        "ID": 6196,
+        "Name": "Bracelet of God's Force",
+        "Tex_ID": 22326
+    },
+    {
+        "ID": 6197,
+        "Name": "Bangle of the Wise",
+        "Tex_ID": 23553
+    },
+    {
+        "ID": 6201,
+        "Name": "Taral of Muscle",
+        "Tex_ID": 22306
+    },
+    {
+        "ID": 6202,
+        "Name": "Taral of Nerve",
+        "Tex_ID": 22306
+    },
+    {
+        "ID": 6203,
+        "Name": "Taral of Heart",
+        "Tex_ID": 22306
+    },
+    {
+        "ID": 6204,
+        "Name": "Taral of Spirit",
+        "Tex_ID": 22306
+    },
+    {
+        "ID": 6205,
+        "Name": "Ratna of Muscle",
+        "Tex_ID": 22307
+    },
+    {
+        "ID": 6206,
+        "Name": "Ratna of Nerve",
+        "Tex_ID": 22307
+    },
+    {
+        "ID": 6207,
+        "Name": "Ratna of Heart",
+        "Tex_ID": 22307
+    },
+    {
+        "ID": 6208,
+        "Name": "Ratna of Spirit",
+        "Tex_ID": 22307
+    },
+    {
+        "ID": 6209,
+        "Name": "Rucaka of Muscle",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 6210,
+        "Name": "Rucaka of Nerve",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 6211,
+        "Name": "Rucaka of Heart",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 6212,
+        "Name": "Rucaka of Spirit",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 6214,
+        "Name": "Devachanda of Muscle",
+        "Tex_ID": 22309
+    },
+    {
+        "ID": 6215,
+        "Name": "Devachanda of Nerve",
+        "Tex_ID": 22309
+    },
+    {
+        "ID": 6216,
+        "Name": "Devachanda of Heart",
+        "Tex_ID": 22309
+    },
+    {
+        "ID": 6217,
+        "Name": "Devachanda of Spirit",
+        "Tex_ID": 22309
+    },
+    {
+        "ID": 6218,
+        "Name": "Drdhahara of Muscle",
+        "Tex_ID": 22310
+    },
+    {
+        "ID": 6219,
+        "Name": "Drdhahara of Nerve",
+        "Tex_ID": 22310
+    },
+    {
+        "ID": 6220,
+        "Name": "Drdhahara of Heart",
+        "Tex_ID": 22310
+    },
+    {
+        "ID": 6221,
+        "Name": "Drdhahara of Spirit",
+        "Tex_ID": 22310
+    },
+    {
+        "ID": 6222,
+        "Name": "Rucaka of Kirika",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 6223,
+        "Name": "Taral of Flame",
+        "Tex_ID": 22306
+    },
+    {
+        "ID": 6224,
+        "Name": "Taral of Ice",
+        "Tex_ID": 22306
+    },
+    {
+        "ID": 6225,
+        "Name": "Taral of Thunder",
+        "Tex_ID": 22306
+    },
+    {
+        "ID": 6226,
+        "Name": "Taral of Poison",
+        "Tex_ID": 22306
+    },
+    {
+        "ID": 6227,
+        "Name": "Ratna of Flame",
+        "Tex_ID": 22307
+    },
+    {
+        "ID": 6228,
+        "Name": "Ratna of Ice",
+        "Tex_ID": 22307
+    },
+    {
+        "ID": 6229,
+        "Name": "Ratna of Thunder",
+        "Tex_ID": 22307
+    },
+    {
+        "ID": 6230,
+        "Name": "Ratna of Poison",
+        "Tex_ID": 22307
+    },
+    {
+        "ID": 6231,
+        "Name": "Rucaka of Flame",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 6232,
+        "Name": "Rucaka of Ice",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 6233,
+        "Name": "Rucaka of Thunder",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 6234,
+        "Name": "Rucaka of Poison",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 6235,
+        "Name": "Devachanda of Flame",
+        "Tex_ID": 22309
+    },
+    {
+        "ID": 6236,
+        "Name": "Devachanda of Ice",
+        "Tex_ID": 22309
+    },
+    {
+        "ID": 6237,
+        "Name": "Devachanda of Thunder",
+        "Tex_ID": 22309
+    },
+    {
+        "ID": 6238,
+        "Name": "Devachanda of Poison",
+        "Tex_ID": 22309
+    },
+    {
+        "ID": 6239,
+        "Name": "Drdhahara of Flame",
+        "Tex_ID": 22310
+    },
+    {
+        "ID": 6240,
+        "Name": "Drdhahara of Ice",
+        "Tex_ID": 22310
+    },
+    {
+        "ID": 6241,
+        "Name": "Drdhahara of Thunder",
+        "Tex_ID": 22310
+    },
+    {
+        "ID": 6242,
+        "Name": "Drdhahara of Poison",
+        "Tex_ID": 22310
+    },
+    {
+        "ID": 6243,
+        "Name": "Necklace of The Brave",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 6246,
+        "Name": "Muscle Taral of Grapa",
+        "Tex_ID": 22306
+    },
+    {
+        "ID": 6247,
+        "Name": "Nerve Taral of Grapa",
+        "Tex_ID": 22306
+    },
+    {
+        "ID": 6248,
+        "Name": "Heart Taral of Grapa",
+        "Tex_ID": 22306
+    },
+    {
+        "ID": 6249,
+        "Name": "Spirit Taral of Grapa",
+        "Tex_ID": 22306
+    },
+    {
+        "ID": 6250,
+        "Name": "Muscle Gatokaga Ratna of Bahamut",
+        "Tex_ID": 22307
+    },
+    {
+        "ID": 6251,
+        "Name": "Nerve Gatokaga Ratna of Bahamut",
+        "Tex_ID": 22307
+    },
+    {
+        "ID": 6252,
+        "Name": "Heart Gatokaga Ratna of Bahamut",
+        "Tex_ID": 22307
+    },
+    {
+        "ID": 6253,
+        "Name": "Spirit Gatokaga Ratna of Bahamut",
+        "Tex_ID": 22307
+    },
+    {
+        "ID": 6254,
+        "Name": "Rucaka of Warrior",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 6255,
+        "Name": "Rucaka of Magic",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 6256,
+        "Name": "Rucaka of Life",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 6257,
+        "Name": "Strong Dechanda",
+        "Tex_ID": 22309
+    },
+    {
+        "ID": 6258,
+        "Name": "Rucaka of Wind",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 6259,
+        "Name": "Agni Rucaka",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 6260,
+        "Name": "Heart Sumati Devachanda of Bahamut",
+        "Tex_ID": 22309
+    },
+    {
+        "ID": 6261,
+        "Name": "Spirit Sumati Devachanda of Bahamut",
+        "Tex_ID": 22309
+    },
+    {
+        "ID": 6262,
+        "Name": "Muscle Rada Drdhahara of Grapa",
+        "Tex_ID": 22309
+    },
+    {
+        "ID": 6263,
+        "Name": "Nerve Rada Drdhahara of Grapa",
+        "Tex_ID": 22310
+    },
+    {
+        "ID": 6264,
+        "Name": "Heart Rada Drdhahara of Grapa",
+        "Tex_ID": 22310
+    },
+    {
+        "ID": 6265,
+        "Name": "Spirit Rada Drdhahara of Grapa",
+        "Tex_ID": 22310
+    },
+    {
+        "ID": 6266,
+        "Name": "Necklace of the Sun",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 6267,
+        "Name": "Necklace of the Saulabi Chieftain I",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 6268,
+        "Name": "Necklace of the Saulabi Chieftain II",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 6269,
+        "Name": "Necklace of the Saulabi Chieftain III",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 6270,
+        "Name": "Necklace of the Gappa Chief I",
+        "Tex_ID": 23123
+    },
+    {
+        "ID": 6271,
+        "Name": "Necklace of the Gappa Chief II",
+        "Tex_ID": 23123
+    },
+    {
+        "ID": 6272,
+        "Name": "Necklace of the Gappa Chief III",
+        "Tex_ID": 23123
+    },
+    {
+        "ID": 6301,
+        "Name": "Dahara Peta",
+        "Tex_ID": 22451
+    },
+    {
+        "ID": 6302,
+        "Name": "Peta",
+        "Tex_ID": 22452
+    },
+    {
+        "ID": 6305,
+        "Name": "Dahara Brasta",
+        "Tex_ID": 22453
+    },
+    {
+        "ID": 6306,
+        "Name": "Brasta",
+        "Tex_ID": 22454
+    },
+    {
+        "ID": 6307,
+        "Name": "Chaturanga Board",
+        "Tex_ID": 22571
+    },
+    {
+        "ID": 6401,
+        "Name": "Ran of Muscle",
+        "Tex_ID": 22457
+    },
+    {
+        "ID": 6402,
+        "Name": "Ran of Nerve",
+        "Tex_ID": 22457
+    },
+    {
+        "ID": 6403,
+        "Name": "Ran of Heart",
+        "Tex_ID": 22457
+    },
+    {
+        "ID": 6404,
+        "Name": "Ran of Spirit",
+        "Tex_ID": 22457
+    },
+    {
+        "ID": 6405,
+        "Name": "Mudra of Muscle",
+        "Tex_ID": 22458
+    },
+    {
+        "ID": 6406,
+        "Name": "Mudra of Nerve",
+        "Tex_ID": 22458
+    },
+    {
+        "ID": 6407,
+        "Name": "Mudra of Heart",
+        "Tex_ID": 22458
+    },
+    {
+        "ID": 6408,
+        "Name": "Mudra of Spirit",
+        "Tex_ID": 22458
+    },
+    {
+        "ID": 6409,
+        "Name": "Kundalin of Muscle",
+        "Tex_ID": 22459
+    },
+    {
+        "ID": 6410,
+        "Name": "Kundalin of Nerve",
+        "Tex_ID": 22459
+    },
+    {
+        "ID": 6411,
+        "Name": "Kundalin of Heart",
+        "Tex_ID": 22459
+    },
+    {
+        "ID": 6412,
+        "Name": "Kundalin of Spirit",
+        "Tex_ID": 22459
+    },
+    {
+        "ID": 6413,
+        "Name": "Avata of Muscle",
+        "Tex_ID": 22460
+    },
+    {
+        "ID": 6414,
+        "Name": "Avata of Nerve",
+        "Tex_ID": 22460
+    },
+    {
+        "ID": 6415,
+        "Name": "Avata of Heart",
+        "Tex_ID": 22460
+    },
+    {
+        "ID": 6416,
+        "Name": "Avata of Spirit",
+        "Tex_ID": 22460
+    },
+    {
+        "ID": 6417,
+        "Name": "Mandalin of Muscle",
+        "Tex_ID": 22461
+    },
+    {
+        "ID": 6418,
+        "Name": "Mandalin of Nerve",
+        "Tex_ID": 22461
+    },
+    {
+        "ID": 6419,
+        "Name": "Mandalin of Heart",
+        "Tex_ID": 22461
+    },
+    {
+        "ID": 6420,
+        "Name": "Mandalin of Spirit",
+        "Tex_ID": 22461
+    },
+    {
+        "ID": 6421,
+        "Name": "Ran of Flame",
+        "Tex_ID": 22457
+    },
+    {
+        "ID": 6422,
+        "Name": "Ran of Ice",
+        "Tex_ID": 22457
+    },
+    {
+        "ID": 6423,
+        "Name": "Ran of Thunder",
+        "Tex_ID": 22457
+    },
+    {
+        "ID": 6424,
+        "Name": "Ran of Poison",
+        "Tex_ID": 22457
+    },
+    {
+        "ID": 6425,
+        "Name": "Mudra of Flame",
+        "Tex_ID": 22458
+    },
+    {
+        "ID": 6426,
+        "Name": "Mudra of Ice",
+        "Tex_ID": 22458
+    },
+    {
+        "ID": 6427,
+        "Name": "Mudra of Thunder",
+        "Tex_ID": 22458
+    },
+    {
+        "ID": 6428,
+        "Name": "Mudra of Poison",
+        "Tex_ID": 22458
+    },
+    {
+        "ID": 6429,
+        "Name": "Kundalin of Flame",
+        "Tex_ID": 22459
+    },
+    {
+        "ID": 6430,
+        "Name": "Kundalin of Ice",
+        "Tex_ID": 22459
+    },
+    {
+        "ID": 6431,
+        "Name": "Kundalin of Thunder",
+        "Tex_ID": 22459
+    },
+    {
+        "ID": 6432,
+        "Name": "Kundalin of Poison",
+        "Tex_ID": 22459
+    },
+    {
+        "ID": 6433,
+        "Name": "Avata of Flame",
+        "Tex_ID": 22460
+    },
+    {
+        "ID": 6434,
+        "Name": "Avata of Ice",
+        "Tex_ID": 22460
+    },
+    {
+        "ID": 6435,
+        "Name": "Avata of Thunder",
+        "Tex_ID": 22460
+    },
+    {
+        "ID": 6436,
+        "Name": "Avata of Poison",
+        "Tex_ID": 22460
+    },
+    {
+        "ID": 6437,
+        "Name": "Mandalin of Flame",
+        "Tex_ID": 22461
+    },
+    {
+        "ID": 6438,
+        "Name": "Mandalin of Ice",
+        "Tex_ID": 22461
+    },
+    {
+        "ID": 6439,
+        "Name": "Mandalin of Thunder",
+        "Tex_ID": 22461
+    },
+    {
+        "ID": 6440,
+        "Name": "Mandalin of Poison",
+        "Tex_ID": 22461
+    },
+    {
+        "ID": 6441,
+        "Name": "Ring of The Brave",
+        "Tex_ID": 22459
+    },
+    {
+        "ID": 6446,
+        "Name": "Ran of Bravery",
+        "Tex_ID": 22457
+    },
+    {
+        "ID": 6447,
+        "Name": "Ran of Nerve of Adana",
+        "Tex_ID": 22457
+    },
+    {
+        "ID": 6448,
+        "Name": "Ran of Luck",
+        "Tex_ID": 22457
+    },
+    {
+        "ID": 6449,
+        "Name": "Ran of Life",
+        "Tex_ID": 22457
+    },
+    {
+        "ID": 6450,
+        "Name": "Agni Mudra",
+        "Tex_ID": 22458
+    },
+    {
+        "ID": 6451,
+        "Name": "Hima Mudra",
+        "Tex_ID": 22458
+    },
+    {
+        "ID": 6452,
+        "Name": "Rauti Mudra",
+        "Tex_ID": 22458
+    },
+    {
+        "ID": 6453,
+        "Name": "Mudra of Spirit of Ajaka",
+        "Tex_ID": 22458
+    },
+    {
+        "ID": 6454,
+        "Name": "Muscle Rada Kundalin of Adana",
+        "Tex_ID": 22459
+    },
+    {
+        "ID": 6455,
+        "Name": "Nerve Rada Kundalin of Adana",
+        "Tex_ID": 22459
+    },
+    {
+        "ID": 6456,
+        "Name": "Heart Rada Kundalin of Adana",
+        "Tex_ID": 22459
+    },
+    {
+        "ID": 6457,
+        "Name": "Spirit Rada Kundalin of Adana",
+        "Tex_ID": 22459
+    },
+    {
+        "ID": 6458,
+        "Name": "Muscle Gatokaga Avata of Ajaka",
+        "Tex_ID": 22460
+    },
+    {
+        "ID": 6459,
+        "Name": "Nerve Gatokaga Avata of Ajaka",
+        "Tex_ID": 22460
+    },
+    {
+        "ID": 6460,
+        "Name": "Heart Gatokaga Avata of Ajaka",
+        "Tex_ID": 22460
+    },
+    {
+        "ID": 6461,
+        "Name": "Spirit Gatokaga Avata of Ajaka",
+        "Tex_ID": 22460
+    },
+    {
+        "ID": 6462,
+        "Name": "Muscle Rada Mandalin of Adana",
+        "Tex_ID": 22461
+    },
+    {
+        "ID": 6463,
+        "Name": "Nerve Rada Mandalin of Adana",
+        "Tex_ID": 22461
+    },
+    {
+        "ID": 6464,
+        "Name": "Heart Rada Mandalin of Adana",
+        "Tex_ID": 22461
+    },
+    {
+        "ID": 6465,
+        "Name": "Spirit Rada Mandalin of Adana",
+        "Tex_ID": 22461
+    },
+    {
+        "ID": 6466,
+        "Name": "Power of Love",
+        "Tex_ID": 22934
+    },
+    {
+        "ID": 6467,
+        "Name": "Kobul Banchi",
+        "Tex_ID": 22934
+    },
+    {
+        "ID": 6468,
+        "Name": "Ring of the Sun",
+        "Tex_ID": 22460
+    },
+    {
+        "ID": 6469,
+        "Name": "Ring of Rama",
+        "Tex_ID": 23122
+    },
+    {
+        "ID": 6470,
+        "Name": "Ring of Rama",
+        "Tex_ID": 23122
+    },
+    {
+        "ID": 6471,
+        "Name": "Ring of Rama",
+        "Tex_ID": 23122
+    },
+    {
+        "ID": 6472,
+        "Name": "Ring of Rama",
+        "Tex_ID": 23122
+    },
+    {
+        "ID": 6473,
+        "Name": "Ring of the Saulabi Warrior I",
+        "Tex_ID": 23122
+    },
+    {
+        "ID": 6474,
+        "Name": "Ring of the Saulabi Warrior II",
+        "Tex_ID": 23122
+    },
+    {
+        "ID": 6475,
+        "Name": "Ring of the Saulabi Warrior III",
+        "Tex_ID": 23122
+    },
+    {
+        "ID": 6477,
+        "Name": "Ring of the Gappa Tribe I",
+        "Tex_ID": 22460
+    },
+    {
+        "ID": 6478,
+        "Name": "Ring of the Gappa Tribe II",
+        "Tex_ID": 22460
+    },
+    {
+        "ID": 6479,
+        "Name": "Ring of the Gappa Tribe III",
+        "Tex_ID": 22460
+    },
+    {
+        "ID": 6480,
+        "Name": "Varuna Ring",
+        "Tex_ID": 22460
+    },
+    {
+        "ID": 6496,
+        "Name": "Asba Ring",
+        "Tex_ID": 22460
+    },
+    {
+        "ID": 6498,
+        "Name": "Ring of Luck",
+        "Tex_ID": 22460
+    },
+    {
+        "ID": 6501,
+        "Name": "Illa",
+        "Tex_ID": 22332
+    },
+    {
+        "ID": 6502,
+        "Name": "Azis",
+        "Tex_ID": 22341
+    },
+    {
+        "ID": 6503,
+        "Name": "Surapa",
+        "Tex_ID": 22342
+    },
+    {
+        "ID": 6504,
+        "Name": "Dipa Illa",
+        "Tex_ID": 22331
+    },
+    {
+        "ID": 6505,
+        "Name": "Prajati",
+        "Tex_ID": 22152
+    },
+    {
+        "ID": 6506,
+        "Name": "Sambadu",
+        "Tex_ID": 22950
+    },
+    {
+        "ID": 6507,
+        "Name": "Gavi",
+        "Tex_ID": 23228
+    },
+    {
+        "ID": 6551,
+        "Name": "Chattou",
+        "Tex_ID": 23037
+    },
+    {
+        "ID": 6552,
+        "Name": "Nayate",
+        "Tex_ID": 23190
+    },
+    {
+        "ID": 6553,
+        "Name": "Ramate",
+        "Tex_ID": 23191
+    },
+    {
+        "ID": 6554,
+        "Name": "Kuntu",
+        "Tex_ID": 23192
+    },
+    {
+        "ID": 6555,
+        "Name": "Vikari",
+        "Tex_ID": 22456
+    },
+    {
+        "ID": 6556,
+        "Name": "Kuntu",
+        "Tex_ID": 23193
+    },
+    {
+        "ID": 6601,
+        "Name": "Raga Mani",
+        "Tex_ID": 22336
+    },
+    {
+        "ID": 6602,
+        "Name": "Nila Mani",
+        "Tex_ID": 22334
+    },
+    {
+        "ID": 6603,
+        "Name": "Visazan",
+        "Tex_ID": 22335
+    },
+    {
+        "ID": 6604,
+        "Name": "Luvati",
+        "Tex_ID": 22343
+    },
+    {
+        "ID": 6605,
+        "Name": "Om Yantra",
+        "Tex_ID": 22333
+    },
+    {
+        "ID": 6606,
+        "Name": "Manipura",
+        "Tex_ID": 22337
+    },
+    {
+        "ID": 6607,
+        "Name": "Vishuda",
+        "Tex_ID": 22338
+    },
+    {
+        "ID": 6608,
+        "Name": "Anahata",
+        "Tex_ID": 22339
+    },
+    {
+        "ID": 6609,
+        "Name": "Azna",
+        "Tex_ID": 22340
+    },
+    {
+        "ID": 6610,
+        "Name": "En Raga Mani",
+        "Tex_ID": 22750
+    },
+    {
+        "ID": 6611,
+        "Name": "En Nila Mani",
+        "Tex_ID": 22749
+    },
+    {
+        "ID": 6612,
+        "Name": "En Visazan",
+        "Tex_ID": 22751
+    },
+    {
+        "ID": 6613,
+        "Name": "En Luvati",
+        "Tex_ID": 22752
+    },
+    {
+        "ID": 6614,
+        "Name": "Amala",
+        "Tex_ID": 22922
+    },
+    {
+        "ID": 6620,
+        "Name": "Kazirra",
+        "Tex_ID": 23079
+    },
+    {
+        "ID": 6621,
+        "Name": "Prakti",
+        "Tex_ID": 23082
+    },
+    {
+        "ID": 6622,
+        "Name": "Manya",
+        "Tex_ID": 23080
+    },
+    {
+        "ID": 6623,
+        "Name": "Vapahaba",
+        "Tex_ID": 23078
+    },
+    {
+        "ID": 6624,
+        "Name": "Taru Raga Mani",
+        "Tex_ID": 22618
+    },
+    {
+        "ID": 6625,
+        "Name": "Taru Nila Mani",
+        "Tex_ID": 22614
+    },
+    {
+        "ID": 6626,
+        "Name": "Taru Visazan",
+        "Tex_ID": 22620
+    },
+    {
+        "ID": 6627,
+        "Name": "Taru Luvati",
+        "Tex_ID": 22619
+    },
+    {
+        "ID": 6628,
+        "Name": "Taru Om Yantra",
+        "Tex_ID": 22615
+    },
+    {
+        "ID": 6629,
+        "Name": "Taru Manipura",
+        "Tex_ID": 22613
+    },
+    {
+        "ID": 6630,
+        "Name": "Taru Vishuda",
+        "Tex_ID": 22621
+    },
+    {
+        "ID": 6631,
+        "Name": "Taru Anahata",
+        "Tex_ID": 22610
+    },
+    {
+        "ID": 6632,
+        "Name": "Taru Azna",
+        "Tex_ID": 22611
+    },
+    {
+        "ID": 6633,
+        "Name": "Mala",
+        "Tex_ID": 23128
+    },
+    {
+        "ID": 6634,
+        "Name": "Rarita",
+        "Tex_ID": 23127
+    },
+    {
+        "ID": 6635,
+        "Name": "Saika",
+        "Tex_ID": 23129
+    },
+    {
+        "ID": 6636,
+        "Name": "Kanda",
+        "Tex_ID": 23126
+    },
+    {
+        "ID": 6701,
+        "Name": "Do",
+        "Tex_ID": 23039
+    },
+    {
+        "ID": 6702,
+        "Name": "Gae",
+        "Tex_ID": 23040
+    },
+    {
+        "ID": 6703,
+        "Name": "Geol",
+        "Tex_ID": 23041
+    },
+    {
+        "ID": 6704,
+        "Name": "Yut",
+        "Tex_ID": 23043
+    },
+    {
+        "ID": 6705,
+        "Name": "Mo",
+        "Tex_ID": 23042
+    },
+    {
+        "ID": 6706,
+        "Name": "Chocolate",
+        "Tex_ID": 23045
+    },
+    {
+        "ID": 6707,
+        "Name": "White Rose",
+        "Tex_ID": 23050
+    },
+    {
+        "ID": 6708,
+        "Name": "Red Rose",
+        "Tex_ID": 23046
+    },
+    {
+        "ID": 6709,
+        "Name": "Small Gift Box A",
+        "Tex_ID": 23016
+    },
+    {
+        "ID": 6710,
+        "Name": "Small Gift Box B",
+        "Tex_ID": 23016
+    },
+    {
+        "ID": 6711,
+        "Name": "Small Gift Box C",
+        "Tex_ID": 23016
+    },
+    {
+        "ID": 6712,
+        "Name": "Small Gift Box D",
+        "Tex_ID": 23016
+    },
+    {
+        "ID": 6713,
+        "Name": "Large Gift Box A",
+        "Tex_ID": 23010
+    },
+    {
+        "ID": 6714,
+        "Name": "Large Gift Box B",
+        "Tex_ID": 23010
+    },
+    {
+        "ID": 6715,
+        "Name": "Large Gift Box C",
+        "Tex_ID": 23010
+    },
+    {
+        "ID": 6716,
+        "Name": "Large Gift Box D",
+        "Tex_ID": 23010
+    },
+    {
+        "ID": 6717,
+        "Name": "Small Present Box",
+        "Tex_ID": 23016
+    },
+    {
+        "ID": 6718,
+        "Name": "Large Present Box",
+        "Tex_ID": 23010
+    },
+    {
+        "ID": 6719,
+        "Name": "Magic Lamp",
+        "Tex_ID": 23054
+    },
+    {
+        "ID": 6720,
+        "Name": "Magic Hammer",
+        "Tex_ID": 23053
+    },
+    {
+        "ID": 6722,
+        "Name": "Chaturanga Pass",
+        "Tex_ID": 23051
+    },
+    {
+        "ID": 6723,
+        "Name": "Amrita Panaka",
+        "Tex_ID": 22352
+    },
+    {
+        "ID": 6724,
+        "Name": "Jilakaman Sa",
+        "Tex_ID": 22493
+    },
+    {
+        "ID": 6725,
+        "Name": "Transparent Orb",
+        "Tex_ID": 23095
+    },
+    {
+        "ID": 6726,
+        "Name": "Scripture",
+        "Tex_ID": 23097
+    },
+    {
+        "ID": 6727,
+        "Name": "Yomju",
+        "Tex_ID": 23099
+    },
+    {
+        "ID": 6728,
+        "Name": "Bozok",
+        "Tex_ID": 23094
+    },
+    {
+        "ID": 6729,
+        "Name": "Repelling Orb",
+        "Tex_ID": 22657
+    },
+    {
+        "ID": 6730,
+        "Name": "Cargo Orb",
+        "Tex_ID": 22658
+    },
+    {
+        "ID": 6731,
+        "Name": "Emperor's Amulet",
+        "Tex_ID": 22747
+    },
+    {
+        "ID": 6732,
+        "Name": "Biryu Amulet",
+        "Tex_ID": 22729
+    },
+    {
+        "ID": 6733,
+        "Name": "Mysterious Box of Avata",
+        "Tex_ID": 23052
+    },
+    {
+        "ID": 6734,
+        "Name": "Uwi of Avata",
+        "Tex_ID": 22657
+    },
+    {
+        "ID": 6735,
+        "Name": "Iwu of Avata",
+        "Tex_ID": 22657
+    },
+    {
+        "ID": 6736,
+        "Name": "Event Remote Package",
+        "Tex_ID": 22955
+    },
+    {
+        "ID": 6737,
+        "Name": "Parcel",
+        "Tex_ID": 22952
+    },
+    {
+        "ID": 6738,
+        "Name": "Luggage",
+        "Tex_ID": 22953
+    },
+    {
+        "ID": 6739,
+        "Name": "Kit",
+        "Tex_ID": 22954
+    },
+    {
+        "ID": 6740,
+        "Name": "Stack",
+        "Tex_ID": 22955
+    },
+    {
+        "ID": 6741,
+        "Name": "Crate",
+        "Tex_ID": 22952
+    },
+    {
+        "ID": 6742,
+        "Name": "Diabetrol",
+        "Tex_ID": 22462
+    },
+    {
+        "ID": 6743,
+        "Name": "Pepero",
+        "Tex_ID": 22935
+    },
+    {
+        "ID": 6744,
+        "Name": "Rice Cake",
+        "Tex_ID": 22753
+    },
+    {
+        "ID": 6745,
+        "Name": "Magic Lamp II",
+        "Tex_ID": 23120
+    },
+    {
+        "ID": 6746,
+        "Name": "Sata",
+        "Tex_ID": 23132
+    },
+    {
+        "ID": 6747,
+        "Name": "Nati Shiva",
+        "Tex_ID": 23220
+    },
+    {
+        "ID": 6748,
+        "Name": "Teleportation Pustika",
+        "Tex_ID": 23223
+    },
+    {
+        "ID": 6749,
+        "Name": "Skanda's Magic Lamp",
+        "Tex_ID": 23224
+    },
+    {
+        "ID": 6750,
+        "Name": "Santa's Magic Lamp",
+        "Tex_ID": 23225
+    },
+    {
+        "ID": 6751,
+        "Name": "Magic Box V",
+        "Tex_ID": 23226
+    },
+    {
+        "ID": 6753,
+        "Name": "Collection of Flames",
+        "Tex_ID": 23227
+    },
+    {
+        "ID": 6754,
+        "Name": "Nati Brahma",
+        "Tex_ID": 23221
+    },
+    {
+        "ID": 6755,
+        "Name": "Nati Vishnu",
+        "Tex_ID": 23222
+    },
+    {
+        "ID": 6757,
+        "Name": "Rudra's Magic Box",
+        "Tex_ID": 23231
+    },
+    {
+        "ID": 6758,
+        "Name": "Magic Lamp III",
+        "Tex_ID": 23232
+    },
+    {
+        "ID": 6760,
+        "Name": "Tangast",
+        "Tex_ID": 23235
+    },
+    {
+        "ID": 6761,
+        "Name": "Varuna Amrita",
+        "Tex_ID": 22352
+    },
+    {
+        "ID": 6762,
+        "Name": "Event Chakra Reset",
+        "Tex_ID": 22542
+    },
+    {
+        "ID": 6763,
+        "Name": "Event Skill Reset",
+        "Tex_ID": 22543
+    },
+    {
+        "ID": 6764,
+        "Name": "Event Salon Ticket",
+        "Tex_ID": 22980
+    },
+    {
+        "ID": 6771,
+        "Name": "Ultima Amrita Bundle",
+        "Tex_ID": 22960
+    },
+    {
+        "ID": 6772,
+        "Name": "Ultima Panaka Bundle",
+        "Tex_ID": 23058
+    },
+    {
+        "ID": 6773,
+        "Name": "Seito Green Bottle",
+        "Tex_ID": 23230
+    },
+    {
+        "ID": 6801,
+        "Name": "Q. Anubaba Charm",
+        "Tex_ID": 22893
+    },
+    {
+        "ID": 6802,
+        "Name": "Q. Atman Charm",
+        "Tex_ID": 22885
+    },
+    {
+        "ID": 6803,
+        "Name": "Q. Dru",
+        "Tex_ID": 22903
+    },
+    {
+        "ID": 6804,
+        "Name": "Q. Agni Sa",
+        "Tex_ID": 22891
+    },
+    {
+        "ID": 6805,
+        "Name": "Q. Hima Sa",
+        "Tex_ID": 22895
+    },
+    {
+        "ID": 6806,
+        "Name": "Q. Lu Sa",
+        "Tex_ID": 22905
+    },
+    {
+        "ID": 6807,
+        "Name": "Q. Zilakhaman (S)",
+        "Tex_ID": 22901
+    },
+    {
+        "ID": 6808,
+        "Name": "Q. Zilakhaman (M)",
+        "Tex_ID": 22899
+    },
+    {
+        "ID": 6809,
+        "Name": "Q. Zilakhaman (L)",
+        "Tex_ID": 22897
+    },
+    {
+        "ID": 6810,
+        "Name": "H. Q. Anubaba Charm",
+        "Tex_ID": 22894
+    },
+    {
+        "ID": 6811,
+        "Name": "H. Q. Atman Charm",
+        "Tex_ID": 22886
+    },
+    {
+        "ID": 6812,
+        "Name": "H. Q. Dru",
+        "Tex_ID": 22904
+    },
+    {
+        "ID": 6813,
+        "Name": "H. Q. Agni Sa",
+        "Tex_ID": 22892
+    },
+    {
+        "ID": 6814,
+        "Name": "H. Q. Hima Sa",
+        "Tex_ID": 22896
+    },
+    {
+        "ID": 6815,
+        "Name": "H. Q. Lu Sa",
+        "Tex_ID": 22906
+    },
+    {
+        "ID": 6816,
+        "Name": "H. Q. Zilakhaman (S)",
+        "Tex_ID": 22902
+    },
+    {
+        "ID": 6817,
+        "Name": "H. Q. Zilakhaman (M)",
+        "Tex_ID": 22900
+    },
+    {
+        "ID": 6818,
+        "Name": "H. Q. Zilakhaman (L)",
+        "Tex_ID": 22898
+    },
+    {
+        "ID": 6819,
+        "Name": "Q. Peito Charm of Muscle",
+        "Tex_ID": 22910
+    },
+    {
+        "ID": 6820,
+        "Name": "Q. Peito Charm of Nerve",
+        "Tex_ID": 22912
+    },
+    {
+        "ID": 6821,
+        "Name": "Q. Peito Charm of Heart",
+        "Tex_ID": 22889
+    },
+    {
+        "ID": 6822,
+        "Name": "Q. Peito Charm of Mental",
+        "Tex_ID": 22908
+    },
+    {
+        "ID": 6823,
+        "Name": "Q. Peito Charm of Zosimo",
+        "Tex_ID": 22883
+    },
+    {
+        "ID": 6824,
+        "Name": "H. Q. Peito Charm of Muscle",
+        "Tex_ID": 22911
+    },
+    {
+        "ID": 6825,
+        "Name": "H. Q. Peito Charm of Nerve",
+        "Tex_ID": 22913
+    },
+    {
+        "ID": 6826,
+        "Name": "H. Q. Peito Charm of Heart",
+        "Tex_ID": 22890
+    },
+    {
+        "ID": 6827,
+        "Name": "H. Q. Peito Charm of Mental",
+        "Tex_ID": 22909
+    },
+    {
+        "ID": 6828,
+        "Name": "H. Q. Peito Charm of Zosimo",
+        "Tex_ID": 22884
+    },
+    {
+        "ID": 6829,
+        "Name": "Q. Red Pranas Orb",
+        "Tex_ID": 23113
+    },
+    {
+        "ID": 6830,
+        "Name": "H. Q. Red Pranas Orb",
+        "Tex_ID": 23114
+    },
+    {
+        "ID": 6831,
+        "Name": "Q. Pink Pranas Orb",
+        "Tex_ID": 23116
+    },
+    {
+        "ID": 6832,
+        "Name": "H. Q. Pink Pranas Orb",
+        "Tex_ID": 23117
+    },
+    {
+        "ID": 6833,
+        "Name": "Q. Karma Orb",
+        "Tex_ID": 23118
+    },
+    {
+        "ID": 6834,
+        "Name": "H. Q. Karma Orb",
+        "Tex_ID": 23119
+    },
+    {
+        "ID": 6835,
+        "Name": "H. Q. Yellow Pranas Orb",
+        "Tex_ID": 23133
+    },
+    {
+        "ID": 6836,
+        "Name": "H. Q. Blue Pranas Orb",
+        "Tex_ID": 23134
+    },
+    {
+        "ID": 6837,
+        "Name": "H. Q. Black Pranas Orb",
+        "Tex_ID": 23135
+    },
+    {
+        "ID": 6838,
+        "Name": "Azukata",
+        "Tex_ID": 23216
+    },
+    {
+        "ID": 6839,
+        "Name": "Baruta",
+        "Tex_ID": 23217
+    },
+    {
+        "ID": 6840,
+        "Name": "Tapasya Bhasma",
+        "Tex_ID": 23218
+    },
+    {
+        "ID": 6841,
+        "Name": "Patbingsu",
+        "Tex_ID": 22542
+    },
+    {
+        "ID": 6842,
+        "Name": "Bijataya Charm",
+        "Tex_ID": 23248
+    },
+    {
+        "ID": 6843,
+        "Name": "Vinidra Charm",
+        "Tex_ID": 23249
+    },
+    {
+        "ID": 6844,
+        "Name": "Kataksa Charm",
+        "Tex_ID": 23250
+    },
+    {
+        "ID": 6845,
+        "Name": "Akram Charm",
+        "Tex_ID": 23251
+    },
+    {
+        "ID": 6846,
+        "Name": "Dabat Potion",
+        "Tex_ID": 22657
+    },
+    {
+        "ID": 6847,
+        "Name": "",
+        "Tex_ID": 22886
+    },
+    {
+        "ID": 6848,
+        "Name": "",
+        "Tex_ID": 22894
+    },
+    {
+        "ID": 6849,
+        "Name": "",
+        "Tex_ID": 22904
+    },
+    {
+        "ID": 6850,
+        "Name": "",
+        "Tex_ID": 22902
+    },
+    {
+        "ID": 6951,
+        "Name": "PETA",
+        "Tex_ID": 22951
+    },
+    {
+        "ID": 6952,
+        "Name": "SETA",
+        "Tex_ID": 22957
+    },
+    {
+        "ID": 6953,
+        "Name": "Rupiah Detector",
+        "Tex_ID": 22887
+    },
+    {
+        "ID": 6954,
+        "Name": "Supreme Anubaba Charm",
+        "Tex_ID": 22938
+    },
+    {
+        "ID": 6955,
+        "Name": "Supreme Atman Charm",
+        "Tex_ID": 22937
+    },
+    {
+        "ID": 6956,
+        "Name": "S. Peito Charm of Zosimo",
+        "Tex_ID": 22948
+    },
+    {
+        "ID": 7001,
+        "Name": "Dahara Amrita",
+        "Tex_ID": 22348
+    },
+    {
+        "ID": 7002,
+        "Name": "Atanu Amrita",
+        "Tex_ID": 22349
+    },
+    {
+        "ID": 7003,
+        "Name": "Amrita",
+        "Tex_ID": 22350
+    },
+    {
+        "ID": 7004,
+        "Name": "Spara Amrita",
+        "Tex_ID": 22351
+    },
+    {
+        "ID": 7005,
+        "Name": "Utara Amrita",
+        "Tex_ID": 22352
+    },
+    {
+        "ID": 7006,
+        "Name": "Dahara Panaka",
+        "Tex_ID": 22353
+    },
+    {
+        "ID": 7007,
+        "Name": "Atanu Panaka",
+        "Tex_ID": 22354
+    },
+    {
+        "ID": 7008,
+        "Name": "Panaka",
+        "Tex_ID": 22355
+    },
+    {
+        "ID": 7009,
+        "Name": "Spara Panaka",
+        "Tex_ID": 22356
+    },
+    {
+        "ID": 7010,
+        "Name": "Utara Panaka",
+        "Tex_ID": 22357
+    },
+    {
+        "ID": 7011,
+        "Name": "Pustika",
+        "Tex_ID": 22358
+    },
+    {
+        "ID": 7012,
+        "Name": "Babaro",
+        "Tex_ID": 23038
+    },
+    {
+        "ID": 7013,
+        "Name": "Jewel of Life",
+        "Tex_ID": 22360
+    },
+    {
+        "ID": 7014,
+        "Name": "Amulet of Indra",
+        "Tex_ID": 22488
+    },
+    {
+        "ID": 7015,
+        "Name": "Amulet of Mantra",
+        "Tex_ID": 22489
+    },
+    {
+        "ID": 7016,
+        "Name": "Zilakhaman (S)",
+        "Tex_ID": 22491
+    },
+    {
+        "ID": 7017,
+        "Name": "Zilakhaman (M)",
+        "Tex_ID": 22492
+    },
+    {
+        "ID": 7018,
+        "Name": "Zilakhaman (L)",
+        "Tex_ID": 22493
+    },
+    {
+        "ID": 7019,
+        "Name": "Agni Sa",
+        "Tex_ID": 22496
+    },
+    {
+        "ID": 7020,
+        "Name": "Hima Sa",
+        "Tex_ID": 22497
+    },
+    {
+        "ID": 7021,
+        "Name": "Lu Sa",
+        "Tex_ID": 22498
+    },
+    {
+        "ID": 7025,
+        "Name": "Dru",
+        "Tex_ID": 22494
+    },
+    {
+        "ID": 7026,
+        "Name": "Ajati Chakra",
+        "Tex_ID": 22542
+    },
+    {
+        "ID": 7027,
+        "Name": "Ajati Coujala",
+        "Tex_ID": 22543
+    },
+    {
+        "ID": 7028,
+        "Name": "Ziva Pustika",
+        "Tex_ID": 22361
+    },
+    {
+        "ID": 7029,
+        "Name": "Amulet of Anubaba",
+        "Tex_ID": 22488
+    },
+    {
+        "ID": 7030,
+        "Name": "GM Communicator",
+        "Tex_ID": 22371
+    },
+    {
+        "ID": 7031,
+        "Name": "Silfrijan",
+        "Tex_ID": 22927
+    },
+    {
+        "ID": 7034,
+        "Name": "Quality Ziva Pustika",
+        "Tex_ID": 22923
+    },
+    {
+        "ID": 7037,
+        "Name": "Letter",
+        "Tex_ID": 22926
+    },
+    {
+        "ID": 7038,
+        "Name": "Electronic Bulletin Item",
+        "Tex_ID": 22925
+    },
+    {
+        "ID": 7039,
+        "Name": "Quality Silfrijan",
+        "Tex_ID": 22924
+    },
+    {
+        "ID": 7040,
+        "Name": "Fireworks 1",
+        "Tex_ID": 22920
+    },
+    {
+        "ID": 7041,
+        "Name": "Fireworks 2",
+        "Tex_ID": 22919
+    },
+    {
+        "ID": 7042,
+        "Name": "Fireworks 3",
+        "Tex_ID": 22918
+    },
+    {
+        "ID": 7043,
+        "Name": "Battle Warrant",
+        "Tex_ID": 22921
+    },
+    {
+        "ID": 7044,
+        "Name": "Sex Change I",
+        "Tex_ID": 22916
+    },
+    {
+        "ID": 7046,
+        "Name": "Nakudo Hammer of Zosimo",
+        "Tex_ID": 22888
+    },
+    {
+        "ID": 7047,
+        "Name": "Zifren",
+        "Tex_ID": 22915
+    },
+    {
+        "ID": 7048,
+        "Name": "Balance",
+        "Tex_ID": 22914
+    },
+    {
+        "ID": 7049,
+        "Name": "Void Totem",
+        "Tex_ID": 22917
+    },
+    {
+        "ID": 7050,
+        "Name": "Una Basti",
+        "Tex_ID": 22907
+    },
+    {
+        "ID": 7051,
+        "Name": "Vigatsa",
+        "Tex_ID": 22371
+    },
+    {
+        "ID": 7052,
+        "Name": "Sapondsa",
+        "Tex_ID": 22371
+    },
+    {
+        "ID": 7053,
+        "Name": "Sex Change II",
+        "Tex_ID": 22371
+    },
+    {
+        "ID": 7054,
+        "Name": "Ramustiba",
+        "Tex_ID": 22371
+    },
+    {
+        "ID": 7055,
+        "Name": "Ex-Vigatsa",
+        "Tex_ID": 22371
+    },
+    {
+        "ID": 7056,
+        "Name": "Ex-Sapondsa",
+        "Tex_ID": 22371
+    },
+    {
+        "ID": 7057,
+        "Name": "Ex-Ramustiba",
+        "Tex_ID": 22371
+    },
+    {
+        "ID": 7058,
+        "Name": "Copper Medal",
+        "Tex_ID": 22931
+    },
+    {
+        "ID": 7059,
+        "Name": "Silver Medal",
+        "Tex_ID": 22933
+    },
+    {
+        "ID": 7060,
+        "Name": "Gold Medal",
+        "Tex_ID": 22932
+    },
+    {
+        "ID": 7061,
+        "Name": "Ajati Coujala",
+        "Tex_ID": 22959
+    },
+    {
+        "ID": 7062,
+        "Name": "Ajati Chakra",
+        "Tex_ID": 22949
+    },
+    {
+        "ID": 7063,
+        "Name": "Levamusti",
+        "Tex_ID": 22958
+    },
+    {
+        "ID": 7064,
+        "Name": "Premium Pack I",
+        "Tex_ID": 22952
+    },
+    {
+        "ID": 7065,
+        "Name": "Premium Pack II",
+        "Tex_ID": 22953
+    },
+    {
+        "ID": 7066,
+        "Name": "Premium Pack III",
+        "Tex_ID": 22954
+    },
+    {
+        "ID": 7067,
+        "Name": "Tikoy Power Pack",
+        "Tex_ID": 22955
+    },
+    {
+        "ID": 7068,
+        "Name": "Ultima Amrita",
+        "Tex_ID": 22960
+    },
+    {
+        "ID": 7069,
+        "Name": "Magic Box",
+        "Tex_ID": 23052
+    },
+    {
+        "ID": 7070,
+        "Name": "Ultima Panaka",
+        "Tex_ID": 23058
+    },
+    {
+        "ID": 7071,
+        "Name": "Amanda's Secret",
+        "Tex_ID": 23057
+    },
+    {
+        "ID": 7072,
+        "Name": "Fortress Pustika",
+        "Tex_ID": 23089
+    },
+    {
+        "ID": 7073,
+        "Name": "MP3 Coupon",
+        "Tex_ID": 23077
+    },
+    {
+        "ID": 7074,
+        "Name": "7-Day Tikoy Pack",
+        "Tex_ID": 22955
+    },
+    {
+        "ID": 7075,
+        "Name": "Yoga Rasa",
+        "Tex_ID": 23091
+    },
+    {
+        "ID": 7076,
+        "Name": "Tarus Rasa",
+        "Tex_ID": 23090
+    },
+    {
+        "ID": 7077,
+        "Name": "Quest Pass",
+        "Tex_ID": 22617
+    },
+    {
+        "ID": 7078,
+        "Name": "Reinforcement Slip",
+        "Tex_ID": 22616
+    },
+    {
+        "ID": 7079,
+        "Name": "COMRADE Geforce 6600",
+        "Tex_ID": 22622
+    },
+    {
+        "ID": 7081,
+        "Name": "Rupiah",
+        "Tex_ID": 0
+    },
+    {
+        "ID": 7082,
+        "Name": "Rupiah",
+        "Tex_ID": 0
+    },
+    {
+        "ID": 7083,
+        "Name": "Rupiah",
+        "Tex_ID": 0
+    },
+    {
+        "ID": 7084,
+        "Name": "Rupiah",
+        "Tex_ID": 0
+    },
+    {
+        "ID": 7085,
+        "Name": "Rupiah",
+        "Tex_ID": 0
+    },
+    {
+        "ID": 7091,
+        "Name": "",
+        "Tex_ID": 0
+    },
+    {
+        "ID": 7092,
+        "Name": "Arrow",
+        "Tex_ID": 22359
+    },
+    {
+        "ID": 7093,
+        "Name": "Arrow X3",
+        "Tex_ID": 22609
+    },
+    {
+        "ID": 7094,
+        "Name": "Arrow X10",
+        "Tex_ID": 22944
+    },
+    {
+        "ID": 7101,
+        "Name": "Small Horn",
+        "Tex_ID": 22410
+    },
+    {
+        "ID": 7102,
+        "Name": "Low Quality Horn",
+        "Tex_ID": 22411
+    },
+    {
+        "ID": 7103,
+        "Name": "Medicinal Horn",
+        "Tex_ID": 22412
+    },
+    {
+        "ID": 7104,
+        "Name": "Low Quality Coal",
+        "Tex_ID": 22415
+    },
+    {
+        "ID": 7105,
+        "Name": "Coal",
+        "Tex_ID": 22416
+    },
+    {
+        "ID": 7106,
+        "Name": "Canine",
+        "Tex_ID": 22418
+    },
+    {
+        "ID": 7107,
+        "Name": "Canine of Deadly Poison",
+        "Tex_ID": 22419
+    },
+    {
+        "ID": 7108,
+        "Name": "Big Canine",
+        "Tex_ID": 22420
+    },
+    {
+        "ID": 7109,
+        "Name": "Mara's Blood",
+        "Tex_ID": 22404
+    },
+    {
+        "ID": 7110,
+        "Name": "Mara's Black Blood",
+        "Tex_ID": 22424
+    },
+    {
+        "ID": 7111,
+        "Name": "Old Fabric",
+        "Tex_ID": 22426
+    },
+    {
+        "ID": 7112,
+        "Name": "Fabric",
+        "Tex_ID": 22427
+    },
+    {
+        "ID": 7113,
+        "Name": "High Fabric",
+        "Tex_ID": 22428
+    },
+    {
+        "ID": 7114,
+        "Name": "Stone Heart",
+        "Tex_ID": 22402
+    },
+    {
+        "ID": 7115,
+        "Name": "Azna's Stone Heart",
+        "Tex_ID": 22403
+    },
+    {
+        "ID": 7116,
+        "Name": "Gem of Spirit",
+        "Tex_ID": 22421
+    },
+    {
+        "ID": 7117,
+        "Name": "Gem of Curse",
+        "Tex_ID": 22421
+    },
+    {
+        "ID": 7118,
+        "Name": "Sorcery Book",
+        "Tex_ID": 22378
+    },
+    {
+        "ID": 7119,
+        "Name": "Tough Leather",
+        "Tex_ID": 22401
+    },
+    {
+        "ID": 7120,
+        "Name": "Refining Coal",
+        "Tex_ID": 22417
+    },
+    {
+        "ID": 7121,
+        "Name": "Hard Shell",
+        "Tex_ID": 22422
+    },
+    {
+        "ID": 7122,
+        "Name": "Mara's Wings",
+        "Tex_ID": 22425
+    },
+    {
+        "ID": 7123,
+        "Name": "Black Shell",
+        "Tex_ID": 22423
+    },
+    {
+        "ID": 7124,
+        "Name": "Mara's Dried Blood",
+        "Tex_ID": 22404
+    },
+    {
+        "ID": 7125,
+        "Name": "Mara's Red Blood",
+        "Tex_ID": 22404
+    },
+    {
+        "ID": 7126,
+        "Name": "Canine of Evil Spirit",
+        "Tex_ID": 22418
+    },
+    {
+        "ID": 7127,
+        "Name": "Mara's Canine",
+        "Tex_ID": 22419
+    },
+    {
+        "ID": 7128,
+        "Name": "Mara's Shell",
+        "Tex_ID": 22422
+    },
+    {
+        "ID": 7129,
+        "Name": "Bulpa's Shell",
+        "Tex_ID": 22422
+    },
+    {
+        "ID": 7130,
+        "Name": "Dark Red Horn",
+        "Tex_ID": 22413
+    },
+    {
+        "ID": 7131,
+        "Name": "Cursed Mara's Horn",
+        "Tex_ID": 22414
+    },
+    {
+        "ID": 7132,
+        "Name": "Charm of Hero",
+        "Tex_ID": 22408
+    },
+    {
+        "ID": 7133,
+        "Name": "Charm of Red Hero",
+        "Tex_ID": 22409
+    },
+    {
+        "ID": 7134,
+        "Name": "Ancient Sorcery Book",
+        "Tex_ID": 22377
+    },
+    {
+        "ID": 7135,
+        "Name": "Dragon's Scales",
+        "Tex_ID": 22375
+    },
+    {
+        "ID": 7136,
+        "Name": "Mara's Good Blood",
+        "Tex_ID": 22424
+    },
+    {
+        "ID": 7137,
+        "Name": "Mara's Leather",
+        "Tex_ID": 22401
+    },
+    {
+        "ID": 7138,
+        "Name": "Mara's Liquid",
+        "Tex_ID": 22404
+    },
+    {
+        "ID": 7139,
+        "Name": "Destroyer's Scales",
+        "Tex_ID": 22375
+    },
+    {
+        "ID": 7140,
+        "Name": "Destroyer's Scales",
+        "Tex_ID": 22375
+    },
+    {
+        "ID": 7141,
+        "Name": "Solid Horn",
+        "Tex_ID": 22410
+    },
+    {
+        "ID": 7142,
+        "Name": "High Horn",
+        "Tex_ID": 22411
+    },
+    {
+        "ID": 7143,
+        "Name": "Medicinal High Horn",
+        "Tex_ID": 22412
+    },
+    {
+        "ID": 7144,
+        "Name": "Gap Fabric",
+        "Tex_ID": 22426
+    },
+    {
+        "ID": 7145,
+        "Name": "Tight Fabric",
+        "Tex_ID": 22427
+    },
+    {
+        "ID": 7146,
+        "Name": "Hard Fabric",
+        "Tex_ID": 22428
+    },
+    {
+        "ID": 7147,
+        "Name": "High Coal",
+        "Tex_ID": 22417
+    },
+    {
+        "ID": 7148,
+        "Name": "Boa Snake's Tooth",
+        "Tex_ID": 22418
+    },
+    {
+        "ID": 7149,
+        "Name": "Tough Shell",
+        "Tex_ID": 22422
+    },
+    {
+        "ID": 7150,
+        "Name": "Mara's Red Black Blood",
+        "Tex_ID": 22404
+    },
+    {
+        "ID": 7151,
+        "Name": "Claw",
+        "Tex_ID": 22514
+    },
+    {
+        "ID": 7152,
+        "Name": "Hard Claw",
+        "Tex_ID": 22515
+    },
+    {
+        "ID": 7153,
+        "Name": "Pinna",
+        "Tex_ID": 22534
+    },
+    {
+        "ID": 7154,
+        "Name": "Poison Sting",
+        "Tex_ID": 22507
+    },
+    {
+        "ID": 7155,
+        "Name": "Cranium",
+        "Tex_ID": 22508
+    },
+    {
+        "ID": 7156,
+        "Name": "Jawbone",
+        "Tex_ID": 22544
+    },
+    {
+        "ID": 7157,
+        "Name": "Tiger's Leather",
+        "Tex_ID": 22541
+    },
+    {
+        "ID": 7158,
+        "Name": "White Tiger's Leather",
+        "Tex_ID": 22516
+    },
+    {
+        "ID": 7159,
+        "Name": "Skeleton Necklace",
+        "Tex_ID": 22539
+    },
+    {
+        "ID": 7160,
+        "Name": "Sonkoku's Headband",
+        "Tex_ID": 22523
+    },
+    {
+        "ID": 7161,
+        "Name": "Oxhorn",
+        "Tex_ID": 22529
+    },
+    {
+        "ID": 7162,
+        "Name": "Big Oxhorn",
+        "Tex_ID": 22530
+    },
+    {
+        "ID": 7163,
+        "Name": "Lizard's Tail",
+        "Tex_ID": 22517
+    },
+    {
+        "ID": 7164,
+        "Name": "Lizard's Rough Tail",
+        "Tex_ID": 22518
+    },
+    {
+        "ID": 7165,
+        "Name": "Hand of Stained Blood",
+        "Tex_ID": 22538
+    },
+    {
+        "ID": 7166,
+        "Name": "Head Decoration",
+        "Tex_ID": 22511
+    },
+    {
+        "ID": 7167,
+        "Name": "Artificial Tooth",
+        "Tex_ID": 22537
+    },
+    {
+        "ID": 7168,
+        "Name": "Raker",
+        "Tex_ID": 22502
+    },
+    {
+        "ID": 7169,
+        "Name": "Bat's Wings",
+        "Tex_ID": 22512
+    },
+    {
+        "ID": 7170,
+        "Name": "Bat's Sleek Wings",
+        "Tex_ID": 22513
+    },
+    {
+        "ID": 7171,
+        "Name": "Old Decoration Oxhorn",
+        "Tex_ID": 22532
+    },
+    {
+        "ID": 7172,
+        "Name": "Decoration Oxhorn",
+        "Tex_ID": 22533
+    },
+    {
+        "ID": 7173,
+        "Name": "Fox's Styleless Tail",
+        "Tex_ID": 22525
+    },
+    {
+        "ID": 7174,
+        "Name": "Red Rose",
+        "Tex_ID": 22521
+    },
+    {
+        "ID": 7175,
+        "Name": "Branch",
+        "Tex_ID": 22504
+    },
+    {
+        "ID": 7176,
+        "Name": "Smell Ghost's Arm",
+        "Tex_ID": 22526
+    },
+    {
+        "ID": 7177,
+        "Name": "Hell Soldier's Head",
+        "Tex_ID": 22527
+    },
+    {
+        "ID": 7178,
+        "Name": "Bronze Piece",
+        "Tex_ID": 22535
+    },
+    {
+        "ID": 7179,
+        "Name": "Chains",
+        "Tex_ID": 22524
+    },
+    {
+        "ID": 7180,
+        "Name": "Serial Number",
+        "Tex_ID": 22503
+    },
+    {
+        "ID": 7181,
+        "Name": "Hoof",
+        "Tex_ID": 22510
+    },
+    {
+        "ID": 7182,
+        "Name": "Silver Mask",
+        "Tex_ID": 22531
+    },
+    {
+        "ID": 7183,
+        "Name": "Ivory",
+        "Tex_ID": 22522
+    },
+    {
+        "ID": 7184,
+        "Name": "Drumstick",
+        "Tex_ID": 22520
+    },
+    {
+        "ID": 7185,
+        "Name": "Northern Barbarian's Hunting Cap",
+        "Tex_ID": 22519
+    },
+    {
+        "ID": 7186,
+        "Name": "Javelin Case",
+        "Tex_ID": 22536
+    },
+    {
+        "ID": 7187,
+        "Name": "Axe Handle",
+        "Tex_ID": 22506
+    },
+    {
+        "ID": 7188,
+        "Name": "Hyunmu's Shell",
+        "Tex_ID": 22540
+    },
+    {
+        "ID": 7189,
+        "Name": "Royal Seal",
+        "Tex_ID": 22528
+    },
+    {
+        "ID": 7190,
+        "Name": "Dry Branch",
+        "Tex_ID": 22505
+    },
+    {
+        "ID": 7191,
+        "Name": "Mara's Source Liquid",
+        "Tex_ID": 22549
+    },
+    {
+        "ID": 7192,
+        "Name": "Kathana Tour Ticket",
+        "Tex_ID": 22371
+    },
+    {
+        "ID": 7193,
+        "Name": "Utt Paz Pedati",
+        "Tex_ID": 22574
+    },
+    {
+        "ID": 7194,
+        "Name": "Utt Rada",
+        "Tex_ID": 22575
+    },
+    {
+        "ID": 7195,
+        "Name": "Utt Asba",
+        "Tex_ID": 22570
+    },
+    {
+        "ID": 7196,
+        "Name": "Utt Pedati",
+        "Tex_ID": 22574
+    },
+    {
+        "ID": 7197,
+        "Name": "Utt Vid Pedati",
+        "Tex_ID": 22574
+    },
+    {
+        "ID": 7198,
+        "Name": "Paz Pedati",
+        "Tex_ID": 22574
+    },
+    {
+        "ID": 7199,
+        "Name": "Utt Paz Gaja",
+        "Tex_ID": 22572
+    },
+    {
+        "ID": 7200,
+        "Name": "Utt Mantri",
+        "Tex_ID": 22573
+    },
+    {
+        "ID": 7201,
+        "Name": "Utt Vid Gaja",
+        "Tex_ID": 22572
+    },
+    {
+        "ID": 7202,
+        "Name": "Vid Rad",
+        "Tex_ID": 22575
+    },
+    {
+        "ID": 7203,
+        "Name": "Paz Asba",
+        "Tex_ID": 22570
+    },
+    {
+        "ID": 7204,
+        "Name": "Paz Mantri",
+        "Tex_ID": 22573
+    },
+    {
+        "ID": 7205,
+        "Name": "Raja Pratima",
+        "Tex_ID": 22584
+    },
+    {
+        "ID": 7206,
+        "Name": "Vid Mantri",
+        "Tex_ID": 22573
+    },
+    {
+        "ID": 7207,
+        "Name": "Vid Asba",
+        "Tex_ID": 22570
+    },
+    {
+        "ID": 7208,
+        "Name": "Paz Rada",
+        "Tex_ID": 22575
+    },
+    {
+        "ID": 7209,
+        "Name": "Vada Paz Gaja",
+        "Tex_ID": 22572
+    },
+    {
+        "ID": 7210,
+        "Name": "Vada Mantri",
+        "Tex_ID": 22573
+    },
+    {
+        "ID": 7211,
+        "Name": "Vada Vid Gaja",
+        "Tex_ID": 22572
+    },
+    {
+        "ID": 7212,
+        "Name": "Vid Pedati",
+        "Tex_ID": 22574
+    },
+    {
+        "ID": 7213,
+        "Name": "Vada Paz Pedati",
+        "Tex_ID": 22574
+    },
+    {
+        "ID": 7214,
+        "Name": "Vada Pedati",
+        "Tex_ID": 22574
+    },
+    {
+        "ID": 7215,
+        "Name": "Vada Asba",
+        "Tex_ID": 22570
+    },
+    {
+        "ID": 7216,
+        "Name": "Vada Rada",
+        "Tex_ID": 22575
+    },
+    {
+        "ID": 7217,
+        "Name": "Vada Vid Pedati",
+        "Tex_ID": 22574
+    },
+    {
+        "ID": 7218,
+        "Name": "Crystal",
+        "Tex_ID": 22455
+    },
+    {
+        "ID": 7219,
+        "Name": "Utt Pedati Kaya",
+        "Tex_ID": 22582
+    },
+    {
+        "ID": 7220,
+        "Name": "Bada Pedati Kaya",
+        "Tex_ID": 22582
+    },
+    {
+        "ID": 7221,
+        "Name": "Asba Kaya",
+        "Tex_ID": 22578
+    },
+    {
+        "ID": 7222,
+        "Name": "Rada Kaya",
+        "Tex_ID": 22583
+    },
+    {
+        "ID": 7223,
+        "Name": "Gaja Kaya",
+        "Tex_ID": 22580
+    },
+    {
+        "ID": 7224,
+        "Name": "Mantri Kaya",
+        "Tex_ID": 22581
+    },
+    {
+        "ID": 7225,
+        "Name": "Processed Leather",
+        "Tex_ID": 23884
+    },
+    {
+        "ID": 7226,
+        "Name": "Thick Leather Strap",
+        "Tex_ID": 23885
+    },
+    {
+        "ID": 7227,
+        "Name": "Sacrificial Texture",
+        "Tex_ID": 23576
+    },
+    {
+        "ID": 7228,
+        "Name": "Sacrificial String",
+        "Tex_ID": 23581
+    },
+    {
+        "ID": 7229,
+        "Name": "Stronger Iron",
+        "Tex_ID": 23883
+    },
+    {
+        "ID": 7230,
+        "Name": "Ornaspirit Gong",
+        "Tex_ID": 23610
+    },
+    {
+        "ID": 7231,
+        "Name": "Gluelike Agyo",
+        "Tex_ID": 23620
+    },
+    {
+        "ID": 7232,
+        "Name": "Feather of Holy Bird",
+        "Tex_ID": 23612
+    },
+    {
+        "ID": 7233,
+        "Name": "Satvan Armor Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7234,
+        "Name": "Satvan Armor Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7235,
+        "Name": "Satvan Armor Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7236,
+        "Name": "Satvan Armor Ornament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7237,
+        "Name": "Satvan Pants Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7238,
+        "Name": "Satvan Pants Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7239,
+        "Name": "Satvan Pants Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7240,
+        "Name": "Satvan Pants Ornament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7241,
+        "Name": "Satvan Helmet Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7242,
+        "Name": "Satvan Helmet Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7243,
+        "Name": "Satvan Helmet Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7244,
+        "Name": "Satvan Helmet Ornament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7245,
+        "Name": "Satvan Gloves Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7246,
+        "Name": "Satvan Gloves Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7247,
+        "Name": "Satvan Gloves Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7248,
+        "Name": "Satvan Gloves Ornament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7249,
+        "Name": "Satvan Shoes Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7250,
+        "Name": "Satvan Shoes Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7251,
+        "Name": "Satvan Shoes Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7252,
+        "Name": "Satvan Shoes Ornament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7253,
+        "Name": "Dvanta Armor Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7254,
+        "Name": "Dvanta Armor Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7255,
+        "Name": "Dvanta Armor Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7256,
+        "Name": "Dvanta Armor Ornament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7257,
+        "Name": "Dvanta Pants Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7258,
+        "Name": "Dvanta Pants Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7259,
+        "Name": "Dvanta Pants Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7260,
+        "Name": "Dvanta Pants Ornament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7261,
+        "Name": "Dvanta Helmet Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7262,
+        "Name": "Dvanta Helmet Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7263,
+        "Name": "Dvanta Helmet Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7264,
+        "Name": "Dvanta Helmet Ornanament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7265,
+        "Name": "Dvanta Gloves Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7266,
+        "Name": "Dvanta Gloves Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7267,
+        "Name": "Dvanta Gloves Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7268,
+        "Name": "Dvanta Gloves Ornament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7269,
+        "Name": "Dvanta Shoes Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7270,
+        "Name": "Dvanta Shoes Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7271,
+        "Name": "Dvanta Shoes Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7272,
+        "Name": "Dvanta Shoes Ornament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7273,
+        "Name": "Nirvana Armor Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7274,
+        "Name": "Nirvana Armor Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7275,
+        "Name": "Nirvana Armor Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7276,
+        "Name": "Nirvana Armor Ornament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7277,
+        "Name": "Nirvana Pants Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7278,
+        "Name": "Nirvana Pants Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7279,
+        "Name": "Nirvana Pants Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7280,
+        "Name": "Nirvana Pants Ornament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7281,
+        "Name": "Nirvana Helmet Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7282,
+        "Name": "Nirvana Helmet Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7283,
+        "Name": "Nirvana Helmet Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7284,
+        "Name": "Nirvana Helmet Ornament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7285,
+        "Name": "Nirvana Gloves Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7286,
+        "Name": "Nirvana Gloves Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7287,
+        "Name": "Nirvana Gloves Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7288,
+        "Name": "Nirvana Gloves Ornament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7289,
+        "Name": "Nirvana Shoes Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7290,
+        "Name": "Nirvana Shoes Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7291,
+        "Name": "Nirvana Shoes Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7292,
+        "Name": "Nirvana Shoes Ornament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7293,
+        "Name": "Mantrika Armor Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7294,
+        "Name": "Mantrika Armor Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7295,
+        "Name": "Mantrika Armor Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7296,
+        "Name": "Mantrika Armor Ornament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7297,
+        "Name": "Mantrika Pants Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7298,
+        "Name": "Mantrika Pants Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7299,
+        "Name": "Mantrika Pants Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7300,
+        "Name": "Mantrika Pants Ornament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7301,
+        "Name": "Mantrika Helmet Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7302,
+        "Name": "Mantrika Helmet Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7303,
+        "Name": "Mantrika Helmet Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7304,
+        "Name": "Mantrika Helmet Ornament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7305,
+        "Name": "Mantrika Gloves Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7306,
+        "Name": "Mantrika Gloves Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7307,
+        "Name": "Mantrika Gloves Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7308,
+        "Name": "Mantrika Gloves Ornament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7309,
+        "Name": "Mantrika Shoes Frame",
+        "Tex_ID": 23552
+    },
+    {
+        "ID": 7310,
+        "Name": "Mantrika Shoes Sangpan",
+        "Tex_ID": 23573
+    },
+    {
+        "ID": 7311,
+        "Name": "Mantrika Shoes Nepi",
+        "Tex_ID": 23575
+    },
+    {
+        "ID": 7312,
+        "Name": "Mantrika Shoes Ornament",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7316,
+        "Name": "Sudamani",
+        "Tex_ID": 22547
+    },
+    {
+        "ID": 7317,
+        "Name": "Mahodara",
+        "Tex_ID": 22546
+    },
+    {
+        "ID": 7318,
+        "Name": "Nameless Tapeline",
+        "Tex_ID": 23008
+    },
+    {
+        "ID": 7319,
+        "Name": "Gunpowder",
+        "Tex_ID": 23005
+    },
+    {
+        "ID": 7320,
+        "Name": "Cabinet Map",
+        "Tex_ID": 23007
+    },
+    {
+        "ID": 7321,
+        "Name": "Head of Tongon",
+        "Tex_ID": 23006
+    },
+    {
+        "ID": 7322,
+        "Name": "Helmet of Hwangbyong",
+        "Tex_ID": 22998
+    },
+    {
+        "ID": 7323,
+        "Name": "General's Sword",
+        "Tex_ID": 23003
+    },
+    {
+        "ID": 7324,
+        "Name": "Eye of Tongon",
+        "Tex_ID": 23004
+    },
+    {
+        "ID": 7325,
+        "Name": "Breastplate of Tongon",
+        "Tex_ID": 23002
+    },
+    {
+        "ID": 7326,
+        "Name": "Palace Piece",
+        "Tex_ID": 23001
+    },
+    {
+        "ID": 7327,
+        "Name": "Leg of Tongon",
+        "Tex_ID": 23000
+    },
+    {
+        "ID": 7328,
+        "Name": "Item of Tongon",
+        "Tex_ID": 22999
+    },
+    {
+        "ID": 7329,
+        "Name": "Flag of Great Bear",
+        "Tex_ID": 22997
+    },
+    {
+        "ID": 7330,
+        "Name": "Yoo's Bloom",
+        "Tex_ID": 22996
+    },
+    {
+        "ID": 7331,
+        "Name": "Ink Gong",
+        "Tex_ID": 22995
+    },
+    {
+        "ID": 7332,
+        "Name": "Song's Jelly",
+        "Tex_ID": 22993
+    },
+    {
+        "ID": 7333,
+        "Name": "Veteran's Bloom",
+        "Tex_ID": 22987
+    },
+    {
+        "ID": 7334,
+        "Name": "Supreme Region",
+        "Tex_ID": 22986
+    },
+    {
+        "ID": 7335,
+        "Name": "Supreme Gruel",
+        "Tex_ID": 22985
+    },
+    {
+        "ID": 7336,
+        "Name": "Bronze Pitch",
+        "Tex_ID": 22983
+    },
+    {
+        "ID": 7337,
+        "Name": "Bronze Armor",
+        "Tex_ID": 22984
+    },
+    {
+        "ID": 7338,
+        "Name": "Hwang Army's Plate",
+        "Tex_ID": 22982
+    },
+    {
+        "ID": 7339,
+        "Name": "Mirror",
+        "Tex_ID": 22980
+    },
+    {
+        "ID": 7340,
+        "Name": "Jade Ornamental Hairpin",
+        "Tex_ID": 22979
+    },
+    {
+        "ID": 7341,
+        "Name": "Jade Trinket",
+        "Tex_ID": 22973
+    },
+    {
+        "ID": 7342,
+        "Name": "Memory Pocket",
+        "Tex_ID": 22968
+    },
+    {
+        "ID": 7343,
+        "Name": "Left Jade",
+        "Tex_ID": 22967
+    },
+    {
+        "ID": 7344,
+        "Name": "Jade Bird",
+        "Tex_ID": 22966
+    },
+    {
+        "ID": 7345,
+        "Name": "Star",
+        "Tex_ID": 23017
+    },
+    {
+        "ID": 7346,
+        "Name": "Bell",
+        "Tex_ID": 23009
+    },
+    {
+        "ID": 7347,
+        "Name": "Ribbon",
+        "Tex_ID": 23014
+    },
+    {
+        "ID": 7348,
+        "Name": "Cane",
+        "Tex_ID": 23018
+    },
+    {
+        "ID": 7349,
+        "Name": "Tree",
+        "Tex_ID": 23019
+    },
+    {
+        "ID": 7350,
+        "Name": "Santa Mllechas Card",
+        "Tex_ID": 23015
+    },
+    {
+        "ID": 7351,
+        "Name": "Small Christmas Tree",
+        "Tex_ID": 23012
+    },
+    {
+        "ID": 7352,
+        "Name": "Big Christmas Tree",
+        "Tex_ID": 23011
+    },
+    {
+        "ID": 7353,
+        "Name": "Spider's Thread",
+        "Tex_ID": 23034
+    },
+    {
+        "ID": 7354,
+        "Name": "Light Back Shell",
+        "Tex_ID": 23035
+    },
+    {
+        "ID": 7355,
+        "Name": "Yooch Tune",
+        "Tex_ID": 23044
+    },
+    {
+        "ID": 7356,
+        "Name": "Treasure Box A",
+        "Tex_ID": 23047
+    },
+    {
+        "ID": 7357,
+        "Name": "Treasure Box B",
+        "Tex_ID": 23048
+    },
+    {
+        "ID": 7358,
+        "Name": "Treasure Box C",
+        "Tex_ID": 23049
+    },
+    {
+        "ID": 7359,
+        "Name": "Magic Bag",
+        "Tex_ID": 23055
+    },
+    {
+        "ID": 7360,
+        "Name": "Pilgrimage Voucher",
+        "Tex_ID": 23063
+    },
+    {
+        "ID": 7361,
+        "Name": "1st piece of Kaustbam",
+        "Tex_ID": 23084
+    },
+    {
+        "ID": 7362,
+        "Name": "2nd piece of Kaustbam",
+        "Tex_ID": 23085
+    },
+    {
+        "ID": 7363,
+        "Name": "3rd piece of Kaustbam",
+        "Tex_ID": 23086
+    },
+    {
+        "ID": 7364,
+        "Name": "4th piece of Kaustbam",
+        "Tex_ID": 23087
+    },
+    {
+        "ID": 7365,
+        "Name": "Whole Kaustbam",
+        "Tex_ID": 23088
+    },
+    {
+        "ID": 7370,
+        "Name": "Virti",
+        "Tex_ID": 23083
+    },
+    {
+        "ID": 7371,
+        "Name": "Fridaya",
+        "Tex_ID": 23081
+    },
+    {
+        "ID": 7372,
+        "Name": "Mahi Fortress Dungeon Pass",
+        "Tex_ID": 22371
+    },
+    {
+        "ID": 7373,
+        "Name": "Mantra Bead",
+        "Tex_ID": 22612
+    },
+    {
+        "ID": 7374,
+        "Name": "Glass Beads",
+        "Tex_ID": 23098
+    },
+    {
+        "ID": 7375,
+        "Name": "Ancient Tome",
+        "Tex_ID": 23092
+    },
+    {
+        "ID": 7376,
+        "Name": "Tomju Egg",
+        "Tex_ID": 23093
+    },
+    {
+        "ID": 7377,
+        "Name": "Mystic Feather",
+        "Tex_ID": 23096
+    },
+    {
+        "ID": 7378,
+        "Name": "Harate",
+        "Tex_ID": 22624
+    },
+    {
+        "ID": 7379,
+        "Name": "Ahb Fortress Dungeon Pass",
+        "Tex_ID": 22371
+    },
+    {
+        "ID": 7380,
+        "Name": "Danva Fortress Dungeon Pass",
+        "Tex_ID": 22371
+    },
+    {
+        "ID": 7381,
+        "Name": "Nar Fortress Dungeon Pass",
+        "Tex_ID": 22371
+    },
+    {
+        "ID": 7382,
+        "Name": "Guti",
+        "Tex_ID": 22630
+    },
+    {
+        "ID": 7383,
+        "Name": "Money",
+        "Tex_ID": 22695
+    },
+    {
+        "ID": 7384,
+        "Name": "Golden Nugget",
+        "Tex_ID": 22691
+    },
+    {
+        "ID": 7385,
+        "Name": "Golden Calf",
+        "Tex_ID": 22693
+    },
+    {
+        "ID": 7386,
+        "Name": "Golden Toad",
+        "Tex_ID": 22694
+    },
+    {
+        "ID": 7387,
+        "Name": "Game Master Coupon",
+        "Tex_ID": 23100
+    },
+    {
+        "ID": 7388,
+        "Name": "Golden Image of Buddha",
+        "Tex_ID": 22692
+    },
+    {
+        "ID": 7389,
+        "Name": "Ananri",
+        "Tex_ID": 22696
+    },
+    {
+        "ID": 7390,
+        "Name": "Patriarch Hat",
+        "Tex_ID": 22735
+    },
+    {
+        "ID": 7391,
+        "Name": "Kaspa Back Shell",
+        "Tex_ID": 22736
+    },
+    {
+        "ID": 7392,
+        "Name": "Mining Covenant",
+        "Tex_ID": 22738
+    },
+    {
+        "ID": 7393,
+        "Name": "Farming Covenant",
+        "Tex_ID": 22734
+    },
+    {
+        "ID": 7394,
+        "Name": "Safe Hat",
+        "Tex_ID": 22740
+    },
+    {
+        "ID": 7395,
+        "Name": "Cabinet of Nali",
+        "Tex_ID": 22731
+    },
+    {
+        "ID": 7396,
+        "Name": "Light of Bukon",
+        "Tex_ID": 22732
+    },
+    {
+        "ID": 7397,
+        "Name": "Tooth of Boraga",
+        "Tex_ID": 22730
+    },
+    {
+        "ID": 7398,
+        "Name": "Lamp Handle",
+        "Tex_ID": 22737
+    },
+    {
+        "ID": 7399,
+        "Name": "Fan",
+        "Tex_ID": 22733
+    },
+    {
+        "ID": 7400,
+        "Name": "Gentle Leather",
+        "Tex_ID": 22739
+    },
+    {
+        "ID": 7401,
+        "Name": "Decoration from Great Bear",
+        "Tex_ID": 22746
+    },
+    {
+        "ID": 7402,
+        "Name": "Arichu",
+        "Tex_ID": 22728
+    },
+    {
+        "ID": 7403,
+        "Name": "Uparu",
+        "Tex_ID": 22859
+    },
+    {
+        "ID": 7404,
+        "Name": "Debuka",
+        "Tex_ID": 22858
+    },
+    {
+        "ID": 7405,
+        "Name": "Mystic Coupon",
+        "Tex_ID": 22431
+    },
+    {
+        "ID": 7406,
+        "Name": "Ketupat",
+        "Tex_ID": 23103
+    },
+    {
+        "ID": 7407,
+        "Name": "Oprayam",
+        "Tex_ID": 23102
+    },
+    {
+        "ID": 7408,
+        "Name": "Dark Crystal",
+        "Tex_ID": 22723
+    },
+    {
+        "ID": 7409,
+        "Name": "Tears of the Gods",
+        "Tex_ID": 22443
+    },
+    {
+        "ID": 7410,
+        "Name": "New Year Greeting Letter",
+        "Tex_ID": 23517
+    },
+    {
+        "ID": 7411,
+        "Name": "Karuzila",
+        "Tex_ID": 23125
+    },
+    {
+        "ID": 7412,
+        "Name": "Cherry Tree A",
+        "Tex_ID": 23130
+    },
+    {
+        "ID": 7413,
+        "Name": "Cherry Tree B",
+        "Tex_ID": 23131
+    },
+    {
+        "ID": 7414,
+        "Name": "Kantura",
+        "Tex_ID": 23188
+    },
+    {
+        "ID": 7415,
+        "Name": "Prazaba",
+        "Tex_ID": 23229
+    },
+    {
+        "ID": 7416,
+        "Name": "Fountain of Oblivion",
+        "Tex_ID": 23219
+    },
+    {
+        "ID": 7417,
+        "Name": "Old Magic",
+        "Tex_ID": 23194
+    },
+    {
+        "ID": 7418,
+        "Name": "Old Helmet",
+        "Tex_ID": 23195
+    },
+    {
+        "ID": 7419,
+        "Name": "Collar",
+        "Tex_ID": 23204
+    },
+    {
+        "ID": 7420,
+        "Name": "Broken Tooth",
+        "Tex_ID": 23206
+    },
+    {
+        "ID": 7421,
+        "Name": "Broken Staff",
+        "Tex_ID": 23200
+    },
+    {
+        "ID": 7422,
+        "Name": "Broken Dull Weapon",
+        "Tex_ID": 23199
+    },
+    {
+        "ID": 7423,
+        "Name": "Dull Axe",
+        "Tex_ID": 23198
+    },
+    {
+        "ID": 7424,
+        "Name": "Broken Sword",
+        "Tex_ID": 23211
+    },
+    {
+        "ID": 7425,
+        "Name": "Large Chair",
+        "Tex_ID": 23202
+    },
+    {
+        "ID": 7426,
+        "Name": "Malady Lump",
+        "Tex_ID": 23201
+    },
+    {
+        "ID": 7427,
+        "Name": "Asuramaya's underwear",
+        "Tex_ID": 23209
+    },
+    {
+        "ID": 7428,
+        "Name": "Blade's hilt",
+        "Tex_ID": 23208
+    },
+    {
+        "ID": 7429,
+        "Name": "Spider's Leg",
+        "Tex_ID": 23207
+    },
+    {
+        "ID": 7430,
+        "Name": "Sharp nail",
+        "Tex_ID": 23205
+    },
+    {
+        "ID": 7431,
+        "Name": "Frozen Fins",
+        "Tex_ID": 23203
+    },
+    {
+        "ID": 7432,
+        "Name": "Aki's feeler",
+        "Tex_ID": 23196
+    },
+    {
+        "ID": 7433,
+        "Name": "Zombie's Head",
+        "Tex_ID": 23210
+    },
+    {
+        "ID": 7434,
+        "Name": "Bark",
+        "Tex_ID": 23551
+    },
+    {
+        "ID": 7435,
+        "Name": "Scrap of Golem",
+        "Tex_ID": 22416
+    },
+    {
+        "ID": 7436,
+        "Name": "Old Bow",
+        "Tex_ID": 23001
+    },
+    {
+        "ID": 7437,
+        "Name": "Itara",
+        "Tex_ID": 23237
+    },
+    {
+        "ID": 7438,
+        "Name": "Skull Pot (L)",
+        "Tex_ID": 23242
+    },
+    {
+        "ID": 7439,
+        "Name": "Himita",
+        "Tex_ID": 23244
+    },
+    {
+        "ID": 7440,
+        "Name": "Skull Pot (H)",
+        "Tex_ID": 23242
+    },
+    {
+        "ID": 7441,
+        "Name": "Broken Chard Scrap",
+        "Tex_ID": 23246
+    },
+    {
+        "ID": 7448,
+        "Name": "Atibala",
+        "Tex_ID": 23256
+    },
+    {
+        "ID": 7449,
+        "Name": "Exchange Itme",
+        "Tex_ID": 23257
+    },
+    {
+        "ID": 7450,
+        "Name": "Red shoulder board",
+        "Tex_ID": 23292
+    },
+    {
+        "ID": 7451,
+        "Name": "Hand decoration",
+        "Tex_ID": 23291
+    },
+    {
+        "ID": 7452,
+        "Name": "Green Beads Necklace",
+        "Tex_ID": 23204
+    },
+    {
+        "ID": 7453,
+        "Name": "Bandage with Blood",
+        "Tex_ID": 23299
+    },
+    {
+        "ID": 7454,
+        "Name": "Piblakha's Egg",
+        "Tex_ID": 23293
+    },
+    {
+        "ID": 7455,
+        "Name": "Hemasa's leg",
+        "Tex_ID": 23297
+    },
+    {
+        "ID": 7456,
+        "Name": "Old Fetter",
+        "Tex_ID": 23294
+    },
+    {
+        "ID": 7457,
+        "Name": "new mask",
+        "Tex_ID": 22531
+    },
+    {
+        "ID": 7458,
+        "Name": "Necklace",
+        "Tex_ID": 23099
+    },
+    {
+        "ID": 7459,
+        "Name": "Draft",
+        "Tex_ID": 23560
+    },
+    {
+        "ID": 7460,
+        "Name": "Position Design",
+        "Tex_ID": 23465
+    },
+    {
+        "ID": 7461,
+        "Name": "Position Design",
+        "Tex_ID": 23466
+    },
+    {
+        "ID": 7462,
+        "Name": "Position Design",
+        "Tex_ID": 23467
+    },
+    {
+        "ID": 7463,
+        "Name": "Position Design",
+        "Tex_ID": 23468
+    },
+    {
+        "ID": 7464,
+        "Name": "set effect",
+        "Tex_ID": 0
+    },
+    {
+        "ID": 7465,
+        "Name": "set effect",
+        "Tex_ID": 0
+    },
+    {
+        "ID": 7466,
+        "Name": "set effect",
+        "Tex_ID": 0
+    },
+    {
+        "ID": 7467,
+        "Name": "set effect",
+        "Tex_ID": 0
+    },
+    {
+        "ID": 7468,
+        "Name": "set effect",
+        "Tex_ID": 0
+    },
+    {
+        "ID": 7469,
+        "Name": "set effect",
+        "Tex_ID": 0
+    },
+    {
+        "ID": 7470,
+        "Name": "set effect",
+        "Tex_ID": 0
+    },
+    {
+        "ID": 7471,
+        "Name": "set effect",
+        "Tex_ID": 0
+    },
+    {
+        "ID": 7472,
+        "Name": "set effect",
+        "Tex_ID": 0
+    },
+    {
+        "ID": 7473,
+        "Name": "Decoration",
+        "Tex_ID": 22979
+    },
+    {
+        "ID": 7474,
+        "Name": "Q. Decoration",
+        "Tex_ID": 22436
+    },
+    {
+        "ID": 7475,
+        "Name": "Highest Class Decoration",
+        "Tex_ID": 23624
+    },
+    {
+        "ID": 7476,
+        "Name": "Blacksmith Hat",
+        "Tex_ID": 22740
+    },
+    {
+        "ID": 7477,
+        "Name": "Employment Contract",
+        "Tex_ID": 22738
+    },
+    {
+        "ID": 7478,
+        "Name": "ethane textile",
+        "Tex_ID": 22428
+    },
+    {
+        "ID": 7479,
+        "Name": "Smith Coal",
+        "Tex_ID": 22416
+    },
+    {
+        "ID": 7480,
+        "Name": "toenail",
+        "Tex_ID": 22515
+    },
+    {
+        "ID": 7481,
+        "Name": "Unstable Decoration",
+        "Tex_ID": 22437
+    },
+    {
+        "ID": 7482,
+        "Name": "Ulapin's tooth",
+        "Tex_ID": 22420
+    },
+    {
+        "ID": 8001,
+        "Name": "Voucher of King",
+        "Tex_ID": 22435
+    },
+    {
+        "ID": 8002,
+        "Name": "Spirit Stone",
+        "Tex_ID": 22441
+    },
+    {
+        "ID": 8003,
+        "Name": "Light Dragon's Scales",
+        "Tex_ID": 22442
+    },
+    {
+        "ID": 8004,
+        "Name": "Lion's Tear",
+        "Tex_ID": 22443
+    },
+    {
+        "ID": 8005,
+        "Name": "Kirika's Letter",
+        "Tex_ID": 22439
+    },
+    {
+        "ID": 8006,
+        "Name": "Ashuri's Kaya",
+        "Tex_ID": 22443
+    },
+    {
+        "ID": 8007,
+        "Name": "Ashuri's Shamshir",
+        "Tex_ID": 22102
+    },
+    {
+        "ID": 8008,
+        "Name": "Operation Order",
+        "Tex_ID": 22439
+    },
+    {
+        "ID": 8009,
+        "Name": "Confirmed Operation Order",
+        "Tex_ID": 22440
+    },
+    {
+        "ID": 8010,
+        "Name": "Buvan's Lost Thing",
+        "Tex_ID": 22436
+    },
+    {
+        "ID": 8011,
+        "Name": "Buvan's Broken Thing",
+        "Tex_ID": 22437
+    },
+    {
+        "ID": 8012,
+        "Name": "Leather Sack",
+        "Tex_ID": 22432
+    },
+    {
+        "ID": 8013,
+        "Name": "Boy in the Leather Sack",
+        "Tex_ID": 22433
+    },
+    {
+        "ID": 8014,
+        "Name": "Kirika's Amulet",
+        "Tex_ID": 22438
+    },
+    {
+        "ID": 8015,
+        "Name": "Vananta's Lost Scripture",
+        "Tex_ID": 22434
+    },
+    {
+        "ID": 8016,
+        "Name": "Ashuri's Lost Bracelet",
+        "Tex_ID": 22391
+    },
+    {
+        "ID": 8017,
+        "Name": "Amar's Message",
+        "Tex_ID": 22439
+    },
+    {
+        "ID": 8018,
+        "Name": "Apvas' Blanket",
+        "Tex_ID": 22446
+    },
+    {
+        "ID": 8019,
+        "Name": "Vibvan's Letter",
+        "Tex_ID": 22439
+    },
+    {
+        "ID": 8020,
+        "Name": "Mahomet's Letter",
+        "Tex_ID": 22439
+    },
+    {
+        "ID": 8021,
+        "Name": "Saranu's Leather Clothing",
+        "Tex_ID": 22445
+    },
+    {
+        "ID": 8022,
+        "Name": "Saranu's Message",
+        "Tex_ID": 22439
+    },
+    {
+        "ID": 8023,
+        "Name": "Kirika's Messenger",
+        "Tex_ID": 22439
+    },
+    {
+        "ID": 8024,
+        "Name": "Blue Dragon's Scales",
+        "Tex_ID": 22442
+    },
+    {
+        "ID": 8025,
+        "Name": "Mara's Sorcery Book",
+        "Tex_ID": 22377
+    },
+    {
+        "ID": 8026,
+        "Name": "Saranu's Prediction",
+        "Tex_ID": 22434
+    },
+    {
+        "ID": 8027,
+        "Name": "Karan's Historical Book",
+        "Tex_ID": 22434
+    },
+    {
+        "ID": 8028,
+        "Name": "Ulkamukha's Metal Headband",
+        "Tex_ID": 22405
+    },
+    {
+        "ID": 8029,
+        "Name": "Srbinda Satvan's Bracelet",
+        "Tex_ID": 22393
+    },
+    {
+        "ID": 8030,
+        "Name": "Rudhira's Skeleton Necklace",
+        "Tex_ID": 22385
+    },
+    {
+        "ID": 8031,
+        "Name": "Karan's Message",
+        "Tex_ID": 22439
+    },
+    {
+        "ID": 8032,
+        "Name": "Voucher of God (Brahma)",
+        "Tex_ID": 22435
+    },
+    {
+        "ID": 8033,
+        "Name": "Voucher of God (Vishnu)",
+        "Tex_ID": 22435
+    },
+    {
+        "ID": 8034,
+        "Name": "Voucher of God (Shiva)",
+        "Tex_ID": 22435
+    },
+    {
+        "ID": 8035,
+        "Name": "Bishubakarman's Seal",
+        "Tex_ID": 22434
+    },
+    {
+        "ID": 8036,
+        "Name": "Vananta's Seal",
+        "Tex_ID": 22439
+    },
+    {
+        "ID": 8037,
+        "Name": "Head Band of Ulkamukha Clan",
+        "Tex_ID": 22405
+    },
+    {
+        "ID": 8038,
+        "Name": "Coal Pocket of Mlecchas Clan",
+        "Tex_ID": 22396
+    },
+    {
+        "ID": 8039,
+        "Name": "Kaulitara's Egg",
+        "Tex_ID": 22444
+    },
+    {
+        "ID": 8040,
+        "Name": "Vananta's Necklace",
+        "Tex_ID": 22310
+    },
+    {
+        "ID": 8041,
+        "Name": "Dvanta's Spirit Stone",
+        "Tex_ID": 22441
+    },
+    {
+        "ID": 8042,
+        "Name": "Ancient Sword",
+        "Tex_ID": 22363
+    },
+    {
+        "ID": 8043,
+        "Name": "Buvan's Small Kalkan",
+        "Tex_ID": 22287
+    },
+    {
+        "ID": 8045,
+        "Name": "Rucaka of Kirika",
+        "Tex_ID": 22308
+    },
+    {
+        "ID": 8046,
+        "Name": "Unfinished Phalaka of Life",
+        "Tex_ID": 22293
+    },
+    {
+        "ID": 8047,
+        "Name": "Unfinished Phalaka of Life",
+        "Tex_ID": 22293
+    },
+    {
+        "ID": 8048,
+        "Name": "Ring of The Hero",
+        "Tex_ID": 22459
+    },
+    {
+        "ID": 8049,
+        "Name": "Ring of The Hero",
+        "Tex_ID": 22459
+    },
+    {
+        "ID": 8050,
+        "Name": "Ring of The Hero",
+        "Tex_ID": 22459
+    },
+    {
+        "ID": 8051,
+        "Name": "Brahma's Kalacore",
+        "Tex_ID": 22547
+    },
+    {
+        "ID": 8052,
+        "Name": "Vishnu's Kalacore",
+        "Tex_ID": 22546
+    },
+    {
+        "ID": 8053,
+        "Name": "Shiva's Kalacore",
+        "Tex_ID": 22545
+    },
+    {
+        "ID": 8054,
+        "Name": "Kalacore",
+        "Tex_ID": 22548
+    },
+    {
+        "ID": 8055,
+        "Name": "Satya Proof",
+        "Tex_ID": 22555
+    },
+    {
+        "ID": 8056,
+        "Name": "Banar Proof",
+        "Tex_ID": 22450
+    },
+    {
+        "ID": 8057,
+        "Name": "Druka Proof",
+        "Tex_ID": 22449
+    },
+    {
+        "ID": 8058,
+        "Name": "Karya Proof",
+        "Tex_ID": 22566
+    },
+    {
+        "ID": 8059,
+        "Name": "Nakayuda Proof",
+        "Tex_ID": 22562
+    },
+    {
+        "ID": 8060,
+        "Name": "Vidya Proof",
+        "Tex_ID": 22550
+    },
+    {
+        "ID": 8061,
+        "Name": "Abikara Proof",
+        "Tex_ID": 22561
+    },
+    {
+        "ID": 8062,
+        "Name": "Samabat Proof",
+        "Tex_ID": 22554
+    },
+    {
+        "ID": 8063,
+        "Name": "Shiva Serial",
+        "Tex_ID": 22557
+    },
+    {
+        "ID": 8064,
+        "Name": "Brahma Serial",
+        "Tex_ID": 22552
+    },
+    {
+        "ID": 8065,
+        "Name": "Vishnu Serial",
+        "Tex_ID": 22553
+    },
+    {
+        "ID": 8066,
+        "Name": "Broken Sword",
+        "Tex_ID": 22551
+    },
+    {
+        "ID": 8067,
+        "Name": "Blood Cloth",
+        "Tex_ID": 22567
+    },
+    {
+        "ID": 8068,
+        "Name": "Paper Piece",
+        "Tex_ID": 22563
+    },
+    {
+        "ID": 8069,
+        "Name": "Friend Named Cloth",
+        "Tex_ID": 22448
+    },
+    {
+        "ID": 8070,
+        "Name": "Test Proof",
+        "Tex_ID": 22558
+    },
+    {
+        "ID": 8071,
+        "Name": "Success Paper",
+        "Tex_ID": 22568
+    },
+    {
+        "ID": 8072,
+        "Name": "Bow of God",
+        "Tex_ID": 22559
+    },
+    {
+        "ID": 8073,
+        "Name": "Moon Cow's Horns",
+        "Tex_ID": 22565
+    },
+    {
+        "ID": 8074,
+        "Name": "Strapped Leather",
+        "Tex_ID": 22556
+    },
+    {
+        "ID": 8075,
+        "Name": "Bowstring Tendon",
+        "Tex_ID": 22569
+    },
+    {
+        "ID": 8076,
+        "Name": "Glue Cell",
+        "Tex_ID": 22560
+    },
+    {
+        "ID": 8077,
+        "Name": "Tough Thread",
+        "Tex_ID": 22447
+    },
+    {
+        "ID": 8078,
+        "Name": "Metal Piece",
+        "Tex_ID": 22564
+    },
+    {
+        "ID": 8079,
+        "Name": "Merchant's Bundle",
+        "Tex_ID": 23554
+    },
+    {
+        "ID": 8080,
+        "Name": "Amity Medicine",
+        "Tex_ID": 23558
+    },
+    {
+        "ID": 8081,
+        "Name": "Left Eye of Ape",
+        "Tex_ID": 23559
+    },
+    {
+        "ID": 8082,
+        "Name": "Tiger's Head",
+        "Tex_ID": 23561
+    },
+    {
+        "ID": 8083,
+        "Name": "Justice Pill",
+        "Tex_ID": 23563
+    },
+    {
+        "ID": 8084,
+        "Name": "Tolerance Pill",
+        "Tex_ID": 23555
+    },
+    {
+        "ID": 8085,
+        "Name": "Bamboo Slip Letter",
+        "Tex_ID": 23560
+    },
+    {
+        "ID": 8086,
+        "Name": "Artisan's Toolbox",
+        "Tex_ID": 23562
+    },
+    {
+        "ID": 8087,
+        "Name": "Symbol of Different Dimension",
+        "Tex_ID": 22936
+    },
+    {
+        "ID": 8088,
+        "Name": "Bouquet",
+        "Tex_ID": 23060
+    },
+    {
+        "ID": 8089,
+        "Name": "Letter",
+        "Tex_ID": 23062
+    },
+    {
+        "ID": 8090,
+        "Name": "Special Bouquet",
+        "Tex_ID": 23061
+    },
+    {
+        "ID": 8091,
+        "Name": "Flower Basket",
+        "Tex_ID": 23059
+    },
+    {
+        "ID": 8092,
+        "Name": "Burns",
+        "Tex_ID": 23064
+    },
+    {
+        "ID": 8093,
+        "Name": "Bottle of Hu Li",
+        "Tex_ID": 22741
+    },
+    {
+        "ID": 8094,
+        "Name": "Great Bear First Tome",
+        "Tex_ID": 22742
+    },
+    {
+        "ID": 8095,
+        "Name": "Great Bear Second Tome",
+        "Tex_ID": 22742
+    },
+    {
+        "ID": 8096,
+        "Name": "Great Bear Third Tome",
+        "Tex_ID": 22742
+    },
+    {
+        "ID": 8097,
+        "Name": "Great Bear Fourth Tome",
+        "Tex_ID": 22742
+    },
+    {
+        "ID": 8098,
+        "Name": "Restored Map",
+        "Tex_ID": 22748
+    },
+    {
+        "ID": 8099,
+        "Name": "Restored Medicine",
+        "Tex_ID": 22745
+    },
+    {
+        "ID": 8100,
+        "Name": "Repose of the Dead",
+        "Tex_ID": 22744
+    },
+    {
+        "ID": 8101,
+        "Name": "Resurrected Head of Tongon",
+        "Tex_ID": 23006
+    },
+    {
+        "ID": 8102,
+        "Name": "Resurrected Helmet of Hwangbyong",
+        "Tex_ID": 22998
+    },
+    {
+        "ID": 8103,
+        "Name": "Resurrected Eye of Tongon",
+        "Tex_ID": 23004
+    },
+    {
+        "ID": 8104,
+        "Name": "Resurrected Breastplate of Tongon",
+        "Tex_ID": 23002
+    },
+    {
+        "ID": 8105,
+        "Name": "Resurrected Leg of Tongon",
+        "Tex_ID": 23000
+    },
+    {
+        "ID": 8106,
+        "Name": "Resurrected Item of Tongon",
+        "Tex_ID": 22999
+    },
+    {
+        "ID": 8107,
+        "Name": "Letter from God",
+        "Tex_ID": 22568
+    },
+    {
+        "ID": 8108,
+        "Name": "Golden Toad",
+        "Tex_ID": 22694
+    },
+    {
+        "ID": 8109,
+        "Name": "Necklace of Magasi",
+        "Tex_ID": 22385
+    },
+    {
+        "ID": 8110,
+        "Name": "Repaired Necklace",
+        "Tex_ID": 23123
+    },
+    {
+        "ID": 8111,
+        "Name": "Portrait of the King",
+        "Tex_ID": 23168
+    },
+    {
+        "ID": 8112,
+        "Name": "Conditioner",
+        "Tex_ID": 23169
+    },
+    {
+        "ID": 8113,
+        "Name": "Yellow Bag of Rama",
+        "Tex_ID": 23170
+    },
+    {
+        "ID": 8114,
+        "Name": "Scriptures of Rama",
+        "Tex_ID": 22439
+    },
+    {
+        "ID": 8115,
+        "Name": "Booklet of Rama",
+        "Tex_ID": 23171
+    },
+    {
+        "ID": 8116,
+        "Name": "Mysterious Sketch",
+        "Tex_ID": 23172
+    },
+    {
+        "ID": 8117,
+        "Name": "Candle Flower",
+        "Tex_ID": 23173
+    },
+    {
+        "ID": 8118,
+        "Name": "King's Portrait",
+        "Tex_ID": 23174
+    },
+    {
+        "ID": 8119,
+        "Name": "Three Bloods",
+        "Tex_ID": 23175
+    },
+    {
+        "ID": 8120,
+        "Name": "Teritorry",
+        "Tex_ID": 23176
+    },
+    {
+        "ID": 8121,
+        "Name": "Moonlight",
+        "Tex_ID": 23177
+    },
+    {
+        "ID": 8122,
+        "Name": "Moonlight rock",
+        "Tex_ID": 23178
+    },
+    {
+        "ID": 8123,
+        "Name": "Bibingka",
+        "Tex_ID": 23179
+    },
+    {
+        "ID": 8124,
+        "Name": "King's Flower",
+        "Tex_ID": 23180
+    },
+    {
+        "ID": 8125,
+        "Name": "Jewel of Height",
+        "Tex_ID": 23181
+    },
+    {
+        "ID": 8126,
+        "Name": "Jewel of Separation",
+        "Tex_ID": 23182
+    },
+    {
+        "ID": 8127,
+        "Name": "King's Red Paper Bag",
+        "Tex_ID": 23183
+    },
+    {
+        "ID": 8128,
+        "Name": "King's Blue Sack",
+        "Tex_ID": 23184
+    },
+    {
+        "ID": 8129,
+        "Name": "King's Green Sack",
+        "Tex_ID": 23185
+    },
+    {
+        "ID": 8130,
+        "Name": "King's Yellow Sack",
+        "Tex_ID": 23186
+    },
+    {
+        "ID": 8131,
+        "Name": "Jewel Lamp",
+        "Tex_ID": 23187
+    },
+    {
+        "ID": 8132,
+        "Name": "Yakoru Booklet",
+        "Tex_ID": 22742
+    },
+    {
+        "ID": 8133,
+        "Name": "Sama Booklet",
+        "Tex_ID": 22742
+    },
+    {
+        "ID": 8134,
+        "Name": "Rigu Booklet",
+        "Tex_ID": 22742
+    },
+    {
+        "ID": 8135,
+        "Name": "Yata Booklet",
+        "Tex_ID": 22742
+    },
+    {
+        "ID": 8136,
+        "Name": "Ring of Rama",
+        "Tex_ID": 23122
+    },
+    {
+        "ID": 8137,
+        "Name": "Naoki Contract",
+        "Tex_ID": 22734
+    },
+    {
+        "ID": 8138,
+        "Name": "Soma",
+        "Tex_ID": 23064
+    },
+    {
+        "ID": 8139,
+        "Name": "Baruna's Board Document",
+        "Tex_ID": 23236
+    },
+    {
+        "ID": 8140,
+        "Name": "Chard",
+        "Tex_ID": 23236
+    },
+    {
+        "ID": 8141,
+        "Name": "Moria's letter",
+        "Tex_ID": 23096
+    },
+    {
+        "ID": 8142,
+        "Name": "Ouyez's Letter",
+        "Tex_ID": 23096
+    },
+    {
+        "ID": 8143,
+        "Name": "Certificate of Baruna Knights",
+        "Tex_ID": 22330
+    },
+    {
+        "ID": 8306,
+        "Name": "Guda",
+        "Tex_ID": 23150
+    },
+    {
+        "ID": 8307,
+        "Name": "Jagara Hat",
+        "Tex_ID": 23160
+    }
+]

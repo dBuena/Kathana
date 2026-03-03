@@ -1,0 +1,9 @@
+{
+  "portals": [
+    { "id": 9001, "label": "Town Biryu", "x": 230, "y": 175 },
+    { "id": 9002, "label": "Biryu Commercial Area", "x": 485, "y": 465 },
+    { "id": 9003, "label": "Downtown Area", "x": 360, "y": 550 },
+    { "id": 9004, "label": "Kaspa Village", "x": 894, "y": 947 },
+	{ "id": 9005, "label": "Mining Area", "x": 106, "y": 635 }
+  ]
+}

@@ -1,7 +1,0 @@
-{
-  "portals": [
-    { "id": 9001, "label": "Portal to Mantra", "x": 548, "y": 950 },
-    { "id": 9002, "label": "Flowerfield", "x": 828, "y": 208 },
-    { "id": 9003, "label": "Temple of Fire", "x": 198, "y": 422 }
-  ]
-}
