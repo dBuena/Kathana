@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kathana Character Builder</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0d0f14;
+      --panel: #13161e;
+      --border: #2a2f3d;
+      --accent: #c8902a;
+      --accent2: #e8b84b;
+      --text: #c9cdd8;
+      --text-dim: #6b7280;
+      --red: #e05252;
+      --green: #52c278;
+      --blue: #5299e0;
+      --purple: #9b5ce0;
+    }
+
+    html, body {
+      height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      overflow: hidden;
+    }
+
+    .row { height: 100vh; }
+
+    /* ── LEFT SIDEBAR (Tribe selector) ── */
+    .sidebar {
+      background-color: var(--panel);
+      border-right: 1px solid var(--border);
+      height: 100vh;
+      padding: 20px 0;
+      overflow-y: auto;
+      box-sizing: border-box;
+    }
+
+    .sidebar-header {
+      padding: 0 20px 20px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 20px;
+    }
+
+    .sidebar-header h5 {
+      color: var(--accent2);
+      font-weight: 700;
+      margin-bottom: 0;
+      letter-spacing: 1px;
+    }
+
+    .tribe-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .tribe-list li {
+      padding: 10px 20px;
+      cursor: pointer;
+      border-left: 3px solid transparent;
+      transition: all 0.2s;
+      color: var(--text);
+    }
+
+    .tribe-list li:hover {
+      background-color: rgba(200, 144, 42, 0.1);
+      border-left-color: var(--accent);
+    }
+
+    .tribe-list li.active {
+      background-color: rgba(200, 144, 42, 0.15);
+      border-left-color: var(--accent);
+      color: var(--accent2);
+      font-weight: bold;
+    }
+
+    /* ── CENTER PANEL (Stats + Summary) ── */
+    .content-panel {
+      padding: 20px;
+      height: 100vh;
+      overflow-y: auto;
+      overflow-x: hidden;
+      box-sizing: border-box;
+      background: var(--bg);
+    }
+
+    .section-title {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* Level & CP */
+    .level-section, .cp-section, .stat-section { margin-bottom: 20px; }
+
+    .level-display {
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--accent2);
+      line-height: 1;
+    }
+
+    input[type="range"] { accent-color: var(--accent); width: 100%; height: 6px; cursor: pointer; }
+
+    .level-markers { display: flex; justify-content: space-between; font-size: 10px; color: var(--text-dim); margin-top: 6px; }
+
+    .level-marker-job { color: var(--accent); font-weight: 700; }
+
+    /* CP Bar */
+    .cp-numbers { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+
+    .cp-item { text-align: center; flex: 1; }
+
+    .cp-item .val { font-size: 20px; font-weight: 700; display: block; }
+
+    .cp-item .lbl { font-size: 10px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 1px; margin-top: 2px; }
+
+    .cp-item.total .val { color: var(--text); }
+
+    .cp-item.used .val { color: var(--accent); }
+
+    .cp-item.remaining .val { color: var(--green); }
+
+    .cp-item.remaining.over .val { color: var(--red); }
+
+    .cp-bar-track { height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+
+    .cp-bar-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent2)); border-radius: 4px; transition: width 0.2s; }
+
+    .cp-bar-fill.over { background: var(--red); }
+
+    /* Stat Grid */
+    .stat-section { position: relative; }
+
+    .stat-section .section-title { display: flex; justify-content: space-between; align-items: center; }
+
+    .reset-all-btn { background: var(--accent2); color: #000; border: none; padding: 6px 12px; border-radius: 4px; font-weight: 700; font-size: 12px; cursor: pointer; transition: all 0.2s; }
+
+    .reset-all-btn:hover { background: var(--accent); }
+
+    .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+    .stat-card { padding: 0; background: none; border: none; display: flex; flex-direction: column; }
+
+    .stat-card.muscle { }
+    .stat-card.nerve { }
+    .stat-card.heart { }
+    .stat-card.mind { }
+
+    .stat-label { font-size: 14px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+
+    .stat-value { display: none; }
+
+    .stat-breakdown { display: none; }
+
+    .stat-controls { display: grid; grid-template-columns: auto auto auto; gap: 8px; align-items: center; }
+
+    .stat-btn { width: 24px; height: 24px; background: var(--border); border: 1px solid var(--border); color: var(--text); border-radius: 3px; cursor: pointer; font-size: 14px; line-height: 1; padding: 0; transition: all 0.1s; }
+
+    .stat-btn:hover { background: var(--accent); border-color: var(--accent); color: #000; }
+
+    .stat-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+
+    .stat-ctrl-val { font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+
+    /* Class checkboxes */
+    .class-section { display: flex; gap: 12px; }
+
+    .class-check { display: flex; align-items: center; gap: 6px; cursor: pointer; }
+
+    .class-check input[type="checkbox"] { accent-color: var(--accent); width: 16px; height: 16px; }
+
+    .class-check label { margin-bottom: 0; cursor: pointer; font-size: 13px; }
+
+    .class-check.locked { opacity: 0.4; cursor: not-allowed; }
+
+    .class-check.locked label { cursor: not-allowed; }
+
+    /* ── RIGHT PANEL (Equipment Grid) ── */
+    .equipment-panel {
+      background: var(--panel);
+      border-left: 1px solid var(--border);
+      height: 100vh;
+      padding: 20px;
+      overflow-y: auto;
+      box-sizing: border-box;
+    }
+
+    .equipment-title {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .equipment-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 6px;
+      margin-bottom: 24px;
+    }
+
+    .equipment-slot {
+      width: 64px;
+      height: 64px;
+      background: var(--bg);
+      border: 2px solid var(--border);
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .equipment-slot:hover { border-color: var(--accent); background: rgba(200, 144, 42, 0.1); }
+
+    .equipment-slot.filled { border-color: var(--accent); background: rgba(200, 144, 42, 0.15); }
+
+    .slot-icon { font-size: 32px; margin-bottom: 4px; }
+
+    .slot-label { font-size: 10px; color: var(--text-dim); text-align: center; text-transform: uppercase; letter-spacing: 0.5px; line-height: 1.2; }
+
+    .slot-item-name {
+      position: absolute;
+      bottom: 4px;
+      left: 4px;
+      right: 4px;
+      font-size: 9px;
+      color: var(--accent2);
+      background: rgba(0, 0, 0, 0.7);
+      padding: 2px 4px;
+      border-radius: 3px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: center;
+    }
+
+    .slot-refine {
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      background: var(--accent);
+      color: #000;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-size: 10px;
+    }
+
+    /* Summary Block */
+    .summary-block {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 12px;
+      margin-bottom: 12px;
+    }
+
+    .summary-block h4 {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .summary-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4px 0;
+      font-size: 12px;
+    }
+
+    .summary-row .label { color: var(--text-dim); }
+
+    .summary-row .value { font-weight: 700; }
+
+    .summary-row .value.pos { color: var(--green); }
+
+    .summary-row .value.neg { color: var(--red); }
+
+    .summary-row .value.acc { color: var(--accent2); }
+
+    /* Combat Factors */
+    .combat-block {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 12px;
+      margin-bottom: 12px;
+    }
+
+    .combat-block h4 {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .combat-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4px 0;
+      font-size: 12px;
+    }
+
+    .combat-row .label { color: var(--text-dim); }
+
+    .combat-row .value { font-weight: 700; }
+
+    .combat-row .value.melee { color: #e05252; }
+
+    .combat-row .value.bow { color: #52c278; }
+
+    .combat-row .value.magic { color: #9b5ce0; }
+
+    /* Modal */
+    .modal-content { background: var(--panel); border: 1px solid var(--border); }
+
+    .modal-header { border-bottom: 1px solid var(--border); }
+
+    .modal-title { color: var(--accent2); font-weight: 700; }
+
+    .btn-close { filter: brightness(0.8); }
+
+    .item-search {
+      width: 100%;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 8px;
+      border-radius: 4px;
+      margin-bottom: 12px;
+    }
+
+    .item-search:focus { outline: none; border-color: var(--accent); }
+
+    .item-list { max-height: 300px; overflow-y: auto; }
+
+    .item-entry {
+      padding: 8px;
+      cursor: pointer;
+      transition: background 0.1s;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+    }
+
+    .item-entry:hover { background: rgba(200, 144, 42, 0.1); }
+
+    .item-entry.selected { background: rgba(200, 144, 42, 0.2); color: var(--accent2); font-weight: 600; }
+
+    .item-entry-stat { color: var(--text-dim); font-size: 11px; }
+
+    .refine-section { margin-top: 12px; }
+
+    .refine-label { font-size: 12px; font-weight: 600; margin-bottom: 8px; }
+
+    .refine-slider { width: 100%; }
+
+    .refine-value { text-align: center; color: var(--accent2); font-weight: 700; }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 6px; }
+
+    ::-webkit-scrollbar-track { background: var(--bg); }
+
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+    ::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+  </style>
+</head>
+<body class="bg-dark text-light">
+
+<div class="row g-0">
+
+  <!-- ════════════════════════ LEFT: TRIBE SELECTOR ════════════════════════ -->
+  <div class="col-3 sidebar">
+    <div class="sidebar-header">
+      <h5>Kathana Character Builder</h5>
+    </div>
+    <ul class="tribe-list" id="tribe-list"></ul>
+  </div>
+
+  <!-- ════════════════════════ CENTER: STATS & SUMMARY ════════════════════════ -->
+  <div class="col-4 content-panel">
+
+    <!-- LEVEL -->
+    <div class="level-section" style="border: 1px solid var(--border); border-radius: 6px; padding: 12px; background-color: rgba(13, 15, 20, 0.5);">
+      <div class="section-title" style="margin-bottom: 12px;">Level</div>
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <div class="level-display" id="level-display">1 / <span style="font-size:16px">/200</span></div>
+        <div style="text-align:right;font-size:11px;color:var(--text-dim)">
+          <div>Gain: <span id="cp-gain-val" style="color:var(--accent2);font-weight:700">—</span></div>
+        </div>
+      </div>
+      <input type="range" id="level-slider" min="1" max="200" value="1" oninput="onLevelChange(this.value)">
+      <div class="level-markers">
+        <span>1</span><span class="level-marker-job">10 (1J)</span>
+        <span class="level-marker-job">45 (2J)</span><span>100</span><span>150</span><span>200</span>
+      </div>
+    </div>
+
+    <!-- CP -->
+    <div class="cp-section">
+      <div class="section-title">Chakra Points</div>
+      <div class="cp-numbers">
+        <div class="cp-item total">
+          <span class="val" id="cp-total">50</span>
+          <span class="lbl">Total</span>
+        </div>
+        <div class="cp-item used">
+          <span class="val" id="cp-used">43</span>
+          <span class="lbl">Used</span>
+        </div>
+        <div class="cp-item remaining" id="cp-remaining-block">
+          <span class="val" id="cp-remaining">7</span>
+          <span class="lbl">Remaining</span>
+        </div>
+      </div>
+      <div class="cp-bar-track"><div class="cp-bar-fill" id="cp-bar"></div></div>
+    </div>
+
+    <!-- CLASS -->
+    <div class="section-title">Class Advancement</div>
+    <div class="class-section mb-4">
+      <div class="class-check" id="class1-check">
+        <input type="checkbox" id="class1-cb" onchange="toggleClass1()">
+        <label for="class1-cb">1st Job (Lv.10)</label>
+      </div>
+      <div class="class-check" id="class2-check">
+        <input type="checkbox" id="class2-cb" onchange="toggleClass2()">
+        <label for="class2-cb">2nd Job (Lv.45)</label>
+      </div>
+    </div>
+
+    <!-- STATS -->
+    <div class="stat-section">
+      <div class="section-title">
+        Stats
+        <button class="reset-all-btn" onclick="resetAll()">Reset All</button>
+      </div>
+      <div class="stats-grid" id="stats-grid"></div>
+    </div>
+
+    <!-- SUMMARY -->
+    <div class="summary-block" style="margin-top:20px">
+      <div class="section-title">Summary</div>
+      <div class="combat-row">
+        <span class="label" id="cf-ar-label">Attack Rate</span>
+        <span class="value melee" id="cf-ar">—</span>
+      </div>
+      <div class="combat-row">
+        <span class="label">Accuracy</span>
+        <span class="value" id="cf-accuracy">—</span>
+      </div>
+      <div class="combat-row">
+        <span class="label">Evasion</span>
+        <span class="value" id="cf-evasion">—</span>
+      </div>
+      <div class="combat-row">
+        <span class="label">Defense</span>
+        <span class="value" id="cf-def">—</span>
+      </div>
+      <div class="combat-row">
+        <span class="label">Max HP</span>
+        <span class="value" id="cf-hp">—</span>
+      </div>
+      <div class="combat-row">
+        <span class="label">Max TP</span>
+        <span class="value" id="cf-tp">—</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ════════════════════════ RIGHT: EQUIPMENT + DETAILS ════════════════════════ -->
+  <div class="col-5 equipment-panel">
+
+    <div class="equipment-title">Equipment</div>
+
+    <div class="equipment-grid" id="equipment-grid"></div>
+
+    <!-- Weapon Details -->
+    <div class="summary-block" id="weapon-details-block" style="display:none">
+      <h4>⚔ Weapon</h4>
+      <div id="weapon-details"></div>
+    </div>
+
+    <!-- Armor Details -->
+    <div class="summary-block" id="armor-details-block" style="display:none">
+      <h4>🛡 Armor</h4>
+      <div id="armor-details"></div>
+    </div>
+
+    <!-- Accessory Details -->
+    <div class="summary-block" id="accessory-details-block" style="display:none">
+      <h4>💎 Accessory</h4>
+      <div id="accessory-details"></div>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- ════════════════════════ MODAL: Item Selector ════════════════════════ -->
+<div class="modal fade" id="itemModal" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitle">Select Item</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <input type="text" class="item-search" id="item-search" placeholder="Search items...">
+        <div class="item-list" id="item-list"></div>
+
+        <div class="refine-section">
+          <div class="refine-label">Refinement Level</div>
+          <input type="range" class="refine-slider" id="refine-slider" min="0" max="15" value="0" oninput="updateRefineValue(this.value)">
+          <div class="refine-value">+<span id="refine-value">0</span></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" onclick="confirmItemSelection()">Select</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="builder.js"></script>
+</body>
+</html>
