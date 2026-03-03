@@ -244,7 +244,7 @@ body {
   padding: 8px 12px;
   gap: 8px;
   flex-shrink: 0;
-  min-width: 300px;
+  min-width: 500px;
 }
 
 .search-input-header {
