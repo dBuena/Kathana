@@ -128,7 +128,10 @@ class DataParser {
         sell_price: parseInt(getCellValue(20)) || 0,
         cash_price: parseInt(getCellValue(21)) || 0,
         durability: parseInt(getCellValue(23)) || 0,
-        stack_count: parseInt(getCellValue(24)) || 1
+        stack_count: parseInt(getCellValue(24)) || 1,
+        // Effect parameters for Defense/Damage display
+        iEffect1Param1: parseInt(getCellValue(29)) || 0,
+        iEffect1Param2: parseInt(getCellValue(30)) || 0
       };
     } catch (error) {
       console.error('Error parsing item row:', error);

@@ -31,6 +31,7 @@ let currentLanguage = 'phil';
 let itemToTypeMap = {}; // Maps item ID to correct sType from ItemMapping.json
 let iconMap = {};       // Item ID → Tex_ID
 let iconIdMap = {};     // Tex_ID → Filename
+let lootGroups = {};    // Maps group ID to array of item IDs
 
 /**
  * Load ItemMapping.json to get correct sType mappings
@@ -80,6 +81,35 @@ async function loadIconData() {
 }
 
 /**
+ * Load loot groups (HTS_ITEMGRP.json)
+ */
+async function loadLootGroups() {
+  try {
+    console.log('📥 Loading loot groups...');
+    const response = await fetch('HTS_ITEMGRP.json');
+    const data = await response.json();
+
+    // Build a map of group ID to items
+    if (data.loot_groups) {
+      const groupMap = {};
+      Object.values(data.loot_groups).forEach(entry => {
+        const groupId = entry.iGroup;
+        if (!groupMap[groupId]) {
+          groupMap[groupId] = [];
+        }
+        if (entry.items && entry.items.length > 0) {
+          groupMap[groupId].push(...entry.items);
+        }
+      });
+      lootGroups = groupMap;
+      console.log('✅ Loaded loot groups with', Object.keys(groupMap).length, 'groups');
+    }
+  } catch (error) {
+    console.warn('⚠️ Failed to load loot groups:', error.message);
+  }
+}
+
+/**
  * Get icon filename for an item
  */
 function getItemIcon(itemId) {
@@ -115,7 +145,10 @@ async function initApp() {
   console.log('🚀 About to load icon data...');
   // Load icon data
   await loadIconData();
-  console.log('🚀 Icon data loaded, setting up event listeners...');
+  console.log('🚀 Loading loot groups...');
+  // Load loot groups
+  await loadLootGroups();
+  console.log('🚀 Setting up event listeners...');
   // Now setup event listeners
   setupEventListeners();
   // Update menu with correct item counts
@@ -344,6 +377,9 @@ function renderTable() {
   const showingOnlyMonsters = filteredResults.every(item => item.type === 'Monster');
   const showingOnlyItems = filteredResults.every(item => item.type === 'Item');
 
+  // Check if we should show Attack/Defense columns (when Item filter is active OR items from nested menus)
+  const showAttackDefense = showingOnlyItems && (currentFilter === 'item' || currentFilter === 'all');
+
   pageResults.forEach(item => {
     const row = document.createElement('tr');
     const name = getLocalizedName(item);
@@ -369,17 +405,59 @@ function renderTable() {
     } else if (showingOnlyItems && item.type === 'Item') {
       // Item-specific columns: ID, Name, Level, Type, Buy Price, Sell Price
       const level = item.byteLimitLevel > 0 ? item.byteLimitLevel : '—';
-      const buyPrice = item.buy_price || '—';
-      const sellPrice = item.sell_price || '—';
 
-      row.innerHTML = `
-        <td>${id}</td>
-        <td>${escapeHtml(name)}</td>
-        <td>${level}</td>
-        <td>${getItemTypeName(item.itemType)}</td>
-        <td style="color: #3fb950;">${buyPrice}</td>
-        <td style="color: #d29922;">${sellPrice}</td>
-      `;
+      // Format buy price with special handling for priceless items
+      let buyPrice = item.buy_price || '—';
+      if (item.buy_price === 0) {
+        buyPrice = 'Priceless';
+      }
+
+      // Format sell price with special handling for non-sellable items
+      let sellPrice = item.sell_price || '—';
+      if (item.sell_price === -1) {
+        sellPrice = 'Cannot be sold';
+      }
+
+      // Get correct item type for attack/defense display
+      const correctItemType = getCorrectItemType(item);
+      const isWeapon = [1, 2, 4, 8, 16, 32, 64, 128].includes(correctItemType);
+      const isArmor = [10, 11, 12, 13, 14, 15, 17, 256, 257, 258, 259, 260, 261].includes(correctItemType);
+
+      const param1 = item.iEffect1Param1 || 0;
+      const param2 = item.iEffect1Param2 || 0;
+
+      let attackDefenseCell = '';
+      if (showAttackDefense) {
+        if (isWeapon && (param1 > 0 || param2 > 0)) {
+          attackDefenseCell = `<td style="color: #ff6b6b;">${param1}-${param2}</td>`;
+        } else if (isArmor && (param1 > 0 || param2 > 0)) {
+          const defense = Math.max(param1, param2);
+          attackDefenseCell = `<td style="color: #3fb950;">${defense}</td>`;
+        } else {
+          attackDefenseCell = `<td>—</td>`;
+        }
+      }
+
+      if (showAttackDefense) {
+        row.innerHTML = `
+          <td>${id}</td>
+          <td>${escapeHtml(name)}</td>
+          <td>${level}</td>
+          <td>${getItemTypeName(item.itemType)}</td>
+          ${attackDefenseCell}
+          <td style="color: #3fb950;">${buyPrice}</td>
+          <td style="color: #d29922;">${sellPrice}</td>
+        `;
+      } else {
+        row.innerHTML = `
+          <td>${id}</td>
+          <td>${escapeHtml(name)}</td>
+          <td>${level}</td>
+          <td>${getItemTypeName(item.itemType)}</td>
+          <td style="color: #3fb950;">${buyPrice}</td>
+          <td style="color: #d29922;">${sellPrice}</td>
+        `;
+      }
     } else {
       // Generic columns: Name, Level, Type, ID
       const level = item.byteLimitLevel > 0 ? item.byteLimitLevel : (item.nLevel || item.byteLevel || '—');
@@ -400,13 +478,13 @@ function renderTable() {
   // Update table headers
   const isMonsterTable = showingOnlyMonsters && filteredResults.length > 0 && filteredResults[0].type === 'Monster';
   const isItemTable = showingOnlyItems && filteredResults.length > 0 && filteredResults[0].type === 'Item';
-  updateTableHeaders(isMonsterTable, isItemTable);
+  updateTableHeaders(isMonsterTable, isItemTable, showAttackDefense);
 }
 
 /**
  * Update table headers based on data type
  */
-function updateTableHeaders(isMonsterTable, isItemTable) {
+function updateTableHeaders(isMonsterTable, isItemTable, showAttackDefense = false) {
   const tableHead = document.querySelector('.results-table thead tr');
   if (!tableHead) return;
 
@@ -421,14 +499,26 @@ function updateTableHeaders(isMonsterTable, isItemTable) {
       <th>Rupiah</th>
     `;
   } else if (isItemTable) {
-    tableHead.innerHTML = `
-      <th>ID</th>
-      <th>Name</th>
-      <th>Level</th>
-      <th>Type</th>
-      <th>Buy Price</th>
-      <th>Sell Price</th>
-    `;
+    if (showAttackDefense) {
+      tableHead.innerHTML = `
+        <th>ID</th>
+        <th>Name</th>
+        <th>Level</th>
+        <th>Type</th>
+        <th>Attack/Defense</th>
+        <th>Buy Price</th>
+        <th>Sell Price</th>
+      `;
+    } else {
+      tableHead.innerHTML = `
+        <th>ID</th>
+        <th>Name</th>
+        <th>Level</th>
+        <th>Type</th>
+        <th>Buy Price</th>
+        <th>Sell Price</th>
+      `;
+    }
   } else {
     tableHead.innerHTML = `
       <th>Name</th>
@@ -539,6 +629,22 @@ async function showDetailModal(data) {
 
   modalBody.innerHTML = html;
   detailModal.style.display = 'flex';
+
+  // Initialize tooltips for item drops
+  initializeItemTooltips();
+}
+
+/**
+ * Initialize tooltips for all item drop links in the modal
+ */
+function initializeItemTooltips() {
+  const itemLinks = document.querySelectorAll('.item-drop-link');
+  itemLinks.forEach(link => {
+    const itemId = parseInt(link.getAttribute('data-item-id'));
+    if (typeof initializeItemTooltip === 'function') {
+      initializeItemTooltip(link, itemId);
+    }
+  });
 }
 
 /**
@@ -607,21 +713,41 @@ async function createItemDetailView(item) {
   `;
 
   // PRICING Info Section
-  if (item.buy_price || item.sell_price || item.cash_price) {
+  if (item.buy_price !== undefined || item.sell_price !== undefined || item.cash_price) {
+    // Format buy price with special handling
+    let buyPriceDisplay = '';
+    if (item.buy_price !== undefined && item.buy_price !== null) {
+      if (item.buy_price === 0) {
+        buyPriceDisplay = 'Priceless';
+      } else {
+        buyPriceDisplay = item.buy_price.toLocaleString();
+      }
+    }
+
+    // Format sell price with special handling
+    let sellPriceDisplay = '';
+    if (item.sell_price !== undefined && item.sell_price !== null) {
+      if (item.sell_price === -1) {
+        sellPriceDisplay = 'Cannot be sold';
+      } else {
+        sellPriceDisplay = item.sell_price.toLocaleString();
+      }
+    }
+
     html += `
       <div style="background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 6px; margin-bottom: 15px; border: 1px solid #333;">
         <div style="font-size: 11px; color: #888; text-transform: uppercase; margin-bottom: 12px; font-weight: 600;">Pricing</div>
         <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px;">
-          ${item.buy_price ? `
+          ${buyPriceDisplay ? `
             <div>
               <div class="detail-label">Buy Price</div>
-              <div class="detail-value" style="color: #3fb950;">${item.buy_price.toLocaleString()}</div>
+              <div class="detail-value" style="color: #3fb950;">${buyPriceDisplay}</div>
             </div>
           ` : ''}
-          ${item.sell_price ? `
+          ${sellPriceDisplay ? `
             <div>
               <div class="detail-label">Sell Price</div>
-              <div class="detail-value" style="color: #d29922;">${item.sell_price.toLocaleString()}</div>
+              <div class="detail-value" style="color: #d29922;">${sellPriceDisplay}</div>
             </div>
           ` : ''}
           ${item.cash_price ? `
@@ -679,6 +805,51 @@ async function createItemDetailView(item) {
   }
 
   return html;
+}
+
+/**
+ * Format a single drop item with name, icon, and drop rate
+ */
+function formatDropItem(itemId, dropRate) {
+  // Find item using dataParser (has access to all items from XML)
+  let item = null;
+  if (typeof dataParser !== 'undefined' && dataParser.getItemById) {
+    item = dataParser.getItemById(itemId);
+  }
+
+  // Fallback to allResults if dataParser doesn't have it
+  if (!item) {
+    item = allResults.find(i => i.type === 'Item' && i.id === itemId);
+  }
+
+  if (!item) {
+    return `<tr style="border-bottom: 1px solid #333;">
+      <td style="padding: 8px; color: #999;">Item #${itemId} (not found)</td>
+      <td style="padding: 8px; text-align: right; color: #999;">—</td>
+    </tr>`;
+  }
+
+  const itemName = getLocalizedName(item);
+
+  // Get icon
+  const texId = iconMap[itemId];
+  const iconFile = texId && iconIdMap[texId] ? iconIdMap[texId] : null;
+  const iconHtml = iconFile ? `<img src="icon/${iconFile}" alt="${escapeHtml(itemName)}" style="width: 24px; height: 24px; border-radius: 3px; object-fit: contain; vertical-align: middle; margin-right: 8px;">` : '';
+
+  // Convert drop rate (divide by 100 to get percentage)
+  let dropRatePercent = (parseInt(dropRate) / 100).toFixed(1) + '%';
+
+  // Display very low drop rates as "<0.1%" instead of "0.0%"
+  if (dropRatePercent === '0.0%') {
+    dropRatePercent = '<0.1%';
+  }
+
+  return `<tr style="border-bottom: 1px solid #333;">
+    <td style="padding: 8px; display: flex; align-items: center;">
+      ${iconHtml}<span class="item-drop-link" data-item-id="${itemId}" style="color: #58a6ff; font-weight: 600; cursor: pointer; transition: color 0.2s;">${escapeHtml(itemName)}</span>
+    </td>
+    <td style="padding: 8px; text-align: right;">${dropRatePercent}</td>
+  </tr>`;
 }
 
 /**
@@ -867,17 +1038,12 @@ function createMonsterDetailView(monster) {
         <table style="width: 100%; font-size: 13px; border-collapse: collapse;">
           <thead>
             <tr style="border-bottom: 1px solid #333;">
-              <th style="padding: 8px; text-align: left; color: #888;">Item ID</th>
-              <th style="padding: 8px; text-align: left; color: #888;">Drop Rate</th>
+              <th style="padding: 8px; text-align: left; color: #888;">Item Name (ID)</th>
+              <th style="padding: 8px; text-align: right; color: #888;">Drop Rate</th>
             </tr>
           </thead>
           <tbody>
-            ${monster.itemDrops.map((drop, idx) => `
-              <tr style="border-bottom: 1px solid #333;">
-                <td style="padding: 8px;"><span style="color: #58a6ff; font-weight: 600;">#${drop.itemId}</span></td>
-                <td style="padding: 8px;">${drop.dropRate}</td>
-              </tr>
-            `).join('')}
+            ${monster.itemDrops.filter(drop => drop.itemId !== 7101).map(drop => formatDropItem(drop.itemId, drop.dropRate)).join('')}
           </tbody>
         </table>
       </div>
@@ -886,23 +1052,40 @@ function createMonsterDetailView(monster) {
 
   // LOOT GRADES Section
   if (monster.byteItem8Grade || monster.byteItem9Grade) {
+    const grades = [];
+    if (monster.byteItem8Grade) {
+      grades.push({ grade: 8, groupId: monster.byteItem8Grade, dropRate: monster.sItem8DropRate, color: '#79c0ff' });
+    }
+    if (monster.byteItem9Grade) {
+      grades.push({ grade: 9, groupId: monster.byteItem9Grade, dropRate: monster.sItem9DropRate, color: '#ff79c0' });
+    }
+
     html += `
       <div style="background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 6px; margin-bottom: 15px; border: 1px solid #333;">
         <div style="font-size: 11px; color: #888; text-transform: uppercase; margin-bottom: 12px; font-weight: 600;">Loot Grades</div>
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-          ${monster.byteItem8Grade ? `
-            <div>
-              <div class="detail-label">Grade 8</div>
-              <div style="font-size: 14px; color: #79c0ff;">${monster.byteItem8Grade} <span style="color: #888; font-size: 12px;">(${monster.sItem8DropRate})</span></div>
-            </div>
-          ` : ''}
-          ${monster.byteItem9Grade ? `
-            <div>
-              <div class="detail-label">Grade 9</div>
-              <div style="font-size: 14px; color: #ff79c0;">${monster.byteItem9Grade} <span style="color: #888; font-size: 12px;">(${monster.sItem9DropRate})</span></div>
-            </div>
-          ` : ''}
+    `;
+
+    grades.forEach(({ grade, groupId, dropRate, color }) => {
+      const groupItems = lootGroups[groupId] || [];
+      const groupDropRatePercent = (parseInt(dropRate) / 100).toFixed(1) + '%';
+
+      // Calculate individual item drop rate: divide group rate by number of items
+      const itemCount = groupItems.length;
+      const itemDropRate = itemCount > 0 ? (parseInt(dropRate) / itemCount) : 0;
+
+      html += `
+        <div style="margin-bottom: 15px;">
+          <div style="font-size: 12px; color: ${color}; font-weight: 600; margin-bottom: 8px;">Grade ${grade} (Group ${groupId}) - ${groupDropRatePercent} total (${itemCount} items)</div>
+          <table style="width: 100%; font-size: 13px; border-collapse: collapse;">
+            <tbody>
+              ${groupItems.map(itemId => formatDropItem(itemId, itemDropRate)).join('')}
+            </tbody>
+          </table>
         </div>
+      `;
+    });
+
+    html += `
       </div>
     `;
   }
